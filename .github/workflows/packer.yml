@@ -1,0 +1,123 @@
+name: Packer
+on:
+  pull_request_target:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version'
+        required: true
+        type: string
+      pre_release:
+        description: 'This is a pre-release'
+        required: true
+        type: boolean
+        default: false
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    name: Pack
+
+    outputs:
+      release_name: ${{ steps.pack.outputs.release_name }}
+
+    steps:
+      - name: Check Out master
+        uses: actions/checkout@v3
+        if: github.event_name == 'workflow_dispatch'
+
+      - name: Check Out ${{ github.event.pull_request.head.sha }}
+        uses: actions/checkout@v3
+        if: github.event_name == 'pull_request_target'
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Pack
+        id: pack
+        env:
+          event_name: ${{ github.event_name }}
+          event_number: PR-${{ github.event.number }}
+          version: ${{ github.event.inputs.version }}
+        run: python Packer.py
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ steps.pack.outputs.release_name }}
+          path: ${{ steps.pack.outputs.release_name }}/
+
+  create-release:
+    runs-on: ubuntu-latest
+    name: Create Release
+    needs: pack
+    if: ${{ github.event_name == 'workflow_dispatch' }}
+
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ needs.pack.outputs.release_name }}
+          path: ${{ needs.pack.outputs.release_name }}
+
+      - name: Zip
+        run: cd ${{ needs.pack.outputs.release_name }} && zip -r ../${{ needs.pack.outputs.release_name }}.zip ./* && cd ..
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.inputs.version }}
+          release_name: ${{ needs.pack.outputs.release_name }}
+          prerelease: ${{ github.event.inputs.pre_release }}
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ needs.pack.outputs.release_name }}.zip
+          asset_name: ${{ needs.pack.outputs.release_name }}.zip
+          asset_content_type: application/zip
+
+  comment-pr:
+    runs-on: ubuntu-latest
+    name: Comment PR
+    needs: pack
+    if: ${{ github.event_name == 'pull_request_target' }}
+
+    steps:
+      - name: Find Comment
+        id: find_comment
+        uses: peter-evans/find-comment@v2
+        with:
+          issue-number: ${{ github.event.number }}
+          comment-author: github-actions[bot]
+          direction: first
+
+      - name: Create Comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.number }}
+          body: 在 [这里](../actions/runs/${{ github.run_id }}) 下载此 PR 的最新打包。
+        if: steps.find_comment.outputs.comment-id == 0
+
+      - name: Update Comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          comment-id: ${{ steps.find_comment.outputs.comment-id }}
+          body: 在 [这里](../actions/runs/${{ github.run_id }}) 下载此 PR 的最新打包。
+          edit-mode: replace
+        if: steps.find_comment.outputs.comment-id != 0
