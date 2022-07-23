@@ -18,7 +18,7 @@
 			shape: "secretagent"
 			subtitle: "购买"
 			description: [
-				"基础子弹用于突击步枪、手枪、冲锋枪和机枪。"
+				"基础子弹用于突击步枪、手枪、冲锋枪和速射机枪。"
 				""
 			]
 			size: 3.0d

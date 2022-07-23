@@ -1,27 +1,22 @@
 {
-	id: "5DB41EF74F73D41F"
+	id: "656821F4FE635AE6"
 	group: "6CEED761F16AEDF2"
-	order_index: 1
-	filename: "assault_rifle"
-	title: " 突击步枪"
-	default_quest_shape: ""
+	order_index: 9
+	filename: "rocket_launcher"
+	title: " 火箭筒"
+	icon: {
+		id: "cgm:bazooka"
+		Count: 1b
+		tag: {
+			Color: 16056407
+		}
+	}
+	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 1.5d
-			y: -5.25d
-			width: 6.0d
-			height: 1.5d
-			rotation: 0.0d
-			image: "minecraft:textures/gui/presets/gunshop.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: -5.25d
-			y: 1.854285714285765d
+			x: -14.285714285714285d
+			y: 1.5714285714285765d
 			width: 5.0d
 			height: 2.0d
 			rotation: 0.0d
@@ -32,8 +27,8 @@
 			corner: false
 		}
 		{
-			x: -5.25d
-			y: 2.12d
+			x: -14.260204081632658d
+			y: 1.882653061224488d
 			width: 2.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -43,21 +38,33 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -7.392857142857139d
+			y: -5.75d
+			width: 6.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/gunshop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
-			title: "突击步枪"
+			title: "火箭筒"
 			icon: {
-				id: "cgm:assault_rifle"
+				id: "cgm:bazooka"
 				Count: 1b
 				tag: {
-					AmmoCount: 40
+					AmmoCount: 4
 					Color: 7091247
 				}
 			}
 			disable_toast: true
-			x: -5.25d
-			y: -0.5357142857142847d
+			x: -14.285714285714285d
+			y: -0.7857142857142847d
 			shape: "gear"
 			subtitle: "默认颜色"
 			description: [
@@ -66,36 +73,34 @@
 				"钓鱼时可能会获得手枪。"
 				""
 				"枪支配件（枪托、握把、瞄准镜、瞄准器和消音器）只能在钓鱼中获得。"
-				""
-				"每把枪都有2倍的爆头伤害，所以瞄准头部！"
 			]
 			size: 5.0d
-			id: "2DCC0A05FF4AFD3D"
+			id: "0FC98736BEE32951"
 			tasks: [{
-				id: "38A6B6B3C1019504"
+				id: "0E971AA7DCA2C683"
 				type: "item"
-				item: "xpcoins:silver_coin"
-				count: 4L
+				item: "xpcoins:golden_coin"
+				count: 5L
 				consume_items: true
 			}]
 			rewards: [
 				{
-					id: "020F2EDC5B1DB354"
+					id: "3739C7449B1ACD27"
 					type: "item"
 					auto: "no_toast"
 					item: {
-						id: "cgm:assault_rifle"
+						id: "cgm:bazooka"
 						Count: 1b
 						tag: {
-							AmmoCount: 40
+							AmmoCount: 4
 							Color: 7091247
 						}
 					}
 				}
 				{
-					id: "015426C74DBDC127"
+					id: "20E1599B6DCAFFF4"
 					type: "custom"
-					title: "该购买可重复"
+					title: "购买可重复"
 					icon: {
 						id: "ftbquests:custom_icon"
 						Count: 1b
@@ -108,14 +113,14 @@
 					auto: "invisible"
 				}
 				{
-					id: "39745CD7C72B60E6"
+					id: "157B0AC2B3973A69"
 					type: "command"
 					auto: "invisible"
 					command: "/execute at @p run playsound cgm:item.shotgun.cock voice @p ~ ~ ~ 0.7"
 					player_command: false
 				}
 				{
-					id: "195A3CFDBC29CFED"
+					id: "45B23732791747E1"
 					type: "command"
 					icon: {
 						id: "ftbquests:custom_icon"
@@ -132,16 +137,204 @@
 		}
 		{
 			icon: {
-				id: "cgm:assault_rifle"
+				id: "cgm:bazooka"
 				Count: 1b
 				tag: {
-					AmmoCount: 40
+					AmmoCount: 4
+					Color: 16056407
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "机器人的血"
+			description: [
+				"&c解锁条件：杀死蛋头博士，流他的血"
+				""
+				"当你们二年级的时候，他拿走了你妈妈放在你午餐里的奶酪棒。"
+				""
+				"让他为自己的过错付出代价。"
+				""
+				"&c*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+				""
+			]
+			dependencies: ["48EF484521CC0F72"]
+			size: 3.0d
+			id: "143378C87F7D01DE"
+			tasks: [{
+				id: "267549427DF3E42E"
+				type: "item"
+				item: {
+					id: "cgm:bazooka"
+					Count: 1b
+					tag: {
+						AmmoCount: 4
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4A8315EADC61C2CB"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:bazooka"
+						Count: 1b
+						tag: {
+							AmmoCount: 4
+							Color: 16056407
+						}
+					}
+				}
+				{
+					id: "4910F6C12E99FA1D"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:bazooka"
+				Count: 1b
+				tag: {
+					AmmoCount: 4
+					Color: 1638399
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: 0.0d
+			shape: "secretagent"
+			subtitle: "绿恶魔"
+			description: [
+				"&b解锁条件：找到沼泽"
+				""
+				"它是绿色的，意思是……我忘记了其余的。"
+				""
+				"&b*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["56A2CABFDE99A4EE"]
+			size: 3.0d
+			id: "2E820221D9AE3D83"
+			tasks: [{
+				id: "73D95A5ACA1ADB61"
+				type: "item"
+				item: {
+					id: "cgm:bazooka"
+					Count: 1b
+					tag: {
+						AmmoCount: 4
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1230A25CEC5C827E"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:bazooka"
+						Count: 1b
+						tag: {
+							AmmoCount: 4
+							Color: 1638399
+						}
+					}
+				}
+				{
+					id: "255FCD9AC7016388"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:bazooka"
+				Count: 1b
+				tag: {
+					Color: 16776960
+				}
+			}
+			disable_toast: true
+			x: -10.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "熊的撒尿和拥抱"
+			description: [
+				"&e解锁条件：亲吻小熊软糖，然后杀死它的家人。"
+				""
+				"当它们发现人类正在吃他们的物种时，战争就开始了。我们几乎不知道，小熊软糖还活着。"
+				""
+				"来自它们星球的小熊软糖植入了，能使他们成为杰出学者的技术。然而我们移除了它，并征服了它们，让它们在我们的领域里像兽类一样觅食。地球至今仍在吃它们。"
+				""
+				"有人说太空中小熊软糖仍然存在，繁殖到有一天，它们会到地球上报仇。但这些只是代代相传的故事。"
+				""
+				"舔这把枪不会给你特殊的力量，但可能味道不错。"
+				""
+				"&e*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["03345E4B36330CF4"]
+			size: 3.0d
+			id: "37AFFD088EAD85D4"
+			tasks: [{
+				id: "53A4258C200C27E0"
+				type: "item"
+				item: {
+					id: "cgm:bazooka"
+					Count: 1b
+					tag: {
+						AmmoCount: 4
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2AEC11AA2D84F3B6"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:bazooka"
+						Count: 1b
+						tag: {
+							AmmoCount: 4
+							Color: 16776960
+						}
+					}
+				}
+				{
+					id: "5B1D291E3C7BCCEC"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:bazooka"
+				Count: 1b
+				tag: {
+					AmmoCount: 4
 					Color: 2201331
 				}
 			}
 			disable_toast: true
-			x: -1.4642857142857153d
-			y: 3.25d
+			x: -10.5d
+			y: 3.0d
 			shape: "secretagent"
 			subtitle: "1492"
 			description: [
@@ -159,15 +352,15 @@
 			]
 			dependencies: ["37BDC1D33E04344C"]
 			size: 3.0d
-			id: "2D5B2BB7E55FE558"
+			id: "6890CA9B462F16ED"
 			tasks: [{
-				id: "48781CA5436BBFF9"
+				id: "7258FD2ADF25C3AB"
 				type: "item"
 				item: {
-					id: "cgm:assault_rifle"
+					id: "cgm:bazooka"
 					Count: 1b
 					tag: {
-						AmmoCount: 40
+						AmmoCount: 4
 						Color: 7091247
 					}
 				}
@@ -175,21 +368,21 @@
 			}]
 			rewards: [
 				{
-					id: "090F11D42676FD22"
+					id: "61FAE290B7435B77"
 					type: "item"
 					team_reward: false
 					auto: "enabled"
 					item: {
-						id: "cgm:assault_rifle"
+						id: "cgm:bazooka"
 						Count: 1b
 						tag: {
-							AmmoCount: 40
+							AmmoCount: 4
 							Color: 2201331
 						}
 					}
 				}
 				{
-					id: "78126145AF5BC15E"
+					id: "53670E8D9894816F"
 					type: "custom"
 					tags: ["reset"]
 					team_reward: false
@@ -199,39 +392,38 @@
 		}
 		{
 			icon: {
-				id: "cgm:assault_rifle"
+				id: "cgm:bazooka"
 				Count: 1b
 				tag: {
-					AmmoCount: 40
-					Color: 1638399
+					AmmoCount: 4
+					Color: 4545124
 				}
 			}
 			disable_toast: true
-			x: 1.5d
-			y: 0.25d
+			x: -4.5d
+			y: 3.0d
 			shape: "secretagent"
-			subtitle: "Deku绿 （Deku指《我的英雄学院》中男主的外号） "
+			subtitle: "特务"
 			description: [
-				"&b解锁条件：找到沼泽"
+				"&7解锁条件：杀死一只可爱的熊猫熊（Panda_Bear）"
 				""
-				"因为我，在这里！！！"
+				"你是精英士兵，詹姆斯·邦德是你的远房亲戚，你已经杀死了419个坏人。"
 				""
-				"通向更远方！！！"
+				"拿着它，完成工作。这把武器是给你的，最好的。"
 				""
-				"&b*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+				"&7*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
 			]
-			dependencies: ["56A2CABFDE99A4EE"]
-			hide: false
+			dependencies: ["77F193D17F64DA39"]
 			size: 3.0d
-			id: "3FC3209F817824ED"
+			id: "73DE524C63B69DC5"
 			tasks: [{
-				id: "031EEF113132B708"
+				id: "1B9E4F66597D3782"
 				type: "item"
 				item: {
-					id: "cgm:assault_rifle"
+					id: "cgm:bazooka"
 					Count: 1b
 					tag: {
-						AmmoCount: 40
+						AmmoCount: 4
 						Color: 7091247
 					}
 				}
@@ -239,20 +431,20 @@
 			}]
 			rewards: [
 				{
-					id: "482DB12A3574B39D"
+					id: "1589B1B9BDCBE1F9"
 					type: "item"
 					auto: "enabled"
 					item: {
-						id: "cgm:assault_rifle"
+						id: "cgm:bazooka"
 						Count: 1b
 						tag: {
-							AmmoCount: 40
-							Color: 1638399
+							AmmoCount: 4
+							Color: 4545124
 						}
 					}
 				}
 				{
-					id: "1A75EADE7730C261"
+					id: "7F9377E6C3C8058C"
 					type: "custom"
 					tags: ["reset"]
 					team_reward: false
@@ -262,211 +454,17 @@
 		}
 		{
 			icon: {
-				id: "cgm:assault_rifle"
+				id: "cgm:bazooka"
 				Count: 1b
 				tag: {
-					Color: 16776960
-				}
-			}
-			disable_toast: true
-			x: -1.4642857142857153d
-			y: -2.75d
-			shape: "secretagent"
-			subtitle: "小熊软糖的撒尿和拥抱"
-			description: [
-				"&e解锁条件：亲吻小熊软糖，然后杀死它的家人。"
-				""
-				"当它们发现人类正在吃他们的物种时，战争就开始了。我们几乎不知道，小熊软糖还活着。"
-				""
-				"来自它们星球的小熊软糖植入了，能使他们成为杰出学者的技术。然而我们移除了它，并征服了它们，让它们在我们的领域里像兽类一样觅食。地球至今仍在吃它们。"
-				""
-				"有人说太空中小熊软糖仍然存在，繁殖到有一天，它们会到地球上报仇。但这些只是代代相传的故事。"
-				""
-				"舔这把枪不会给你特殊的力量，但可能味道不错。"
-				""
-				"&e*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
-			]
-			dependencies: ["03345E4B36330CF4"]
-			size: 3.0d
-			id: "594B7AE97309BBF9"
-			tasks: [{
-				id: "0F8CD1F35508C5B1"
-				type: "item"
-				item: {
-					id: "cgm:assault_rifle"
-					Count: 1b
-					tag: {
-						AmmoCount: 40
-						Color: 7091247
-					}
-				}
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "3FF9B25D3904FAB2"
-					type: "item"
-					auto: "enabled"
-					item: {
-						id: "cgm:assault_rifle"
-						Count: 1b
-						tag: {
-							AmmoCount: 40
-							Color: 16776960
-						}
-					}
-				}
-				{
-					id: "14261E5673B4755C"
-					type: "custom"
-					tags: ["reset"]
-					team_reward: false
-					auto: "invisible"
-				}
-			]
-		}
-		{
-			icon: {
-				id: "cgm:assault_rifle"
-				Count: 1b
-				tag: {
-					AmmoCount: 40
-					Color: 16056407
-				}
-			}
-			disable_toast: true
-			x: 1.5357142857142847d
-			y: -2.75d
-			shape: "secretagent"
-			subtitle: "机器人的血"
-			description: [
-				"&c解锁条件：杀死蛋头博士，流他的血"
-				""
-				"火烈鸟（YouTuber）在玩Roblox时死了，他的遗体被5岁的孩子带走，它的血流干了，使它的红色毛皮看起来光滑。"
-				""
-				"但它们从未播出过那一集。（估计是愚人节视频）"
-				""
-				"&c*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
-				""
-			]
-			dependencies: ["48EF484521CC0F72"]
-			dependency_requirement: "one_completed"
-			size: 3.0d
-			id: "4BD4BD7C2090FCC8"
-			tasks: [{
-				id: "7C4A538F2D3CB589"
-				type: "item"
-				item: {
-					id: "cgm:assault_rifle"
-					Count: 1b
-					tag: {
-						AmmoCount: 40
-						Color: 7091247
-					}
-				}
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "570BEA7641BA01F5"
-					type: "item"
-					auto: "enabled"
-					item: {
-						id: "cgm:assault_rifle"
-						Count: 1b
-						tag: {
-							AmmoCount: 40
-							Color: 16056407
-						}
-					}
-				}
-				{
-					id: "622777A833BD96A0"
-					type: "custom"
-					tags: ["reset"]
-					team_reward: false
-					auto: "invisible"
-				}
-			]
-		}
-		{
-			icon: {
-				id: "cgm:assault_rifle"
-				Count: 1b
-				tag: {
-					AmmoCount: 40
-					Color: 16651944
-				}
-			}
-			disable_toast: true
-			x: 1.5d
-			y: 3.25d
-			shape: "secretagent"
-			subtitle: "波波球粉"
-			description: [
-				"&d解锁条件：嫁给热情的村民并生孩子"
-				""
-				"这个粉红色是为了提醒你对谁负责。"
-				""
-				"是你的妻子……她负责，她每个月至少有一周的时间。传说它是由行星Omicron英仙座8的满月引起的。"
-				""
-				"我们生活在一个多么美好的时代..."
-				""
-				"&d*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
-			]
-			dependencies: ["2A7E3E3E13889485"]
-			size: 3.0d
-			id: "0674C1C0EE02C189"
-			tasks: [{
-				id: "1E509270C5156E6B"
-				type: "item"
-				item: {
-					id: "cgm:assault_rifle"
-					Count: 1b
-					tag: {
-						AmmoCount: 40
-						Color: 7091247
-					}
-				}
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "7756464DF989A157"
-					type: "item"
-					auto: "enabled"
-					item: {
-						id: "cgm:assault_rifle"
-						Count: 1b
-						tag: {
-							AmmoCount: 40
-							Color: 16651944
-						}
-					}
-				}
-				{
-					id: "55E033B8916B1179"
-					type: "custom"
-					tags: ["reset"]
-					team_reward: false
-					auto: "invisible"
-				}
-			]
-		}
-		{
-			icon: {
-				id: "cgm:assault_rifle"
-				Count: 1b
-				tag: {
-					AmmoCount: 40
+					AmmoCount: 4
 					Color: 5467646
 				}
 			}
 			disable_toast: true
-			x: 4.535714285714285d
-			y: 0.25d
+			x: -4.5d
+			y: 0.0d
 			shape: "secretagent"
-			subtitle: "外星冰山"
 			description: [
 				"&9解锁条件：激活3个传送石碑——它可以在主世界各地的塔楼上找到"
 				""
@@ -478,15 +476,15 @@
 			]
 			dependencies: ["6F54678FAEBC4220"]
 			size: 3.0d
-			id: "1DF76924EE8A5F8B"
+			id: "5D84FA4F4CA4B8B1"
 			tasks: [{
-				id: "196CBCADE2D79538"
+				id: "79FE81CAD9B5D3CB"
 				type: "item"
 				item: {
-					id: "cgm:assault_rifle"
+					id: "cgm:bazooka"
 					Count: 1b
 					tag: {
-						AmmoCount: 40
+						AmmoCount: 4
 						Color: 7091247
 					}
 				}
@@ -494,21 +492,21 @@
 			}]
 			rewards: [
 				{
-					id: "3FB8ECC68EC07D90"
+					id: "41CDF7942EB3D869"
 					type: "item"
 					team_reward: false
 					auto: "enabled"
 					item: {
-						id: "cgm:assault_rifle"
+						id: "cgm:bazooka"
 						Count: 1b
 						tag: {
-							AmmoCount: 40
+							AmmoCount: 4
 							Color: 5467646
 						}
 					}
 				}
 				{
-					id: "38B2C8A290B0CEFB"
+					id: "4D41BAEBD36AA9BB"
 					type: "custom"
 					tags: ["reset"]
 					team_reward: false
@@ -518,78 +516,16 @@
 		}
 		{
 			icon: {
-				id: "cgm:assault_rifle"
+				id: "cgm:bazooka"
 				Count: 1b
 				tag: {
-					AmmoCount: 40
-					Color: 58998
-				}
-			}
-			disable_toast: true
-			x: 4.5d
-			y: -2.75d
-			shape: "secretagent"
-			subtitle: "不那么败血症"
-			description: [
-				"&a解锁条件：进入地心世界并杀死一只绿色恐龙"
-				""
-				"Jack_Septiceye在2012年的一次外星人袭击中丧生，当时他正试图偷走玛雅日历石。中央情报局控制了他的遗体并从他的头发中提取了绿色染料，这成为了这把枪的颜色。"
-				""
-				"这把枪的颜色尖叫着“早上好！”"
-				""
-				"&a*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
-			]
-			dependencies: ["561C4E6456994F5B"]
-			size: 3.0d
-			id: "14B15F260EEEE136"
-			tasks: [{
-				id: "2405856DFAE10C18"
-				type: "item"
-				item: {
-					id: "cgm:assault_rifle"
-					Count: 1b
-					tag: {
-						AmmoCount: 40
-						Color: 7091247
-					}
-				}
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "4D161B32EF8B9C7A"
-					type: "item"
-					auto: "enabled"
-					item: {
-						id: "cgm:assault_rifle"
-						Count: 1b
-						tag: {
-							AmmoCount: 40
-							Color: 58998
-						}
-					}
-				}
-				{
-					id: "0599EBDFE421996C"
-					type: "custom"
-					tags: ["reset"]
-					team_reward: false
-					auto: "invisible"
-				}
-			]
-		}
-		{
-			icon: {
-				id: "cgm:assault_rifle"
-				Count: 1b
-				tag: {
-					AmmoCount: 40
+					AmmoCount: 4
 					Color: 13959417
 				}
 			}
 			disable_toast: true
-			x: -1.5d
-			y: 0.25d
+			x: -10.5d
+			y: 0.0d
 			shape: "secretagent"
 			subtitle: "独角兽呕吐物"
 			description: [
@@ -607,15 +543,15 @@
 			]
 			dependencies: ["6BA31B8E3565AFCC"]
 			size: 3.0d
-			id: "505849D580877F5D"
+			id: "4EE0106AB77F64FE"
 			tasks: [{
-				id: "32B9200F67122704"
+				id: "081BAC2960F89F1F"
 				type: "item"
 				item: {
-					id: "cgm:assault_rifle"
+					id: "cgm:bazooka"
 					Count: 1b
 					tag: {
-						AmmoCount: 40
+						AmmoCount: 4
 						Color: 7091247
 					}
 				}
@@ -623,60 +559,61 @@
 			}]
 			rewards: [
 				{
-					id: "5A7BDED9E51EC69F"
+					id: "12F20EAB49EC4475"
 					type: "item"
 					auto: "enabled"
 					item: {
-						id: "cgm:assault_rifle"
+						id: "cgm:bazooka"
 						Count: 1b
 						tag: {
-							AmmoCount: 40
+							AmmoCount: 4
 							Color: 13959417
 						}
 					}
 				}
 				{
-					id: "34B04CE035E5FAFD"
+					id: "6162F6F3405387CD"
 					type: "custom"
 					tags: ["reset"]
+					team_reward: false
 					auto: "invisible"
 				}
 			]
 		}
 		{
 			icon: {
-				id: "cgm:assault_rifle"
+				id: "cgm:bazooka"
 				Count: 1b
 				tag: {
-					AmmoCount: 40
-					Color: 4545124
+					AmmoCount: 4
+					Color: 58998
 				}
 			}
 			disable_toast: true
-			x: 4.535714285714285d
-			y: 3.25d
+			x: -4.5d
+			y: -3.0d
 			shape: "secretagent"
-			subtitle: "特务"
+			subtitle: "不那么败血症"
 			description: [
-				"&7解锁条件：杀死一只可爱的熊猫熊（Panda_Bear）"
+				"&a解锁条件：进入地心世界并杀死一只绿色恐龙"
 				""
-				"你是精英士兵，詹姆斯·邦德是你的远房亲戚，你已经杀死了419个坏人。"
+				"Jack_Septiceye在2012年的一次外星人袭击中丧生，当时他正试图偷走玛雅日历石。中央情报局控制了他的遗体并从他的头发中提取了绿色染料，这成为了这把枪的颜色。"
 				""
-				"拿着它，完成工作。这把武器是给你的，最好的。"
+				"这把枪的颜色尖叫着“早上好！”"
 				""
-				"&7*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+				"&a*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
 			]
-			dependencies: ["77F193D17F64DA39"]
+			dependencies: ["561C4E6456994F5B"]
 			size: 3.0d
-			id: "4CCAD70CAC11709C"
+			id: "48A73DB75333D7F3"
 			tasks: [{
-				id: "18B021F4C11F6B2A"
+				id: "69155E0BE96BE2CE"
 				type: "item"
 				item: {
-					id: "cgm:assault_rifle"
+					id: "cgm:bazooka"
 					Count: 1b
 					tag: {
-						AmmoCount: 40
+						AmmoCount: 4
 						Color: 7091247
 					}
 				}
@@ -684,20 +621,84 @@
 			}]
 			rewards: [
 				{
-					id: "789A3C2CB99F9F7D"
+					id: "5321C4FF24BBB3E7"
 					type: "item"
 					auto: "enabled"
 					item: {
-						id: "cgm:assault_rifle"
+						id: "cgm:bazooka"
 						Count: 1b
 						tag: {
-							AmmoCount: 40
-							Color: 4545124
+							AmmoCount: 4
+							Color: 58998
 						}
 					}
 				}
 				{
-					id: "41D20AFF6D1FE09E"
+					id: "32324337E86D2A84"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:bazooka"
+				Count: 1b
+				tag: {
+					AmmoCount: 4
+					Color: 16651944
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: 3.0d
+			shape: "secretagent"
+			subtitle: "波波球粉"
+			description: [
+				"&d解锁条件：嫁给热情的村民并生孩子"
+				""
+				"这个粉红色是为了提醒你对谁负责。"
+				""
+				"是你的妻子……她负责，她每个月至少有一周的时间。传说它是由行星Omicron英仙座8的满月引起的。"
+				""
+				"我们生活在一个多么美好的时代..."
+				""
+				"&d*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["2A7E3E3E13889485"]
+			size: 3.0d
+			id: "3FE897C476F4FAC1"
+			tasks: [{
+				id: "1B01092B58D29C72"
+				type: "item"
+				item: {
+					id: "cgm:bazooka"
+					Count: 1b
+					tag: {
+						AmmoCount: 4
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "351221894EDF8B34"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:bazooka"
+						Count: 1b
+						tag: {
+							AmmoCount: 4
+							Color: 16651944
+						}
+					}
+				}
+				{
+					id: "683BA09007AE5578"
 					type: "custom"
 					tags: ["reset"]
 					team_reward: false
