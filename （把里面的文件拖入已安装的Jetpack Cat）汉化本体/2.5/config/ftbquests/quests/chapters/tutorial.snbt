@@ -1,0 +1,380 @@
+{
+	id: "7B8DA66E408513C6"
+	group: ""
+	order_index: 5
+	filename: "tutorial"
+	title: " 教程"
+	always_invisible: true
+	default_quest_shape: "secretagent"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.0d
+			y: 3.25d
+			id: "7C35286D018437B5"
+			tasks: [{
+				id: "42B0083D1DF0558F"
+				type: "checkmark"
+				title: "欢迎来到地球2"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/bamboo_large_leaves.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			id: "51DE636BBB4B2D2D"
+			tasks: [{
+				id: "1A16F8701669CAA2"
+				type: "checkmark"
+				title: "枪，枪，还有更多的枪！"
+				icon: {
+					id: "cgm:assault_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 40
+					}
+				}
+			}]
+		}
+		{
+			x: -7.75d
+			y: 1.0d
+			id: "3E47E9D1222B8BAC"
+			tasks: [{
+				id: "00959D885BA38B9B"
+				type: "checkmark"
+				title: "经验币和经验"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "xpcoins:textures/items/coin_platinum.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			id: "4705DE1AB6A732DE"
+			tasks: [{
+				id: "2FB25E56E7258C5A"
+				type: "checkmark"
+				title: "移动"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/mob_effect/fallresist.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.25d
+			id: "4394FF39512FDF79"
+			tasks: [{
+				id: "3FCF6C6DF33D3462"
+				type: "checkmark"
+				title: "派对时间！"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/party_friends.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.25d
+			id: "24B9FD4B0FC7ACEB"
+			tasks: [{
+				id: "3FC1B461534155EB"
+				type: "checkmark"
+				title: "故事"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/rec-voice-lines.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.75d
+			y: 1.0d
+			id: "747DCD1EA16671CC"
+			tasks: [{
+				id: "3685CDBCD4B31D21"
+				type: "checkmark"
+				title: "生命"
+				icon: "heartbalance:refill_heart"
+			}]
+		}
+		{
+			x: -12.75d
+			y: 0.0d
+			id: "7DCE502EABA958A7"
+			tasks: [{
+				id: "6C2586A4E27CC43A"
+				type: "checkmark"
+				title: "营火"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/item/campfire.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.75d
+			y: 0.0d
+			id: "3B774E49A58F4BD1"
+			tasks: [{
+				id: "12B2037E15AF7DF7"
+				type: "checkmark"
+				title: "生命小罐"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "heartcanisters:textures/items/heart_canister.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.75d
+			y: 0.0d
+			id: "1A1914FB1710997A"
+			tasks: [{
+				id: "4B4AE7B52A8F9A9D"
+				type: "checkmark"
+				title: "伤害吸收之书"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "naturalabsorption:textures/items/absorption_book_alt.png"
+					}
+				}
+			}]
+		}
+		{
+			title: "扭曲到朋友"
+			x: -8.25d
+			y: 0.0d
+			id: "44CB0C2151066DBE"
+			tasks: [{
+				id: "1D229A90089178BE"
+				type: "checkmark"
+				title: "扭曲"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/warp_death_skull1.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "27CE6CA4A593254F"
+			tasks: [{
+				id: "38C89875CC8A94E0"
+				type: "checkmark"
+				title: "羽毛"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "elenaidodge2:textures/mob_effect/feathers.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.75d
+			y: 0.0d
+			id: "3FDD01E7B939A961"
+			tasks: [{
+				id: "32C7BAFFFAEED528"
+				type: "checkmark"
+				title: "弹药"
+				icon: "cgm:advanced_bullet"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			id: "71682ACC77949ADB"
+			tasks: [{
+				id: "19038A8E84243932"
+				type: "checkmark"
+				title: "扭曲的朋友"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/warp_friends.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -0.25d
+			id: "42606E526FE93EBB"
+			tasks: [{
+				id: "55DFC75569EB1F9B"
+				type: "checkmark"
+				title: "背包"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "backpacked:textures/item/backpack.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 1.0d
+			id: "1B52AA98BB6AD298"
+			tasks: [{
+				id: "6229CA02ED1F4A90"
+				type: "checkmark"
+				title: "街机模式！"
+				icon: "sonicraft:sonic_the_fighters_arcade_cabinet"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			id: "2840879147BF3B3E"
+			tasks: [{
+				id: "0BEB06B1837DDA65"
+				type: "checkmark"
+				title: "化妆品！"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "hats:textures/advancements/acc1.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.25d
+			y: 0.0d
+			id: "3830A91009BF7C07"
+			tasks: [{
+				id: "2396F93CC4F42A9B"
+				type: "checkmark"
+				title: "Bosses!"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/pinky_icon.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			id: "25B42106CAAA71DC"
+			tasks: [{
+				id: "1AC2A708BED402B3"
+				type: "checkmark"
+				title: "捕捉生物！"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/blocks/jar_side.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "23DAB39A548FD93D"
+			tasks: [{
+				id: "195AAE3B70053330"
+				type: "checkmark"
+				title: "探索！"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/map/village.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			id: "1CDD03AA70E4DEC3"
+			tasks: [{
+				id: "6188C6A1421B4B85"
+				type: "checkmark"
+				title: "信号弹"
+				icon: "drg_flares:drg_flare_magenta"
+			}]
+		}
+		{
+			x: -12.25d
+			y: 2.75d
+			id: "50FB5083150CFD66"
+			tasks: [{
+				id: "151AB980FFE8AD22"
+				type: "checkmark"
+				title: "十二只眼！"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "endrem:textures/items/end_crystal_eye.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			id: "001B756AE409D355"
+			tasks: [{
+				id: "33254763CD39D016"
+				type: "checkmark"
+				title: "抢劫案件！"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "randomloot:textures/items/titan_case.png"
+					}
+				}
+			}]
+		}
+	]
+}
