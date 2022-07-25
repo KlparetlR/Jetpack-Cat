@@ -66,7 +66,7 @@
 				{
 					id: "1D033DA43A432021"
 					type: "command"
-					command: "/say Hi, @p!"
+					command: "/say 嗨, @p!"
 					player_command: false
 				}
 			]
@@ -136,7 +136,7 @@
 			description: [
 				"点燃营火来设置你的重生点。让其他玩家右键单击营火来设置他们的重生点。"
 				""
-				"这将使你保存在你死去的维度。"
+				"这将使你复活在你死去的维度。"
 			]
 			dependencies: ["24FB6367AE5CB205"]
 			hide: true
@@ -200,7 +200,7 @@
 			x: -4.5d
 			y: -13.5d
 			shape: "fourtytwo"
-			description: ["将所有玩家传送到Eight_Bit"]
+			description: ["将所有玩家传送到8Bit世界"]
 			dependencies: ["24FB6367AE5CB205"]
 			hide: true
 			size: 3.0d
