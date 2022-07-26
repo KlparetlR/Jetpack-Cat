@@ -1,0 +1,1998 @@
+{
+	id: "48D56722F42663BE"
+	group: ""
+	order_index: 2
+	filename: "kill_count"
+	title: " 击杀计数"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "minecraft:textures/gui/presets/killcount4.png"
+		}
+	}
+	subtitle: ["总击杀"]
+	default_quest_shape: "unicorn"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "杀死 300 个生物"
+			x: -4.5d
+			y: -5.0d
+			shape: "flamingoblood"
+			description: [
+				"此插槽解锁将解锁药水核心插槽，拿着物品并右键单击。"
+				""
+				"添加后按[C]激活药水核心。 按[Shift+C]添加药水核心。"
+				""
+				"你可以通过结合药水和普通的末影之眼在铁砧上制作药水核心。"
+			]
+			size: 1.5d
+			id: "017FA6B03DA1F731"
+			tasks: [{
+				id: "70861428C88EBB78"
+				type: "stat"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/geken_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 300
+			}]
+			rewards: [{
+				id: "392DCE02277EE223"
+				type: "item"
+				item: "everpotion:unlock_slot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			shape: "flamingoblood"
+			description: [""]
+			dependencies: ["017FA6B03DA1F731"]
+			size: 1.5d
+			id: "2A1E66FEE163518A"
+			tasks: [{
+				id: "0CFF048396227279"
+				type: "stat"
+				title: "杀死 500 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/yeti_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 500
+			}]
+			rewards: [{
+				id: "681509F5226B884F"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 10
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			shape: "flamingoblood"
+			dependencies: ["2A1E66FEE163518A"]
+			size: 1.5d
+			id: "5A494AECF8A6EF09"
+			tasks: [{
+				id: "28E3ECDEA7C0142E"
+				type: "stat"
+				title: "杀死 800 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/joust_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 800
+			}]
+			rewards: [
+				{
+					id: "6CFAE52B61D366A0"
+					type: "choice"
+					icon: "cgm:tactical_stock"
+					table_id: 5782785748810201754L
+				}
+				{
+					id: "3BCB72E501F6C439"
+					type: "item"
+					item: "naturalabsorption:absorption_book"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "flamingoblood"
+			dependencies: ["5A494AECF8A6EF09"]
+			size: 1.5d
+			id: "4AC1BC8A427A7FDF"
+			tasks: [{
+				id: "491C2FC60489F33B"
+				type: "stat"
+				title: "杀死 1500 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/dweller_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 1500
+			}]
+			rewards: [{
+				id: "5B4EB28C68B65F2A"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			shape: "flamingoblood"
+			dependencies: ["4AC1BC8A427A7FDF"]
+			size: 1.5d
+			id: "006F4F15B5A398AC"
+			tasks: [{
+				id: "0EC690411D1A95C0"
+				type: "stat"
+				title: "杀死 2000 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/aglebemu_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 2000
+			}]
+			rewards: [{
+				id: "7490EA11EA4D9DF6"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "xpcoins:textures/items/coin_golden.png"
+					}
+				}
+				item: "xpcoins:golden_coin"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			shape: "flamingoblood"
+			dependencies: ["006F4F15B5A398AC"]
+			size: 1.5d
+			id: "51BD18386A3CFF2D"
+			tasks: [{
+				id: "0E77770E3EBB1C19"
+				type: "stat"
+				title: "杀死 2500 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/makaalpha_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 2500
+			}]
+			rewards: [
+				{
+					id: "2BDA6CB8D196D40B"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 10
+				}
+				{
+					id: "1FD4EDDD1A49686D"
+					type: "item"
+					item: "naturalabsorption:absorption_book"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			shape: "flamingoblood"
+			dependencies: ["51BD18386A3CFF2D"]
+			size: 1.5d
+			id: "78139790D2CA348E"
+			tasks: [{
+				id: "31C437F55F062803"
+				type: "stat"
+				title: "杀死 3500 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/kathoga_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 3500
+			}]
+			rewards: [
+				{
+					id: "4D2EA5E39252CE49"
+					type: "item"
+					item: "grapplemod:launcheritem"
+				}
+				{
+					id: "6A187DF03FCC139D"
+					type: "item"
+					item: "naturalabsorption:absorption_book"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			shape: "flamingoblood"
+			dependencies: ["78139790D2CA348E"]
+			size: 1.5d
+			id: "736794818B61099A"
+			tasks: [{
+				id: "3343C17A1EDC5236"
+				type: "stat"
+				title: "杀死 5000 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/thresher_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 5000
+			}]
+			rewards: [
+				{
+					id: "69BD3650C8C0F802"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 10
+				}
+				{
+					id: "2AE1DD25E40E8E8C"
+					type: "item"
+					item: "heartcanisters:heart_canister"
+				}
+				{
+					id: "1A9338D598751109"
+					type: "item"
+					item: "naturalabsorption:absorption_book"
+				}
+			]
+		}
+		{
+			x: 8.25d
+			y: -5.0d
+			shape: "flamingoblood"
+			dependencies: ["736794818B61099A"]
+			size: 1.5d
+			id: "6CFB7AB49F98AB84"
+			tasks: [{
+				id: "0BC8D35F1A5B10DB"
+				type: "stat"
+				title: "杀死 10,000 个生物"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/ignibus_icon.png"
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 10000
+			}]
+			rewards: [
+				{
+					id: "7B038BFEA6077AA5"
+					type: "item"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "xpcoins:textures/items/coin_platinum.png"
+						}
+					}
+					item: "xpcoins:platinum_coin"
+					count: 5
+				}
+				{
+					id: "2161918610A569FC"
+					type: "item"
+					item: "create:creative_motor"
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_6.png"
+				}
+			}
+			x: -4.5d
+			y: -3.25d
+			shape: "unicorn"
+			subtitle: "一个伟大的开始！"
+			description: [""]
+			id: "4C39A9D4F2B6DAD4"
+			tasks: [{
+				id: "79A3AFD183E4BE0B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_6.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "67646852E197AA7E"
+					type: "item"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "xpcoins:textures/items/coin_silver.png"
+						}
+					}
+					item: "xpcoins:silver_coin"
+					count: 3
+				}
+				{
+					id: "6960A233D86068D8"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_5.png"
+				}
+			}
+			x: -3.0d
+			y: -3.25d
+			shape: "unicorn"
+			subtitle: "你是僵尸杀戮机器！"
+			description: [
+				""
+				"僵尸太笨了，它们会被这个稻草人吓跑的。"
+			]
+			dependencies: ["4C39A9D4F2B6DAD4"]
+			id: "5A704C9CACF61E1A"
+			tasks: [{
+				id: "01DDE5BBBA73ACE6"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_5.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "7F5A5C9939191DD9"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 3
+				}
+				{
+					id: "12C063D15C8403D0"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 5
+				}
+				{
+					id: "5B66EA46A4E1FA55"
+					type: "item"
+					item: "feders_scarecrows:scarecrow"
+					count: 16
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_9.png"
+				}
+			}
+			x: -1.5d
+			y: -3.25d
+			shape: "unicorn"
+			subtitle: "你的轮胎很大"
+			dependencies: ["5A704C9CACF61E1A"]
+			id: "0FE237320955CF6F"
+			tasks: [{
+				id: "159A329839634188"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_9.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 800L
+			}]
+			rewards: [{
+				id: "78FE6D2DF232F76A"
+				type: "item"
+				item: "lycanitesmobs:wintergiftlarge"
+				count: 2
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_7.png"
+				}
+			}
+			x: 0.0d
+			y: -3.25d
+			shape: "unicorn"
+			subtitle: "你让女士们印象深刻"
+			description: ["这里有一些生命可以帮助您在战斗中生存更长时间"]
+			dependencies: ["0FE237320955CF6F"]
+			id: "41818BB30F9C1D69"
+			tasks: [{
+				id: "335FAFD4CFF440E6"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_7.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "0A9E3D5F86A04618"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 20
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_8.png"
+				}
+			}
+			x: 1.5d
+			y: -3.25d
+			shape: "unicorn"
+			subtitle: "Dang孩子"
+			description: [
+				"你是新詹姆斯·邦德吗？"
+				""
+				"我不应该给你力场护盾，但是……给你。"
+			]
+			dependencies: ["41818BB30F9C1D69"]
+			id: "159E11A1927765DC"
+			tasks: [{
+				id: "58D020771ACCF985"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_8.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 1500L
+			}]
+			rewards: [{
+				id: "62D514D2C2AB0496"
+				type: "item"
+				item: "grapplemod:repeller"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_3.png"
+				}
+			}
+			x: 3.0d
+			y: -3.25d
+			subtitle: "这是杰森·伯恩"
+			dependencies: ["159E11A1927765DC"]
+			id: "48B650465916B516"
+			tasks: [{
+				id: "39369489483C5C2A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_3.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 2000L
+			}]
+			rewards: [
+				{
+					id: "367101E49E176C2E"
+					type: "item"
+					item: "randomloot:titan_case"
+					count: 5
+				}
+				{
+					id: "158FDF735BAF20B6"
+					type: "item"
+					item: "xpcoins:platinum_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_1.png"
+				}
+			}
+			x: 4.5d
+			y: -3.25d
+			shape: "unicorn"
+			subtitle: "你疯了！"
+			description: [
+				"所有的女孩都想要你的号码..."
+				""
+				"你不是男孩，你是个男人！"
+				""
+				"享受所有的女人。"
+			]
+			dependencies: ["48B650465916B516"]
+			hide: false
+			id: "6225801909BA18AE"
+			tasks: [{
+				id: "0135DAD3F8D573CF"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_1.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 3000L
+			}]
+			rewards: [{
+				id: "4A1F222F16D771BD"
+				type: "item"
+				item: "xpcoins:silver_coin"
+				count: 10
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/zombie_small_4.png"
+				}
+			}
+			x: 6.0d
+			y: -3.25d
+			shape: "unicorn"
+			subtitle: "好吧..停下.."
+			description: ["我们明白了，你很擅长这个......你让我们其他人看起来很糟糕，所以我需要你停止杀死僵尸,谢谢。"]
+			dependencies: ["6225801909BA18AE"]
+			id: "0650184E0699FA04"
+			tasks: [{
+				id: "7E20DDA6C4F866D6"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_4.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 5000L
+			}]
+			rewards: [{
+				id: "55F0F5F3AA90F081"
+				type: "item"
+				item: "xpcoins:platinum_coin"
+			}]
+		}
+		{
+			x: 8.25d
+			y: -3.25d
+			subtitle: "你做不到，甚至不要尝试。"
+			dependencies: ["0650184E0699FA04"]
+			id: "232D434ACF14496D"
+			tasks: [{
+				id: "1824D86603185D1A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_2.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 7500L
+			}]
+			rewards: [{
+				id: "332D669F350574B9"
+				type: "item"
+				item: "xpcoins:platinum_coin"
+			}]
+		}
+		{
+			title: "杀死 100 个骷髅"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_3.png"
+				}
+			}
+			x: -4.5d
+			y: -2.0d
+			shape: "unicorn"
+			description: ["获得带有一种可分配（assignable）钥匙的门。将钥匙连接到这扇门后，按[G]键并将钥匙放入护符饰品插槽，这样您就不必拿着钥匙进入该门。"]
+			id: "13CE7C1103068C2D"
+			tasks: [{
+				id: "5900B458A9A94D54"
+				type: "kill"
+				title: "杀死 100 个骷髅"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_3.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "13786A9604D9745B"
+					type: "item"
+					item: "supplementaries:netherite_door"
+				}
+				{
+					id: "280866E19BD81D69"
+					type: "item"
+					item: "supplementaries:key"
+				}
+			]
+		}
+		{
+			title: "杀死 200 个骷髅"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_2.png"
+				}
+			}
+			x: -3.0d
+			y: -2.0d
+			shape: "unicorn"
+			description: ["稻草人穿着这身狼服会吓跑骷髅。"]
+			dependencies: ["13CE7C1103068C2D"]
+			id: "1C34FB37A2B4ED63"
+			tasks: [{
+				id: "2123133DD34DD4BE"
+				type: "kill"
+				title: "杀死 500 个骷髅"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_2.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 200L
+			}]
+			rewards: [
+				{
+					id: "7A34211CDA8DEC9F"
+					type: "item"
+					item: "heartcanisters:heart"
+					count: 2
+				}
+				{
+					id: "050FF159222C93CC"
+					type: "item"
+					item: "feders_scarecrows:scarecrow"
+				}
+				{
+					id: "19C0A1F1F1B5E91B"
+					type: "item"
+					item: "feders_scarecrows:wolf_costume"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_7.png"
+				}
+			}
+			x: -1.5d
+			y: -2.0d
+			shape: "unicorn"
+			dependencies: ["1C34FB37A2B4ED63"]
+			id: "01A53628B566A744"
+			tasks: [{
+				id: "0D293AFC68766949"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_7.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 300L
+			}]
+			rewards: [
+				{
+					id: "05D791C83DA9D0EE"
+					type: "item"
+					item: "skinnedlanterns:blinky_lantern_block"
+					count: 4
+				}
+				{
+					id: "48A9A18CA810B59F"
+					type: "item"
+					item: "skinnedlanterns:pinky_lantern_block"
+					count: 4
+				}
+				{
+					id: "52F57EB56DC609A9"
+					type: "item"
+					item: "skinnedlanterns:inky_lantern_block"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_5.png"
+				}
+			}
+			x: 0.0d
+			y: -2.0d
+			shape: "unicorn"
+			description: [
+				"使用骷髅钥匙将你带到一个地牢，在那里你与敌对的生物作战。"
+				""
+				"右键单击以弹出一个菜单，您可以在其中选择您想要的战斗类型。"
+				""
+				"建议：盾牌和强力的剑"
+				""
+				"与朋友同时使用它，您们将被传送到同一个地牢"
+			]
+			dependencies: ["01A53628B566A744"]
+			id: "64896C5985AFF987"
+			tasks: [{
+				id: "7F409BB2F47D2360"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_5.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "005D5F478BE3E8DE"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 10
+				}
+				{
+					id: "59D885FCA4D3572B"
+					type: "item"
+					item: "randomloot:titan_case"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_4.png"
+				}
+			}
+			x: 1.5d
+			y: -2.0d
+			shape: "unicorn"
+			dependencies: ["64896C5985AFF987"]
+			id: "695CB08F0AAD790F"
+			tasks: [{
+				id: "6C2842EF98CC5CAC"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_4.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 800L
+			}]
+			rewards: [{
+				id: "2486E4094B22B557"
+				type: "item"
+				item: "grapplemod:launcheritem"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_1.png"
+				}
+			}
+			x: 3.0d
+			y: -2.0d
+			shape: "unicorn"
+			dependencies: ["695CB08F0AAD790F"]
+			id: "781ACBEE2DF88074"
+			tasks: [{
+				id: "051D235C7361C063"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_1.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "66249FCADA8C1437"
+				type: "item"
+				item: "xpcoins:golden_coin"
+				count: 8
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_6.png"
+				}
+			}
+			x: 4.5d
+			y: -2.0d
+			shape: "unicorn"
+			dependencies: ["781ACBEE2DF88074"]
+			dependency_requirement: "one_started"
+			id: "2D667D66019D80D1"
+			tasks: [{
+				id: "4F04A2FBC9B78DD0"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_6.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 1500L
+			}]
+			rewards: [
+				{
+					id: "4D50F16968EA5291"
+					type: "item"
+					item: "xpcoins:golden_coin"
+					count: 8
+				}
+				{
+					id: "00487755F328573A"
+					type: "item"
+					item: "randomloot:titan_case"
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_10.png"
+				}
+			}
+			x: 6.0d
+			y: -2.0d
+			shape: "unicorn"
+			dependencies: ["2D667D66019D80D1"]
+			dependency_requirement: "one_started"
+			id: "5A93F05C1279F3CC"
+			tasks: [{
+				id: "458311D0A9FCCB1F"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_10.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 2000L
+			}]
+			rewards: [{
+				id: "3881AB381FE5371D"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 4
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/skeleton_small_9.png"
+				}
+			}
+			x: 8.25d
+			y: -2.0d
+			dependencies: ["5A93F05C1279F3CC"]
+			id: "6DDE81BC2FE0E561"
+			tasks: [{
+				id: "0AA4819EDE02B8F1"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skeleton_small_9.png"
+					}
+				}
+				entity: "minecraft:skeleton"
+				value: 2500L
+			}]
+			rewards: [{
+				id: "0E093B5C95ADE693"
+				type: "item"
+				item: "xpcoins:platinum_coin"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.75d
+			dependency_requirement: "one_started"
+			id: "788CCBED91AE2F9D"
+			tasks: [{
+				id: "22BA6D34F8C71580"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_1.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 100L
+			}]
+			rewards: [{
+				id: "7CDCDA17FBB92DAE"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 10
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.75d
+			description: ["稻草人穿着这件守护者的衣服会吓跑末影人，真好！"]
+			dependencies: ["788CCBED91AE2F9D"]
+			id: "0BAF9B5FA0380962"
+			tasks: [{
+				id: "2264583EC5661F40"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_10.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 200L
+			}]
+			rewards: [
+				{
+					id: "28060B1EC64E9B16"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 5
+				}
+				{
+					id: "553884183E0CAEFA"
+					type: "item"
+					item: "heartcanisters:heart"
+					count: 2
+				}
+				{
+					id: "2CA6D5B6A3EBD327"
+					type: "item"
+					item: "feders_scarecrows:scarecrow"
+					count: 16
+				}
+				{
+					id: "4F050B4F3A692F98"
+					type: "item"
+					item: "feders_scarecrows:guardian_costume"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.75d
+			dependencies: ["0BAF9B5FA0380962"]
+			id: "23F87C6324051A46"
+			tasks: [{
+				id: "373BBB28C24A2BED"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_2.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 300L
+			}]
+			rewards: [{
+				id: "47B4C6303524D9DE"
+				type: "item"
+				item: "heartcanisters:empty_canister"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.75d
+			dependencies: ["23F87C6324051A46"]
+			id: "09E1A8ED25646846"
+			tasks: [{
+				id: "6D1A92EF5EBA95B0"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_3.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 500L
+			}]
+			rewards: [{
+				id: "448C57CDD4325291"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.75d
+			dependencies: ["09E1A8ED25646846"]
+			id: "7CF4AD96944C9CA4"
+			tasks: [{
+				id: "0E3FD6D20B8D193D"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_4.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 800L
+			}]
+			rewards: [{
+				id: "36C6367D0DE1A8FC"
+				type: "item"
+				item: "randomloot:golden_case"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.75d
+			dependencies: ["7CF4AD96944C9CA4"]
+			dependency_requirement: "one_started"
+			id: "020EBB98DB66DBDC"
+			tasks: [{
+				id: "75A86FEDF99478E8"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_5.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "13A7D7F42473F56B"
+				type: "item"
+				item: "sonicraft:tornado_item"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.75d
+			dependencies: ["020EBB98DB66DBDC"]
+			dependency_requirement: "one_started"
+			id: "6174D48C3E8B09B0"
+			tasks: [{
+				id: "2C1072072352376C"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_8.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 1250L
+			}]
+			rewards: [{
+				id: "4441295D5310F4D1"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.75d
+			dependencies: ["6174D48C3E8B09B0"]
+			dependency_requirement: "one_started"
+			id: "09A6A7592448BF4E"
+			tasks: [{
+				id: "6E278D7D5965F55B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_9.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 1500L
+			}]
+			rewards: [{
+				id: "4A013B77EABB2449"
+				type: "item"
+				item: "better_diving:silver_block"
+				count: 4
+			}]
+		}
+		{
+			x: 8.25d
+			y: -0.75d
+			dependencies: ["09A6A7592448BF4E"]
+			id: "07E9DC26D572E6D7"
+			tasks: [{
+				id: "39776186A8B0C21A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spider_6.png"
+					}
+				}
+				entity: "minecraft:spider"
+				value: 1750L
+			}]
+			rewards: [{
+				id: "46FE3C9CA4F27D85"
+				type: "item"
+				item: "xpcoins:platinum_coin"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "quark:textures/emote/zombie.png"
+				}
+			}
+			x: -4.5d
+			y: 3.0d
+			subtitle: "他们越大，他们就..."
+			description: ["摔得越狠。你抢了那个巨人的豆子，对你孩子有好处，对你有好处。"]
+			id: "3A83F2743B20816A"
+			tasks: [{
+				id: "1DE3094D3CE3E848"
+				type: "kill"
+				title: "杀死 10 个巨人"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/emote/zombie.png"
+					}
+				}
+				entity: "minecraft:giant"
+				value: 10L
+			}]
+			rewards: [{
+				id: "33DFDEA890D37593"
+				type: "item"
+				item: "minecraft:cocoa_beans"
+				count: 10
+			}]
+		}
+		{
+			title: "杀死 30 个巨人"
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["3A83F2743B20816A"]
+			id: "6571BA1D0C74BB4E"
+			tasks: [{
+				id: "1E55218BA273E3EF"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/emote/zombie.png"
+					}
+				}
+				entity: "minecraft:giant"
+				value: 30L
+			}]
+			rewards: [
+				{
+					id: "21332FD0D3EE9D73"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 5
+				}
+				{
+					id: "00F83FBC1C66187A"
+					type: "item"
+					item: "sonicraft:studiopolis_door"
+				}
+			]
+		}
+		{
+			title: "杀死 69 个巨人;]"
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["6571BA1D0C74BB4E"]
+			dependency_requirement: "one_completed"
+			id: "0739A5520E5AABD5"
+			tasks: [{
+				id: "77604F9AC7124C4B"
+				type: "kill"
+				title: "杀死 70 个巨人"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/emote/zombie.png"
+					}
+				}
+				entity: "minecraft:giant"
+				value: 70L
+			}]
+			rewards: [{
+				id: "385F48F54F2E7B54"
+				type: "item"
+				item: "sonicraft:hornet_van_item"
+			}]
+		}
+		{
+			title: "杀死 150 个巨人"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0739A5520E5AABD5"]
+			id: "38E11C273B081F0B"
+			tasks: [{
+				id: "45E49BBE13948FA3"
+				type: "kill"
+				title: "杀死 40 个巨人"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/emote/zombie.png"
+					}
+				}
+				entity: "minecraft:giant"
+				value: 150L
+			}]
+			rewards: [{
+				id: "7F792DDF95F72A8B"
+				type: "item"
+				item: "xpcoins:golden_coin"
+			}]
+		}
+		{
+			title: "杀死 500 个巨人"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "quark:textures/emote/zombie.png"
+				}
+			}
+			x: 1.5d
+			y: 3.0d
+			subtitle: "你是个大杀器"
+			dependencies: ["38E11C273B081F0B"]
+			id: "44E98D9D71E7F8B0"
+			tasks: [{
+				id: "21A2302462671E2A"
+				type: "kill"
+				title: "杀死 69 个巨人:]"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/emote/zombie.png"
+					}
+				}
+				entity: "minecraft:giant"
+				value: 500L
+			}]
+			rewards: [{
+				id: "2D196CC6677FE7A5"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 20
+			}]
+		}
+		{
+			title: "杀死 1000 个巨人"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "他们叫你杰克"
+			dependencies: ["44E98D9D71E7F8B0"]
+			id: "239A8DCED43A9175"
+			tasks: [{
+				id: "0B6053E490E9D858"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/emote/zombie.png"
+					}
+				}
+				entity: "minecraft:giant"
+				value: 1000L
+			}]
+			rewards: [
+				{
+					id: "68B1AAE51DF13C9B"
+					type: "item"
+					item: "xpcoins:platinum_coin"
+					count: 5
+				}
+				{
+					id: "30F8BC9AEFD177B4"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["奖励：钻石铅（Diamond_Lead）。像普通铅一样，但可以将其附着到任何生物，并且不会被损坏。目前，它们不会表明它们与任何恐怖生物有联系，但它们确实如此。"]
+			dependency_requirement: "one_started"
+			id: "2FB243057AEA4B35"
+			tasks: [{
+				id: "1F15E795B4CFA081"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/piglin_1.png"
+					}
+				}
+				entity: "minecraft:piglin"
+				value: 10L
+			}]
+			rewards: [{
+				id: "4686013A08347707"
+				type: "item"
+				item: "leashed:diamond_lead"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: ["稻草人穿着这种豹猫服装会吓跑爬行者。哇，伙计！"]
+			dependencies: ["2FB243057AEA4B35"]
+			id: "15880D1CB6A9D68C"
+			tasks: [{
+				id: "6ACBB14E70396D54"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/piglin_4.png"
+					}
+				}
+				entity: "minecraft:piglin"
+				value: 30L
+			}]
+			rewards: [
+				{
+					id: "1A345B826EEE63EF"
+					type: "item"
+					item: {
+						id: "supplementaries:rope_arrow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0F077B5F342362AD"
+					type: "item"
+					item: "feders_scarecrows:scarecrow"
+					count: 16
+				}
+				{
+					id: "3DE162CD34E2DB3F"
+					type: "item"
+					item: "feders_scarecrows:ocelot_costume"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["15880D1CB6A9D68C"]
+			id: "654711BCA82D29C5"
+			tasks: [{
+				id: "5215844A590210C5"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/piglin_5.png"
+					}
+				}
+				entity: "minecraft:piglin"
+				value: 80L
+			}]
+			rewards: [
+				{
+					id: "437CE29A1123AC72"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 10
+				}
+				{
+					id: "1D300BB281FDCBD7"
+					type: "item"
+					item: "awesomeflooring:gold_floor"
+					count: 25
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: [""]
+			dependencies: ["654711BCA82D29C5"]
+			id: "327709461819FEF7"
+			tasks: [{
+				id: "70E3879C03C2F1D8"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/piglin_3.png"
+					}
+				}
+				entity: "minecraft:piglin"
+				value: 150L
+			}]
+			rewards: [{
+				id: "6310921BC6392366"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["327709461819FEF7"]
+			id: "628B67E80736AE30"
+			tasks: [{
+				id: "15DC65A9110E7D4D"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/piglin_6.png"
+					}
+				}
+				entity: "minecraft:piglin"
+				value: 250L
+			}]
+			rewards: [
+				{
+					id: "1D49EEF71AE2CF34"
+					type: "item"
+					item: "awesomeflooring:black_glass_floor"
+					count: 25
+				}
+				{
+					id: "7C1EE05F970ECA36"
+					type: "item"
+					item: "awesomeflooring:red_glass_floor"
+					count: 25
+				}
+				{
+					id: "48866F9FA8547CA5"
+					type: "item"
+					item: "awesomeflooring:netherite_floor"
+					count: 25
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["628B67E80736AE30"]
+			id: "604632DF7662DFFD"
+			tasks: [{
+				id: "6E4615D17B0A6812"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/piglin_2.png"
+					}
+				}
+				entity: "minecraft:piglin"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "5F4A7DD3E9C5BE9A"
+					type: "item"
+					item: "awesomeflooring:gold_floor"
+					count: 15
+				}
+				{
+					id: "18964A06FB54BF0E"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 10
+				}
+				{
+					id: "3C7A720A6FAF0382"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.75d
+			description: ["杀死一个铁傀儡以获得睡觉的地方，和弄一个快递箱来为您或朋友使用末影邮递发送邮件"]
+			dependency_requirement: "one_started"
+			id: "3CB96D6FBC6D5CB9"
+			tasks: [{
+				id: "3EEE195973C67E26"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_1.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6B8A04F7E5E0DC18"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 2
+				}
+				{
+					id: "009B04472FAD1B10"
+					type: "item"
+					item: "minecraft:gray_bed"
+				}
+				{
+					id: "63DA2F1DCC58ADC4"
+					type: "item"
+					item: "endermail:locker"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.75d
+			subtitle: "它们对你做过什么？"
+			description: ["杀死3个铁傀儡以获得您需要的物品，您可以使用末影邮递从世界任何地方将包裹发送到您的快递箱"]
+			dependencies: ["3CB96D6FBC6D5CB9"]
+			id: "4720D9A186440496"
+			tasks: [{
+				id: "0058F241B4A4B3DF"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_2.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "22536413CBFAAA6B"
+					type: "item"
+					item: "endermail:stamp"
+					count: 2
+				}
+				{
+					id: "242FBD948E98FB5A"
+					type: "item"
+					item: {
+						id: "endermail:package_controller"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5744BD60C4408BA2"
+					type: "item"
+					item: "endermail:package"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.75d
+			dependencies: ["4720D9A186440496"]
+			dependency_requirement: "one_completed"
+			id: "752D88BCDD3FBC6C"
+			tasks: [{
+				id: "3DDA6E2B58F9F876"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_3.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 10L
+			}]
+			rewards: [{
+				id: "7AC0DB52E3687F3E"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.75d
+			description: [
+				"此插槽解锁将解锁药水核心插槽，拿着物品并右键单击。"
+				""
+				"添加后按[C]激活药水核心。按[Shift+C]添加药水核心。"
+				""
+				"你可以通过结合药水和普通的末影之眼在铁砧上制作药水核心。"
+			]
+			dependencies: ["752D88BCDD3FBC6C"]
+			id: "2C07887CB9E124BB"
+			tasks: [{
+				id: "621C26CC8055D79A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_4.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "29A65285940BE42D"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+				{
+					id: "4FAA6F3D3275067F"
+					type: "item"
+					item: "everpotion:unlock_slot"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.75d
+			dependencies: ["2C07887CB9E124BB"]
+			id: "3196CDCF59A29B5C"
+			tasks: [{
+				id: "1F2091CE51DA8810"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_5.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 50L
+			}]
+			rewards: [{
+				id: "701D973F80170544"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.75d
+			dependencies: ["3196CDCF59A29B5C"]
+			id: "44313C3395C31B99"
+			tasks: [{
+				id: "0ECC001C76AAE6B1"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_6.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 75L
+			}]
+			rewards: [{
+				id: "5E8E5D1A25D99031"
+				type: "item"
+				item: "awesomeflooring:diamond_floor"
+				count: 20
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.75d
+			dependencies: ["44313C3395C31B99"]
+			id: "6BB34854A40BC57A"
+			tasks: [{
+				id: "753F8BE48306725B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_7.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 100L
+			}]
+			rewards: [{
+				id: "4C7CF9939F284490"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 10
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.75d
+			dependencies: ["6BB34854A40BC57A"]
+			id: "7B0488A0E6525BAE"
+			tasks: [{
+				id: "5D0E8016D80B841B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/iron_golem_8.png"
+					}
+				}
+				entity: "minecraft:iron_golem"
+				value: 150L
+			}]
+			rewards: [
+				{
+					id: "74D0026F2654A344"
+					type: "item"
+					item: "xpcoins:golden_coin"
+				}
+				{
+					id: "19286B67178169E5"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "在这个世界启动了街机模式"
+			x: 7.125d
+			y: 0.375d
+			description: [
+				"街机模式会扭曲你的杀戮任务进度。这个X放在这里，所以你不能向你的弟弟吹嘘你有多厉害。"
+				""
+				"为什么？因为我很刻薄，而且很有趣。哈哈哈"
+			]
+			dependencies: ["11B5B2165126E627"]
+			hide: true
+			size: 1.5d
+			id: "5E7B66EEB1F6A790"
+			tasks: [{
+				id: "6F7C9B42B5CFD1AD"
+				type: "custom"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/close.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.25d
+			description: ["流浪商人（kissed）你妈妈。判处他（death），以获得这个甜蜜的奖励来装饰你的基地，让你很酷。"]
+			id: "21B156973C99976B"
+			tasks: [{
+				id: "0BC458438E7BE86A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/wandering_trader.png"
+					}
+				}
+				entity: "minecraft:wandering_trader"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "11B1606634D3909F"
+					type: "item"
+					item: "awesomeflooring:emerald_floor"
+					count: 25
+				}
+				{
+					id: "01BEFA554907C99F"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "cgm:puncturing"
+							}]
+						}
+					}
+				}
+			]
+		}
+	]
+}
