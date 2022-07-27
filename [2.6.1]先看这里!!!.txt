@@ -1,4 +1,4 @@
-﻿2022-07-27 11:59
+﻿2022-07-27 14:51
 
                                               ☞极为重要！！！
 Ⅰ.如果创建存档时进不去，可以试试单独安装这个整合包在其他地方，正常4G就够，装光影内存至少给6G
@@ -25,11 +25,11 @@ https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Lang
 P.S.一些模组可能i18n和翻译包没有汉化，那就您要自己查翻译。
 觉得汉化不对的、不准的，来GitHub，语言节俭点，我尽力
 
-基础信息：[0.2.0] Jetpack Cat 汉化 2.6.1 by KlparetlR
+基础信息：[0.2.1] Jetpack Cat 汉化 2.6.1 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/Jetpack-Cat
 
-测试：KlparetlR
+测试：KlparetlR、MW_Zitie（B站：迷惘の子铁）
 
 工程时间：2022-07-22 17:14 / 2022-07-26 20:20
 
