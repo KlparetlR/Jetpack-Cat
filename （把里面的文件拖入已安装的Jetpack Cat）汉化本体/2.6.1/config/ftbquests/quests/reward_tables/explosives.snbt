@@ -1,0 +1,11 @@
+{
+	id: "1F34A75BF547A4D1"
+	order_index: 18
+	title: "炸药"
+	loot_size: 1
+	rewards: [
+		{ item: "cgm:grenade", count: 10 }
+		{ item: "cgm:missile", count: 10 }
+		{ item: "cgm:stun_grenade", count: 5 }
+	]
+}
