@@ -1,4 +1,4 @@
-﻿2022-07-27 14:51
+﻿2022-07-31 16:46
 
                                               ☞极为重要！！！
 Ⅰ.如果创建存档时进不去，可以试试单独安装这个整合包在其他地方，正常4G就够，装光影内存至少给6G
@@ -20,12 +20,16 @@ resourcepacks文件夹中：Minecraft-Mod-Language-Package-1-16.zip
 https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Language-Package
 文件名：Minecraft-Mod-Language-Package-Not-Included-Language-Package.zip
 
+⑷.[可选，装观影]OptiFine（拉入已安装本体的mods文件夹）：
+https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G8.jar&x=dce7
+文件名：OptiFine_1.16.5_HD_U_G8.jar
+
 ☞记得确认是否成功加载翻译包和光影
 
 P.S.一些模组可能i18n和翻译包没有汉化，那就您要自己查翻译。
 觉得汉化不对的、不准的，来GitHub，语言节俭点，我尽力
 
-基础信息：[0.2.1] Jetpack Cat 汉化 2.6.1 by KlparetlR
+基础信息：[0.4.0] Jetpack Cat 汉化 2.6.1 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/Jetpack-Cat
 
@@ -33,7 +37,7 @@ GitHub：https://github.com/KlparetlR/Jetpack-Cat
 
 工程时间：2022-07-22 17:14 / 2022-07-26 20:20
 
-特别鸣谢：安逸菌汉化组 的帮助 
+特别鸣谢：安逸菌汉化组、MW_Zitie 的帮助 
 
 祝您游玩愉快，Thanks！
 
