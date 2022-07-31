@@ -811,7 +811,7 @@
 				{
 					id: "37EAC025409F5952"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n哇！你杀了多少丧尸？！你就像那个人一样……终结者！但你并不全是粗俗和金属般的！对不起，我会尽量保持安静，尽管孩子做得很好！哦，嘿，别忘了，瞄准头部，洒点脑浆！他！他！他！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n哇！你杀了多少丧尸？！你就像那个家伙，终结者？但你并不全是粗俗和金属般的！对不起，我会尽量保持安静，尽管孩子做得很好！哦，嘿，别忘了，瞄准头部，让它们撒出一些脑浆！嘿！嘿！嘿！\"}"
 					player_command: false
 				}
 			]
@@ -1282,7 +1282,7 @@
 				{
 					id: "6E8F3B6C76175B3F"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n那是Chris Rock僵尸吗？好东西但是史密斯不在身边！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n那是克里斯·洛克僵尸吗？好东西,但是史密斯不在身边！\"}"
 					player_command: false
 				}
 			]
@@ -1333,7 +1333,7 @@
 				{
 					id: "4FBE5D1F504EDFAF"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你妈妈会为你把这些怪物的头都炸掉而感到骄傲！一次让妈妈骄傲一个大脑！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你妈妈会为你把这些怪物的头都炸掉而感到骄傲！让妈妈一次一个大脑地感到自豪！\"}"
 					player_command: false
 				}
 			]
@@ -1464,7 +1464,7 @@
 				{
 					id: "058E111F02044040"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n嘿，如果你继续杀那些可爱的小家伙，我会骂你的！只有PEETA可以杀死动物！没有别人了！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n嘿，如果你继续杀那些可爱的小家伙，我会骂你的！只有皮塔可以杀死动物！没有别人了！\"}"
 					player_command: false
 				}
 			]
@@ -1528,7 +1528,7 @@
 				{
 					id: "20DCC6BBE9DE819E"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n嘿谷歌！Alexa！给妈妈发信息..我刚刚放了屁，要不要我把它存起来，这样你们回家后就能闻到它的味道？哈哈哈哈哈哈\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n嘿谷歌！爱丽莎！给妈妈发信息..我刚刚放了屁，要不要我把它存起来，这样你们回家后就能闻到它的味道？哈哈哈哈哈哈\"}"
 					player_command: false
 				}
 			]
@@ -1578,7 +1578,7 @@
 				{
 					id: "08D92AF6A6D57143"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n哇！你杀了多少丧尸？！你就像那个家伙，终结者？但你并不全是粗俗和金属般的！对不起，我会尽量保持安静，尽管孩子做得很好！哦，嘿，别忘了，瞄准头部，洒点脑浆！他！他！他！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n哇！你杀了多少丧尸？！你就像那个家伙，终结者？但你并不全是粗俗和金属般的！对不起，我会尽量保持安静，尽管孩子做得很好！哦，嘿，别忘了，瞄准头部，让它们撒出一些脑浆！嘿！嘿！嘿！\"}"
 					player_command: false
 				}
 			]
@@ -1603,7 +1603,7 @@
 				{
 					id: "5179ADBFBBF85A34"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\nBOOM！爆头！！\\n BOOM！爆头！！\\n 这太有趣了 lul\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\nBOOM！爆头！！\\n BOOM！爆头！！\\n 这太有趣了lul\"}"
 					player_command: false
 				}
 			]
@@ -1628,7 +1628,7 @@
 				{
 					id: "6A935B9C24E023D1"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\nBOOM！爆头！！\\n BOOM！爆头！！\\n 这太有趣了 lul\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\nBOOM！爆头！！\\n BOOM！爆头！！\\n 这太有趣了lul\"}"
 					player_command: false
 				}
 			]
@@ -1653,7 +1653,7 @@
 				{
 					id: "57978F09C1CCE759"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\nBOOM！爆头！！\\n BOOM！爆头！！\\n 这太有趣了 lul\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\nBOOM！爆头！！\\n BOOM！爆头！！\\n 这太有趣了lul\"}"
 					player_command: false
 				}
 			]
@@ -1750,7 +1750,7 @@
 				{
 					id: "4386367695628891"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n想象一下，如果我随机地把你卷起来...我真的不想和律师打交道，这本来会很有趣，不是吗？\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n想象一下，如果我随意地把你碾成堆...但我真的不想和律师打交道，这本来会很有趣，不是吗？\"}"
 					player_command: false
 				}
 			]
@@ -1791,7 +1791,7 @@
 					id: "5B20C3B008E5E58E"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n哦，到底是什么，我还是会这样做的。\\n（歌词）我们并非相爱的陌生人\\n你知道规则我也一样\\n一份完全的义务正是我所想\\n你再不会从其他男人那得到这个\\n我只是想告诉你我的感觉\\n想让你明白\\n永不放弃你\\n不让你失望\\n永不会弃你而去\\n永不让你哭泣\\n永不说再见\\n永不撒谎,不伤害你\\n明白了，我说的对吗？LUL你得到了rick rolled,孩子。\\n你已经被我打败了。\\n我赢了。你不能阻止我。\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n哦，到底是什么，我还是会这样做的。\\n（歌词）我们并非相爱的陌生人\\n你知道规则我也一样\\n一份完全的义务正是我所想\\n你再不会从其他男人那得到这个\\n我只是想告诉你我的感觉\\n想让你明白\\n永不放弃你\\n不让你失望\\n永不会弃你而去\\n永不让你哭泣\\n永不说再见\\n永不撒谎,不伤害你\\n明白了，我说的对吗？LUL，你得到了瑞克摇摆,孩子。\\n你已经被我打败了。\\n我赢了。你不能阻止我。\"}"
 					player_command: false
 				}
 			]
@@ -1897,7 +1897,7 @@
 				{
 					id: "296154B89D7C5FA8"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n进入维度撕裂！做好准备！你被带到一个新维度的孩子！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n进入维度撕裂！做好准备！你会被带到一个新维度的，孩子！\"}"
 					player_command: false
 				}
 			]
@@ -1967,7 +1967,7 @@
 				{
 					id: "7EF61CDE246662FD"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n进入维度撕裂！做好准备！你被带到一个新维度的孩子！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n进入维度撕裂！做好准备！你会被带到一个新维度的，孩子！\"}"
 					player_command: false
 				}
 			]
@@ -2030,7 +2030,7 @@
 				{
 					id: "6E604085FC3A267E"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n进入维度撕裂！做好准备！你被带到一个新维度的孩子！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n进入维度撕裂！做好准备！你会被带到一个新维度的，孩子！\"}"
 					player_command: false
 				}
 			]
@@ -2361,7 +2361,7 @@
 				{
 					id: "2529B7C080A743DC"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你发现了一座海底神殿！上古守护者是超级疯狂的，他认为你拿走了他的cheerios，现在就想杀了你！杀了他，夺走他的眼球！你可能比他更多地使用它，看到被高估了。\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你发现了一座海底神殿！上古守护者是超级疯狂的，他认为你拿走了它的cheerios，现在就想杀了你！杀了它，夺走他的眼球！你可能比他更多地使用它，看到被高估了。\"}"
 					player_command: false
 				}
 				{
@@ -2399,7 +2399,7 @@
 				{
 					id: "17E535ED4DCD33D3"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你可能要小心这里，你发现了一个林地府邸！如果你杀死一个唤魔者，你可以夺走他的眼睛，但要注意这个地方并不容易！为了以防万一，你应该点燃营火来设置新的出生点！想象一下杀死某人并偷走他的眼球。我感觉我在看恐怖片！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你可能要小心这里，你发现了一个林地府邸！如果你杀死一个唤魔者，你可以夺走它的眼睛，但要注意这个地方并不容易！为了以防万一，你应该点燃营火来设置新的出生点！想象一下杀死某人并偷走它的眼球。我感觉我在看恐怖片！\"}"
 					player_command: false
 				}
 			]
@@ -2490,7 +2490,7 @@
 				{
 					id: "04C78C8E3A072F53"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你妈妈会为你把这些怪物的头都炸掉而感到骄傲！一次让妈妈骄傲一个大脑！\"}"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你妈妈会为你把这些怪物的头都炸掉而感到骄傲！让妈妈一次一个大脑地感到自豪！\"}"
 					player_command: false
 				}
 				{

@@ -424,7 +424,7 @@
 			tasks: [{
 				id: "64A94E081A46DFC9"
 				type: "checkmark"
-				title: "编辑字符"
+				title: "编辑样貌"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
