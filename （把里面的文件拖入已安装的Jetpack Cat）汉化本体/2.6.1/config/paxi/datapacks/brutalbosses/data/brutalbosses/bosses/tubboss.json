@@ -1,0 +1,61 @@
+{
+  "entity": "sonicraft:tubinaut",
+  "name": "你的母亲",
+  "visualscale": 1.2,
+  "effects": {
+    "minecraft:resistance": 1,
+    "minecraft:regeneration": 1,
+    "minecraft:fire_resistance": 1
+  },
+  "attributes": {
+    "generic.max_health": 125,
+    "generic.follow_range": 80,
+    "generic.movement_speed": 0.3,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 6
+  },
+  "gear": {
+    "mainhand": "{id: \"xpcoins:silver_coin\", Count: 5b}"
+  },
+  "ai-goals": {
+    "brutalbosses:charge": {},
+    "minecraft:target": {},
+    "brutalbosses:whirldwind": {},
+    "brutalbosses:meleehit": {
+      "damage": 2,
+      "cooldown": 30
+    },
+    "brutalbosses:chasetarget": {},
+    "brutalbosses:charge": {},
+    "brutalbosses:summonmobs":{
+"healthinterval": "100-0",
+"interval": 60,
+"maxcount": 10,
+"count": 2,
+"ownerdamagepct": 0,
+"entities": [
+        {
+          "entityid": "sonicraft:buzz_bomber",
+          "entitynbt": "{Attributes: {Base: 5.9, Name: \"minecraft:generic.movement_speed\"}}"
+
+      }
+  ]
+}
+  },
+  "spawnatchest": {
+    "towers_of_the_wild:chests/tower/ocean/ocean_tower_chest":1,
+    "minecraft:chests/village/village_butcher": 2,
+    "minecraft:chests/jungle_temple": 1,
+    "minecraft:chests/bastion_hoglin_stable": 1,
+    "goblinsanddungeons:chests/camp_loot_table": 1,
+    "dungeons_enhanced:pillager_camp_kitchen": 1,
+    "dungeons_arise:chests/infested_temple/infested_temple_top_treasure": 1,
+    "dungeons_arise:chests/mushroom_house/mushroom_house_treasure": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1,
+    "dungeons_arise:chests/plague_asylum/plague_asylum_treasure": 1,
+    "dungeons_arise:chests/lighthouse/lighthouse_top": 1,
+    "dungeons_arise:chests/bandit_towers/bandit_towers_room": 1
+  }
+}
