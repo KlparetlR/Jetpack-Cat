@@ -1,0 +1,34 @@
+{
+  "entity": "lycanitesmobs:apollyon",
+  "name": "姐姐",
+  "visualscale": 1.2,
+  "showbossbar": true,
+  "experience": 400,
+  "effects": {
+    "minecraft:resistance": 2
+  },
+  "attributes": {
+    "generic.max_health": 210,
+    "generic.follow_range": 50,
+    "generic.attack_damage": 10,
+    "generic.knockback_resistance": 10
+  },
+  "customattributes": {
+    "attack_speed": 0.7
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "brutalbosses:charge": {},
+    "brutalbosses:aftercombatregen": {
+      "amount": 3
+    },
+    "minecraft:target": {},
+    "brutalbosses:whirldwind": {
+      "knockup": true
+    }
+  },
+  "spawnatchest": {
+    "minecraft:chests/ruined_portal": 3
+  }
+}
