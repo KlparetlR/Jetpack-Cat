@@ -1,0 +1,755 @@
+{
+	id: "70EA5132CF2D6D19"
+	group: "6CEED761F16AEDF2"
+	order_index: 5
+	filename: "rifle"
+	title: " 步枪"
+	icon: {
+		id: "cgm:rifle"
+		Count: 1b
+		tag: {
+			Color: 1960374
+		}
+	}
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -14.285714285714285d
+			y: 1.5714285714285765d
+			width: 5.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/bgstoredark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -14.260204081632658d
+			y: 1.882653061224488d
+			width: 2.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/basegun.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.392857142857139d
+			y: -5.75d
+			width: 6.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/gunshop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "步枪"
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 7091247
+				}
+			}
+			disable_toast: true
+			x: -14.285714285714285d
+			y: -0.7857142857142847d
+			shape: "gear"
+			subtitle: "默认颜色"
+			description: [
+				"这把枪可以无限次购买。"
+				""
+				"钓鱼时可能会获得手枪。"
+				""
+				"枪支配件（枪托、握把、瞄准镜、瞄准器和消音器）只能在钓鱼中获得。"
+				""
+				"每把枪都有2倍的爆头伤害，所以瞄准头部！"
+			]
+			size: 5.0d
+			id: "3C2E0CAB6F52D348"
+			tasks: [{
+				id: "58380EABA6E9EA26"
+				type: "item"
+				item: "xpcoins:golden_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "25CB652B2F8AC874"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 7091247
+						}
+					}
+				}
+				{
+					id: "4753CCCDB459D728"
+					type: "custom"
+					title: "该购买可重复"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/green_repeatable_32.png"
+						}
+					}
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+				{
+					id: "73829FA18C6A30FC"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound cgm:item.shotgun.cock voice @p ~ ~ ~ 0.7"
+					player_command: false
+				}
+				{
+					id: "59045F49344BD8D8"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					auto: "invisible"
+					command: "/closeguiscreen"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 16056407
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "机器人的血"
+			description: [
+				"&c解锁条件：杀死蛋头博士，流他的血"
+				""
+				"当你们二年级的时候，他拿走了你妈妈放在你午餐里的奶酪棒。"
+				""
+				"让他为自己的过错付出代价。"
+				""
+				"&c*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+				""
+			]
+			dependencies: ["48EF484521CC0F72"]
+			size: 3.0d
+			id: "47F29F99CD5977CB"
+			tasks: [
+				{
+					id: "76B6243CCC63BE61"
+					type: "item"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 7091247
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "330253FC0B8F69D6"
+					type: "item"
+					item: {
+						id: "xpcoins:platinum_coin"
+						Count: 2b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "2614490EBFBDFCBD"
+					type: "item"
+					item: "sonicraft:null_space_stone"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "284AB3042F2AB6CC"
+					type: "item"
+					item: "candyworld:red_gummy_worm"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "10EC6FD35C6F4817"
+					type: "item"
+					item: "candyworld:white_gummy"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "317D45461E463792"
+					type: "item"
+					item: "candyworld:cotton_candy_sapling"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "24AF99D54F3EC6B0"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 16056407
+						}
+					}
+				}
+				{
+					id: "0BB66EA943B81AEC"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 1638399
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: 0.0d
+			shape: "secretagent"
+			subtitle: "绿恶魔"
+			description: [
+				"&b解锁条件：找到沼泽"
+				""
+				"它是绿色的，意思是……我忘记了其余的。"
+				""
+				"&b*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["56A2CABFDE99A4EE"]
+			size: 3.0d
+			id: "4F8D147F37C10C07"
+			tasks: [{
+				id: "16A82A737C1ED802"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6EBD442759815AD8"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 1638399
+						}
+					}
+				}
+				{
+					id: "1722F36660223C94"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					Color: 16776960
+				}
+			}
+			disable_toast: true
+			x: -10.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "熊的撒尿和拥抱"
+			description: [
+				"&e解锁条件：亲吻软糖熊，然后杀死它的家人。"
+				""
+				"当它们发现人类正在吃他们的物种时，战争就开始了。我们几乎不知道，软糖熊还活着。"
+				""
+				"来自它们星球的软糖熊植入了，能使他们成为杰出学者的技术。然而我们移除了它，并征服了它们，让它们在我们的领域里像兽类一样觅食。地球至今仍在吃它们。"
+				""
+				"有人说太空中软糖熊仍然存在，繁殖到有一天，它们会到地球上报仇。但这些只是代代相传的故事。"
+				""
+				"舔这把枪不会给你特殊的力量，但可能味道不错。"
+				""
+				"&e*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["03345E4B36330CF4"]
+			size: 3.0d
+			id: "71580BD85ECE8301"
+			tasks: [{
+				id: "0917C81B64EC75C9"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "47AE103B6D2B7ACD"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 16776960
+						}
+					}
+				}
+				{
+					id: "0CEEBFAB55591DAE"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 2201331
+				}
+			}
+			disable_toast: true
+			x: -10.5d
+			y: 3.0d
+			shape: "secretagent"
+			subtitle: "1492"
+			description: [
+				"&b解锁条件：找到冰刺平原群系"
+				""
+				"1492年，哥伦布在一片蔚蓝的海洋中航行。在旅途中，他发现他被外星人跟踪。"
+				""
+				"于是哥伦布通过击中甜蜜的海浪(sweet_wave)并起飞，将他的船飞入飞碟。他控制了飞碟并强迫外星人告诉他如何制作出令人敬畏的颜色，而这种蓝色就是外星人产生的。"
+				""
+				"没有人知道哥伦布发生了什么事，有人说他在火星上还活着，并且拥有超过9,000名后裔。"
+				""
+				"我应该去睡觉了..."
+				""
+				"&b*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["37BDC1D33E04344C"]
+			size: 3.0d
+			id: "0BB3E00A10C01728"
+			tasks: [{
+				id: "05C7E8B2B2752B91"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "646791578136905C"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 2201331
+						}
+					}
+				}
+				{
+					id: "6D8E3EFC77A5E139"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 4545124
+				}
+			}
+			disable_toast: true
+			x: -4.5d
+			y: 3.0d
+			shape: "secretagent"
+			subtitle: "特务"
+			description: [
+				"&7解锁条件：杀死一只可爱的熊猫熊（Panda_Bear）"
+				""
+				"你是精英士兵，詹姆斯·邦德是你的远房亲戚，你已经杀死了419个坏人。"
+				""
+				"拿着它，完成工作。这把武器是给你的，最好的。"
+				""
+				"&7*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["77F193D17F64DA39"]
+			size: 3.0d
+			id: "3AE22791171ACE4E"
+			tasks: [{
+				id: "6CF4E575EFF38BFE"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "50AF8613AE1FD283"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 4545124
+						}
+					}
+				}
+				{
+					id: "318B4C754B249C50"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 5467646
+				}
+			}
+			disable_toast: true
+			x: -4.5d
+			y: 0.0d
+			shape: "secretagent"
+			subtitle: "外星冰山"
+			description: [
+				"&9解锁条件：激活3个传送石碑——它可以在主世界各地的塔楼上找到"
+				""
+				"这种颜色是从沉没泰坦尼克号的冰山中提取的。这不是冰，它是一种外星寄生虫，在来到地球之前已经存在了亿万年。它的任务是击沉泰坦尼克号，现在这把枪上充满了能量。"
+				""
+				"负责任地使用这种权力。"
+				""
+				"&9*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["6F54678FAEBC4220"]
+			size: 3.0d
+			id: "63A6F818C9FF393B"
+			tasks: [{
+				id: "5DF890D560E6FF6C"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7583EA9AE77B17E1"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 5467646
+						}
+					}
+				}
+				{
+					id: "0688CA43662D797A"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 13959417
+				}
+			}
+			disable_toast: true
+			x: -10.5d
+			y: 0.0d
+			shape: "secretagent"
+			subtitle: "独角兽呕吐物"
+			description: [
+				"&5解锁条件：在你的物品栏中一次性拥有6种末影之眼"
+				""
+				"这种颜色取自一千只独角兽的呕吐物。被稀释成纳米粒子，曾经让独角兽种族统治地球。"
+				""
+				"如果不是树人，他们可能仍然存在……没有丢失的独角兽之书，我们永远不会知道。"
+				""
+				"据说独角兽建造了伟大的金字塔，我想我在抖音上听说过。"
+				""
+				"&5*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+				""
+				""
+			]
+			dependencies: ["6BA31B8E3565AFCC"]
+			size: 3.0d
+			id: "6ADD92F7D0C3ADE2"
+			tasks: [{
+				id: "5347A3B3BA085865"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6B7192571B72F052"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 13959417
+						}
+					}
+				}
+				{
+					id: "391697A1D0E6849A"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 58998
+				}
+			}
+			disable_toast: true
+			x: -4.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "不那么败血症"
+			description: [
+				"&a解锁条件：进入地心世界并杀死一只绿色恐龙"
+				""
+				"Jack_Septiceye在2012年的一次外星人袭击中丧生，当时他正试图偷走玛雅日历石。中央情报局控制了他的遗体并从他的头发中提取了绿色染料，这成为了这把枪的颜色。"
+				""
+				"这把枪的颜色尖叫着“早上好！”"
+				""
+				"&a*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["561C4E6456994F5B"]
+			size: 3.0d
+			id: "489F5CDC2572E662"
+			tasks: [{
+				id: "504F9F8CC1ACD1B4"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "69E6F544A883E241"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 58998
+						}
+					}
+				}
+				{
+					id: "2D9AD9C3A5256605"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 16651944
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: 3.0d
+			shape: "secretagent"
+			subtitle: "波波球粉"
+			description: [
+				"&d解锁条件：嫁给热情的村民并生孩子"
+				""
+				"这个粉红色是为了提醒你对谁负责。"
+				""
+				"是你的妻子……她负责，她每个月至少有一周的时间。传说它是由行星Omicron英仙座8的满月引起的。"
+				""
+				"我们生活在一个多么美好的时代..."
+				""
+				"&d*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["2A7E3E3E13889485"]
+			size: 3.0d
+			id: "0004BEBF6FF60B69"
+			tasks: [{
+				id: "22A77D8916AD0A31"
+				type: "item"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "671B6CDE8150B414"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 16651944
+						}
+					}
+				}
+				{
+					id: "1787CD25EFDC0723"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+	]
+}

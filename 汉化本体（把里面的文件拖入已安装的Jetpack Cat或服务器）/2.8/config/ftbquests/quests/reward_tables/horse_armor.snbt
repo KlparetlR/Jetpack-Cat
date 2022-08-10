@@ -1,0 +1,12 @@
+{
+	id: "34F3382B1E627DB3"
+	order_index: 19
+	title: "马铠"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_horse_armor" }
+		{ item: "minecraft:golden_horse_armor" }
+		{ item: "minecraft:diamond_horse_armor" }
+		{ item: "minecraft:leather_horse_armor" }
+	]
+}

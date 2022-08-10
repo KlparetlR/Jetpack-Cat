@@ -1,0 +1,710 @@
+{
+	id: "3B98F53543C3200C"
+	group: "6CEED761F16AEDF2"
+	order_index: 8
+	filename: "grenade_launcher"
+	title: " 榴弹发射器"
+	icon: {
+		id: "cgm:grenade_launcher"
+		Count: 1b
+		tag: {
+			AmmoCount: 0
+		}
+	}
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -14.285714285714285d
+			y: 1.5714285714285765d
+			width: 5.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/bgstoredark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -14.260204081632658d
+			y: 1.882653061224488d
+			width: 2.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/basegun.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.392857142857139d
+			y: -5.75d
+			width: 6.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/gunshop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "榴弹发射器"
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 7091247
+				}
+			}
+			disable_toast: true
+			x: -14.285714285714285d
+			y: -0.7857142857142847d
+			shape: "gear"
+			subtitle: "默认颜色"
+			description: [
+				"这把枪可以无限次购买。"
+				""
+				"枪支配件（枪托、握把、瞄准镜、瞄准器和消音器）只能在钓鱼中获得。"
+				""
+				"榴弹发射器造成的伤害很小，可用于火箭跳跃。射击地面并同时跳跃以将自己弹射到空中。"
+			]
+			size: 5.0d
+			id: "0AC38ED7275B8F79"
+			tasks: [{
+				id: "5BE159F5DB9A6F3D"
+				type: "item"
+				item: "xpcoins:golden_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "35442C54C07AB47D"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 7091247
+						}
+					}
+				}
+				{
+					id: "50EF74A863904B90"
+					type: "custom"
+					title: "该购买可重复"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/green_repeatable_32.png"
+						}
+					}
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+				{
+					id: "079A31B188C76A99"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound cgm:item.shotgun.cock voice @p ~ ~ ~ 0.7"
+					player_command: false
+				}
+				{
+					id: "314713011437799E"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					auto: "invisible"
+					command: "/closeguiscreen"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 16056407
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "机器人的血"
+			description: [
+				"&c解锁条件：杀死蛋头博士，流他的血"
+				""
+				"当你们二年级的时候，他拿走了你妈妈放在你午餐里的奶酪棒。"
+				""
+				"让他为自己的过错付出代价。"
+				""
+				"&c*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+				""
+			]
+			dependencies: ["48EF484521CC0F72"]
+			size: 3.0d
+			id: "700150A01F388BCD"
+			tasks: [{
+				id: "59F5A19D904C897B"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5BE5A1ECF75D76BE"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 16056407
+						}
+					}
+				}
+				{
+					id: "5BB6CA92A05742D0"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 1638399
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: 0.0d
+			shape: "secretagent"
+			subtitle: "绿恶魔"
+			description: [
+				"&b解锁条件：找到沼泽"
+				""
+				"它是绿色的，意思是……我忘记了其余的。"
+				""
+				"&b*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["56A2CABFDE99A4EE"]
+			size: 3.0d
+			id: "2F859007336EC37E"
+			tasks: [{
+				id: "7689E89DE80FDEC5"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "76F2E0FFAF7D576E"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 1638399
+						}
+					}
+				}
+				{
+					id: "6DF88F02FC7AE1D2"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					Color: 16776960
+				}
+			}
+			disable_toast: true
+			x: -10.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "熊的撒尿和拥抱"
+			description: [
+				"&e解锁条件：亲吻小熊软糖，然后杀死它的家人。"
+				""
+				"当它们发现人类正在吃他们的物种时，战争就开始了。我们几乎不知道，小熊软糖还活着。"
+				""
+				"来自它们星球的小熊软糖植入了，能使他们成为杰出学者的技术。然而我们移除了它，并征服了它们，让它们在我们的领域里像兽类一样觅食。地球至今仍在吃它们。"
+				""
+				"有人说太空中小熊软糖仍然存在，繁殖到有一天，它们会到地球上报仇。但这些只是代代相传的故事。"
+				""
+				"舔这把枪不会给你特殊的力量，但可能味道不错。"
+				""
+				"&e*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["03345E4B36330CF4"]
+			size: 3.0d
+			id: "28576E62CB2EE0EE"
+			tasks: [{
+				id: "783C8E68B31842E3"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "043877B0C5D4EFF2"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 16776960
+						}
+					}
+				}
+				{
+					id: "64EC7CCE2BAC4C56"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 2201331
+				}
+			}
+			disable_toast: true
+			x: -10.5d
+			y: 3.0d
+			shape: "secretagent"
+			subtitle: "1492"
+			description: [
+				"&b解锁条件：找到冰刺平原群系"
+				""
+				"1492年，哥伦布在一片蔚蓝的海洋中航行。在旅途中，他发现他被外星人跟踪。"
+				""
+				"于是哥伦布通过击中甜蜜的海浪(sweet_wave)并起飞，将他的船飞入飞碟。他控制了飞碟并强迫外星人告诉他如何制作出令人敬畏的颜色，而这种蓝色就是外星人产生的。"
+				""
+				"没有人知道哥伦布发生了什么事，有人说他在火星上还活着，并且拥有超过9,000名后裔。"
+				""
+				"我应该去睡觉了..."
+				""
+				"&b*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["37BDC1D33E04344C"]
+			size: 3.0d
+			id: "3B813D2A89A0E95F"
+			tasks: [{
+				id: "4DC09DD8444ED1E1"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7B25CAA3AA34932E"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 2201331
+						}
+					}
+				}
+				{
+					id: "2BF145D6C435FF09"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 4545124
+				}
+			}
+			disable_toast: true
+			x: -4.5d
+			y: 3.0d
+			shape: "secretagent"
+			subtitle: "特务"
+			description: [
+				"&7解锁条件：杀死一只可爱的熊猫熊（Panda_Bear）"
+				""
+				"你是精英士兵，詹姆斯·邦德是你的远房亲戚，你已经杀死了419个坏人。"
+				""
+				"拿着它，完成工作。这把武器是给你的，最好的。"
+				""
+				"&7*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["77F193D17F64DA39"]
+			size: 3.0d
+			id: "39B125CBEB51ECBA"
+			tasks: [{
+				id: "3AFF27F81658A6F2"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1E7087B9A9B74C66"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 4545124
+						}
+					}
+				}
+				{
+					id: "1A003E4FBA9FD778"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 5467646
+				}
+			}
+			disable_toast: true
+			x: -4.5d
+			y: 0.0d
+			shape: "secretagent"
+			description: [
+				"&9解锁条件：激活3个传送石碑——它可以在主世界各地的塔楼上找到"
+				""
+				"这种颜色是从沉没泰坦尼克号的冰山中提取的。这不是冰，它是一种外星寄生虫，在来到地球之前已经存在了亿万年。它的任务是击沉泰坦尼克号，现在这把枪上充满了能量。"
+				""
+				"负责任地使用这种权力。"
+				""
+				"&9*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["6F54678FAEBC4220"]
+			size: 3.0d
+			id: "7CA82768D13D5DE2"
+			tasks: [{
+				id: "1CB78B305CAB9EB8"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2FC2E82EE9C949AF"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 5467646
+						}
+					}
+				}
+				{
+					id: "5ED95396F922DB4F"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 13959417
+				}
+			}
+			disable_toast: true
+			x: -10.5d
+			y: 0.0d
+			shape: "secretagent"
+			subtitle: "独角兽呕吐物"
+			description: [
+				"&5解锁条件：在你的物品栏中一次性拥有6种末影之眼"
+				""
+				"这种颜色取自一千只独角兽的呕吐物。被稀释成纳米粒子，曾经让独角兽种族统治地球。"
+				""
+				"如果不是树人，他们可能仍然存在……没有丢失的独角兽之书，我们永远不会知道。"
+				""
+				"据说独角兽建造了伟大的金字塔，我想我在抖音上听说过。"
+				""
+				"&5*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+				""
+				""
+			]
+			dependencies: ["6BA31B8E3565AFCC"]
+			size: 3.0d
+			id: "76E77A024118E630"
+			tasks: [{
+				id: "61117D64F7F17311"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1EA1B452B0CB16C9"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 13959417
+						}
+					}
+				}
+				{
+					id: "5CD8B09C42101919"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 58998
+				}
+			}
+			disable_toast: true
+			x: -4.5d
+			y: -3.0d
+			shape: "secretagent"
+			subtitle: "不那么败血症"
+			description: [
+				"&a解锁条件：进入地心世界并杀死一只绿色恐龙"
+				""
+				"Jack_Septiceye在2012年的一次外星人袭击中丧生，当时他正试图偷走玛雅日历石。中央情报局控制了他的遗体并从他的头发中提取了绿色染料，这成为了这把枪的颜色。"
+				""
+				"这把枪的颜色尖叫着“早上好！”"
+				""
+				"&a*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["561C4E6456994F5B"]
+			size: 3.0d
+			id: "61D27F9B7411EBFB"
+			tasks: [{
+				id: "39ED8938F7B37423"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5689651EE4A58D1E"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 58998
+						}
+					}
+				}
+				{
+					id: "77BFD9267B7FCB21"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 0
+					Color: 16651944
+				}
+			}
+			disable_toast: true
+			x: -7.5d
+			y: 3.0d
+			shape: "secretagent"
+			subtitle: "波波球粉"
+			description: [
+				"&d解锁条件：嫁给热情的村民并生孩子"
+				""
+				"这个粉红色是为了提醒你对谁负责。"
+				""
+				"是你的妻子……她负责，她每个月至少有一周的时间。传说它是由行星Omicron英仙座8的满月引起的。"
+				""
+				"我们生活在一个多么美好的时代..."
+				""
+				"&d*在交易枪支之前，记得要取下枪的配件，不然它们就没了"
+			]
+			dependencies: ["2A7E3E3E13889485"]
+			size: 3.0d
+			id: "0FE2AEDEAC303394"
+			tasks: [{
+				id: "1F6E846C3DE4EA59"
+				type: "item"
+				item: {
+					id: "cgm:grenade_launcher"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Color: 7091247
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5FF3867286DD2836"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 0
+							Color: 16651944
+						}
+					}
+				}
+				{
+					id: "50304C167F16DF54"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+					auto: "invisible"
+				}
+			]
+		}
+	]
+}

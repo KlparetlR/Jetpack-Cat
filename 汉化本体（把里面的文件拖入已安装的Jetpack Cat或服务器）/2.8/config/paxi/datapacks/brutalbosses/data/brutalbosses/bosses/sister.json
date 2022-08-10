@@ -1,0 +1,61 @@
+{
+  "entity": "lycanitesmobs:apollyon",
+  "name": "姐姐",
+  "visualscale": 1.0,
+  "showbossbar": true,
+  "experience": 400,
+  "effects": {
+    "minecraft:resistance": 3
+  },
+  "attributes": {
+    "generic.max_health": 400,
+    "generic.follow_range": 60,
+    "generic.attack_damage": 10,
+    "generic.knockback_resistance": 10
+  },
+  "customattributes": {
+    "attack_speed": 1
+  },
+  "customattributes": {
+    "dropgear": 6
+  },
+  "gear": {
+    "mainhand": "{id: \"minecraft:enchanted_book\", Count: 1b, tag: {StoredEnchantments: [{lvl: 1s, id: \"cgm:fire_starter\"}]}}"
+  },
+  "ai-goals": {
+	"minecraft:randomwalk": {},
+    "brutalbosses:charge": {},
+    "brutalbosses:aftercombatregen": {
+      "amount": 1
+    },
+	"brutalbosses:shootfireballs": {
+		"projectile_count": 1,
+		"projectile_interval": 30,
+		"projectile_distance": 40,
+		"projectile_aoe": true
+	},
+	"brutalbosses:summonmobs": {
+		"healthinterval": "100-0",
+		"interval": 40,
+		"maxcount": 10,
+		"count": 1,
+		"entities": [
+			{
+			  "entityid": "lycanitesmobs:wraith",
+			  "entitynbt": "{Brain: {memories: {}}, HurtByTimestamp: 251, IsBaby: 1b, Attributes: [{Base: 0.0d, Name: \"minecraft:zombie.spawn_reinforcements\"}, {Base: 0.08d, Name: \"forge:entity_gravity\"}, {Base: 0.37000000417232513d, Name: \"minecraft:generic.movement_speed\"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, InWaterTime: -1, FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, ForgeCaps: {\"brutalbosses:bosscap\": {}}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, UUID: [I; -1356225159, 445793596, -1560838011, 528914832], Motion: [0.0d, -0.0784000015258789d, 0.0d], Health: 22.119999f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [88.88051f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-59.22638885988113d, 55.0d, 100.53636996754722d], CanBreakDoors: 0b, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s, DrownedConversionTime: -1}"
+			}
+		]
+	},
+    "minecraft:target": {},
+    "brutalbosses:whirldwind": {
+      "knockup": true
+    }
+  },
+  "spawnatchest": {
+    "minecraft:chests/ruined_portal": 3,
+	"goblinsanddungeons:chests/camp_loot_table": 1,
+	"minecraft:chests/nether_bridge": 1,
+	"minecraft:chests/bastion_hoglin_stable": 1,
+	"awesomedungeonnether:chests/awesome_dungeon": 1
+  }
+}

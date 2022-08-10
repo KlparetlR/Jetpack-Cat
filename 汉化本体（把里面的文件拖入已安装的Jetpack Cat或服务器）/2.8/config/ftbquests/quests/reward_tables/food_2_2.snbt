@@ -1,0 +1,14 @@
+{
+	id: "605DBB06BD43793D"
+	order_index: 8
+	title: "食物种类2"
+	loot_size: 1
+	rewards: [
+		{ item: "lycanitesmobs:cooked_kathoga_meat", count: 5 }
+		{ item: "lycanitesmobs:raw_silex_meat", count: 8 }
+		{ item: "lycanitesmobs:raw_jouste_meat", count: 5 }
+		{ item: "lycanitesmobs:raw_aspid_meat", count: 8 }
+		{ item: "lycanitesmobs:cooked_cephignis_meat", count: 6 }
+		{ item: "minecraft:enchanted_golden_apple" }
+	]
+}

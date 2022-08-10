@@ -1,0 +1,468 @@
+{
+	id: "63A2ADDD02DC7C20"
+	group: "2962FB6DD0692CEB"
+	order_index: 2
+	filename: "gun_unlocks"
+	title: " 枪支解锁"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: -1.5d
+			min_required_dependencies: 1
+			dependencies: ["39342A18408EA0C2"]
+			id: "28881669A288AD3F"
+			tasks: [{
+				id: "2356D9C45D29F886"
+				type: "biome"
+				biome: "minecraft:swamp"
+			}]
+			rewards: [{
+				id: "3D413B8B2BF5B5CA"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 56A2CABFDE99A4EE"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["39342A18408EA0C2"]
+			id: "10DC0B6ACC6C0808"
+			tasks: [{
+				id: "38BF65ADC3F3AB12"
+				type: "biome"
+				biome: "minecraft:swamp_hills"
+			}]
+			rewards: [{
+				id: "381AEDB3F801C800"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 56A2CABFDE99A4EE"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.25d
+			dependencies: [
+				"28881669A288AD3F"
+				"10DC0B6ACC6C0808"
+			]
+			dependency_requirement: "one_completed"
+			id: "56A2CABFDE99A4EE"
+			tasks: [{
+				id: "21B4937AC194E1DB"
+				type: "custom"
+				title: "枪 - 找到沼泽"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/sweet_berry_bush_stage1.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "449D6216422DA8A2"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-deku-green voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "6D99E7D8A75E2762"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n上帝会为你的孩子感到骄傲！你刚刚解锁了Deku绿！这是全能的我对他的模仿：\\n\\n因为我，在这里！！！\\n\\n我是怎么做的？\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -3.75d
+			y: -1.5d
+			dependencies: ["39342A18408EA0C2"]
+			id: "37BDC1D33E04344C"
+			tasks: [{
+				id: "2D7F2203F4E757D5"
+				type: "biome"
+				title: "枪 - 找到冰刺平原生物群系"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "potions_plus:textures/ice.png"
+					}
+				}
+				biome: "minecraft:ice_spikes"
+			}]
+			rewards: [
+				{
+					id: "7D11A053E2BF531E"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-1492 voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "1D2CAB448E1CA5F0"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你解锁了1492。多么美丽的蓝色！我个人认为哥伦布打败了那些外星人并登上了火星。这只是一个理论，但我也只是一个机器人。\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["39342A18408EA0C2"]
+			id: "7DB86F93E1228A81"
+			tasks: [{
+				id: "2A3506E9778CB5E6"
+				type: "kill"
+				title: "枪 - 杀死可爱的熊猫"
+				icon: "minecraft:panda_spawn_egg"
+				entity: "minecraft:panda"
+				value: 1L
+			}]
+			rewards: [{
+				id: "036968807B8B4299"
+				type: "command"
+				command: "/openguiscreen kill_panda"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.25d
+			id: "77F193D17F64DA39"
+			tasks: [{
+				id: "3078FF8AE8C9CBEF"
+				type: "custom"
+				title: "枪 - 熊猫解锁"
+				icon: "minecraft:panda_spawn_egg"
+			}]
+			rewards: [
+				{
+					id: "10E248EC57711B02"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-secret-agent voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "64CBFCAFEB9CFEF8"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你为你的枪解锁了酷炫的特工颜色！现在你可以假装你的詹姆斯·邦德并到处执行秘密任务杀死你的朋友，因为他们是秘密的双重间谍！.\\n\\n你不只是一种向善的力量，你是死亡的化身。你与阴影融为一体，轻松地跟踪你的受害者。\\'去杀他们！\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "枪 - 杀死蛋头博士"
+			x: -1.25d
+			y: -1.5d
+			id: "48EF484521CC0F72"
+			tasks: [{
+				id: "1699C4F178B88589"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/robot1.png"
+					}
+				}
+				entity: "sonicraft:death_egg_robot_player"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "27A61DFD2F01553C"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-robotnik-blood voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "0C1FE33A276F0779"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你已经解锁了蛋头博士血色！想象一下让敌人的鲜血染上你的枪。什么鬼传说！\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "枪 - 亲吻软糖熊"
+			x: 0.0d
+			y: -1.5d
+			id: "2ED780EA6AC71FA7"
+			tasks: [{
+				id: "658B200376839A81"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "potions_plus:textures/eyes.png"
+					}
+				}
+				timer: 1L
+				observe_type: 5
+				to_observe: "candyworld:gummy_bear"
+			}]
+		}
+		{
+			title: "枪 - 杀死软糖熊的家人"
+			x: 0.0d
+			y: -0.25d
+			dependencies: ["2ED780EA6AC71FA7"]
+			id: "03345E4B36330CF4"
+			tasks: [{
+				id: "0F8AD3F03C3A2755"
+				type: "kill"
+				entity: "candyworld:gummy_bear"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "2FE0B18B1D7C7692"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-bear-pee voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "3BF8690DF4E57834"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你已经解锁了软糖熊和拥抱颜色的枪！我只能想象为什么美国绘儿乐会传递那个颜色的名字！\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "枪 - 进入地心世界"
+			x: 1.25d
+			y: -1.5d
+			id: "4A12824FB67562CC"
+			tasks: [{
+				id: "13A897B9DED0A9CA"
+				type: "dimension"
+				dimension: "world_blender:world_blender"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			id: "6BA31B8E3565AFCC"
+			tasks: [{
+				id: "0D1648DD12D661EB"
+				type: "item"
+				title: "枪 - 物品栏中的6种眼睛"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "endrem:witch_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:magical_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:wither_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:guardian_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:old_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:rogue_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:nether_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:cold_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:corrupted_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:black_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:lost_eye"
+								Count: 1b
+							}
+							{
+								id: "endrem:end_crystal_eye"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "22B1E54C97377F1D"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-unicorn-vomit voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "398CDFC06E40A525"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n独角兽呕吐物颜色已解锁！想象一下，一千只独角兽的呕吐物凝聚成一种颜色，让你在杀戮的同时看起来很棒！我们生活在一个多么美好的世界！\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "lycanitesmobs:textures/guis/creatures/arisaur_icon.png"
+				}
+			}
+			x: 1.25d
+			y: -0.25d
+			dependencies: ["4A12824FB67562CC"]
+			id: "561C4E6456994F5B"
+			tasks: [{
+				id: "40E90591CC61E210"
+				type: "kill"
+				title: "枪 - 杀死恐龙"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/arisaur_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:arisaur"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6E288E1169EEA134"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-septiceye voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "02C34DE211A558A9"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你为你所有的枪解锁了一种美丽的绿色，叫做不那么败血病！有人说它给你一千个喝醉的爱尔兰酒吧战士的力量。谁真的知道？\\n\\n早上好，女士！\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.75d
+			y: -1.5d
+			id: "043F82C36D50075E"
+			tasks: [{
+				id: "71465BCC958B4E43"
+				type: "item"
+				item: "mca:baby_boy"
+			}]
+			rewards: [{
+				id: "7B1EE7B34AF549A1"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 2A7E3E3E13889485"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.75d
+			y: -1.5d
+			id: "58A851018C6550BB"
+			tasks: [{
+				id: "03D8FD76825D0139"
+				type: "item"
+				item: "mca:baby_girl"
+			}]
+			rewards: [{
+				id: "5AA0EE17671ED617"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 2A7E3E3E13889485"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.25d
+			y: -0.25d
+			min_required_dependencies: 1
+			dependencies: [
+				"043F82C36D50075E"
+				"58A851018C6550BB"
+			]
+			dependency_requirement: "one_completed"
+			id: "2A7E3E3E13889485"
+			tasks: [{
+				id: "1357AD03CE9853FC"
+				type: "custom"
+				title: "枪 - 生个孩子"
+				icon: "mca:baby_girl"
+			}]
+			rewards: [
+				{
+					id: "553ED8B420393DEF"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-jigglypuff voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "4F505B9CC66F8A46"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n您刚刚为所有枪支解锁了胖丁粉颜色！想象一下那个为了让你看起来像仙女而把所有可爱的小口袋妖怪压死的生物。相当令人印象深刻！\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			id: "6F54678FAEBC4220"
+			tasks: [{
+				id: "5815B75C99870080"
+				type: "stat"
+				title: "枪 - 激活3个传送石碑"
+				icon: "waystones:waystone"
+				stat: "waystones:waystone_activated"
+				value: 3
+			}]
+			rewards: [
+				{
+					id: "1A0356999806CFF0"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:color-alien-iceberg voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "23E4B306968895D6"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n你已经为你所有的枪解锁了外星人冰山的蓝色！有人真的相信泰坦尼克号是冰山沉没的吗？真的像吗？我个人认为这是来自太空的海怪！\"}"
+					player_command: false
+				}
+			]
+		}
+	]
+}
