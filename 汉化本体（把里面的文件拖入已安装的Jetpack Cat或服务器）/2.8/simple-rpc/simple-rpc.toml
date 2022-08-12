@@ -43,7 +43,7 @@
 	#The first line of text under the app name
 	description = "%player%正在计划"
 	#The seconds line of text under the app name
-	state = "杀死可爱的熊猫熊"
+	state = "杀死可爱的熊猫"
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
