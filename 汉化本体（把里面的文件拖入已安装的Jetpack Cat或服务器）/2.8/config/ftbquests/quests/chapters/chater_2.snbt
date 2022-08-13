@@ -1048,7 +1048,7 @@
 			shape: "unicorn"
 			description: [
 				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
-				"当你进入地心（Inner_Earth）维度时接收和记录的电子信号"
+				"当你进入地心维度时接收和记录的电子信号"
 				""
 				"嘿，本的另一条消息来了：你好父亲！我在这段代码中看到的数据称这个维度为地心！这是一个所有其他维度碰撞在一起，而成为单独一个维度的地方。不要指望在这里能找到鞘翅，但我认为其他任何东西都是相当公平的“游戏”。"
 				""
@@ -2408,12 +2408,12 @@
 			x: -7.0d
 			y: -11.08d
 			description: [
-				"&dOpens the party gui"
+				"&d打开派对界面"
 				""
-				"Alternatively you can press the \"End\" button on your keyboard to show the party gui."
+				"或者，您可以按键盘上的“End”键来显示派对界面。"
 				""
-				"&dWhat does a party do?"
-				"A party will add each party members health to the top left of your screen for real-time monitoring of their vital signs."
+				"&d派对会做什么？"
+				"派对会将每个派对成员的生命值添加到屏幕的左上方，以实时监控他们的生命体征。"
 			]
 			size: 2.0d
 			id: "78EAC92F916197A8"

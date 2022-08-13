@@ -349,7 +349,7 @@
 			tasks: [{
 				id: "151AB980FFE8AD22"
 				type: "checkmark"
-				title: "十二种眼！"
+				title: "十二种眼睛！"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b

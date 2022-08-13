@@ -54,7 +54,7 @@
 					id: "2533D6D6A7421D53"
 					type: "command"
 					auto: "invisible"
-					command: "/say 就这样做@p..吃它.. >:]"
+					command: "/say 对，就这样做@p..吃它.. >:]"
 					player_command: false
 				}
 			]

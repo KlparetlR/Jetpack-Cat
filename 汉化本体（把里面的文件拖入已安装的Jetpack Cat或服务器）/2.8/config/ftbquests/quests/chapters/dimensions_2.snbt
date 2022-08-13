@@ -1868,7 +1868,7 @@
 				{
 					id: "5095C8417D2BC379"
 					type: "command"
-					command: "/say 再生激活"
+					command: "/say 再生效果激活"
 					player_command: false
 				}
 			]

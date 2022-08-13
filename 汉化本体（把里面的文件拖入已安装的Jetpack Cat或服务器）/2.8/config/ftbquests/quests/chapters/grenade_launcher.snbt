@@ -405,7 +405,7 @@
 			shape: "secretagent"
 			subtitle: "特务"
 			description: [
-				"&7解锁条件：杀死一只可爱的熊猫熊（Panda_Bear）"
+				"&7解锁条件：杀死一只可爱的熊猫"
 				""
 				"你是精英士兵，詹姆斯·邦德是你的远房亲戚，你已经杀死了419个坏人。"
 				""
@@ -593,7 +593,7 @@
 			x: -4.5d
 			y: -3.0d
 			shape: "secretagent"
-			subtitle: "不那么败血症"
+			subtitle: "没那么化脓眼"
 			description: [
 				"&a解锁条件：进入地心世界并杀死一只绿色恐龙"
 				""
@@ -655,7 +655,7 @@
 			x: -7.5d
 			y: 3.0d
 			shape: "secretagent"
-			subtitle: "波波球粉"
+			subtitle: "胖丁粉"
 			description: [
 				"&d解锁条件：嫁给热情的村民并生孩子"
 				""

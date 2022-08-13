@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "kill_stuff"
-	title: " 死亡笔记"
+	title: " 击杀笔记"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -2186,7 +2186,7 @@
 			y: 7.0d
 			subtitle: "比你想象的要难"
 			description: [
-				"凋灵只能通过使用下面显示的结构生成。找到地狱维度的地下墓穴，收集凿成的枯萎黑石。这个方块只能用下界合金镐开采。"
+				"凋灵只能通过使用下面显示的结构生成。找到地狱维度的地下墓穴，收集錾制凋零黑石。这个方块只能用下界合金镐开采。"
 				""
 				"{image:minecraft:textures/gui/presets/summonwither.png width:100 height:58 align:1 fit:true}"
 			]
