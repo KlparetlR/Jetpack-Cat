@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "kill_stuff"
-	title: " 击杀笔记"
+	title: " 杀戮笔记"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -11,7 +11,7 @@
 			Icon: "minecraft:textures/gui/presets/deathnote.png"
 		}
 	}
-	subtitle: ["个人生物杀戮"]
+	subtitle: ["个人特殊生物杀戮"]
 	default_quest_shape: "unicorn"
 	default_hide_dependency_lines: false
 	quests: [
