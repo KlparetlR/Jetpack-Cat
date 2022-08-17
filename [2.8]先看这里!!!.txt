@@ -1,7 +1,8 @@
-﻿2022-08-16 08:30
-本次更新：任务、BOSS名字、模组汉化修正
+﻿2022-08-17 19:35
+本次更新：全体汉化修正，奇异饰品、音乐唱片汉化补充（最后更新、定档）
 
                                               ☞极为重要！！！
+								 ☞记得确认是否成功加载翻译包和光影
 Ⅰ.如果创建存档时进不去，可以试试单独安装这个整合包在其他地方，正常4G就够，装光影内存至少给6G
 
 Ⅱ.这里不提供整合包本体和修改体以及汉化资源包，但这里有您要下载使用的链接放在下方（也可以用pcl或hmcl下载）：
@@ -25,12 +26,16 @@ https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Lang
 https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G8.jar&x=dce7
 文件名：OptiFine_1.16.5_HD_U_G8.jar
 
+⑸.[可选，籽岷同款]五边形材质包（拉入已安装本体的resourcepacks文件夹）：
+https://sapixcraft.com/downloads/java/index
+文件名：Sapixcraft {数字}x MC1.16.zip
+
 ☞记得确认是否成功加载翻译包和光影
 
 P.S.一些物品可能i18n和翻译包没有汉化，那就您要自己查翻译。
 觉得汉化不对的、不准的，来GitHub，语言节俭点，我尽力
 
-基础信息：[0.8.2] Jetpack Cat 汉化 2.8 by KlparetlR
+基础信息：[0.8.3] Jetpack Cat 汉化 2.8 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/Jetpack-Cat
 
