@@ -163,7 +163,7 @@ customization {
   action = addbutton
   y = -62
   label = 
-  value = jpc 按键绑定
+  value = jpckeybinds
   height = 20
 }
 
@@ -179,7 +179,7 @@ customization {
   actionid = 103ef5ba-a7eb-40f7-887e-fc673078a8981652827388921
   action = addbutton
   y = -39
-  value = 死亡排行榜
+  value = deathleaderboard
   height = 20
 }
 
