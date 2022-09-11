@@ -1,0 +1,105 @@
+type = menu
+
+customization-meta {
+  identifier = patreonsupporters
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/betabg.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  hoversound = config/fancymenu/assets/hover_loudwav.wav
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = 访问我的PATREON
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -117
+  width = 100
+  actionid = d4bd4b07-5088-4e17-aed4-6afcad5cec521657333072929
+  action = addbutton
+  y = 19
+  value = https://www.patreon.com/jetpackcat
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = Patreon支持者 <3
+  text_border = 5
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 7
+  width = 263
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a2bb7490-7ea6-4c65-977c-6a6b5182d3ad1661129060544
+  y = 22
+  alignment = left
+  base_color = ff00ff
+  height = 22
+}
+
+customization {
+  orientation = top-left
+  grabber_texture_normal = config/fancymenu/assets/rick_head.png
+  enable_scrolling = true
+  shadow = false
+  scale = 2.0
+  source = https://github.com/Jetpack-Cat/files/blob/main/texts/patreon
+  grabber_texture_hover = config/fancymenu/assets/rick_head.png
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 8
+  x = 26
+  width = 597
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b9f9d687-2b14-4c98-88d6-f951c9df5d451661129669912
+  y = 54
+  alignment = left
+  height = 273
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  vr:value:language = zh_cn
+  shadow = true
+  scale = 1.0
+  source = 此列表实时更新。如果你在中国，您只会看到上次整合包更新中最新的Patreon支持者。
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -310
+  width = 620
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 28bcd1f6-3f1f-4c75-a514-6d950ccb2c8a1661129907696
+  y = 155
+  vr:showif:language = true
+  alignment = left
+  height = 19
+}
+

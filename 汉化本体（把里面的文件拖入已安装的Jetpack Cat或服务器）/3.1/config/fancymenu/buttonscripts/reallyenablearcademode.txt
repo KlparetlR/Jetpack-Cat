@@ -1,0 +1,4 @@
+sendmessage:/ftbquests change_progress @a complete 24FB6367AE5CB205
+sendmessage:/gamemode creative @a
+sendmessage: 查看你的任务菜单中的街机模式章节
+closegui

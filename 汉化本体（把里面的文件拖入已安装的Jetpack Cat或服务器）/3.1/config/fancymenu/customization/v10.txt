@@ -1,0 +1,1566 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/gradient_purple.jpg
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -344
+  action = movebutton
+  y = -35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 142
+  action = resizebutton
+  height = 81
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\poster_multiplayer_wide2.png
+  backgroundnormal = config\fancymenu\assets\poster_multiplayer_wide2.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = config\fancymenu\assets\hover_loudwav.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = config/fancymenu/assets/coin.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-right
+  x = -49
+  action = movebutton
+  y = -40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = bottom-right
+  x = -130
+  action = movebutton
+  y = -15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 66
+  action = resizebutton
+  height = 16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 设置
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = config\fancymenu\assets\hover_loudwav.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = config/fancymenu/assets/coin.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-right
+  x = -65
+  action = movebutton
+  y = -15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 66
+  action = resizebutton
+  height = 16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 退出游戏
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  path = config\fancymenu\assets\disqualified.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  path = config/fancymenu/assets/coin.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-right
+  x = -25
+  action = movebutton
+  y = -40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -296
+  action = movebutton
+  y = -147
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 71
+  action = resizebutton
+  height = 99
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bg_magenta.png
+  backgroundnormal = config\fancymenu\assets\transparent.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = config\fancymenu\assets\hover_loudwav.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = config/fancymenu/assets/coin.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-right
+  x = -108
+  action = movebutton
+  y = -51
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config\fancymenu\assets\transparent.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 88
+  width = 464
+  action = deep_customization_element:title_screen_forge_top
+  actionid = c7c76f5e-01e5-4beb-a2fd-ec1be8bc0ab01656358502009
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 55d46f60-cb52-4e71-9b4f-23e37eef8c981656358502012
+  y = 417
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 143
+  width = 496
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = e610ef8f-1b8b-43f9-bd12-f224a1b03c871656358502012
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = ff8da71f-2ef6-40fe-9199-b62f76f7fcdc1656358502013
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = f110637a-05d4-405e-acd9-911c2e6e27921656358502013
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 467f4be4-2843-45b2-9354-c45c374f9e7f1656358502013
+  y = 0
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/assets/floor.png
+  orientation = mid-centered
+  x = -452
+  width = 912
+  action = addtexture
+  actionid = 51218e1c-1209-4aa0-a44f-13167212b1b91657260555518
+  y = 81
+  height = 192
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  vr:showif:buttonhovered = true
+  buttonaction = mimicbutton
+  backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
+  label = 
+  vr:value:buttonhovered = a8fd39e8-d68b-4d71-bfa4-47827a1038e11657316417733
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -302
+  width = 83
+  actionid = fee2664e-9299-481e-a8e6-91e07ff367d91657767914669
+  action = addbutton
+  y = -149
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = net.minecraft.client.gui.screen.MainMenuScreen:button_compatibility_id:mc_titlescreen_singleplayer_button
+  height = 111
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = 
+  clicksound = config/fancymenu/assets/nerd.wav
+  loopbackgroundanimations = true
+  x = 236
+  width = 66
+  actionid = b23134c0-0e38-4784-b68d-494806c7e15f1657334196271
+  action = addbutton
+  y = -57
+  value = 
+  height = 94
+}
+
+customization {
+  path = config/fancymenu/assets/jar_iron_golem4.png
+  orientation = mid-centered
+  x = -140
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = e1302e1a-70ff-48ae-b4cb-b500145731c41657328523657
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 1
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  shape = rectangle
+  color = 110e23
+  x = -468
+  width = 965
+  action = addshape
+  actionid = f56fd919-c887-46a1-b39f-3897ecbc1d881657259329494
+  y = 79
+  height = 5
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
+  label = 
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = 158
+  width = 68
+  actionid = bd34d8a4-c2b2-4876-9310-edc9f29f7c851657291492599
+  action = addbutton
+  y = -127
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = https://discord.gg/vQ2n4WZKam
+  height = 68
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
+  label = 
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -216
+  width = 53
+  actionid = ce88a234-d55e-478e-a895-8023b9f059551657291329578
+  action = addbutton
+  y = -127
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = https://github.com/Jetpack-Cat/Jetpack-Cat-Minecraft/wiki
+  height = 70
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
+  label = 
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  hoverlabel = <3
+  x = 230
+  width = 78
+  actionid = 05bb17dd-7f1d-43fd-8ea8-9956dd10caf01650664757673
+  action = addbutton
+  y = -145
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = patreon支持者
+  height = 78
+}
+
+customization {
+  path = config/fancymenu/assets/poster_new_supporters.png
+  orientation = mid-centered
+  x = 234
+  width = 70
+  action = addtexture
+  actionid = 65c0178b-327c-43db-941d-e8e4e83401f61657272420330
+  y = -141
+  height = 70
+}
+
+customization {
+  orientation = mid-centered
+  shape = rectangle
+  color = 110e23
+  x = -148
+  width = 297
+  action = addshape
+  actionid = e669b28a-3726-480b-9586-8c0f71bb11e71644602390722
+  y = 23
+  height = 8
+}
+
+customization {
+  path = config/fancymenu/assets/title_image1.png
+  orientation = mid-centered
+  x = -89
+  width = 177
+  action = addtexture
+  actionid = 4ab61e01-10f3-4db3-8c86-4576052a5e101642567691137
+  y = -124
+  height = 45
+}
+
+customization {
+  hoversound = config/fancymenu/assets/meow.wav
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\transparent.png
+  label = 
+  clicksound = config/fancymenu/assets/meowclick.wav
+  loopbackgroundanimations = true
+  x = -87
+  width = 176
+  actionid = bc39f04e-cf0b-4661-b867-994038cc30341642657729747
+  action = addbutton
+  y = -126
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 38
+}
+
+customization {
+  path = config/fancymenu/assets/broken_creeper_3.png
+  orientation = mid-centered
+  x = 128
+  width = 81
+  action = addtexture
+  actionid = fba9df2f-9ef2-47af-8102-08df1cb9db0f1657200441830
+  y = 87
+  height = 39
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\transparent.png
+  label = 
+  loopbackgroundanimations = true
+  x = 128
+  width = 80
+  actionid = f1845012-709f-436b-bcf1-0d288f35e5871657201388893
+  action = addbutton
+  y = 86
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 33
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\transparent.png
+  label = 
+  loopbackgroundanimations = true
+  x = -63
+  width = 57
+  actionid = 80ee1d8a-a9ae-41f6-8db9-fa7c7aca250d1657201687265
+  action = addbutton
+  y = -65
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 88
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  vr:showif:buttonhovered = true
+  buttonaction = mimicbutton
+  backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
+  label = 
+  vr:value:buttonhovered = ae51a5e3-aeb6-45a0-8a58-16c9cf307d181657686964616
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -310
+  width = 150
+  actionid = 446e8b32-42a1-48ec-a0d8-d48b077fde3a1657316238839
+  action = addbutton
+  y = -35
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = net.minecraft.client.gui.screen.MainMenuScreen:button_compatibility_id:mc_titlescreen_multiplayer_button
+  height = 89
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\transparent.png
+  label = 
+  loopbackgroundanimations = true
+  x = 9
+  width = 59
+  actionid = 50937d05-ba81-429c-a9b9-5885345a2e141657201763551
+  action = addbutton
+  y = -69
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 93
+}
+
+customization {
+  path = config/fancymenu/assets/technoblade_poster3.png
+  orientation = mid-centered
+  x = 234
+  width = 70
+  action = addtexture
+  actionid = 4837055f-dac3-40d5-a6d2-dd2a9ce4eec11657258902277
+  y = -59
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/technoblade_text.png
+  orientation = mid-centered
+  x = 157
+  width = 70
+  action = addtexture
+  actionid = f26ff241-a86c-4b2f-af8d-2dc2e7e1300f1657261119922
+  y = -46
+  height = 68
+}
+
+customization {
+  path = config/fancymenu/assets/jar_only.png
+  orientation = mid-centered
+  x = 83
+  width = 61
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = false
+  action = addtexture
+  actionid = f11c7ae3-8e48-490a-9375-cea519e45e831657270591261
+  y = -73
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6, 7
+  height = 96
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  backgroundhovered = config\fancymenu\assets\poster_play.png
+  label = 
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -298
+  width = 75
+  actionid = a8fd39e8-d68b-4d71-bfa4-47827a1038e11657316417733
+  action = addbutton
+  y = -145
+  backgroundnormal = config\fancymenu\assets\poster_play.png
+  value = net.minecraft.client.gui.screen.MainMenuScreen:button_compatibility_id:mc_titlescreen_singleplayer_button
+  height = 103
+}
+
+customization {
+  orientation = mid-centered
+  name = wither
+  x = 87
+  width = 53
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  actionid = 597c1957-a216-48c5-9f6f-8dc55263a70e1657270562563
+  action = addslideshow
+  y = -49
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 1, 2, 3, 4, 5
+  height = 64
+}
+
+customization {
+  path = config/fancymenu/assets/poster_wiki.png
+  orientation = mid-centered
+  x = -212
+  width = 45
+  action = addtexture
+  actionid = 29053ef4-be5d-4f64-b1eb-29c7c712b1661657272062805
+  y = -123
+  height = 62
+}
+
+customization {
+  path = config/fancymenu/assets/poster_discord.png
+  orientation = mid-centered
+  x = 162
+  width = 60
+  action = addtexture
+  actionid = f32ef602-f188-4100-819a-135830f5ba561657272300767
+  y = -123
+  height = 60
+}
+
+customization {
+  orientation = top-centered
+  shape = rectangle
+  color = #000000
+  x = -500
+  width = 1005
+  action = addshape
+  actionid = b7295c84-cc51-4ed8-8074-2dbee6da67f01657274447709
+  y = 0
+  height = 13
+}
+
+customization {
+  path = config/fancymenu/assets/iron_golem_8.png
+  orientation = mid-left
+  x = 785
+  width = 51
+  action = addtexture
+  actionid = 0dd3ec1b-5495-466e-9005-3993c6686ec91657275690854
+  y = 40
+  height = 51
+}
+
+customization {
+  path = config/fancymenu/assets/infected_morty.png
+  orientation = mid-right
+  x = -824
+  width = 26
+  action = addtexture
+  actionid = 517139a7-5967-497d-852c-c564e7d3e9e21657275748461
+  y = 47
+  height = 46
+}
+
+customization {
+  path = config/fancymenu/assets/speech_i_need_a_hospital.png
+  orientation = mid-right
+  x = -836
+  width = 51
+  action = addtexture
+  actionid = 78eb550d-483a-4353-9ff8-d0764a7173331657275920984
+  y = 19
+  height = 29
+}
+
+customization {
+  path = config/fancymenu/assets/speech_wide_monitor_gang.png
+  orientation = mid-left
+  x = 785
+  width = 52
+  action = addtexture
+  actionid = e3659102-d1c2-4bde-a41d-c18a358f21f11657275937836
+  y = 1
+  height = 38
+}
+
+customization {
+  path = config/fancymenu/assets/run_jerry_ah_my_foot.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = 117
+  width = 48
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = false
+  action = addtexture
+  actionid = a4a7bb10-6113-4710-8b72-89b1f1cb2bba1657201302917
+  y = 59
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  vr:value:buttonhovered = f1845012-709f-436b-bcf1-0d288f35e5871657201388893
+  height = 37
+}
+
+customization {
+  path = config/fancymenu/assets/gameover.png
+  orientation = mid-centered
+  x = -35
+  width = 72
+  action = addtexture
+  actionid = 6a031592-ad1b-4053-8b17-603507cb04ec1650248546099
+  y = -155
+  height = 16
+}
+
+customization {
+  path = config/fancymenu/assets/golemfriend1.png
+  orientation = mid-centered
+  x = 168
+  width = 33
+  action = addtexture
+  actionid = 93e8d995-67dc-4609-b67d-f922cb56ace11657275541906
+  y = -154
+  height = 33
+}
+
+customization {
+  path = config/fancymenu/assets/jar_creeper2.png
+  orientation = mid-centered
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 7477fa96-1512-4751-a0b6-9d02fe5529871657328460629
+  y = -64
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 1
+  height = 87
+}
+
+customization {
+  orientation = bottom-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.0
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
+  label = 
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 4.0
+  x = 0
+  width = 135
+  actionid = 6f72d9cf-6462-470b-bd2b-7f2324f9b2651657341693014
+  action = addbutton
+  y = -80
+  delayappearance = true
+  vr:showif:language = false
+  backgroundnormal = config\fancymenu\assets\bg_button_darkbg.png
+  value = %webtext:https://raw.githubusercontent.com/Jetpack-Cat/files/main/youtubelink/latest_video%
+  delayappearanceeverytime = false
+  height = 80
+}
+
+customization {
+  path = config/fancymenu/assets/jar_skeleton3.png
+  orientation = mid-centered
+  x = 9
+  width = 58
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = a7b34c25-ad2f-4410-841f-f77c9439630e1657328566614
+  y = -68
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 1
+  height = 91
+}
+
+customization {
+  path = config/fancymenu/assets/speech_you_can_do_it.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = 8
+  width = 59
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 7944bc87-22e7-4733-b582-fd62b5c7286c1657259095710
+  y = -104
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 2
+  vr:value:buttonhovered = 50937d05-ba81-429c-a9b9-5885345a2e141657201763551
+  height = 37
+}
+
+customization {
+  path = config/fancymenu/assets/run_jerry2.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = -59
+  width = 48
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = cc4b071e-3c35-4b89-926c-64f64ce6467b1657201182566
+  y = -100
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 1
+  vr:value:buttonhovered = 80ee1d8a-a9ae-41f6-8db9-fa7c7aca250d1657201687265
+  height = 37
+}
+
+customization {
+  orientation = mid-centered
+  slim = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = false
+  scale = 23
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 7
+  headrotationy = 0.0
+  headrotationx = 180.0
+  autorotation = false
+  showname = false
+  crouching = false
+  x = -114
+  actionid = 948526d8-0ce9-47af-aff6-db82f8ac29001657664646637
+  action = addentity
+  y = -76
+  playername = %playername%
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  backgroundhovered = config\fancymenu\assets\poster_multiplayer_wide2.png
+  label = 
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -306
+  width = 142
+  actionid = ae51a5e3-aeb6-45a0-8a58-16c9cf307d181657686964616
+  action = addbutton
+  y = -31
+  backgroundnormal = config\fancymenu\assets\poster_multiplayer_wide2.png
+  value = net.minecraft.client.gui.screen.MainMenuScreen:button_compatibility_id:mc_titlescreen_multiplayer_button
+  height = 81
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundanimationhovered = anim_reflection_100x200
+  buttonaction = openlink
+  label = 
+  loopbackgroundanimations = true
+  x = -289
+  width = 57
+  actionid = e304d1d6-b4ba-40cf-908a-1cd92a1343b41657750813899
+  action = addbutton
+  y = -136
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 85
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundanimationhovered = anim_reflection_200x100
+  buttonaction = openlink
+  label = 
+  loopbackgroundanimations = true
+  x = -298
+  width = 126
+  actionid = 505cf3db-4bb9-4124-9e6a-d05d5a4df6b41657750979339
+  action = addbutton
+  y = -24
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 66
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundanimationhovered = anim_reflection_100x100
+  buttonaction = openlink
+  label = 
+  loopbackgroundanimations = true
+  x = 168
+  width = 48
+  actionid = 9c80b038-ba87-4aaa-b4a0-700857558b5e1657765502684
+  action = addbutton
+  y = -117
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 48
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundanimationhovered = anim_reflection_100x200
+  vr:showif:buttonhovered = true
+  buttonaction = openlink
+  label = 
+  vr:value:buttonhovered = 29053ef4-be5d-4f64-b1eb-29c7c712b1661657272062805
+  loopbackgroundanimations = true
+  x = -204
+  width = 29
+  actionid = 3e7d4095-1b9f-4b42-b982-ebd9d45d440e1657766705687
+  action = addbutton
+  y = -115
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 46
+}
+
+customization {
+  hoversound = config/fancymenu/assets/beta.wav
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  backgroundanimationhovered = anim_reflection_100x100
+  vr:showif:buttonhovered = true
+  buttonaction = openlink
+  description = <3
+  label = 
+  vr:value:buttonhovered = 65c0178b-327c-43db-941d-e8e4e83401f61657272420330
+  loopbackgroundanimations = true
+  x = 242
+  width = 55
+  actionid = 0119f747-21a5-4e61-acd8-52eee45cf6b21657767101888
+  action = addbutton
+  y = -134
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 56
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = false
+  backgroundhovered = config\fancymenu\assets\transparent.png
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 7
+  label = 
+  clicksound = config/fancymenu/assets/doofuspoop1.wav
+  loopbackgroundanimations = true
+  x = -126
+  width = 24
+  actionid = 8c4bcc98-30c2-408a-b692-9f64776a71c41657767208845
+  action = addbutton
+  y = -121
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 45
+}
+
+customization {
+  path = config/fancymenu/assets/jar_creeper5.png
+  orientation = mid-centered
+  x = 9
+  width = 58
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = f6471a74-7cb1-454e-802b-380119289b5d1657863380506
+  y = -68
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 4
+  height = 91
+}
+
+customization {
+  path = config/fancymenu/assets/jar_enderman_blue.png
+  orientation = mid-centered
+  x = -141
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 8de1ace6-db9d-4cfb-96d7-78d6fcc763981657863388265
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 4
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/jar_iron_golem.png
+  orientation = mid-centered
+  x = -140
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 13d6d425-9e36-4808-bd7f-872b1e7e28f51657863398492
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 3
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/jar_iron_golem1.png
+  orientation = mid-centered
+  x = -140
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = c666eda5-77cc-469c-a259-15ed69368e211657863404653
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 2
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/jar_iron_golem2.png
+  orientation = mid-centered
+  x = -140
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = b55cea6c-5aa3-4eed-9df0-2cc6cb7c81061657863412892
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 7
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/jar_iron_golem3.png
+  orientation = mid-centered
+  x = -140
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 53f67645-11cf-4d34-ae3e-4e1cb6e0bf301657863422769
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 5
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/jar_iron_golem5.png
+  orientation = mid-centered
+  x = -140
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 2dd334f6-c516-4bb6-b981-d50d64d1cef11657863436350
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/jar_piglin1.png
+  orientation = mid-centered
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = e1fc46eb-83f2-4e78-9448-3115a2449f551657863452969
+  y = -64
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 7
+  height = 87
+}
+
+customization {
+  path = config/fancymenu/assets/jar_piglin2.png
+  orientation = mid-centered
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 98fd8142-199f-470a-a10c-21f20045c4381657863459972
+  y = -64
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  height = 87
+}
+
+customization {
+  path = config/fancymenu/assets/jar_piglin3.png
+  orientation = mid-centered
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 812afb8c-c7c2-4ae0-8681-7fd89a9622771657863466912
+  y = -64
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 5
+  height = 87
+}
+
+customization {
+  path = config/fancymenu/assets/jar_piglin4.png
+  orientation = mid-centered
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = b7dc3407-5924-477b-a400-b7accd2ceae31657863475436
+  y = -64
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 4
+  height = 87
+}
+
+customization {
+  path = config/fancymenu/assets/jar_piglin5.png
+  orientation = mid-centered
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 7088e4ee-c5bf-4c29-b340-a4a8bb45d5001657863481942
+  y = -64
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 3
+  height = 87
+}
+
+customization {
+  path = config/fancymenu/assets/jar_piglin6.png
+  orientation = mid-centered
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 5985686e-a6f8-44fd-ad65-1ca29436a8ca1657863489950
+  y = -64
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 2
+  height = 87
+}
+
+customization {
+  path = config/fancymenu/assets/jar_skeleton2.png
+  orientation = mid-centered
+  x = 9
+  width = 58
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 4810652c-d27c-42d7-bc80-a76fb5502a1d1657863508209
+  y = -68
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  height = 91
+}
+
+customization {
+  path = config/fancymenu/assets/jar_skeleton4.png
+  orientation = mid-centered
+  x = 9
+  width = 58
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 1274f5df-17a0-418e-a0e5-f8b46e2171b21657863522505
+  y = -68
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 5
+  height = 91
+}
+
+customization {
+  path = config/fancymenu/assets/jar_skeleton5.png
+  orientation = mid-centered
+  x = 9
+  width = 58
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 21849a06-36cb-4a96-938e-a9cfb8d353071657863529313
+  y = -68
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 7
+  height = 91
+}
+
+customization {
+  path = config/fancymenu/assets/jar_skeleton6.png
+  orientation = mid-centered
+  x = 9
+  width = 58
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = c76ae7d5-73cb-4a10-89b9-26474466ada01657863538054
+  y = -68
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 3
+  height = 91
+}
+
+customization {
+  path = config/fancymenu/assets/jar_skeleton7.png
+  orientation = mid-centered
+  x = 9
+  width = 58
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 4a8231fd-5abe-485a-8490-1975fda18a591657863553153
+  y = -68
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 2
+  height = 91
+}
+
+customization {
+  path = config/fancymenu/assets/jar.png
+  orientation = mid-centered
+  x = -140
+  width = 62
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 5962898a-1d66-4b89-b9ed-b1b1fdb1ac001657864072079
+  y = -76
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 3
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  name = animation_smoke
+  x = -4
+  width = 31
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  actionid = 4d8066af-cf2b-4499-b89a-646e2b98748b1658545447093
+  action = addanimation
+  y = -55
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  height = 42
+}
+
+customization {
+  orientation = mid-centered
+  name = wither
+  x = 100
+  width = 53
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  actionid = 424a8296-f9df-46ff-bd3e-69c5d52d84de1657864934470
+  action = addslideshow
+  y = -152
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  height = 64
+}
+
+customization {
+  path = config/fancymenu/assets/jar_lid_off.png
+  orientation = mid-centered
+  x = 134
+  width = 33
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 1e64aa02-317e-423a-b609-425c78316d7e1657865434473
+  y = -79
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6, 7
+  height = 33
+}
+
+customization {
+  path = config/fancymenu/assets/jar_only_notop.png
+  orientation = mid-centered
+  x = 83
+  width = 61
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 382c5555-7e1f-4045-b99f-e7e7203e6e741657865452904
+  y = -72
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6, 7
+  height = 96
+}
+
+customization {
+  orientation = mid-centered
+  name = ar
+  x = -93
+  width = 195
+  actionid = dc1160fa-6b09-4aad-904c-6fa7d8fc93a11651617956881
+  action = addslideshow
+  y = -106
+  height = 236
+}
+
+customization {
+  orientation = mid-centered
+  slim = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  scale = 23
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 7
+  headrotationy = -25.0
+  headrotationx = 180.0
+  autorotation = false
+  showname = false
+  crouching = false
+  x = 113
+  actionid = 0a7c2e29-a08d-450e-9031-08b6e15ca61a1657866490506
+  action = addentity
+  y = 20
+  playername = %playername%
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  vr:showif:buttonhovered = false
+  name = animation_laser
+  x = -255
+  width = 255
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  actionid = 451ad683-e89d-463e-ab21-587d77d0119b1657793070883
+  action = addanimation
+  y = -87
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 5
+  vr:value:buttonhovered = 80ee1d8a-a9ae-41f6-8db9-fa7c7aca250d1657201687265
+  height = 80
+}
+
+customization {
+  path = config/fancymenu/assets/run_jerry_he_dead.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = 11
+  width = 53
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = dab88a72-dd97-47be-93c7-3019503bb4181657883395402
+  y = -106
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 3
+  vr:value:buttonhovered = 50937d05-ba81-429c-a9b9-5885345a2e141657201763551
+  height = 40
+}
+
+customization {
+  path = config/fancymenu/assets/speech_bluh.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = -62
+  width = 55
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 736c0271-37d0-43e1-8f95-352f19faca841658546108093
+  y = -95
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  vr:value:buttonhovered = 80ee1d8a-a9ae-41f6-8db9-fa7c7aca250d1657201687265
+  height = 28
+}
+
+customization {
+  path = config/fancymenu/assets/speech_die_pig.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = 17
+  width = 42
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 20d7e0f0-7d75-4141-a1d7-54630a2e0a221658546115867
+  y = -106
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  vr:value:buttonhovered = 50937d05-ba81-429c-a9b9-5885345a2e141657201763551
+  height = 35
+}
+
+customization {
+  path = config/fancymenu/assets/speech_she_needs_milk.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = -153
+  width = 79
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 36ca7bd8-d2fe-4abd-bbc7-0638e85a61211658546554164
+  y = -157
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  vr:value:buttonhovered = 8c4bcc98-30c2-408a-b692-9f64776a71c41657767208845
+  height = 33
+}
+
+customization {
+  path = config/fancymenu/assets/speech_think_im_dying.png
+  orientation = mid-centered
+  vr:showif:buttonhovered = true
+  x = 103
+  width = 77
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  action = addtexture
+  actionid = 803f83a4-bb4b-49a1-af0c-7fad08f724621658546770679
+  y = 56
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  vr:value:buttonhovered = f1845012-709f-436b-bcf1-0d288f35e5871657201388893
+  height = 37
+}
+
+customization {
+  hoversound = config/fancymenu/assets/stronger.wav
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  label = 什么是新的！
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -48
+  width = 100
+  actionid = fd8c69b3-cb6c-4b91-9447-be6c536331931660989477363
+  action = addbutton
+  y = -157
+  value = 什么是新的
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  vr:value:language = zh_cn
+  delayappearanceseconds = 2.0
+  path = config/fancymenu/assets/yt_icon.png
+  fadein = true
+  fadeinspeed = 4.0
+  x = 41
+  width = 50
+  action = addtexture
+  actionid = 658b06e2-203b-4542-a0c7-d29f0003def21662501884890
+  y = 399
+  delayappearance = true
+  vr:showif:language = false
+  delayappearanceeverytime = false
+  height = 35
+}
+
+customization {
+  orientation = bottom-left
+  vr:value:language = zh_cn
+  delayappearanceseconds = 2.0
+  url = https://github.com/Jetpack-Cat/files/blob/main/youtubelink/latest_thumbnail.png?raw=true
+  fadein = true
+  fadeinspeed = 4.0
+  x = 4
+  width = 125
+  action = addwebtexture
+  actionid = 4df76187-5c66-481b-a606-ceb93d8765b41661725439423
+  y = -74
+  delayappearance = true
+  vr:showif:language = false
+  delayappearanceeverytime = false
+  height = 68
+}
+
+customization {
+  orientation = bottom-left
+  vr:value:language = zh_cn
+  vr:showif:buttonhovered = false
+  delayappearanceseconds = 2.5
+  vr:value:buttonhovered = 03d9b6fd-c524-4ba0-9a0c-fa161e008acd1657782109671
+  path = config/fancymenu/assets/speech_latest_video.png
+  fadein = true
+  fadeinspeed = 4.0
+  x = 28
+  width = 76
+  action = addtexture
+  actionid = c1ee8bd9-7887-40d1-a83a-5737c72175fc1661611285367
+  y = -92
+  delayappearance = true
+  vr:showif:language = false
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  hoversound = config/fancymenu/assets/goodjob.wav
+  orientation = bottom-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  backgroundanimationhovered = anim_reflection_200x100
+  delayappearanceseconds = 3.0
+  buttonaction = openlink
+  label = 
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 10.0
+  x = 4
+  width = 125
+  actionid = 03d9b6fd-c524-4ba0-9a0c-fa161e008acd1657782109671
+  action = addbutton
+  y = -74
+  delayappearance = true
+  vr:showif:language = false
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  delayappearanceeverytime = false
+  height = 68
+}
+
+customization {
+  orientation = bottom-left
+  vr:value:language = zh_cn
+  vr:showif:buttonhovered = true
+  delayappearanceseconds = 2.5
+  vr:value:buttonhovered = 03d9b6fd-c524-4ba0-9a0c-fa161e008acd1657782109671
+  path = config/fancymenu/assets/speech_latest_video.png
+  fadein = true
+  fadeinspeed = 4.0
+  x = 28
+  width = 76
+  action = addtexture
+  actionid = 823d2d12-ce3d-496f-8cdf-bca42fdf4e441661726061558
+  y = -98
+  delayappearance = true
+  vr:showif:language = false
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\transparent.png
+  label = 
+  clicksound = config/fancymenu/assets/krombopulos.wav
+  loopbackgroundanimations = true
+  x = -74
+  width = 156
+  actionid = 77dac3ea-9107-477f-ac71-79eec17b24c11661847327741
+  action = addbutton
+  y = -21
+  backgroundnormal = config\fancymenu\assets\transparent.png
+  value = 
+  height = 115
+}
+
+customization {
+  hoversound = config/fancymenu/assets/mortyhaha.wav
+  orientation = bottom-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.0
+  buttonaction = openlink
+  label = YOUTUBE
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 4.0
+  x = 134
+  width = 66
+  actionid = 8e2e6d06-1df0-46ec-b2df-4bb527c3ace91661959708338
+  action = addbutton
+  y = -16
+  delayappearance = true
+  vr:showif:language = false
+  value = https://www.youtube.com/channel/UCpbZjb0o2Nx9MTrIOjeuL_w
+  delayappearanceeverytime = false
+  height = 18
+}
+

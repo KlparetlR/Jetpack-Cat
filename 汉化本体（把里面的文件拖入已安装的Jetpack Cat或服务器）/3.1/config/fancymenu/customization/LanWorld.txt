@@ -1,0 +1,194 @@
+type = menu
+
+customization-meta {
+  identifier = io.github.satxm.mcwifipnp.ShareToLanScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  shape = rectangle
+  color = #1c1a23
+  x = -155
+  width = 311
+  action = addshape
+  actionid = 07a9d611-e8ac-4fe9-bc66-afbe0c0538141651137934135
+  y = -147
+  height = 101
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -144
+  action = addtext
+  actionid = d36a5dfe-8f73-4a54-9b01-6a46e7609f041651137292941
+  y = -134
+  scale = 0.75
+  alignment = left
+  value = §e§l您现在可以轻松地与互联网上的朋友一起玩！
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -144
+  action = addtext
+  actionid = 42c66c16-56e8-4dae-935e-f73e28e310391651137668454
+  y = -118
+  scale = 0.75
+  alignment = left
+  value = §d§l说明：§r§f点击下方的“开始世界”按钮，然后
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -144
+  action = addtext
+  actionid = c7fa00d0-2859-4898-aeac-12bcc35262731651137717213
+  y = -94
+  scale = 0.75
+  alignment = left
+  value = 单击其中一个要复制的绿色文本，然后与您的朋友分享。
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -144
+  action = addtext
+  actionid = dc033d94-bd4a-4370-8714-d8774d81f9f81651137596521
+  y = -106
+  scale = 0.75
+  alignment = left
+  value = 等待一分钟，让它说“成功公开§a[IPv4][IPv6]§f”
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -144
+  action = addtext
+  actionid = 241e4004-0cfb-4189-8cd3-a145500fb3821651138748880
+  y = -82
+  scale = 0.75
+  alignment = left
+  value = 让您的§e朋友§f点击主菜单上的“多人游戏”，然后点击“添加服务器”
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -144
+  action = addtext
+  actionid = f673c752-ec9b-4b29-b338-a8a114e5dc941651138856056
+  y = -70
+  scale = 0.75
+  alignment = left
+  value = 并将该地址粘贴到“服务器地址”框中。死在一起很开心！
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -227
+  width = 48
+  actionid = 560dd90c-feaa-41c1-bc8b-14f3e0c5e65a1651223265697
+  action = addbutton
+  y = -116
+  label = 
+  value = 
+  height = 24
+}
+
+customization {
+  path = config/fancymenu/assets/golemfriend1.png
+  orientation = bottom-centered
+  x = -253
+  width = 100
+  action = addtexture
+  actionid = 231ece26-69e6-410b-b013-6e9bc5dfa44a1651223074098
+  y = -146
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/sunglasses.png
+  orientation = bottom-centered
+  vr:showif:buttonhovered = true
+  x = -215
+  width = 24
+  action = addtexture
+  actionid = 186eb561-3ff6-4dd5-aaa7-3b347083bac11651223170094
+  y = -139
+  vr:value:buttonhovered = 560dd90c-feaa-41c1-bc8b-14f3e0c5e65a1651223265697
+  height = 24
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -287
+  width = 48
+  actionid = ecec8fd6-24f6-4e45-ad6b-2dc499472d591651223593084
+  action = addbutton
+  y = -116
+  label = 
+  value = 
+  height = 24
+}
+
+customization {
+  path = config/fancymenu/assets/golemfriend2.png
+  orientation = bottom-centered
+  x = -314
+  width = 100
+  action = addtexture
+  actionid = 04f1726e-13ff-4ce8-8393-ab7311b6a8d71651223080333
+  y = -146
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/sunglasses.png
+  orientation = bottom-centered
+  vr:showif:buttonhovered = true
+  x = -276
+  width = 24
+  action = addtexture
+  actionid = 93fa3486-4094-4431-9f76-3c3d136fc4681651223574995
+  y = -139
+  vr:value:buttonhovered = ecec8fd6-24f6-4e45-ad6b-2dc499472d591651223593084
+  height = 24
+}
+
+customization {
+  identifier = %id=345972%
+  action = setbuttonlabel
+  value = 开始世界
+}
+
+customization {
+  identifier = %id=55866%
+  action = setbuttonlabel
+  value = LAN
+}
+
