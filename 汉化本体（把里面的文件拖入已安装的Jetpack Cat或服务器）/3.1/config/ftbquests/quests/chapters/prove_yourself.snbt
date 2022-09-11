@@ -1,0 +1,362 @@
+{
+	id: "088014860AAAE302"
+	group: ""
+	order_index: 3
+	filename: "prove_yourself"
+	title: " 证明自己"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "randomloot:textures/items/sword/31.png"
+		}
+	}
+	default_quest_shape: "secretagent"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -2.25d
+			description: [
+				"每次击败母亲（末影龙），她都会变得更强。击败她六次，证明你不是一个大婴儿。"
+				""
+				"你大概是做不到的，我就只是说着玩玩^_^"
+				""
+				"你个大婴儿。"
+			]
+			dependencies: ["4A14A6C6A82B3B11"]
+			hide: true
+			size: 2.0d
+			id: "182403BAEE4784FB"
+			tasks: [{
+				id: "6A2AB785A411D19F"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5FDE68DF2F256F37"
+				type: "item"
+				item: "randomloot:titan_case"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			dependencies: [
+				"00017E93A25BC920"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "6542A1A27682D853"
+			tasks: [{
+				id: "40FA53C9C1EC567E"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 6L
+			}]
+			rewards: [{
+				id: "74AB2CB0DD0F2270"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 6
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.25d
+			dependencies: [
+				"182403BAEE4784FB"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "14B156E55A55D73E"
+			tasks: [{
+				id: "4531E41F4EA0D39B"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 2L
+			}]
+			rewards: [{
+				id: "50912BE8D71C04FA"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: [
+				"0942825DA09CED46"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "00017E93A25BC920"
+			tasks: [{
+				id: "312644D9331ED81D"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 5L
+			}]
+			rewards: [{
+				id: "3AD5F73736199F64"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.25d
+			dependencies: [
+				"14B156E55A55D73E"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "7D75B172A05CA700"
+			tasks: [{
+				id: "683E9AC92318261F"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 3L
+			}]
+			rewards: [{
+				id: "36EF4E856DEF69C9"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: [
+				"7D75B172A05CA700"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "0942825DA09CED46"
+			tasks: [{
+				id: "71C9A20392E2CFC1"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 4L
+			}]
+			rewards: [{
+				id: "0111CDEE95F9D3B6"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			description: ["Others will look at you with admiration, you are... the bomb."]
+			dependencies: [
+				"6542A1A27682D853"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "43D551943CE9EF6E"
+			tasks: [{
+				id: "063EA24ABFB23CB9"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 7L
+			}]
+			rewards: [{
+				id: "02DD4EAA9B5DE7AF"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 7
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: [
+				"761D892EAB1272FA"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "1AAC49271CE41DAE"
+			tasks: [{
+				id: "7D3A55F7DD776949"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 6L
+			}]
+			rewards: [{
+				id: "079C1DE4384EF597"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 6
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.25d
+			description: [
+				"每次击败凋零，它都会变得更强。击败它六次，证明你不是一个菜鸡吧！"
+				""
+				"该章节是菜鸡禁入的，你大概是不能完成的。"
+				""
+				"你不是个菜鸡...或者确实就是？"
+			]
+			dependencies: ["4A14A6C6A82B3B11"]
+			hide: true
+			size: 2.0d
+			id: "192787A21EE350AB"
+			tasks: [{
+				id: "3FEA1960CCA307EA"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1841DC8013352EFA"
+				type: "item"
+				item: "randomloot:titan_case"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.25d
+			dependencies: [
+				"192787A21EE350AB"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "1511E35BA28C7C44"
+			tasks: [{
+				id: "100CD21D9BF40CCA"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 2L
+			}]
+			rewards: [{
+				id: "7FF8C68846F7DBD5"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: [
+				"05E8750578561C7D"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "761D892EAB1272FA"
+			tasks: [{
+				id: "0DA65A5A17F1F38B"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 5L
+			}]
+			rewards: [{
+				id: "012964A2D76D7E6F"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 5
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: [
+				"5D0FA6CE6F32F73B"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "05E8750578561C7D"
+			tasks: [{
+				id: "494BD2EA5B1E4644"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 4L
+			}]
+			rewards: [{
+				id: "1CD3E708781A1301"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.25d
+			dependencies: [
+				"1511E35BA28C7C44"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "5D0FA6CE6F32F73B"
+			tasks: [{
+				id: "2BA0955AD4D1D784"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 3L
+			}]
+			rewards: [{
+				id: "4EF5301B76A88EC5"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: ["你是个疯子！"]
+			dependencies: [
+				"1AAC49271CE41DAE"
+				"4A14A6C6A82B3B11"
+			]
+			hide: true
+			size: 2.0d
+			id: "60B7DACB8A85DDC0"
+			tasks: [{
+				id: "20FE74514DD7DBB0"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 7L
+			}]
+			rewards: [{
+				id: "37281414548CFF80"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 7
+			}]
+		}
+	]
+}

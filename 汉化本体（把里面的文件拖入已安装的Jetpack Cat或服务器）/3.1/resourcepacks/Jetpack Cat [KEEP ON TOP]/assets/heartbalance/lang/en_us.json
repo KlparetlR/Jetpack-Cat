@@ -1,8 +1,0 @@
-{
-	"item.heartbalance.refill_heart":"Skull Health",
-	"item.heartbalance.half_heart":"Health Pickup",
-	"item.heartbalance.full_heart":"Small Health Pickup",
-	"item.heartbalance.refill_heart.tooltip":"Gives 10 skulls of health on use",
-	"item.heartbalance.half_heart.tooltip":"Heals on contact",
-	"item.heartbalance.full_heart.tooltip":"Heals on contact"
-}
