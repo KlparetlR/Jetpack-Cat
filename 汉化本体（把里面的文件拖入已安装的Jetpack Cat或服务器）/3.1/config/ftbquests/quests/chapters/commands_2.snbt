@@ -3,7 +3,7 @@
 	group: "2962FB6DD0692CEB"
 	order_index: 2
 	filename: "commands_2"
-	title: "指令2"
+	title: " 指令"
 	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

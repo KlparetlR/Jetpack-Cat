@@ -164,7 +164,7 @@
 		{
 			x: -5.0d
 			y: 2.5d
-			description: ["Others will look at you with admiration, you are... the bomb."]
+			description: ["别人会钦佩地看着你，你是……核弹。"]
 			dependencies: [
 				"6542A1A27682D853"
 				"4A14A6C6A82B3B11"
