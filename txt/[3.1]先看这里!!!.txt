@@ -1,7 +1,8 @@
-﻿2022-09-11 09:00
-本次更新：3.1汉化更新，汉化内容修正，增加18个模组汉化（additionalguns、cosmoslibrary、curios、dummmmmmy、equipmentcompare、geckolib3、hats、heb、libraryferret、mca、mmoparties、nimble、packedup、progressivebosses、selene、skyvillages、travelerstitles、warpedpots）
+﻿2022-09-24 14:00
+本次更新：修复语音汉化文件丢失（覆盖错了）
 [小部分来源于根号的物品汉化，并且有删改，已获得同意]{图片汉化字体：IPix，非商用}
-警告!：
+
+                                                警告!：
 
 1.从以前的版本更新到v3或3.1将清除您的玩家物品栏（是您的玩家物品栏中的内容，而不是您的箱子中的内容）。在更新之前把你所有的东西放在一个箱子里。
 
@@ -42,7 +43,7 @@ https://sapixcraft.com/downloads/java/index
 P.S.一些物品可能i18n和翻译包没有汉化，那就您要自己查翻译。
 觉得汉化不对的、不准的，来GitHub，语言节俭点，我尽力
 
-基础信息：[0.9.0] Jetpack Cat 汉化 3.1 by KlparetlR
+基础信息：[0.9.9] Jetpack Cat 汉化 3.1 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/Jetpack-Cat
 
