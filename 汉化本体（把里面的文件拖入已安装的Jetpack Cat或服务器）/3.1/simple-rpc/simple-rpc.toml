@@ -25,7 +25,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -47,7 +47,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -69,7 +69,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -91,7 +91,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -113,7 +113,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -135,7 +135,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -157,7 +157,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -179,7 +179,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -199,7 +199,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "%playerhead%"
 	#The text that gets displayed when the small image is hovered
@@ -221,7 +221,7 @@
 		description = "%player%在地球2号上！"
 		state = "射击怪物！"
 		largeImageKey = "overworld"
-		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 		smallImageKey = "%playerhead%"
 		smallImageText = "%player%"
 		buttons = []
@@ -231,7 +231,7 @@
 		description = "%player%在地狱！"
 		state = "可能死于飞行的头骨"
 		largeImageKey = "nether"
-		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 		smallImageKey = "%playerhead%"
 		smallImageText = "%player%"
 		buttons = []
@@ -241,7 +241,7 @@
 		description = "%player%在末地！"
 		state = "完成故事"
 		largeImageKey = "end"
-		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 		smallImageKey = "%playerhead%"
 		smallImageText = "%player%"
 		buttons = []
@@ -251,7 +251,7 @@
 		description = "%player%在8bit世界！"
 		state = "要去杀了蛋头博士！"
 		largeImageKey = "mobius"
-		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 		smallImageKey = "%playerhead%"
 		smallImageText = "%player%"
 		buttons = []
@@ -261,7 +261,7 @@
 		description = "%player%在零空间！"
 		state = "他们很快就会死去..."
 		largeImageKey = "mclogonew"
-		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 		smallImageKey = "%playerhead%"
 		smallImageText = "%player%"
 		buttons = []
@@ -271,7 +271,7 @@
 		description = "%player%在地心！"
 		state = "骑马和杀死恐龙"
 		largeImageKey = "world_blender"
-		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 		smallImageKey = "%playerhead%"
 		smallImageText = "%player%"
 		buttons = []
@@ -281,7 +281,7 @@
 		description = "%player%在软糖之地！"
 		state = "找到小熊软糖，好吃！"
 		largeImageKey = "candy_world"
-		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个孩子..."
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
 		smallImageKey = "%playerhead%"
 		smallImageText = "%player%"
 		buttons = []
