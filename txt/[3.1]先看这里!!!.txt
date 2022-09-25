@@ -1,6 +1,6 @@
-﻿2022-09-24 17:31
+﻿2022-09-25 12:44
 汉化为拖入覆盖汉化形式
-本次更新：补充汉化，任务三审开始
+本次更新：补充汉化，新增模组汉化（essential）
 [小部分来源于根号的物品汉化，并且有删改，已获得同意]{图片汉化字体：IPix，非商用}
 
                                                 警告!：
@@ -26,7 +26,8 @@ https://www.curseforge.com/minecraft/modpacks/jetpack-cat/download/3974247
 https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/3538356
 文件名：i18nupdatemod-1.16.5-2.0.3.jar
 resourcepacks文件夹中：Minecraft-Mod-Language-Package-1-16.zip
-[如果无法加载模组，请到（https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/releases）,点开“Assets”，一个一个找，直到有“Minecraft-Mod-Language-Package-1.16.zip”的字样，下载拖入resourcepacks文件夹中，并在游戏中加载]
+
+【目前3.1版本无法加载该模组，请到（https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/releases）,点开“Assets”，一个一个找，直到有“Minecraft-Mod-Language-Package-1.16.zip”的字样，下载拖入resourcepacks文件夹中，并在游戏中加载】
 
 ⑶.[可选，可能有用] 安逸菌汉化组的模组简体中文翻译包（拉入已安装本体的resourcepacks文件夹）：
 https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Language-Package
@@ -46,7 +47,7 @@ https://sapixcraft.com/downloads/java/index
 P.S.一些物品可能i18n和翻译包没有汉化，那就您要自己查翻译。
 觉得汉化不对的、不准的，来GitHub，语言节俭点，我尽力
 
-基础信息：[1.0.0] Jetpack Cat 汉化 3.1 by KlparetlR
+基础信息：[1.0.1] Jetpack Cat 汉化 3.1 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/Jetpack-Cat
 

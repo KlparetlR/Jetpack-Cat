@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "黑市V1.0"
+	title: "黑市V1.0.1"
 	icon: "ftbquests:book"
 	default_reward_team: false
 	default_consume_items: false
@@ -17,5 +17,5 @@
 	disable_gui: false
 	grid_scale: 0.25d
 	pause_game: false
-	lock_message: "Nice try kid"
+	lock_message: "不错的尝试，孩子"
 }
