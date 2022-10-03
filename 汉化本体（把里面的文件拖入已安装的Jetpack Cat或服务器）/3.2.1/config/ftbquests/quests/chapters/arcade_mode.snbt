@@ -1,0 +1,784 @@
+{
+	id: "2F4901F0B5A0B1F9"
+	group: ""
+	order_index: 0
+	filename: "arcade_mode"
+	title: " 街机模式"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "ftblibrary:textures/icons/controller.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/block/bamboo_large_leaves.png"
+				}
+			}
+			x: -10.5d
+			y: -13.5d
+			shape: "greengoblin"
+			description: ["将所有玩家传送到主世界"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "21C80D573C458A07"
+			tasks: [{
+				id: "3F49F43A31297346"
+				type: "checkmark"
+				title: "传送到主世界"
+				icon: "minecraft:grass_block"
+			}]
+			rewards: [
+				{
+					id: "36F56E6415C69852"
+					type: "command"
+					auto: "invisible"
+					command: "/execute in minecraft:overworld run teleport @a ~ 200 ~"
+					player_command: false
+				}
+				{
+					id: "4C1F24D727882744"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "50A84F40650B4739"
+					type: "custom"
+					title: "传送"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/items/ring_spawner.png"
+						}
+					}
+					auto: "no_toast"
+				}
+				{
+					id: "1D033DA43A432021"
+					type: "command"
+					command: "/say 嗨, @p!"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -13.5d
+			shape: "flamingoblood"
+			description: ["将所有玩家传送到地狱"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "23C5A6BADFC6206B"
+			tasks: [{
+				id: "01482998F1D04CD9"
+				type: "checkmark"
+				title: "传送到地狱"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/nether_wart_stage1.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23F215F5CB174EB3"
+					type: "command"
+					auto: "invisible"
+					command: "/execute in minecraft:the_nether run teleport @a ~ 100 ~"
+					player_command: false
+				}
+				{
+					id: "3B260349554714F8"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "2CC7684245372E54"
+					type: "custom"
+					title: "传送"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/items/ring_spawner.png"
+						}
+					}
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "infernalexp:textures/item/glow_campfire.png"
+				}
+			}
+			x: -10.5d
+			y: -9.75d
+			shape: "secretagent"
+			subtitle: "设置重生点"
+			description: [
+				"点燃营火来设置你的重生点。让其他玩家右键单击营火来设置他们的重生点。"
+				""
+				"这将使你复活在你死去的维度。"
+			]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "27F737A1AC3A3045"
+			tasks: [{
+				id: "5D70BD28BDA7D18E"
+				type: "checkmark"
+				title: "营火"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/item/campfire.png"
+					}
+				}
+				disable_toast: true
+			}]
+			rewards: [
+				{
+					id: "1E56F5CAF4A98724"
+					type: "item"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "infernalexp:textures/item/glow_campfire.png"
+						}
+					}
+					auto: "enabled"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "3A44AA8F4231401D"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "2998BE8810597498"
+					type: "item"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/item/flint_and_steel.png"
+						}
+					}
+					auto: "enabled"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -13.5d
+			shape: "fourtytwo"
+			description: ["将所有玩家传送到8Bit世界"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "1597A779F6D9CB17"
+			tasks: [{
+				id: "0A03E4A4F3383884"
+				type: "checkmark"
+				title: "传送到8Bit世界"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "sonicraft:textures/items/boss_trigger.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7BB977B1C44E00FD"
+					type: "command"
+					auto: "invisible"
+					command: "/execute in sonicraft:mobius run teleport @a ~ 200 ~"
+					player_command: false
+				}
+				{
+					id: "6AB08ECABFDA6D0C"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "4335F1A2FA31FC52"
+					type: "custom"
+					title: "传送"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/ring_spawner.png"
+						}
+					}
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -13.5d
+			shape: "septiceye"
+			description: ["将所有玩家传送到地心"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "2659A48B4D22AA2E"
+			tasks: [{
+				id: "511AD5E025F67079"
+				type: "checkmark"
+				title: "传送到地心"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/arisaur_icon.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D7E64F20A80EA19"
+					type: "command"
+					auto: "invisible"
+					command: "/execute in world_blender:world_blender run teleport @a ~ 200 ~"
+					player_command: false
+				}
+				{
+					id: "526B8E673EAA4268"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "7952018283B6915D"
+					type: "custom"
+					title: "传送"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/items/ring_spawner.png"
+						}
+					}
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "candyworld:textures/items/tool/cotton_candy/cotton_candy_pickaxe.png"
+				}
+			}
+			x: 1.5d
+			y: -13.5d
+			shape: "flamingoblood"
+			description: ["将所有玩家传送到软糖之地"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "7027CDF5443A38B6"
+			tasks: [{
+				id: "63BE7B54873F94AE"
+				type: "checkmark"
+				title: "传送到软糖之地"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/items/candy.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AAEE6D3C92A6F50"
+					type: "command"
+					auto: "invisible"
+					command: "/execute in candyworld:candy_world run teleport @a ~ 200 ~"
+					player_command: false
+				}
+				{
+					id: "1352EE9B68960317"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "4A29E05AC679432E"
+					type: "custom"
+					title: "传送"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/items/ring_spawner.png"
+						}
+					}
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			shape: "unicorn"
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 2.0d
+			id: "2460EA1B2C49BCFD"
+			tasks: [{
+				id: "06A172CBD046549A"
+				type: "checkmark"
+				title: "停止怪物生成"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/close.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5797D86C43444186"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage add @a notarcademode true"
+					player_command: false
+				}
+				{
+					id: "05B72F899FB4D943"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a complete 49270756F733EACA"
+					player_command: false
+				}
+				{
+					id: "7B93ED80540762C6"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "49C3BB85EE9AA907"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage remove @a arcademode false"
+					player_command: false
+				}
+				{
+					id: "05C8B0350126269B"
+					type: "command"
+					auto: "invisible"
+					command: "/gamemode creative"
+					player_command: true
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:machine_pistol"
+				Count: 1b
+				tag: {
+					AmmoCount: 80
+					Attachments: {
+						Scope: {
+							id: "cgm:short_scope"
+							Count: 1b
+						}
+						Stock: {
+							id: "cgm:light_stock"
+							Count: 1b
+						}
+					}
+					Color: 13959417
+				}
+			}
+			x: -4.5d
+			y: -9.75d
+			shape: "secretagent"
+			description: ["冲锋枪、霰弹枪和用来超级跳跃的榴弹发射器"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "6B037E0A77D02F79"
+			tasks: [{
+				id: "0270E727EADD086C"
+				type: "checkmark"
+				title: "轻量级装备"
+				disable_toast: true
+			}]
+			rewards: [
+				{
+					id: "5A7108D13280BC5B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 02D263686DE87B3C"
+					player_command: false
+				}
+				{
+					id: "12F492C8CF7CB0C3"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "3313B61D3BD0BD6E"
+					type: "custom"
+					title: "轻量级装备"
+					icon: {
+						id: "cgm:machine_pistol"
+						Count: 1b
+						tag: {
+							AmmoCount: 80
+							Attachments: {
+								Scope: {
+									id: "cgm:short_scope"
+									Count: 1b
+								}
+								Stock: {
+									id: "cgm:light_stock"
+									Count: 1b
+								}
+							}
+							Color: 13959417
+						}
+					}
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:assault_rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 40
+					Attachments: {
+						Scope: {
+							id: "cgm:short_scope"
+							Count: 1b
+						}
+						Stock: {
+							id: "cgm:light_stock"
+							Count: 1b
+						}
+					}
+					Color: 13959417
+				}
+			}
+			x: -1.5d
+			y: -9.75d
+			shape: "secretagent"
+			description: ["突击步枪、速射机枪、火箭筒和用来超级跳跃的榴弹发射器。"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "0313FB9928286E70"
+			tasks: [{
+				id: "62AD6A432306663B"
+				type: "checkmark"
+				title: "突击装备"
+			}]
+			rewards: [
+				{
+					id: "235657B5C1324E93"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 057990D4A649750B"
+					player_command: false
+				}
+				{
+					id: "2C939787FCDD5F17"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "3EF23954FD81001C"
+					type: "item"
+					title: "突击装备"
+					item: {
+						id: "cgm:assault_rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 40
+							Attachments: {
+								Scope: {
+									id: "cgm:short_scope"
+									Count: 1b
+								}
+								Stock: {
+									id: "cgm:light_stock"
+									Count: 1b
+								}
+							}
+							Color: 13959417
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:heavy_rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 4
+					Attachments: {
+						Scope: {
+							id: "cgm:long_scope"
+							Count: 1b
+						}
+					}
+					Color: 13959417
+				}
+			}
+			x: 1.5d
+			y: -9.75d
+			shape: "secretagent"
+			description: ["AWP狙击步枪、轻型步枪、手枪、抓钩和用来超级跳跃的榴弹发射器。"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "0E44DE6956A00FC6"
+			tasks: [{
+				id: "4E296D5D9CCE6772"
+				type: "checkmark"
+				title: "重型装备"
+			}]
+			rewards: [
+				{
+					id: "6838336035012CCC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 3C55ADDCC387C164"
+					player_command: false
+				}
+				{
+					id: "201B0BE98A36C7CD"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "7D3C8570FFD2CC96"
+					type: "custom"
+					title: "重型装备"
+					icon: {
+						id: "cgm:heavy_rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 4
+							Attachments: {
+								Scope: {
+									id: "cgm:long_scope"
+									Count: 1b
+								}
+							}
+							Color: 13959417
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "randomloot:textures/items/sword/18.png"
+				}
+			}
+			x: -7.5d
+			y: -9.75d
+			shape: "secretagent"
+			description: ["你会死的，但你不在乎，因为你很酷。附带几把对怪物有不同效果的剑。"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 3.0d
+			id: "617B52AD1BF44A17"
+			tasks: [{
+				id: "15F92616F1B1A470"
+				type: "checkmark"
+				title: "经典装备"
+			}]
+			rewards: [
+				{
+					id: "3E7805AAB1316C6F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 0EF39FA093BA0478"
+					player_command: false
+				}
+				{
+					id: "1AB177E48D269538"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "5083345890C82DE6"
+					type: "custom"
+					title: "经典装备"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "randomloot:textures/items/sword/18.png"
+						}
+					}
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -6.5d
+			shape: "secretagent"
+			subtitle: "提示"
+			description: [
+				"街机模式激活时并不意味着在全世界玩。"
+				""
+				"#1 选择一个维度，将所有玩家传送到。"
+				""
+				"#2 所有玩家都应该选择装备。"
+				""
+				"#3 将营火点燃。所有玩家都需要点燃营火或右键单击另一个营火以将您的出生点设置在该维度。"
+				""
+				"#4 单击开始以开始生成怪物。"
+				""
+				"可用的维度都有不同的怪物在街机模式激活时生成。"
+			]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 2.0d
+			id: "7438889B2E4922A3"
+			tasks: [{
+				id: "6BA92E148B124FB1"
+				type: "custom"
+				title: "读我"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/alert.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			shape: "secretagent"
+			description: ["这将开始生成怪物，并将您的游戏模式设置为生存。"]
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 2.0d
+			id: "471DE9DE1F9C9C27"
+			tasks: [{
+				id: "6072B3732775F8B5"
+				type: "checkmark"
+				title: "开始怪物生成"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/apollyon_icon.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1D9493BDAB82A523"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "16C41F4BE2483551"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage remove @a notarcademode true"
+					player_command: false
+				}
+				{
+					id: "6A056CD53AA4E939"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage add @a arcademode false"
+					player_command: false
+				}
+				{
+					id: "0AE4D6D30EAA2298"
+					type: "custom"
+					title: "开始怪物生成"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "lycanitesmobs:textures/guis/creatures/apollyon_icon.png"
+						}
+					}
+					auto: "enabled"
+				}
+				{
+					id: "2AA53E949867FA1A"
+					type: "command"
+					auto: "invisible"
+					command: "/gamemode survival"
+					player_command: true
+				}
+				{
+					id: "5B4DF878AB0701E8"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					auto: "invisible"
+					command: "/closeguiscreen"
+					player_command: true
+				}
+			]
+		}
+	]
+}
