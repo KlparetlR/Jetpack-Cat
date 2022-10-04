@@ -73,7 +73,7 @@ customization {
   actionid = 1a4346d2-6b11-4593-875f-7580574caa221655819902190
   action = addbutton
   y = 23
-  value = 真正启用街机模式
+  value = reallyenablearcademode
   height = 20
 }
 

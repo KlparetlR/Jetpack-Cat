@@ -230,7 +230,7 @@ customization {
   actionid = 2067cae5-ff52-41fa-9503-dc325a65e5c71652793696521
   action = addbutton
   y = 107
-  value = 开始街机模式
+  value = startarcademode
   height = 20
 }
 
@@ -357,7 +357,7 @@ customization {
   actionid = 09f3741c-cee3-44ad-bd88-c2979eb0d60a1661399268887
   action = addbutton
   y = 80
-  label = 玩家模型	
+  label = 玩家模型
   value = /mca editor
   height = 20
 }

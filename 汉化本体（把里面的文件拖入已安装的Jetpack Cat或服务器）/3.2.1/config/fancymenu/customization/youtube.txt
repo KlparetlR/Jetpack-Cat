@@ -103,7 +103,7 @@ customization {
   action = addbutton
   y = 67
   backgroundnormal = config\fancymenu\assets\bg_button_darkbg.png
-  value = 不，谢谢
+  value = nothanks
   height = 41
 }
 
@@ -120,7 +120,7 @@ customization {
   action = addbutton
   y = 66
   backgroundnormal = config\fancymenu\assets\bg_button_darkbg.png
-  value = 我已订阅
+  value = ihavesubscribed
   height = 41
 }
 

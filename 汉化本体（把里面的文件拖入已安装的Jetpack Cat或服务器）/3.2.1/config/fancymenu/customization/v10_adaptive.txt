@@ -439,7 +439,7 @@ customization {
   action = addbutton
   y = -145
   backgroundnormal = config\fancymenu\assets\transparent.png
-  value = patreon支持者
+  value = patreonsupporters
   height = 78
 }
 
@@ -1424,7 +1424,7 @@ customization {
   actionid = fd8c69b3-cb6c-4b91-9447-be6c536331931660989477363
   action = addbutton
   y = -157
-  value = 什么是新的
+  value = whatsnew
   height = 20
 }
 

@@ -50,7 +50,7 @@ customization {
   action = addbutton
   y = 24
   backgroundnormal = config\fancymenu\assets\bg_button_darkbg.png
-  value = 熊猫丑
+  value = pandaugly
   height = 60
 }
 
@@ -67,7 +67,7 @@ customization {
   action = addbutton
   y = 23
   backgroundnormal = config\fancymenu\assets\bg_button_darkbg.png
-  value = 熊猫可爱
+  value = pandacute
   height = 60
 }
 
