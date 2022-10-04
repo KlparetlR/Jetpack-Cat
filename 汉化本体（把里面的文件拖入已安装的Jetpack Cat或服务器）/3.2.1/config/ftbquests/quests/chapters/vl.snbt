@@ -301,21 +301,6 @@
 			rewards: [
 				{
 					id: "60A6C3384E77A2B4"
-					type: "stat"
-					icon: {
-						id: "ftbquests:custom_icon"
-						Count: 1b
-						tag: {
-							Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
-						}
-					}
-					stat: "minecraft:walk_one_cm"
-					value: 200
-				}
-			]
-			rewards: [
-				{
-					id: "60A6C3384E77A2B4"
 					type: "command"
 					auto: "no_toast"
 					command: "/execute at @p run playsound minecraft:first-message_overworld voice @p ~ ~ ~"

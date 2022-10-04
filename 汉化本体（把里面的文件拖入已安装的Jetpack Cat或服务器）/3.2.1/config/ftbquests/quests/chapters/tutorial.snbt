@@ -386,7 +386,7 @@
 			}]
 		}
 		{
-			title: "巨怪!"
+			title: "巨型怪物!"
 			x: -18.0d
 			y: 2.0d
 			description: [
@@ -463,13 +463,13 @@
 		{
 			x: -12.0d
 			y: 0.0d
-			description: ["按[v]投掷荧光棒。荧光棒是无限的，可作为临时光源在探索时为您提供帮助。它们会先变暗，然后在设定的时间后熄灭。如果你想要永久光源，你应该制作火把。"]
+			description: ["按[v]投掷照明棒。照明棒是无限的，可作为临时光源在探索时为您提供帮助。它们会先变暗，然后在设定的时间后熄灭。如果你想要永久光源，你应该制作火把。"]
 			size: 2.0d
 			id: "1CDD03AA70E4DEC3"
 			tasks: [{
 				id: "6188C6A1421B4B85"
 				type: "checkmark"
-				title: "荧光（照明）棒"
+				title: "照明棒"
 				icon: "drg_flares:drg_flare_magenta"
 			}]
 		}
@@ -615,6 +615,31 @@
 					Count: 1b
 					tag: {
 						Icon: "sonicraft:textures/items/studiopolis_microphone.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -22.0d
+			y: 6.0d
+			description: [
+				"小饰品是你在游戏世界中进行采矿、杀怪、收割作物和砍树等活动时解锁的永久增益。"
+				""
+				"&d按[Shift+z]进入Lost_Trinkets界面。"
+				""
+				"你可以通过消费经验值解锁更多槽位。你可以在任何时候应用和移除你解锁的任何饰品。你必须应用这个饰品才能产生效果。"
+			]
+			size: 2.0d
+			id: "03E7A1E1FD2196AE"
+			tasks: [{
+				id: "55CE47092408F92B"
+				type: "checkmark"
+				title: "小饰品"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "losttrinkets:textures/item/tha_spirit.png"
 					}
 				}
 			}]

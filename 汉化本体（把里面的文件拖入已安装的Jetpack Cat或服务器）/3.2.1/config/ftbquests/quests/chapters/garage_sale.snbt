@@ -27,7 +27,7 @@
 			disable_toast: true
 			x: -1.0d
 			y: 1.25d
-			subtitle: "好吃!"
+			subtitle: "太棒了！"
 			description: [
 				"这本指南会教你在Jetpack_Cat的大多数移动技巧。"
 				""
