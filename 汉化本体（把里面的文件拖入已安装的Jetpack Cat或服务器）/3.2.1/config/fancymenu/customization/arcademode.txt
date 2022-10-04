@@ -72,7 +72,7 @@ customization {
   actionid = f91a2bf4-4057-40bf-bfed-43baebb430711652809909499
   action = addbutton
   y = 134
-  value = 街机模式关闭
+  value = arcademodeoff
   height = 24
 }
 
@@ -114,7 +114,7 @@ customization {
   action = addbutton
   y = -83
   backgroundnormal = config\fancymenu\assets\transparent.png
-  value = 轻型装备
+  value = lightloadout
   height = 203
 }
 
@@ -132,7 +132,7 @@ customization {
   action = addbutton
   y = -83
   backgroundnormal = config\fancymenu\assets\transparent.png
-  value = 重型装备
+  value = sniperloadout
   height = 203
 }
 
@@ -161,7 +161,7 @@ customization {
   action = addbutton
   y = -83
   backgroundnormal = config\fancymenu\assets\transparent.png
-  value = 突击型装备
+  value = assaultloadout
   height = 203
 }
 
@@ -190,7 +190,7 @@ customization {
   action = addbutton
   y = -83
   backgroundnormal = config\fancymenu\assets\transparent.png
-  value = 经典装备
+  value = classicloadout
   height = 203
 }
 
@@ -219,7 +219,7 @@ customization {
   action = addbutton
   y = -83
   backgroundnormal = config\fancymenu\assets\transparent.png
-  value = 自定义装备配置
+  value = customloadout
   height = 203
 }
 
@@ -235,7 +235,7 @@ customization {
   action = addbutton
   y = 119
   backgroundnormal = config\fancymenu\assets\transparent.png
-  value = 配置自定义
+  value = setcustom
   height = 20
 }
 

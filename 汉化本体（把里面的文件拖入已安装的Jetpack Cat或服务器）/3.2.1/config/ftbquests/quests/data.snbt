@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "黑市V1.1.0"
+	title: "黑市V1.1.1"
 	icon: "ftbquests:book"
 	default_reward_team: false
 	default_consume_items: false
