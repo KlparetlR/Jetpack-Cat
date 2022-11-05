@@ -1,0 +1,2579 @@
+{
+	id: "04F68D0AB1046646"
+	group: "2962FB6DD0692CEB"
+	order_index: 2
+	filename: "commands_2"
+	title: " 指令"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "播放1秒"
+			x: 6.25d
+			y: 6.25d
+			id: "159C8CD674BFE233"
+			tasks: [{
+				id: "7E0CE5DD736478B0"
+				type: "stat"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/time.png"
+					}
+				}
+				stat: "minecraft:play_one_minute"
+				value: 10
+			}]
+			rewards: [
+				{
+					id: "0A0950B571B035DC"
+					type: "random"
+					auto: "invisible"
+					table_id: 7521222853593688854L
+				}
+				{
+					id: "7F23D4D1AC67660A"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage add @p notarcademode true"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "前往地心"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "lycanitesmobs:textures/guis/creatures/arisaur_icon.png"
+				}
+			}
+			x: 0.25d
+			y: 9.0d
+			id: "723F605D35E6C9AF"
+			tasks: [{
+				id: "4651F4AB2A990AC8"
+				type: "dimension"
+				dimension: "world_blender:world_blender"
+			}]
+			rewards: [
+				{
+					id: "0FEC84CA3E1F5516"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0EB32B16F028DFDB"
+					player_command: false
+				}
+				{
+					id: "670B76795AFF338C"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "62880CAD1AEAFC24"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.06"
+					player_command: false
+				}
+				{
+					id: "64DF78AA558C1D35"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "763E25E6E364E341"
+					type: "command"
+					title: "设置速度"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
+						}
+					}
+					command: "/ftbquests change_progress @p complete 47C2BF0D19946D61"
+					player_command: false
+				}
+				{
+					id: "4939E8D350BEB5F8"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "1C1620ADFE6517DD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "0CF473915D7B2B7C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "2FC42E5343D70437"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "2F1C174AA60D5890"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "69ABA881F7935FD3"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "61C0B488C04B467A"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "6B1A149A1E491F9C"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "69BC9B28AF4ACD96"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "前往8bit世界"
+			icon: "sonicraft:gold_ring"
+			x: 1.75d
+			y: 8.75d
+			id: "394607E36854CC42"
+			tasks: [{
+				id: "3C267D20A25C093E"
+				type: "dimension"
+				dimension: "sonicraft:mobius"
+			}]
+			rewards: [
+				{
+					id: "080C0BC495403191"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "2856E437890DF135"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "477E5DD4AB30FFC2"
+					type: "command"
+					auto: "enabled"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "53AD44EFA476ECBF"
+					type: "command"
+					title: "重置地心传送门的位置"
+					command: "/ftbquests change_progress @p reset 2B7E997156C3F04C"
+					player_command: false
+				}
+				{
+					id: "160E84378831703B"
+					type: "command"
+					title: "设置速度"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
+						}
+					}
+					command: "/ftbquests change_progress @p complete 47C2BF0D19946D61"
+					player_command: false
+				}
+				{
+					id: "4202AD86147024C8"
+					type: "command"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "01BA40FBF00B81AB"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "25EF730FD4E489FE"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "70E3841149528CA5"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "4241F1A388CA55F4"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "1591C886BEEA7EE0"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "4790EFB12F8CF0CA"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "611B44CDB7849C7D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "6CD2D07DA1C18C0A"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "前往地狱"
+			icon: "minecraft:nether_gold_ore"
+			x: -1.25d
+			y: 8.25d
+			id: "0EB32B16F028DFDB"
+			tasks: [{
+				id: "6C97697B1AEC28F9"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "53AEBB96C8852B1A"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "3872AEFCA3C32DC9"
+					type: "command"
+					auto: "enabled"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5EFDB5BFD3297259"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @a[nbt={SelectedItem:{id:\"minecraft:totem_of_undying\"}}] run replaceitem entity @p weapon minecraft:totem_of_undying{CustomModelData:7,display:{Name:\"{\\\"text\\\":\\\"启示图腾\\\"}\"}}"
+					player_command: false
+				}
+				{
+					id: "36DAFC5F11362A23"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @a[nbt={Inventory:[{Slot:-106b,id:\"cgm:pistol\"}]}] run replaceitem entity @p weapon.offhand cgm:assault_rifle{RepairCost:1,AmmoCount:40,Attachments:{Scope:{id:\"cgm:short_scope\",Count:1b},Stock:{id:\"cgm:light_stock\",Count:1b}},Color:14811254,Enchantments:[{lvl:2s,id:\"cgm:quick_hands\"}]}"
+					player_command: false
+				}
+				{
+					id: "40E3D51AC655A947"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "5107CFEEA521BACC"
+					type: "command"
+					title: "设置速度"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
+						}
+					}
+					command: "/ftbquests change_progress @p complete 47C2BF0D19946D61"
+					player_command: false
+				}
+				{
+					id: "530A9E2BDDDEAFC8"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "7DFE269DD650DA37"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "21DDDCBA87904827"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "57E8155D55D179CB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "0B6EDF90D5D8239E"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "517BEA50D960613F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "7DDC0DDC25579604"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "2E2CB379B96C153F"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "26D66836ACF610E3"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "2F2AC866DF827BAF"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "61E68F70C5B939D0"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:grass"
+			x: 0.25d
+			y: 6.0d
+			dependencies: [
+				"1CCB38F725E36E83"
+				"723F605D35E6C9AF"
+				"0EB32B16F028DFDB"
+				"23B679E77E26EE10"
+				"394607E36854CC42"
+				"31C3AA1CE91B24DB"
+				"669C9AD5059D6287"
+				"39D09F5C901FFFE9"
+				"5F9D684CFE0958B9"
+			]
+			dependency_requirement: "one_completed"
+			id: "2F788BA67A5B5730"
+			tasks: [{
+				id: "06F52F67FC7E1185"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "1C5F7C26BD740B8B"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "2A971265AC982F1F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "72F6C7CAB39AF9AF"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "4AAC6133CF848EDA"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0EB32B16F028DFDB"
+					player_command: false
+				}
+				{
+					id: "7F9D4F8962B424C3"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "0DC5CDA6A8601990"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "774B8C21BEBA8EA3"
+					type: "command"
+					title: "将重力重置为正常"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "016BB1E99823E88D"
+					type: "command"
+					title: "重置末地"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "0FE62FE7BCB5644F"
+					type: "command"
+					title: "重置地心的维度裂缝的位置"
+					command: "/ftbquests change_progress @p reset 2B7E997156C3F04C"
+					player_command: false
+				}
+				{
+					id: "7FA0C094A8494583"
+					type: "command"
+					title: "重置零空间的维度裂缝的位置"
+					command: "/ftbquests change_progress @p reset 03FE797E796C6E8B"
+					player_command: false
+				}
+				{
+					id: "38F41E7DBB1F0D75"
+					type: "command"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "6B7BBA485D160846"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "5569F8C32063E7E1"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "1C3FF85637E02861"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "20BBBD347112311D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "3C34D4DFE30188D9"
+					type: "command"
+					title: "设定速度任务完成"
+					command: "/ftbquests change_progress @p complete 47C2BF0D19946D61"
+					player_command: false
+				}
+				{
+					id: "23FE5D14BEE5AD21"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 9.75d
+			y: 6.25d
+			id: "47C2BF0D19946D61"
+			tasks: [{
+				id: "7F105F677490F5A1"
+				type: "checkmark"
+				title: "设置速度"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "33E5778A7A865E16"
+					type: "command"
+					command: "execute as @a run attribute @s minecraft:generic.movement_speed base set .155"
+					player_command: false
+				}
+				{
+					id: "4327167F6EB9EC60"
+					type: "custom"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "前往末地"
+			icon: "minecraft:end_stone"
+			x: 1.75d
+			y: 4.25d
+			id: "31C3AA1CE91B24DB"
+			tasks: [{
+				id: "7DEB3432D048FDD0"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "712183A14C3665B4"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "23E3846759311FCD"
+					type: "command"
+					auto: "enabled"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "40DBC5430D5ADF41"
+					type: "command"
+					title: "设置速度"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
+						}
+					}
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p complete 47C2BF0D19946D61"
+					player_command: false
+				}
+				{
+					id: "44946A674E3717F7"
+					type: "command"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "69BB40FD18F5A4B2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0EB32B16F028DFDB"
+					player_command: false
+				}
+				{
+					id: "4D369B8A5C764B8F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "7C2E96924E0BCA11"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "70CEC1DD544AC315"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "227E1D20A388E8FC"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "1B6700B0509341B7"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "47252289E12A8FFC"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "15A2F104AEA264EC"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "4A5CB86BD77ADE1B"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "5C9BEFDDA512D1C1"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "前往软糖乐园"
+			icon: "candyworld:white_red_candy_cane_workbench"
+			x: 0.25d
+			y: 3.25d
+			id: "1CCB38F725E36E83"
+			tasks: [{
+				id: "5E2D719D6652714E"
+				type: "dimension"
+				dimension: "candyworld:candy_world"
+			}]
+			rewards: [
+				{
+					id: "5B8D1CDAD656BE44"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "4B380D220B99471D"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "50ED56DBFFFE5795"
+					type: "command"
+					title: "重置零空间的维度裂缝的位置"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 03FE797E796C6E8B"
+					player_command: false
+				}
+				{
+					id: "0272C2E6772B8F69"
+					type: "command"
+					title: "设置速度"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
+						}
+					}
+					command: "/ftbquests change_progress @p complete 47C2BF0D19946D61"
+					player_command: false
+				}
+				{
+					id: "6D3361B8B5205CF0"
+					type: "command"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "163EBF50A42BCA0D"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "032B86AC77DDB482"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "3EEA3FFC474A1C40"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "335AE24A265EC274"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "0EE1843D63C00C6B"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "4DE1767C2475E123"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "647F3B099B3C3893"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "632B61D942126CE7"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "前往零空间"
+			icon: "sonicraft:null_space_stone"
+			x: -1.25d
+			y: 6.0d
+			id: "23B679E77E26EE10"
+			tasks: [{
+				id: "51A1E4DE03FA0663"
+				type: "dimension"
+				dimension: "sonicraft:null_space_dimension"
+			}]
+			rewards: [
+				{
+					id: "09F7E61C002EB80F"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "451CC961BF41E490"
+					type: "command"
+					auto: "enabled"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "50FF0FAFF34B4D11"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run attribute @p forge:entity_gravity base set 0.04"
+					player_command: false
+				}
+				{
+					id: "110E301F548251D7"
+					type: "command"
+					auto: "invisible"
+					command: "/title @p actionbar {\"text\":\"记录到进度章节\"}"
+					player_command: false
+				}
+				{
+					id: "347056E141C2D104"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23C16B2B3085C6AC"
+					player_command: false
+				}
+				{
+					id: "502F9CE7F6F1B842"
+					type: "command"
+					title: "设置速度"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "sonicraft:textures/blocks/monitor_speed_shoes.png"
+						}
+					}
+					command: "/ftbquests change_progress @p complete 47C2BF0D19946D61"
+					player_command: false
+				}
+				{
+					id: "4E28250704E35777"
+					type: "command"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "62936C335E1CB6A8"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "3F49F5E6033D0061"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "77D41AC15BE3D578"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "59BF5B39E7AB7CB0"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "1E4D6BC61BEEE2ED"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "7884D98D2149F5BA"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "75A00EA086B86E1D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "1655BAC96147046B"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+				{
+					id: "316B18E9672D3D5F"
+					type: "command"
+					command: "/execute in sonicraft:null_space_dimension run tp @p ~20 245 ~"
+					player_command: false
+				}
+				{
+					id: "596B9B7DE6DF4438"
+					type: "command"
+					command: "/say 查找坐标1，~，18以到达下一个维度"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/entity/flags/skull.png"
+				}
+			}
+			x: 8.0d
+			y: 6.25d
+			id: "0A15DED386723DAA"
+			tasks: [{
+				id: "5A2541F5EBA14E11"
+				type: "checkmark"
+				title: "关于队伍成员死亡"
+			}]
+			rewards: [
+				{
+					id: "3E0FD12DD5F42876"
+					type: "command"
+					command: "/execute as @p run effect give @a[distance=..10] minecraft:regeneration 10 3"
+					player_command: false
+				}
+				{
+					id: "6A5B9698211DF0E4"
+					type: "custom"
+					tags: ["reset"]
+				}
+				{
+					id: "5095C8417D2BC379"
+					type: "command"
+					command: "/say 激活全体复活"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "进入8bit世界"
+			x: -4.0d
+			y: 8.5d
+			hide_text_until_complete: true
+			id: "6AAB70271D8A70FD"
+			tasks: [{
+				id: "0D437196EFFD6C46"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "sonicraft:textures/items/player_sonic.png"
+					}
+				}
+				dimension: "sonicraft:mobius"
+			}]
+			rewards: [{
+				id: "0D01B3E5C4E74602"
+				type: "command"
+				auto: "no_toast"
+				command: "/title @p actionbar {\"text\":\"接收和传输记录\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "进入地心世界"
+			x: -4.0d
+			y: 7.5d
+			hide_text_until_complete: true
+			id: "3AB710190F92B76D"
+			tasks: [{
+				id: "46700F57FA0BF885"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/arisaur_icon.png"
+					}
+				}
+				dimension: "world_blender:world_blender"
+			}]
+			rewards: [{
+				id: "4E34F47960241FF2"
+				type: "command"
+				auto: "no_toast"
+				command: "/title @p actionbar {\"text\":\"接收和传输记录\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "进入软糖乐园"
+			x: -4.0d
+			y: 6.5d
+			hide_text_until_complete: true
+			id: "19E8DD6BC8C0B6F0"
+			tasks: [{
+				id: "6E4EBCDF6BB80AD8"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/items/candy.png"
+					}
+				}
+				dimension: "candyworld:candy_world"
+			}]
+			rewards: [{
+				id: "5B305418EE74AF3F"
+				type: "command"
+				auto: "no_toast"
+				command: "/title @p actionbar {\"text\":\"接收和传输记录\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "进入零空间"
+			x: -3.0d
+			y: 6.0d
+			hide_text_until_complete: true
+			id: "252F18B461367630"
+			tasks: [{
+				id: "4A14F7CA79237ED1"
+				type: "dimension"
+				icon: "sonicraft:null_space_stone"
+				dimension: "sonicraft:null_space_dimension"
+			}]
+			rewards: [{
+				id: "01346D43D9C1F689"
+				type: "command"
+				auto: "no_toast"
+				command: "/title @p actionbar {\"text\":\"接收和传输记录\"}"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			hide_text_until_complete: true
+			id: "662CBEDA1435C154"
+			tasks: [{
+				id: "4A475A23EE998553"
+				type: "dimension"
+				title: "进入末地"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/map/end_city.png"
+					}
+				}
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "2F502B389E520412"
+				type: "command"
+				auto: "no_toast"
+				command: "/title @p actionbar {\"text\":\"接收和传输记录\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "进入地狱"
+			x: -4.0d
+			y: 4.5d
+			hide_text_until_complete: true
+			id: "3372D1B39C8AA978"
+			tasks: [{
+				id: "2441284C2EBF64A6"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/nether_wart_stage1.png"
+					}
+				}
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "283EB5F813B359B8"
+				type: "command"
+				auto: "no_toast"
+				command: "/title @p actionbar {\"text\":\"接收和传输记录\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "访问穹光森林"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "twilightforest:textures/items/moon_dial/waxing_gibbous.png"
+				}
+			}
+			x: -4.0d
+			y: 3.5d
+			id: "7C4566CA5BBD0E03"
+			tasks: [{
+				id: "58A67DA297E6BE27"
+				type: "dimension"
+				dimension: "twilightforest:skylight_forest"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 0.75d
+			id: "1954B3D926FE77F0"
+			tasks: [{
+				id: "5B7D9E8189B945DD"
+				type: "checkmark"
+				title: "预禁用AM"
+			}]
+			rewards: [{
+				id: "4A296D6B3E29234E"
+				type: "command"
+				command: "/ftbquests change_progress @a reset 24FB6367AE5CB205"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.75d
+			id: "58CB0A464FD9103F"
+			tasks: [{
+				id: "4DE1BB6775BF756A"
+				type: "gamestage"
+				title: "街机模式 开启"
+				stage: "arcademode"
+			}]
+			rewards: [
+				{
+					id: "5D5254E0CCFB27C2"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:fight voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "54177E78779AB79A"
+					type: "command"
+					auto: "invisible"
+					command: "/title @a 时间 20 60 20"
+					player_command: false
+				}
+				{
+					id: "737ED44150EDCB85"
+					type: "command"
+					auto: "invisible"
+					command: "/title @a subtitle {\"text\":\"祝你好运， 孩子！\",\"color\":\"light_purple\"}"
+					player_command: false
+				}
+				{
+					id: "15CC004B59C5555F"
+					type: "command"
+					auto: "invisible"
+					command: "/title @a title {\"text\":\"街机模式已激活\",\"bold\":false,\"color\":\"yellow\"}"
+					player_command: false
+				}
+				{
+					id: "6A7C72F5AEBB43F6"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5290911DCFD4EFA3"
+					type: "command"
+					title: "重置notarcademode（公证模式）触发器"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a reset 651EF5E24E0D96BC"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "quark:textures/emote/custom.png"
+				}
+			}
+			x: -1.75d
+			y: 0.75d
+			id: "5F56A1021382623A"
+			tasks: [{
+				id: "41F068EAEB40ED5E"
+				type: "checkmark"
+				title: "自定义类型"
+			}]
+			rewards: [
+				{
+					id: "645A924DB94BA468"
+					type: "custom"
+					tags: ["reset"]
+				}
+				{
+					id: "4B56CCDB9A969CD6"
+					type: "command"
+					command: "/gamestage add @a arcademode true"
+					player_command: false
+				}
+				{
+					id: "152349E190B63646"
+					type: "command"
+					command: "/gamerule keepInventory true"
+					player_command: false
+				}
+				{
+					id: "567D2EB3A7D3CA5D"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage remove @a notarcademode true"
+					player_command: false
+				}
+				{
+					id: "1B7AF45C7B4A3029"
+					type: "command"
+					command: "/csg_kits give custom_loadout @p"
+					player_command: false
+				}
+				{
+					id: "19E8BC055141F23F"
+					type: "command"
+					title: "街机激活"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a complete 23A6799FFD9F3AC0"
+					player_command: false
+				}
+				{
+					id: "34BAE258DB4337DB"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+				{
+					id: "26CDC1BC1AC8499A"
+					type: "command"
+					auto: "invisible"
+					command: "/title @p actionbar {\"text\":\"自定义\"}"
+					player_command: false
+				}
+				{
+					id: "53332755201DDB83"
+					type: "command"
+					title: "作弊"
+					command: "/ftbquests change_progress @p complete 11B5B2165126E627"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "randomloot:textures/items/sword/18.png"
+				}
+			}
+			x: -0.75d
+			y: 0.75d
+			id: "0EF39FA093BA0478"
+			tasks: [{
+				id: "5D0520845BA4E293"
+				type: "checkmark"
+				title: "经典类型"
+			}]
+			rewards: [
+				{
+					id: "6AABD056A0F83942"
+					type: "custom"
+					tags: ["reset"]
+				}
+				{
+					id: "6C74A320B1309EF9"
+					type: "command"
+					command: "/csg_kits give classic_loadout @p"
+					player_command: false
+				}
+				{
+					id: "5D3DB17876712205"
+					type: "command"
+					command: "/gamerule keepInventory true"
+					player_command: false
+				}
+				{
+					id: "4BBD0A07306616C7"
+					type: "command"
+					title: "街机激活"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a complete 23A6799FFD9F3AC0"
+					player_command: false
+				}
+				{
+					id: "0DAAA5A6406D7D0C"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+				{
+					id: "76AE404B9CE3401D"
+					type: "command"
+					auto: "invisible"
+					command: "/title @p actionbar {\"text\":\"经典\"}"
+					player_command: false
+				}
+				{
+					id: "22A280A4F1568973"
+					type: "command"
+					title: "作弊"
+					command: "/ftbquests change_progress @p complete 11B5B2165126E627"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "cgm:assault_rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 40
+				}
+			}
+			x: 0.25d
+			y: 0.75d
+			id: "057990D4A649750B"
+			tasks: [{
+				id: "772A2655E8AEEE04"
+				type: "checkmark"
+				title: "突击类型"
+			}]
+			rewards: [
+				{
+					id: "1C7FC4ACACA5EE03"
+					type: "command"
+					title: "提供物品"
+					auto: "invisible"
+					command: "/csg_kits give assault_loadout"
+					player_command: true
+				}
+				{
+					id: "36CE6D9CBD51187C"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+				{
+					id: "1CACC67D55AF7525"
+					type: "command"
+					auto: "invisible"
+					command: "/gamerule keepInventory true"
+					player_command: false
+				}
+				{
+					id: "30E1DEB3446604C6"
+					type: "command"
+					title: "街机激活"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a complete 23A6799FFD9F3AC0"
+					player_command: false
+				}
+				{
+					id: "0174D653CA840E9E"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+				{
+					id: "42D44B2A75887922"
+					type: "command"
+					auto: "invisible"
+					command: "/title @p actionbar {\"text\":\"突击\"}"
+					player_command: false
+				}
+				{
+					id: "4A900256C8CA2B85"
+					type: "command"
+					title: "作弊"
+					command: "/ftbquests change_progress @p complete 11B5B2165126E627"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "轻量型装备"
+			icon: {
+				id: "cgm:machine_pistol"
+				Count: 1b
+				tag: {
+					AmmoCount: 80
+				}
+			}
+			x: 1.25d
+			y: 0.75d
+			id: "02D263686DE87B3C"
+			tasks: [{
+				id: "28960F0196EC4B05"
+				type: "checkmark"
+				title: "重型类型"
+			}]
+			rewards: [
+				{
+					id: "29480F877D743F09"
+					type: "custom"
+					tags: ["reset"]
+				}
+				{
+					id: "7423423A870BCB49"
+					type: "command"
+					command: "/csg_kits give lightweight_loadout @p"
+					player_command: false
+				}
+				{
+					id: "0D272E9874AE3D4D"
+					type: "command"
+					command: "/gamerule keepInventory true"
+					player_command: false
+				}
+				{
+					id: "1ED6B4D001996C77"
+					type: "command"
+					title: "街机激活"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a complete 23A6799FFD9F3AC0"
+					player_command: false
+				}
+				{
+					id: "0CFAD7CB837B1193"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+				{
+					id: "1FDD4E154831D957"
+					type: "command"
+					auto: "invisible"
+					command: "/title @p actionbar {\"text\":\"轻量型\"}"
+					player_command: false
+				}
+				{
+					id: "2CC6229FB2A14CAF"
+					type: "command"
+					title: "作弊"
+					command: "/ftbquests change_progress @p complete 11B5B2165126E627"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.25d
+			y: 0.75d
+			id: "3C55ADDCC387C164"
+			tasks: [{
+				id: "13A186B70294CEE1"
+				type: "checkmark"
+				title: "狙击类型"
+				icon: {
+					id: "cgm:heavy_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 4
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6E2C97E11C88370D"
+					type: "custom"
+					tags: ["reset"]
+				}
+				{
+					id: "1653F24EC8F94BEC"
+					type: "command"
+					command: "/csg_kits give sniper_loadout @p"
+					player_command: false
+				}
+				{
+					id: "335292066F5A12FA"
+					type: "command"
+					command: "/gamerule keepInventory true"
+					player_command: false
+				}
+				{
+					id: "0D10DADDA148F3E5"
+					type: "command"
+					title: "街机激活"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a complete 23A6799FFD9F3AC0"
+					player_command: false
+				}
+				{
+					id: "5CA2463A35E700D0"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+				{
+					id: "66CAB39DCAB582EA"
+					type: "command"
+					auto: "invisible"
+					command: "/title @p actionbar {\"text\":\"狙击\"}"
+					player_command: false
+				}
+				{
+					id: "757176744C40BF43"
+					type: "command"
+					title: "作弊"
+					command: "/ftbquests change_progress @p complete 11B5B2165126E627"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.75d
+			id: "49270756F733EACA"
+			tasks: [{
+				id: "247924E22B6F437E"
+				type: "checkmark"
+				title: "关闭街机模式检查"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/controller.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3DCA39D20DB1B051"
+					type: "command"
+					auto: "invisible"
+					command: "/gamerule keepInventory false"
+					player_command: false
+				}
+				{
+					id: "6FF710ECD07557A7"
+					type: "command"
+					auto: "invisible"
+					command: "/dc broadcast @a"
+					player_command: false
+				}
+				{
+					id: "551DF03B36D670D3"
+					type: "command"
+					auto: "disabled"
+					command: "/ftbquests change_progress @a reset 58CB0A464FD9103F"
+					player_command: false
+				}
+				{
+					id: "733FBD3DF74B0766"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:pwrdwn voice @p ~ ~ ~ 1"
+					player_command: false
+				}
+				{
+					id: "1D76EB5F87A33EFB"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage remove @a arcademode true"
+					player_command: false
+				}
+				{
+					id: "6DD1EA688A71D6C8"
+					type: "command"
+					auto: "invisible"
+					command: "/title @a 时间 0 50 20"
+					player_command: false
+				}
+				{
+					id: "21A12726415CE070"
+					type: "command"
+					auto: "invisible"
+					command: "/title @a subtitle {\"text\":\"禁用者 @p\"}"
+					player_command: false
+				}
+				{
+					id: "6A0B2AED4BEEF37B"
+					type: "command"
+					auto: "invisible"
+					command: "/title @a title {\"text\":\"街机模式\"}"
+					player_command: false
+				}
+				{
+					id: "3E6144E9B3120D71"
+					type: "custom"
+					tags: ["reset"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			x: 0.25d
+			y: -0.75d
+			id: "11B5B2165126E627"
+			tasks: [{
+				id: "1991E30E58F49C55"
+				type: "custom"
+				title: "作弊者"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/close.png"
+					}
+				}
+			}]
+		}
+		{
+			title: "时光要塞"
+			x: 5.5d
+			y: 4.25d
+			id: "5C2CD65573199D7E"
+			tasks: [{
+				id: "5F7EF2BBEBEA61F8"
+				type: "stat"
+				stat: "minecraft:play_one_minute"
+				value: 648000
+			}]
+		}
+		{
+			title: "你访问过的要塞"
+			x: 7.25d
+			y: 4.25d
+			dependencies: ["5C2CD65573199D7E"]
+			id: "3B2BB28EE6AC8C83"
+			tasks: [{
+				id: "22AEFFB27D622A3D"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 4.25d
+			dependencies: ["3B2BB28EE6AC8C83"]
+			id: "155E03B1D938815C"
+			tasks: [{
+				id: "74C9FFF28759E4F3"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "lycanitesmobs:apollyon"
+			}]
+			rewards: [
+				{
+					id: "0C558D79D65B06C7"
+					type: "command"
+					auto: "invisible"
+					command: "/say 你好朋友！寻找要塞？我当然可以帮忙！爱你！现在去死吧！"
+					player_command: false
+				}
+				{
+					id: "280E0152F3B65A53"
+					type: "command"
+					command: "/locate fortress"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "观察玩家"
+			x: 7.0d
+			y: 8.0d
+			id: "383CB09D06F2E8BA"
+			tasks: [{
+				id: "2C821F0485C0B718"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [{
+				id: "54144FC1983A62DF"
+				type: "command"
+				auto: "invisible"
+				command: "/execute at @p run particle minecraft:heart ^ ^2 ^3 2.5 0.5 2.5 10 30"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.75d
+			y: 5.25d
+			id: "46CDDAB0355C8104"
+			tasks: [
+				{
+					id: "201EF0868C061E99"
+					type: "location"
+					dimension: "minecraft:overworld"
+					ignore_dimension: true
+					position: [I;
+						-1000
+						1
+						-1000
+					]
+					size: [I;
+						2000
+						240
+						2000
+					]
+				}
+				{
+					id: "35EDE085D8D6A4A7"
+					type: "stat"
+					stat: "minecraft:play_one_minute"
+					value: 15
+				}
+			]
+			rewards: [
+				{
+					id: "0A508DA223D6C6FA"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run playsound welcome voice @p ~ ~ ~ 70 1 1"
+					player_command: false
+				}
+				{
+					id: "70DB87D21BD14013"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run particle sonicraft:energy_cubes ~2 ~-3 ~ 3 30 3 0.3 700"
+					player_command: false
+				}
+				{
+					id: "70DDE3A3984C67A3"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "前往穹光森林"
+			x: 2.25d
+			y: 5.75d
+			id: "669C9AD5059D6287"
+			tasks: [{
+				id: "46F26816694200E8"
+				type: "dimension"
+				dimension: "twilightforest:skylight_forest"
+			}]
+			rewards: [
+				{
+					id: "610798D9CC30BDC7"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "13FFFB5D6BA270E2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0EB32B16F028DFDB"
+					player_command: false
+				}
+				{
+					id: "64C00D34EE075204"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "2774F162391BF144"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "743944BFB7C4F6A5"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "7DAA69A5DF3CDF8B"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "16E9DFFE5A2A1373"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "6F66B6C28F0A12E2"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "0701F6BE7C5AFAAF"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "54638C49A2323FE6"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "7CD2D489D102FB72"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "5D2F18C70E848E62"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "24E2D8D03DE35C52"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "0E4A1CFB6C336B18"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "前往暮色森林"
+			x: 2.25d
+			y: 7.0d
+			id: "39D09F5C901FFFE9"
+			tasks: [{
+				id: "6E25433877E166F5"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "75FE9437C7A984EC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "3C08030E611AB56F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "04AFA236C8691EE9"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0EB32B16F028DFDB"
+					player_command: false
+				}
+				{
+					id: "0A9044ED79C53476"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "4F2DD17C0F230BDB"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "25C644ADCCE0E482"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5123AC13FE3097FB"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "31A550CD59CE6930"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "561E9EE17B7E7FAF"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "78021A1DD8B4C68D"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "1E37A374972A5E56"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "510860383839429E"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 5F9D684CFE0958B9"
+					player_command: false
+				}
+				{
+					id: "35B8A59CA32F0A19"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "055E1D6548661C11"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "去恐怖的城市"
+			x: -1.25d
+			y: 4.25d
+			id: "5F9D684CFE0958B9"
+			tasks: [{
+				id: "2C61D883383783F8"
+				type: "dimension"
+				dimension: "lostcities:lostcity"
+			}]
+			rewards: [
+				{
+					id: "0A266FF61863A3B3"
+					type: "command"
+					auto: "enabled"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "18BBA6D18C3E0EF1"
+					type: "command"
+					auto: "enabled"
+					command: "/execute as @p run attribute @p forge:entity_gravity base set 0.08"
+					player_command: false
+				}
+				{
+					id: "7533F93A4C682440"
+					type: "command"
+					auto: "enabled"
+					command: "/execute as @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "3F963D5779FF9A47"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2F788BA67A5B5730"
+					player_command: false
+				}
+				{
+					id: "4FF6ADE136D6C414"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 0EB32B16F028DFDB"
+					player_command: false
+				}
+				{
+					id: "0F3A4E32D9030F3D"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 31C3AA1CE91B24DB"
+					player_command: false
+				}
+				{
+					id: "7ADD14CD09BCCF9B"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 669C9AD5059D6287"
+					player_command: false
+				}
+				{
+					id: "6737AA9F12F52F17"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 39D09F5C901FFFE9"
+					player_command: false
+				}
+				{
+					id: "1E92C1DBF08A5AC9"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 723F605D35E6C9AF"
+					player_command: false
+				}
+				{
+					id: "328F016788C7BDB5"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 1CCB38F725E36E83"
+					player_command: false
+				}
+				{
+					id: "0A3BD9CC76393430"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 23B679E77E26EE10"
+					player_command: false
+				}
+				{
+					id: "070EFEC72076F1C9"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 394607E36854CC42"
+					player_command: false
+				}
+				{
+					id: "417B1126BCD01D26"
+					type: "command"
+					command: "/effect clear @p"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: 4.0d
+			id: "49486FB754346768"
+			tasks: [{
+				id: "07A5D26213A96BCF"
+				type: "checkmark"
+				title: "将你的队伍传送到你这里"
+			}]
+			rewards: [
+				{
+					id: "56A28501FC1561FA"
+					type: "command"
+					auto: "invisible"
+					command: "/kubejs custom_command 0189283749837"
+					player_command: true
+				}
+				{
+					id: "642FF62862C88E29"
+					type: "custom"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: 6.5d
+			id: "65ED57B9E087B59D"
+			tasks: [{
+				id: "084860EAE904E2E1"
+				type: "structure"
+				structure: "minecraft:stronghold"
+			}]
+		}
+		{
+			title: "1级枪械"
+			x: 6.5d
+			y: 0.75d
+			id: "58A8854BD9E3AABC"
+			tasks: [{
+				id: "501C80F73E08F32D"
+				type: "checkmark"
+				title: "枪械"
+			}]
+			rewards: [
+				{
+					id: "1C6FAD10E245CC1F"
+					type: "item"
+					item: {
+						id: "cgm:pistol"
+						Count: 1b
+						tag: {
+							AmmoCount: 12
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "6AC3754048F81098"
+					type: "item"
+					item: {
+						id: "cgm:shotgun"
+						Count: 1b
+						tag: {
+							AmmoCount: 6
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "3AC77426D6015240"
+					type: "item"
+					item: {
+						id: "cgm:rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 8
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "479B03FC1EC54240"
+					type: "item"
+					item: {
+						id: "cgm:bazooka"
+						Count: 1b
+						tag: {
+							AmmoCount: 3
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "3A250E6D98DB946E"
+					type: "item"
+					item: {
+						id: "cgm:mini_gun"
+						Count: 1b
+						tag: {
+							AmmoCount: 60
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "15BCD114BA8992CD"
+					type: "item"
+					item: {
+						id: "cgm:assault_rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 40
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "41767D16D41D0A69"
+					type: "item"
+					item: {
+						id: "cgm:machine_pistol"
+						Count: 1b
+						tag: {
+							AmmoCount: 40
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "28913BD07377DD2C"
+					type: "item"
+					item: {
+						id: "cgm:heavy_rifle"
+						Count: 1b
+						tag: {
+							AmmoCount: 4
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "1D82BED326C92CA1"
+					type: "item"
+					item: {
+						id: "additionalguns:ar1_lvl1"
+						Count: 1b
+						tag: {
+							AmmoCount: 30
+							Color: 65525
+						}
+					}
+				}
+				{
+					id: "229011DFB97E81D7"
+					type: "item"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 6
+						}
+					}
+				}
+				{
+					id: "0C7801E021A11768"
+					type: "custom"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.75d
+			id: "1C7E0728DBE96D45"
+			tasks: [{
+				id: "2F2FE1E3D2F9543D"
+				type: "checkmark"
+				title: "2级枪械"
+			}]
+			rewards: [
+				{
+					id: "0A7003AA825EAAF4"
+					type: "item"
+					item: {
+						id: "additionalguns:ar1_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 35
+						}
+					}
+				}
+				{
+					id: "4ED09CB4AC7880B6"
+					type: "item"
+					item: {
+						id: "additionalguns:pistol_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 14
+							Color: 4956159
+						}
+					}
+				}
+				{
+					id: "07FE888213AD44D4"
+					type: "item"
+					item: {
+						id: "additionalguns:shotgun_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 8
+							Color: 4956159
+						}
+					}
+				}
+				{
+					id: "158537AC3BB1A16E"
+					type: "item"
+					item: {
+						id: "additionalguns:rifle_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 10
+							Color: 4956159
+						}
+					}
+				}
+				{
+					id: "4F967313B53B4B57"
+					type: "item"
+					item: {
+						id: "additionalguns:bazooka_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 5
+							Color: 4956159
+						}
+					}
+				}
+				{
+					id: "7B0EEAF56EEB5DA5"
+					type: "item"
+					item: {
+						id: "additionalguns:mini_gun_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 80
+							Color: 4956159
+						}
+					}
+				}
+				{
+					id: "75DAE8CA558615F8"
+					type: "item"
+					item: {
+						id: "additionalguns:machine_pistol_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 60
+							Color: 4956159
+						}
+					}
+				}
+				{
+					id: "7F59196816F60A1E"
+					type: "item"
+					item: {
+						id: "additionalguns:heavy_rifle_lvl2"
+						Count: 1b
+						tag: {
+							AmmoCount: 6
+							Color: 4956159
+						}
+					}
+				}
+				{
+					id: "04112C714376D08D"
+					type: "custom"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 0.75d
+			id: "1A2FA3C5152131C7"
+			tasks: [{
+				id: "656AE10BE65F952E"
+				type: "checkmark"
+				title: "3级枪械"
+			}]
+			rewards: [
+				{
+					id: "65DAFF5AE1F30D3A"
+					type: "item"
+					item: {
+						id: "additionalguns:ar1_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 40
+						}
+					}
+				}
+				{
+					id: "5763690E52E4EF5C"
+					type: "item"
+					item: {
+						id: "additionalguns:ar1_bfg"
+						Count: 1b
+						tag: {
+							AmmoCount: 20
+						}
+					}
+				}
+				{
+					id: "625FB1E36C711CC6"
+					type: "item"
+					item: {
+						id: "additionalguns:pistol_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 16
+							Color: 16711935
+						}
+					}
+				}
+				{
+					id: "1B478428BB8230B0"
+					type: "item"
+					item: {
+						id: "additionalguns:shotgun_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 10
+							Color: 16711935
+						}
+					}
+				}
+				{
+					id: "6347D2E8E390B8E6"
+					type: "item"
+					item: {
+						id: "additionalguns:rifle_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 12
+							Color: 16711935
+						}
+					}
+				}
+				{
+					id: "322E7E17A31D4AC6"
+					type: "item"
+					item: {
+						id: "additionalguns:bazooka_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 7
+							Color: 16711935
+						}
+					}
+				}
+				{
+					id: "11E4475502B8FBC4"
+					type: "item"
+					item: {
+						id: "additionalguns:mini_gun_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 100
+							Color: 16711935
+						}
+					}
+				}
+				{
+					id: "109B6AE66F67F159"
+					type: "item"
+					item: {
+						id: "additionalguns:machine_pistol_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 80
+							Color: 16711935
+						}
+					}
+				}
+				{
+					id: "2602B257240875CB"
+					type: "item"
+					item: {
+						id: "additionalguns:heavy_rifle_lvl3"
+						Count: 1b
+						tag: {
+							AmmoCount: 8
+							Color: 16711935
+						}
+					}
+				}
+				{
+					id: "640226AB48684B2A"
+					type: "custom"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			id: "736DFC761A1E0B22"
+			tasks: [{
+				id: "02E94E2E7543A82E"
+				type: "checkmark"
+				title: "3级枪箱"
+			}]
+			rewards: [
+				{
+					id: "68B65BD124EEC83A"
+					type: "random"
+					table_id: 4594535670661342051L
+				}
+				{
+					id: "4AC5567EE9B7CC58"
+					type: "custom"
+					tags: ["reset"]
+				}
+				{
+					id: "0C41A49783565724"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			id: "15F58CF7DEBCCD92"
+			tasks: [{
+				id: "052CC646A5FFD0D4"
+				type: "checkmark"
+				title: "2级枪箱"
+			}]
+			rewards: [
+				{
+					id: "2E5A299EC236A0B3"
+					type: "random"
+					table_id: 5730944701274173975L
+				}
+				{
+					id: "5B9C277F63F67306"
+					type: "custom"
+					tags: ["reset"]
+				}
+				{
+					id: "302AB614DC50B651"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			id: "1C87D9E0931E21CE"
+			tasks: [{
+				id: "6C8359ECB2D2EFAF"
+				type: "checkmark"
+				title: "1级枪箱"
+			}]
+			rewards: [
+				{
+					id: "35FBCA01A890034A"
+					type: "random"
+					table_id: 1557008524020537371L
+				}
+				{
+					id: "10B80B81DFA9B97D"
+					type: "custom"
+					tags: ["reset"]
+					team_reward: false
+				}
+				{
+					id: "7DDF2C1E7E9E5D79"
+					type: "command"
+					command: "/execute at @p run playsound minecraft:item.armor.equip_leather voice @p ~ ~ ~ 2"
+					player_command: false
+				}
+			]
+		}
+	]
+}

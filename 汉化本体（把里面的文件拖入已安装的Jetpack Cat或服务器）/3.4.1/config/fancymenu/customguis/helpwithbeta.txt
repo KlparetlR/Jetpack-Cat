@@ -1,0 +1,3 @@
+identifier = helpwithbeta
+title = 反馈和建议
+allowesc = true

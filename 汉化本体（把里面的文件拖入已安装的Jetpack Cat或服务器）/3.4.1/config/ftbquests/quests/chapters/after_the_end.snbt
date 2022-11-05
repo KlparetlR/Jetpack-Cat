@@ -1,0 +1,550 @@
+{
+	id: "6D1933994912ED4C"
+	group: ""
+	order_index: 2
+	filename: "after_the_end"
+	title: " 终末后"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "twilightforest:textures/items/hydra_trophy.png"
+		}
+	}
+	default_quest_shape: "secretagent"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "杀死纳迦"
+			x: -18.5d
+			y: -7.5d
+			description: [
+				"在获得全部12种眼睛并到达末地之后，您可以到达暮色森林。"
+				""
+				"暮色森林中的BOSS不会受到子弹的伤害。"
+				""
+				"这些任务的进度要从左上角开始，一旦第一行全部完成，那么第二行左边的第一个任务，将是下一个你要完成的，依此类推。"
+			]
+			hide: false
+			size: 2.0d
+			id: "0B092A597F15E9A0"
+			tasks: [{
+				id: "05BCE1D20A3CC863"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/items/naga_trophy.png"
+					}
+				}
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+		}
+		{
+			title: "杀死巫妖"
+			x: -14.5d
+			y: -7.5d
+			description: [
+				"巫妖在战斗时的第一阶段会是无法攻击的。"
+				""
+				"巫妖会向你发射抛射物，你需要将它们打飞。"
+				""
+				"在第二阶段，巫妖会召唤小怪攻击你，杀死它们，直到巫妖携带的魔法杖耗尽。那时，巫妖就会变得脆弱。"
+				""
+				"现在彻底解决它，拿起掉落的权杖。你需要它来进入暮色沼泽生物群系。"
+			]
+			hide: false
+			size: 2.0d
+			id: "0BC98ACAFA4C3994"
+			tasks: [{
+				id: "03071BED177DC9D2"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/block/pedestal/lich.png"
+					}
+				}
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+		}
+		{
+			title: "杀死米诺菇"
+			x: -18.5d
+			y: -5.25d
+			description: [
+				"杀死米诺菇！一旦它死了，它会掉落牛头人沙拉酱肉。"
+				""
+				"吃掉牛头人沙拉酱肉后，即可进入火焰沼泽。"
+				""
+			]
+			hide: false
+			size: 2.0d
+			id: "6E150E6743422C64"
+			tasks: [{
+				id: "10AB42B19A586691"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/mooshroom.png"
+					}
+				}
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+		}
+		{
+			title: "杀死九头蛇"
+			x: -14.5d
+			y: -5.25d
+			description: ["击败三头九头蛇，获得炽热的血液。"]
+			hide: false
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "72970590632A267F"
+			tasks: [{
+				id: "243675AD96195968"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/items/hydra_trophy.png"
+					}
+				}
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+		}
+		{
+			title: "击败幻影骑士"
+			x: -18.5d
+			y: -3.0d
+			description: [
+				"找到黑暗森林中的地精骑士要塞。"
+				""
+				"在这里，您将之前收集的战利品头放在基座上，以打开进入这个要塞的入口。"
+				""
+				"穿过要塞，直到遇到幻影骑士团。"
+				""
+				"接着杀爆它们。"
+			]
+			hide: false
+			size: 2.0d
+			id: "19818C25FBD94DFD"
+			tasks: [{
+				id: "4402ACE44A07E045"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/phantom.png"
+					}
+				}
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+		}
+		{
+			title: "杀死暮色恶魂"
+			x: -14.5d
+			y: -3.0d
+			description: [
+				"这个BOSS就在黑暗高塔的顶部。"
+				""
+				"你必须贯穿这座高塔，打败保护这个实体的生物。"
+				""
+				"黑暗高塔中有针对大恶魂的陷阱，可以通过杀死小恶魂来充能。激活后，它们会向大恶魂发射光束。"
+				""
+				"一旦大恶魂被击败，黑暗高塔的顶部会生成一个箱子，里面装有暮色恶魂战利品、炽热的血液和砷铅铁矿石。"
+			]
+			hide_dependency_lines: false
+			hide: false
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "5181E4B8E48A8AF5"
+			tasks: [{
+				id: "099A43EAC0C762D8"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/items/ur_ghast_trophy.png"
+					}
+				}
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+		}
+		{
+			title: "击败雪怪首领"
+			x: -18.5d
+			y: -0.75d
+			description: [
+				"准备去死吧。"
+				""
+				"如果你能击败雪怪首领，你将获得雪怪首领毛皮、雪怪首领战利品和一些冰霜炸弹。你还可以进入冰雪女王呆着的极光宫殿。"
+			]
+			hide: false
+			size: 2.0d
+			id: "310B2E75367110CD"
+			tasks: [{
+				id: "00162331D47A7144"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/yeti_icon.png"
+					}
+				}
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+		}
+		{
+			title: "击败冰雪女王"
+			x: -12.5d
+			y: -0.75d
+			description: [
+				"冰雪女王可以在极光宫殿的顶部找到。"
+				""
+				"如果你能击败这位强大的BOSS，你将获得白雪女王战利品、三发弓和追踪弓。"
+			]
+			hide: false
+			size: 2.0d
+			id: "5AEB91EE1F2F47D1"
+			tasks: [{
+				id: "60896DE36DD23CDE"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/items/snow_queen_trophy.png"
+					}
+				}
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -0.75d
+			hide: false
+			size: 2.0d
+			id: "29DE7A667B19BC97"
+			tasks: [{
+				id: "433CD5F66B78DEF8"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/items/lamp_of_cinders.png"
+					}
+				}
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "进入黑暗森林"
+			x: -12.5d
+			y: -5.25d
+			description: [
+				"找到黑暗森林生物群系，在那里你将击败幻影骑士。"
+				""
+				"如果你还没有打败巫妖，进入该区域后你会失明。"
+			]
+			hide: false
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "332B8091D5F7D7A9"
+			tasks: [{
+				id: "61460E316FADB769"
+				type: "biome"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/block/darkwood_sapling.png"
+					}
+				}
+				biome: "twilightforest:dark_forest"
+			}]
+		}
+		{
+			title: "找到巫妖塔"
+			x: -16.5d
+			y: -7.5d
+			description: [
+				"找到巫妖塔，在那里你将与巫妖BOSS战斗。"
+				""
+				"如果你没打败娜迦，你将无法闯入巫妖塔。"
+			]
+			hide: false
+			size: 2.0d
+			id: "163846FE6DEDB3D2"
+			tasks: [{
+				id: "3C7EDA7580D99E44"
+				type: "structure"
+				title: "找到巫妖塔"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/block/uncrafting_side.png"
+					}
+				}
+				structure: "twilightforest:lichtower"
+			}]
+		}
+		{
+			title: "找到暮色沼泽生物群系"
+			x: -12.5d
+			y: -7.5d
+			description: [
+				"进入暮色沼泽生物群系需要上一场战斗中掉落的巫妖法杖。"
+				""
+				"没有巫妖权杖，暮色沼泽就会笼罩在一片漆黑的迷雾之中，进入牛头人迷宫将根本不可能。"
+			]
+			hide_dependency_lines: false
+			hide: false
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "2D3DBFCB3B3F02D8"
+			tasks: [{
+				id: "79C3036750BCC344"
+				type: "biome"
+				title: "找到暮色沼泽生物群系"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/map/swamp_hut.png"
+					}
+				}
+				biome: "twilightforest:swamp"
+			}]
+		}
+		{
+			title: "找到牛头人迷宫"
+			x: -10.5d
+			y: -7.5d
+			description: [
+				"找到位于暮色沼泽地面的迷宫。"
+				""
+				"入口经常被泥土覆盖。"
+				""
+				"探索迷宫，直到找到米诺菇——米诺陶和哞菇的混合体。"
+			]
+			hide: false
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "532D0785F2E9B8EB"
+			tasks: [{
+				id: "1827206BBF90E35A"
+				type: "structure"
+				title: "找到牛头人迷宫"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "goblinsanddungeons:textures/blocks/cracked_scoria_bricks.png"
+					}
+				}
+				structure: "twilightforest:labyrinth"
+			}]
+		}
+		{
+			title: "找到九头蛇巢穴"
+			x: -16.5d
+			y: -5.25d
+			description: [
+				"探索直到你遇到火焰沼泽生物群系。在这里你将在它的巢穴中寻找九头蛇。"
+				""
+				"九头蛇有3个头，只有张开嘴才能在近距离内受到伤害。"
+				""
+				"一旦它被击败，九头蛇会掉落九头蛇排骨和炽热的血液。收集这些物品，开始你的黑暗森林之旅。"
+			]
+			hide: false
+			size: 2.0d
+			id: "1A69BA2E9E63E2D5"
+			tasks: [{
+				id: "347F714A6BCE2ACF"
+				type: "structure"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/block/pedestal/hydra.png"
+					}
+				}
+				structure: "twilightforest:hydralair"
+			}]
+		}
+		{
+			title: "找到地精骑士要塞"
+			x: -10.5d
+			y: -5.25d
+			description: [
+				"黑暗森林地面有个入口可以让你进入骑士要塞。"
+				""
+				"将您从之前打败的BOSS那里中，收集到的战利品之一放在战利品基座上即可进入。"
+				""
+			]
+			hide: false
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "0649B87CBD2A98B5"
+			tasks: [{
+				id: "5C42E58D438EF2F4"
+				type: "structure"
+				title: "找到地精骑士要塞"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/map/stronghold.png"
+					}
+				}
+				structure: "twilightforest:knightstronghold"
+			}]
+		}
+		{
+			title: "找到黑暗高塔"
+			x: -16.5d
+			y: -3.0d
+			description: [
+				"一个超过200格高的建筑物，是暮色恶魂BOSS的家。"
+				""
+				"在寻找黑暗高塔时，爬到树顶可以获得更远的视距。"
+			]
+			hide: false
+			size: 2.0d
+			id: "7F7992E5565E3EF7"
+			tasks: [{
+				id: "3801B6726D7DC3DA"
+				type: "structure"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/block/pedestal/ur-ghast.png"
+					}
+				}
+				structure: "twilightforest:darktower"
+			}]
+		}
+		{
+			title: "找到积雪森林生物群系"
+			x: -12.5d
+			y: -3.0d
+			description: [
+				"在白雪皑皑的森林中，您会找到雪怪巢穴。"
+				""
+				"如果你在没有击败巫妖的情况下进入这个生物群落，你会被冻住使其行动不便。"
+			]
+			hide: false
+			size: 2.0d
+			id: "0631582F39C76BD3"
+			tasks: [{
+				id: "090D58D0D4688EE2"
+				type: "biome"
+				title: "找到积雪森林"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/particle/snow_1.png"
+					}
+				}
+				biome: "twilightforest:snowy_forest"
+			}]
+		}
+		{
+			title: "找到暮色冰川生物群系"
+			x: -16.5d
+			y: -0.75d
+			description: [
+				"在白雪皑皑的森林和冰川生物群系中，您会找到雪怪巢穴。"
+				""
+				"如果你在没有击败巫妖的情况下进入这个生物群落，你会被冻住使其行动不便。"
+			]
+			hide: false
+			size: 2.0d
+			id: "486C3747D4CF782E"
+			tasks: [{
+				id: "127C21B127CD1E9A"
+				type: "biome"
+				title: "找到暮色冰川生物群系"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/particle/snow_2.png"
+					}
+				}
+				biome: "twilightforest:glacier"
+			}]
+		}
+		{
+			title: "找到雪怪洞窟"
+			x: -10.5d
+			y: -3.0d
+			description: ["许多雪怪的家，但最重要的是雪怪首领。"]
+			hide: false
+			size: 2.0d
+			id: "1A18C0D35E6489D4"
+			tasks: [{
+				id: "52E37C2FCA390C05"
+				type: "structure"
+				title: "找到雪怪洞窟"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/map/igloo.png"
+					}
+				}
+				structure: "twilightforest:yeticave"
+			}]
+		}
+		{
+			title: "找到极光宫殿"
+			x: -14.5d
+			y: -0.75d
+			description: ["这座宫殿是冰雪女王的家，而且是每个月的那个时候，所以她很烦躁。"]
+			hide: false
+			size: 2.0d
+			id: "33D5970C77951A3B"
+			tasks: [{
+				id: "69E807787A512164"
+				type: "structure"
+				title: "找到极光宫殿"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/block/pedestal/snow_queen.png"
+					}
+				}
+				structure: "twilightforest:aurorapalace"
+			}]
+		}
+	]
+}

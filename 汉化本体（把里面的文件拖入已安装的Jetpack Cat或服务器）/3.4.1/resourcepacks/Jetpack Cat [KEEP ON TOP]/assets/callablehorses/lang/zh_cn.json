@@ -1,0 +1,19 @@
+{
+  "key.callablehorses.category": "召之坐骑来",
+  "key.sethorse.desc": "设置坐骑",
+  "key.callhorse.desc": "呼唤坐骑",
+  "key.showstats.desc": "显示坐骑信息",
+  "callablehorses.error.dim": "你无法在此维度召唤你的坐骑！",
+  "callablehorses.error.riding": "在你骑着你的坐骑时不能召唤它！",
+  "callablehorses.error.nohorse": "你目前并没有自己的坐骑！",
+  "callablehorses.error.notriding": "你需要骑着坐骑来做这件事！",
+  "callablehorses.error.alreadyowned": "这坐骑已经有一个主人了！",
+  "callablehorses.error.alreadypersonal": "这坐骑早已是你的了！",
+  "callablehorses.error.area": "你无法在这个区域召唤你的坐骑！",
+  "callablehorses.error.range": "你的坐骑离你过远，无法听到你的呼唤！",
+  "callablehorses.error.setarea": "你无法在此区域设置你的坐骑！",
+  "callablehorses.error.nospace": "此处没有足够的空间来召唤你的坐骑！",
+  "callablehorses.success": "现在这坐骑是你的了！",
+  "callablehorses.alert.death": "你所驯养的坐骑已死亡！",
+  "callablehorses.alert.offlinedeath": "当你离线时，你所驯养的坐骑已死亡！"
+}

@@ -1,0 +1,241 @@
+# essential模组翻译（CN By KlparetlR）
+## 菜单界面
+# 朋友界面
+gui.menu.friends.titletext=好友
+
+# 化妆品菜单
+gui.menu.cosmeticstudio.next=下一个化妆品
+gui.menu.cosmeticstudio.previous=上一个化妆品
+gui.menu.cosmeticstudio.previewnone=无可预览的
+gui.menu.cosmeticstudio.togglespin=切换旋转
+gui.menu.cosmeticstudio.togglefollowmouse=切换为跟随鼠标
+gui.menu.cosmeticstudio.resetspin=重置旋转
+gui.menu.cosmeticstudio.previewing=预览：
+gui.menu.cosmeticstudio.none=无
+gui.menu.cosmeticstudio.adjustposition=调整位置：
+
+studio.BACK=背后
+studio.EARS=耳朵
+studio.FACE=脸部
+studio.FULL_BODY=套装
+studio.HAT=帽子
+studio.PET=宠物
+studio.TAIL=尾巴
+studio.ARMS=武器
+studio.SUITS=套装
+studio.SHOES=鞋子
+studio.PANTS=裤子
+studio.WINGS=翅膀
+studio.FEATURED=精选
+studio.OWNED=拥有
+studio.CAPE=披风
+studio.PARTNER=伙伴
+studio.NEW=新的
+studio.SHOULDERS=肩膀
+studio.test=测试活动
+studio.100T=100个小偷
+studio.INSANE=疯狂工艺
+studio.HALLOWEEN=幽灵
+studio.TEAMSEAS=#团队海洋
+studio.RED=（红）
+studio.WINTER=冬天
+studio.EFFECT=效果
+studio.FLAME=火焰
+studio.HACKER=黑客
+
+## 配置
+# 配置名称
+gui.config.name.friendnotifications=好友通知
+gui.config.name.messagereceivednotifications=消息接收通知
+gui.config.name.messagegroupupdate=消息群组新消息
+
+# 配置说明
+gui.config.description.displayfriendnotifs=显示好友操作通知
+gui.config.description.displaymessagenotifs=显示收到新消息的通知
+gui.config.description.displaygroupupdates=显示群组新消息的通知
+
+# 配置类别
+gui.config.category.notifications=通知
+
+# 配置子类别
+gui.config.subcategory.friends=好友
+gui.config.subcategory.messages=消息
+
+## 反馈
+# 指令反馈
+command.feedback.refreshpurchases=刷新了你的个人资料
+
+# 按键反馈
+keybind.feedback.lookatplayerfriend=查看一个玩家以将他们添加为你的好友！
+keybind.feedback.alreadyfriends=你已经和这个人是好友了！
+keybind.feedback.blockedbyplayerfriend=你不能把这个玩家添加为你的好友，因为他已经屏蔽了你！
+keybind.feedback.hasplayerblockedfriend=你不能把这个玩家添加为你的好友，因为你已屏蔽了他！尝试先解锁他
+keybind.feedback.alreadypendingfriendrequest=你已经向他发送了好友请求！
+keybind.feedback.sendingfriendrequest=发送好友请求给 %s
+keybind.feedback.lookatplayermessage=查看一个玩家以给他发消息！
+keybind.feedback.notfriendedmessage=除非你是他的好友，否则你无法向他发送消息！尝试先将他添加为你的好友！
+keybind.feedback.openconversationmessage=试图打开对话 %s
+
+## 热键绑定
+keybind.name.ADD_FRIEND=添加好友
+keybind.name.ESSENTIAL_FRIENDS=打开好友界面
+keybind.name.COSMETIC_STUDIO=打开衣柜
+Open Cosmetic Studio=打开衣柜
+keybind.name.ZOOM=缩放
+keybind.name.COSMETICS_VISIBILITY_TOGGLE=化妆品可见度切换
+keybind.name.CHAT_PEEK=聊天内容速览
+keybind.name.INVITE_FRIENDS=邀请好友
+keybind.name.SCREENSHOT_MANAGER=F2截图管理器
+
+keybind.error.nonplayer=该玩家无效！
+
+## 通知
+# 通知标题
+notification.title.message=信息
+notification.title.friends=好友
+notification.title.messages=留言
+notification.title.failedgroupcreation=群组创建失败
+notification.title.groupcreated=群组创建
+
+# 通知消息 - 好友
+notification.message.acceptedfriend=你现在是 %s 的好友！
+notification.message.removedfriend=你不再是 %s 的好友！
+notification.message.sentfriendrequest=%s 向你发送好友请求！
+notification.message.cancelledfriendrequest=好友请求 %s %s 已取消！
+notification.message.cancelledfriendrequestto=对于
+notification.message.cancelledfriendr[]'equestfrom=from44notification.message.deniedfriendrequest=%s 拒绝了你的好友请求！
+notification.message.deniedfriendrequest_alt=拒绝来自 %s 的好友请求
+notification.message.blockedfriendrequest=%s 屏蔽了你！
+notification.message.hasblockedfriendrequest=%s 已被屏蔽！
+notification.message.unblockedfriendrequest=%s 已解除对你的屏蔽！
+notification.message.hasunblockedfriendrequest=%s 已解除屏蔽！
+notification.message.requestsuccess=对 %s 的好友请求已成功发送
+
+# 通知消息 - 消息
+notification.message.newmessage=%s 来自 %s 的消息
+notification.message.newmessage_dm=来自 %s 的消息
+notification.message.groupcreated=群组创建！
+
+# 化妆品
+Cosmetics.WINGS=翅膀
+Cosmetics.DRAGON_COMPANION=龙伙伴
+Cosmetics.DRAGON_HEAD=龙头
+Cosmetics.FEZ_HAT=毡帽
+Cosmetics.LEGO_HAT=乐高帽子
+Cosmetics.TOP_HAT=礼帽
+Cosmetics.CUSTOM_CAPE_STATIC=自定义披风静态
+Cosmetics.CUSTOM_CAPE_DYNAMIC=自定义披风动态
+Cosmetics.NITRO_CAPE=硝基披风
+Cosmetics.EXAMPLE_CAPE=示例披风
+Cosmetics.TAB_DOT=标签点
+Cosmetics.HEAD_TEXT=头部文字
+Cosmetics.COLONIST_HAT=殖民者帽子
+Cosmetics.JETPACK=喷气背包
+Cosmetics.GENERIC_BACKPACK=普通背包
+Cosmetics.DOG_BACKPACK=狗狗背包
+Cosmetics.AIRPODS=苹果耳机
+Cosmetics.TAN_BACKPACK=棕褐色背包
+Cosmetics.ELEPHANT_BACKPACK=大象背包
+Cosmetics.FEATHER_TOPHAT=羽毛礼帽
+Cosmetics.EARS=耳朵
+Cosmetics.HEADSET=耳机
+Cosmetics.SUNGLASSES=太阳镜
+Cosmetics.CUSTOM_SKIN_STATIC=自定义皮肤静态
+Cosmetics.CUSTOM_SKIN_DYNAMIC=自定义皮肤动态
+Cosmetics.LEGO_MAESTRO_CAPE=乐高大师披风
+Cosmetics.FLIP=翻转
+Cosmetics.DOG_FILTER=狗狗滤声器
+Cosmetics.TURTLE_BACKPACK=乌龟背包
+Cosmetics.MONKEY_BACKPACK=猴子背包
+Cosmetics.KING_CROWN=王冠
+Cosmetics.QUEEN_CROWN=女王皇冠
+Cosmetics.FLOWER_CROWN=花冠
+Cosmetics.FIRE_JETPACK=火焰喷气背包
+Cosmetics.WATER_JETPACK=水喷射背包
+Cosmetics.MAGIC_JETPACK=魔法喷气背包
+Cosmetics.ANGEL_WINGS=天使之翼
+Cosmetics.DEMON_WINGS=恶魔之翼
+Cosmetics.HEADPHONES=耳机
+Cosmetics.ROBOT_HELPMET=机器人头盔
+Cosmetics.FROG_HAT=青蛙帽
+Cosmetics.SPACESUIT_HELMET=太空服头盔
+Cosmetics.PROPELLER_HAT=螺旋桨帽
+Cosmetics.FRANKENSTEIN_BOLTS=科学怪人螺栓
+Cosmetics.EARMUFFS=耳罩
+Cosmetics.HEADBANDS=头带
+Cosmetics.UNICORN__HORN=独角兽角
+Cosmetics.VIKING_HELMET=维京头盔
+Cosmetics.ARROW_THROUGH_HEAD=箭头穿过头部
+Cosmetics.DEVIL_HORNS=恶魔角
+Cosmetics.COWBOY_HAT=牛仔帽
+Cosmetics.TALL_COWBOY_HAT=高牛仔帽
+Cosmetics.CAT_EARS=猫耳朵
+Cosmetics.RABBIT_EARS=兔耳朵
+Cosmetics.DOG_EARS=狗耳朵
+Cosmetics.PANDA_EARS=熊猫耳朵
+Cosmetics.KANGAROO_EARS=袋鼠耳朵
+Cosmetics.ALIEN_EARS=外星人耳朵
+Cosmetics.SUPER_TALL_COWBOY_HAT=超高牛仔帽
+Cosmetics.DEAL_WITH_IT_GLASSES=眼镜
+Cosmetics.THREE_D_GLASSES=3D 眼镜
+Cosmetics.CAT_FILTER=猫过滤器
+Cosmetics.RABBIT_FILTER=兔子滤声器
+Cosmetics.MONOCLE=单片眼镜
+Cosmetics.TIKI_MASK=提基面具
+Cosmetics.BANANA_OUTFIT=香蕉套装
+Cosmetics.ENDER_DRAGON_OUTFIT=末影龙套装
+Cosmetics.SPACE_SUIT=太空服
+Cosmetics.GOATEE=山羊胡
+Cosmetics.OLD_DUTCH_BEARD=老荷兰胡须
+Cosmetics.SOUL_PATCH=灵魂补丁
+Cosmetics.MUTTON_CHOPS_BEARD=羊排胡须
+Cosmetics.A_LA_SOUVAROV_BEARD=络腮胡(羊排式)
+Cosmetics.PHARAOH_HEADDRESS=法老头饰
+Cosmetics.VAN_DYKE_BEARD=凡·戴克胡子
+Cosmetics.SHORT_BOXED_BEARD=短盒装胡须
+Cosmetics.SPARROW_BEARD=麻雀胡须
+Cosmetics.FRANZ_JOSEF_BEARD=小山羊胡须
+Cosmetics.HOLLYWOOD_BEARD=好莱坞式胡须
+Cosmetics.FU_MANCHU_MUSTACHE=傅满楚式胡须
+Cosmetics.LONG_BOXED_BEARD=长盒式胡须
+Cosmetics.PHARAOH_BEARD=法老胡须
+Cosmetics.SAMURAI_MASK_HELMET=武士面具头盔
+Cosmetics.SAMURAI_HELMET=武士头盔
+Cosmetics.DRAGON_TAIL=龙尾
+Cosmetics.CHEF_HAT=厨师帽
+Cosmetics.FIREFIGHTER_HELMET=消防头盔
+Cosmetics.SODA_HAT=汽水帽
+Cosmetics.SOMBRERO=草帽
+Cosmetics.CLOWN_MASK=小丑面具
+Cosmetics.ARMY_HELMET=军队头盔
+Cosmetics.PILOT_HAT=飞行员帽
+Cosmetics.PIRATE_HAT=海盗帽
+Cosmetics.STEAMPUNK_HAT=蒸汽朋克帽子
+Cosmetics.RASTA_WIG=拉斯塔假发
+Cosmetics.GAS_MASK=防毒面具
+Cosmetics.BIONIC_CYBORG_FACE=仿生机器人脸
+Cosmetics.BITZEL_SOCK_MONKEY.partnername=比泽尔
+Cosmetics.HAPICO_FROG.partnername=哈皮科
+Cosmetics.BIFFLE_MONOCLE.partnername=比弗尔
+Cosmetics.HENRY_COSMETIC.partnername=亨利
+Cosmetics.JEROME_BEAR_ONESIE.partnername=杰罗姆
+Cosmetics.SSUNDEE_FOOT_ONESIE.partnername=桑迪
+Cosmetics.SIGILS_STARTER_KIT.partnername=纹章
+Cosmetics.MEFS_TACO_WINGS.partnername=Mefs
+Cosmetics.MICHAELMCCHIL_ALESIA_BACKPACK.partnername=迈克尔·姆基尔
+Cosmetics.KRINIOS_KEY_WINGS.partnername=克里尼·奥斯
+
+
+connectionmanager.friends.EXISTING_REQUEST_IS_PENDING=你已经向此人发送了好友请求
+connectionmanager.friends.SENDER_TYPE_VERIFIED_SLOT_LIMIT=你已达到允许的最大好友数。删除一些以添加更多。
+connectionmanager.friends.TARGET_TYPE_VERIFIED_SLOT_LIMIT=此人已达到允许的最大好友数
+connectionmanager.friends.NO_PENDING_REQUEST_TO_VERIFY=没有找到可以接受的好友请求
+connectionmanager.friends.VERIFIED_RELATIONSHIP_ALREADY_EXISTS=你已经是此人的好友
+connectionmanager.friends.NO_BLOCKED_RELATIONSHIP_TO_CONVERT=屏蔽此人时出错
+connectionmanager.friends.SENDER_BLOCKED_TARGET=你已屏蔽此人，杜绝他向你发送好友请求
+connectionmanager.friends.TARGET_BLOCKED_SENDER=此人屏蔽了你
+connectionmanager.friends.SENDER_TYPE_OUTGOING_SLOT_LIMIT=你已达到待处理好友请求的最大数量。请取消一些
+connectionmanager.friends.TARGET_TYPE_INCOMING_SLOT_LIMIT=此人收到的好友请求过多
+connectionmanager.friends.TARGET_PRIVACY_SETTING_FRIEND_OF_FRIENDS=此人只接受共同好友的好友请求
+connectionmanager.friends.TARGET_PRIVACY_SETTING_NO_ONE=此人目前不接受好友请求
+connectionmanager.friends.TARGET_NOT_EXIST=找不到该玩家
