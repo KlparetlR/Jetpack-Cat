@@ -1,0 +1,96 @@
+{
+	id: "3FC311D97DA16363"
+	order_index: 25
+	title: "1级枪械"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "additionalguns:ar1_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 40
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:ar1_bfg"
+				Count: 1b
+				tag: {
+					AmmoCount: 20
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:pistol_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 16
+					Color: 16711935
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:shotgun_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 10
+					Color: 16711935
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:rifle_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 12
+					Color: 16711935
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:bazooka_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 7
+					Color: 16711935
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:mini_gun_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 100
+					Color: 16711935
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:machine_pistol_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 80
+					Color: 16711935
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:heavy_rifle_lvl3"
+				Count: 1b
+				tag: {
+					AmmoCount: 8
+					Color: 16711935
+				}
+			}
+		}
+	]
+}

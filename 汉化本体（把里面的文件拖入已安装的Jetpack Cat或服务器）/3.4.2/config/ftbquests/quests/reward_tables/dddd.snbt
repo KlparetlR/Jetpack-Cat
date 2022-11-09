@@ -1,0 +1,27 @@
+{
+	id: "12CD3C1C57CD90E3"
+	order_index: 24
+	title: "dddd"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "cgm:shotgun"
+			Count: 1b
+			tag: {
+				AmmoCount: 6
+				AttributeModifiers: [{
+					Slot: "mainhand"
+					AttributeName: "generic.movement_speed"
+					UUID: [I;
+						-1
+						-1
+						-1
+						-1
+					]
+					Amount: 0.01d
+				}]
+				Color: 65525
+			}
+		}
+	}]
+}

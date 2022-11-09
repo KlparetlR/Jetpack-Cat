@@ -1,0 +1,66 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.ConfirmOpenLinkScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=450262%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=555262%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345262%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #111111
+  x = 0
+  width = 642
+  action = addshape
+  actionid = aa177daa-4091-452e-b0a2-ab97812803fc1649309165350
+  y = 6
+  height = 133
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = -90
+  action = addtext
+  actionid = 90aa94b9-fc6a-440d-8320-36c74d0508801649268073790
+  y = 84
+  scale = 1.0
+  alignment = left
+  value = 按[ESC]退出此界面。
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = -190
+  action = addtext
+  actionid = b5524c7e-abbe-4458-9a4d-91680aa44f3c1649309415242
+  y = 62
+  scale = 1.0
+  alignment = left
+  value = 该整合包中的FTB任务模组由 https://latvian.dev/supporting 制作
+}
+
