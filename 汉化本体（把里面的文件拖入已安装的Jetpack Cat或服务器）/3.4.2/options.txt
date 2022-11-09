@@ -6,7 +6,7 @@ chatLinks:true
 chatLinksPrompt:true
 enableVsync:false
 entityShadows:false
-forceUnicodeFont:true
+forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:false
@@ -23,20 +23,20 @@ fov:0.0
 screenEffectScale:0.5046948
 fovEffectScale:0.0
 gamma:1.0
-renderDistance:6
+renderDistance:12
 entityDistanceScaling:0.85
-guiScale:2
-particles:1
-maxFps:194
+guiScale:3
+particles:0
+maxFps:142
 difficulty:2
-graphicsMode:0
-ao:1
+graphicsMode:1
+ao:2
 biomeBlendRadius:1
-renderClouds:false
+renderClouds:true
 resourcePacks:["vanilla","mod_resources","quark:emote_resources","songs","Forgery oak_is_apple","file/Infernal Resources.zip","file/Lycanites Redux - v8.0.0.zip","file/Minecraft-Mod-Language-Package-1.16.zip","file/Minecraft-Mod-Language-Package-Not-Included-Language-Package.zip","file/Jetpack Cat [KEEP ON TOP]"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:localhost
-lang:zh_cn
+lang:en_us
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -44,7 +44,7 @@ textBackgroundOpacity:0.10798121988773346
 backgroundForChatOnly:true
 fullscreenResolution:1920x1080@144:24
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -108,26 +108,28 @@ key_Cosmetic Visibility Toggle:key.keyboard.unknown
 key_Add Friend:key.keyboard.unknown
 key_Chat Peek:key.keyboard.z:CONTROL
 key_Invite Friends:key.keyboard.h:CONTROL
-key_Zoom:key.keyboard.c
-key_key.create_stuff_additions.flying:key.keyboard.space
+key_Zoom:key.keyboard.unknown
 key_key.secondarySprint:key.keyboard.w
 key_key.dismount:key.keyboard.left.shift
 key_key.narrator:key.keyboard.unknown
 key_key.gui:key.keyboard.f1
 key_key.debugInfo:key.keyboard.f3
+key_key.create_stuff_additions.flying:key.keyboard.space
 key_[Forgery] Toggle/Hold Sprint:key.keyboard.page.down
+key_key.mod_lavacow.special:key.keyboard.g
+key_key.enchdesc.show:key.keyboard.left.shift
 key_drg_flares.keys.flare_mod_settings:key.keyboard.unknown
 key_drg_flares.keys.throw_flare:key.keyboard.v
 key_key.ftbchunks.map:key.keyboard.tab
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
-key_key.mod_lavacow.special:key.keyboard.g
-key_key.enchdesc.show:key.keyboard.left.shift
 key_key.sonicraft.flight_control_up:key.keyboard.space
 key_key.sonicraft.cyclone_shoot:key.keyboard.r
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.musictriggers.menu:key.keyboard.scroll.lock
+key_key.curios.open.desc:key.keyboard.unknown
+key_key.togglecleanview:key.keyboard.unknown
 key_key.mount.dismount:key.keyboard.unknown
 key_key.mount.descend:key.keyboard.left.alt
 key_key.mount.ability:key.keyboard.y
@@ -137,13 +139,14 @@ key_key.beastiary:key.keyboard.unknown
 key_key.pets:key.keyboard.unknown
 key_key.summoning:key.keyboard.unknown
 key_key.minions:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.unknown
-key_key.togglecleanview:key.keyboard.unknown
 key_keybind.everpotion.use:key.keyboard.x
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.unknown
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_key.backpack:key.keyboard.b
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
+key_key.cgm.reload:key.keyboard.r
+key_key.cgm.unload:key.keyboard.unknown
+key_key.cgm.attachments:key.keyboard.z
 key_key.boththrow.desc:key.mouse.right
 key_key.leftthrow.desc:key.keyboard.unknown
 key_key.rightthrow.desc:key.keyboard.unknown
@@ -156,9 +159,6 @@ key_key.climbdown.desc:key.keyboard.unknown
 key_key.enderlaunch.desc:key.mouse.left
 key_key.rocket.desc:key.mouse.left
 key_key.slide.desc:key.keyboard.left.shift
-key_key.cgm.reload:key.keyboard.r
-key_key.cgm.unload:key.keyboard.unknown
-key_key.cgm.attachments:key.keyboard.z
 key_hats.key.hatsMenu:key.keyboard.h
 key_placebo.toggleWings:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
@@ -168,17 +168,21 @@ key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_key.elenaidodge.dodge:key.keyboard.left.alt
 key_Descend:key.keyboard.left.shift
 key_key.ftbquests.quests:key.keyboard.grave.accent
-key_key.advancedcompass.openconfig:key.keyboard.backslash
-key_key.advancedcompass.newwaypoint:key.keyboard.m
-key_key.advancedcompass.openwaypointlist:key.keyboard.m:SHIFT
+key_key.opengui.desc:key.keyboard.end
 key_key.sethorse.desc:key.keyboard.p
 key_key.callhorse.desc:key.keyboard.g
 key_key.showstats.desc:key.keyboard.unknown
-key_key.opengui.desc:key.keyboard.end
-key_key.storagenetwork.remote:key.keyboard.unknown
+key_key.advancedcompass.openconfig:key.keyboard.backslash
+key_key.advancedcompass.newwaypoint:key.keyboard.m
+key_key.advancedcompass.openwaypointlist:key.keyboard.m:SHIFT
 key_nimble.keybind.frontView:key.keyboard.f6
 key_walljump.key.walljump:key.keyboard.left.shift
+key_key.storagenetwork.remote:key.keyboard.unknown
 key_key.toastcontrol.clear:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_key.plasmo_voice.settings:key.keyboard.right.bracket
 key_key.crawl.description:key.keyboard.c
 key_key.grab.description:key.mouse.5
 key_key.breakfall.description:key.keyboard.left.shift
@@ -188,8 +192,6 @@ key_key.wallslide.description:key.keyboard.left.control
 key_key.vault.description:key.mouse.4
 key_key.horizontalwallrun.description:key.keyboard.left.control
 key_key.parcool.setting.open:key.keyboard.unknown
-key_key.plasmo_voice.settings:key.keyboard.right.bracket
-key_quark.keybind.camera_mode:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.o
 key_key.inventoryhud.togglepot:key.keyboard.unknown
@@ -197,8 +199,10 @@ key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.unknown
 key_quark.keybind.back:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
@@ -218,10 +222,6 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_key.paraglider.paragliderSettings:key.keyboard.unknown
 key_key.losttrinkets.trinket:key.keyboard.z:SHIFT
 key_key.losttrinkets.magneto:key.keyboard.unknown
@@ -247,7 +247,7 @@ soundCategory_hostile:0.6076254
 soundCategory_neutral:0.6038072
 soundCategory_player:0.3568075
 soundCategory_ambient:0.50513864
-soundCategory_voice:0.807012
+soundCategory_voice:0.7576199
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
