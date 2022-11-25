@@ -1,0 +1,79 @@
+{
+  "entity": "sonicraft:hornet_van",
+  "name": "约翰·赫伯特",
+  "visualscale": 1.2,
+  "experience": 0,
+  "effects": {
+    "minecraft:resistance": 2
+  },
+  "attributes": {
+    "generic.max_health": 250,
+    "generic.follow_range": 60,
+    "generic.attack_damage": 2,
+    "generic.knockback_resistance": 10
+  },
+  "customattributes": {
+    "attack_speed": 0.4,
+    "dropgear": 6
+  },
+  "gear": {
+    "mainhand": "{id: \"supplementaries:candy\", Count: 10b, tag: {Damage: 0}}",
+    "offhand": "{id: \"cgm:basic_bullet\", Count: 64b, tag: {Damage: 0}}",
+    "helmet": "{id: \"cgm:basic_bullet\", Count: 64b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "brutalbosses:itemshootgoal": {
+      "healthinterval": "100-0",
+      "projectile_count": 1,
+      "projectile_interval": 10,
+      "projectile_distance": 45,
+      "projectile_aoe": true,
+      "projectilesize": 5.0,
+      "teleport": true,
+      "lightning": true,
+      "item": "{id: \"supplementaries:candy\", Count: 1b}",
+      "damage": 0
+    },
+    "brutalbosses:temppotions": {
+  		  "interval": 150,
+  		  "duration": 20,
+  		  "potions": {
+  			  "minecraft:invisibility": 1
+  		  }
+  	},
+    "brutalbosses:aftercombatregen": {
+      "amount": 3
+    },
+    "brutalbosses:summonmobs": {
+      "healthinterval": "100-0",
+      "interval": 140,
+      "count": 2,
+      "entities": [
+
+        {
+            "entityid": "lycanitesmobs:wraith",
+            "entitynbt": "{Brain: {memories: {}}, HurtByTimestamp: 251, IsBaby: 1b, Attributes: [{Base: 0.0d, Name: \"minecraft:zombie.spawn_reinforcements\"}, {Base: 0.08d, Name: \"forge:entity_gravity\"}, {Base: 0.73000000417232513d, Name: \"minecraft:generic.movement_speed\"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, InWaterTime: -1, FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, ForgeCaps: {\"brutalbosses:bosscap\": {}}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, UUID: [I; -1356225159, 445793596, -1560838011, 528914832], Motion: [0.0d, -0.0784000015258789d, 0.0d], Health: 25.119999f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [188.88051f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-59.22638885988113d, 55.0d, 100.53636996754722d], CanBreakDoors: 0b, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s, DrownedConversionTime: -1}"
+        }
+       ]
+    },
+    "minecraft:target": {},
+    "brutalbosses:whirldwind": {
+      "healthinterval": "100-0",
+      "knockup": true,
+      "attackdist": 25,
+      "cooldown": 50,
+      "knockback": 22
+    }
+  },
+  "spawnatchest": {
+    "goblinsanddungeons:chests/camp_loot_table":1,
+    "endrem:chests/witch_hut":1,
+    "minecraft:chests/bastion_other":1,
+    "minecraft:chests/nether_bridge": 1,
+    "minecraft:chests/bastion_hoglin_stable": 5,
+    "dungeons_enhanced:stables": 1,
+    "graveyard:chests/large_loot": 1,
+    "valhelsia_structures:chests/spawner_dungeon": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1
+  }
+}

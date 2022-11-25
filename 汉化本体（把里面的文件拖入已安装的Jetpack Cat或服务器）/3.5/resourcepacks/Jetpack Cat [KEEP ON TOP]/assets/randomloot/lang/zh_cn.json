@@ -1,0 +1,47 @@
+{
+    "itemGroup.randomloot.randomlootTab": "随机战利品模组",
+
+
+    "item.randomloot.basic_case": "寻常战利品箱",
+    "item.randomloot.golden_case": "§c罕见战利品箱",
+    "item.randomloot.titan_case": "§d史诗战利品箱",
+    "item.randomloot.sword": "随机剑",
+    "item.randomloot.pickaxe": "随机镐子",
+    "item.randomloot.shovel": "随机铲子",
+    "item.randomloot.axe": "随机斧子",
+    "item.randomloot.paxel": "随机镐尖斧",
+    "item.randomloot.rl_bow": "随机弓",
+    "item.randomloot.heavy_helmet": "随机头盔",
+    "item.randomloot.heavy_chest": "随机胸甲",
+    "item.randomloot.heavy_legs": "随机护腿",
+    "item.randomloot.heavy_boots": "随机靴子",
+    "item.randomloot.titanium_helmet": "随机头盔",
+    "item.randomloot.titanium_chest": "随机胸甲",
+    "item.randomloot.titanium_legs": "随机护腿",
+    "item.randomloot.titanium_boots": "随机靴子",
+    "item.randomloot.random_shard": "随机碎片",
+    "item.randomloot.random_chunk": "随机厚片",
+    "item.randomloot.random_cluster": "随机晶簇",
+    "item.randomloot.trait_holder": "神秘精华",
+
+
+    "item.randomloot.throwable": "随机投掷物",
+
+    "block.randomloot.random_anvil": "金质砧",
+    "block.randomloot.repair_station": "维修站",
+    "block.randomloot.case_opener": "开箱器",
+    "block.randomloot.breaker": "工具捣碎机",
+
+    "block.randomloot.editor": "工具编辑器",
+
+    "entity.minecraft.villager.randomloot.looter": "收藏家",
+
+    "container.randomloot.breaker": "工具捣碎机",
+
+    "container.randomloot.edit": "工具编辑器",
+
+    "button.remove": "删除特征",
+
+    "container.editor.removewarning": "所有特征都将从该工具中弹出，并且将受到严重损坏。"
+
+}

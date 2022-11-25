@@ -1,0 +1,10 @@
+{
+	id: "65A636A8ABCE3282"
+	order_index: 12
+	title: "食物种类4"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:bread", count: 10 }
+		{ item: "minecraft:apple", count: 5 }
+	]
+}
