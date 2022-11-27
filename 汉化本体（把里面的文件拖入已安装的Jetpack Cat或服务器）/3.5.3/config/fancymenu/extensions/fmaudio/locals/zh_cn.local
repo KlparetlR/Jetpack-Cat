@@ -1,0 +1,53 @@
+
+fancymenu.fmaudio.back = 返回
+fancymenu.fmaudio.done = 完成
+fancymenu.fmaudio.cancel = 取消
+
+fancymenu.fmaudio.audio.channel = 语音频道：§6{}
+fancymenu.fmaudio.audio.loop.on = 循环：§a开
+fancymenu.fmaudio.audio.loop.off = 循环：§c关
+fancymenu.fmaudio.audio.once_per_session.on = 重复触发：§a开
+fancymenu.fmaudio.audio.once_per_session.off = 重复触发：§c关
+fancymenu.fmaudio.audio.once_per_session.desc = 音效是否可重复触发
+fancymenu.fmaudio.audio.manage = 管理音效
+fancymenu.fmaudio.audio.manage.desc = 添加、编辑或移除音效
+fancymenu.fmaudio.audio.choose = 选择音效
+fancymenu.fmaudio.audio.choose.info = §l音效信息%n%%n%{}%n%编号：§6{}%n%音量：§6{}
+fancymenu.fmaudio.audio.add = 增加音效
+fancymenu.fmaudio.audio.remove = 移除音效
+fancymenu.fmaudio.audio.remove.confirm = §c§l确定吗？%n%%n%你真的要§c移除§r这个音效？%n% %n% %n% %n%
+fancymenu.fmaudio.audio.edit = 编辑音效
+fancymenu.fmaudio.audio.add_or_edit = 增加/编辑音效
+fancymenu.fmaudio.audio.sourcetype.external_local = 文件类型：§6本地
+fancymenu.fmaudio.audio.sourcetype.external_web = 文件类型：§6网页
+fancymenu.fmaudio.audio.choosesource = 选择文件
+fancymenu.fmaudio.audio.choosesource.file.invalid = §c§l无效文件！%n%%n%所选文件不是有效的.ogg格式文件！%n% %n% %n% %n%
+fancymenu.fmaudio.audio.choosesource.url = 输入音效网址
+fancymenu.fmaudio.audio.choosesource.url.invalid = §c§l无效网址！%n%%n%这不是个有效的网址！%n%请检查网络连通性%n%以及拼写%n% %n% %n% %n%
+fancymenu.fmaudio.audio.index = 编号
+fancymenu.fmaudio.audio.index.desc = 音效编号用于%n%制定音效元素。%n%可用于控制%n%所播放的音乐。%n%%n%同编号音乐%n%将被§l刷新§r.
+fancymenu.fmaudio.audio.volume = 音量
+fancymenu.fmaudio.audio.volume.desc = 此音效的音量
+
+fancymenu.fmaudio.item = 音效
+fancymenu.fmaudio.item.desc = 添加一个音效播放器在你的自定义界面中。%n%%n%可用于播放背景音乐。%n%可同时播放多个音效。%n%%n%§c此元素仅在%n%§c编辑模式中%n%可见。§c一般玩家并不会看到这个界面。
+
+fancymenu.fmaudio.buttonaction.togglemute.action.desc = 通过元素ID关闭音效元素
+fancymenu.fmaudio.buttonaction.togglemute.value.desc = 音效元素ID：
+
+fancymenu.fmaudio.visibilityrequirement.is_muted = 音效元素是否关闭
+fancymenu.fmaudio.visibilityrequirement.is_muted.desc = 看看有没有音效元素被关闭了。%n%%n%你可以右键查看%n%一个元素的%n%元素ID
+fancymenu.fmaudio.visibilityrequirement.is_muted.value = 音效元素ID：
+
+fancymenu.fmaudio.config = 更多音效设置
+
+fancymenu.fmaudio.config.categories.world = 世界
+
+fancymenu.fmaudio.config.stop_world_music_in_menu = 在多人游戏菜单栏中禁用音乐播放
+fancymenu.fmaudio.config.stop_world_music_in_menu.desc = 仅多人游戏存档可用！%n%%n%主世界的音乐需要%n%像正常那样停止播放%n%即便在%n%多人游戏中
+
+fancymenu.fmaudio.config.only_play_out_of_world = 仅在非世界内播放
+fancymenu.fmaudio.config.only_play_out_of_world.desc = 音效是否仅在%n%玩家非存档中%n%或服务器中时播放
+
+
+

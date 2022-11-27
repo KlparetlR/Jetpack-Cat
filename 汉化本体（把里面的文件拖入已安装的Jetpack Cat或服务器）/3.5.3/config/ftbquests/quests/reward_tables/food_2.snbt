@@ -1,0 +1,26 @@
+{
+	id: "4D9CF668374065D3"
+	order_index: 7
+	title: "肉类食物"
+	loot_size: 1
+	rewards: [
+		{ item: "sonicraft:scrap_brain_spring", count: 2 }
+		{
+			item: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "cgm:short_scope" }
+		{ item: "randomloot:titan_case", count: 3 }
+		{ item: "lycanitesmobs:poopcharge", count: 20 }
+		{
+			xp_levels: 15
+			type: "xp_levels"
+		}
+	]
+}
