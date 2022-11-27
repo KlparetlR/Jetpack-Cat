@@ -1,4 +1,4 @@
-﻿2022-11-26 本次更新：3.5.1更新
+﻿2022-11-26 本次更新：3.5.3更新
 
 [小部分来源于根号的物品汉化，并且有删改，已获得同意]{图片汉化字体：IPix，非商用}
 
@@ -21,8 +21,8 @@
       ★记得确认是否成功加载资源包和光影★
 
 	⑴.本体（拉入启动器安装）：
-	https://www.curseforge.com/minecraft/modpacks/jetpack-cat/download/4112409
-	文件名：Jetpack+Cat+3.5.1-3.5.1.zip
+	https://www.curseforge.com/minecraft/modpacks/jetpack-cat/download/4112535
+	文件名：Jetpack+Cat+3.5.3.zip
 
 	⑵.i18n（拉入已安装本体的mods文件夹）：
 	https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/3538356
@@ -45,7 +45,7 @@
 
 P.S.一些物品可能i18n和翻译包没有汉化，那就您要自己查翻译。觉得汉化不对的、不准的，来B站找我，我尽力。
 
-基础信息：[1.4.1] Jetpack Cat 汉化 3.5.1 by KlparetlR
+基础信息：[1.4.2] Jetpack Cat 汉化 3.5.3 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/Jetpack-Cat
 
