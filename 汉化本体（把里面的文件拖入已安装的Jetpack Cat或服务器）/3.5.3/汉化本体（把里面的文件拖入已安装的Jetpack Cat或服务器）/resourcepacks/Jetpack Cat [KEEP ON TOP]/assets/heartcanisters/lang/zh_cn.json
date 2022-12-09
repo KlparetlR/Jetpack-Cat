@@ -1,0 +1,9 @@
+{
+	"itemGroup.heartcanisters": "心之容器",
+    "item.heartcanisters.heart": "红心",
+	"item.heartcanisters.golden_heart": "§e金心",
+    "item.heartcanisters.canister_base": "心之容器底座",
+    "item.heartcanisters.cut_diamond": "切割钻石",
+    "item.heartcanisters.empty_canister": "空容器",
+    "item.heartcanisters.heart_canister": "§a红心容器"
+}

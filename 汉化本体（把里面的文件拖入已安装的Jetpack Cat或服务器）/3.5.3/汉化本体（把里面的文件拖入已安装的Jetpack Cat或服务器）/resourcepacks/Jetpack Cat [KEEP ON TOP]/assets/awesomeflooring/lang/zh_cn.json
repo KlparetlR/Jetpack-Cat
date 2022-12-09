@@ -1,0 +1,51 @@
+{
+"block.awesomeflooring.white_glass_floor": "白色玻璃地板",
+    "block.awesomeflooring.orange_glass_floor": "橙色玻璃地板",
+    "block.awesomeflooring.lightblue_glass_floor": "浅蓝色玻璃地板",
+    "block.awesomeflooring.yellow_glass_floor": "黄色玻璃地板",
+    "block.awesomeflooring.lime_glass_floor": "石灰玻璃地板",
+    "block.awesomeflooring.pink_glass_floor": "粉色玻璃地板",
+    "block.awesomeflooring.gray_glass_floor": "灰色玻璃地板",
+    "block.awesomeflooring.lightgray_glass_floor": "浅灰色玻璃地板",
+    "block.awesomeflooring.cyan_glass_floor": "青色玻璃地板",
+    "block.awesomeflooring.purple_glass_floor": "紫色玻璃地板",
+    "block.awesomeflooring.blue_glass_floor": "蓝色玻璃地板",
+    "block.awesomeflooring.brown_glass_floor": "棕色玻璃地板",
+    "block.awesomeflooring.green_glass_floor": "绿色玻璃地板",
+    "block.awesomeflooring.red_glass_floor": "红色玻璃地板",
+    "block.awesomeflooring.black_glass_floor": "黑色玻璃地板",
+    "block.awesomeflooring.magenta_glass_floor": "洋红色玻璃地板",
+
+    "block.awesomeflooring.acacia_floor": "金合欢木地板",
+    "block.awesomeflooring.birch_floor": "白桦木地板",
+    "block.awesomeflooring.dark_oak_floor": "深色橡木地板",
+    "block.awesomeflooring.jungle_floor": "丛林木地板",
+    "block.awesomeflooring.oak_floor": "橡木地板",
+    "block.awesomeflooring.spruce_floor": "云杉木地板",
+    "block.awesomeflooring.craftingtable_floor": "工作台地板",
+
+    "block.awesomeflooring.jukebox_floor": "音符盒地板",
+
+    "block.awesomeflooring.acacia_log_floor": "金合欢原木地板",
+    "block.awesomeflooring.birch_log_floor": "白桦木原木地板",
+    "block.awesomeflooring.dark_oak_log_floor": "深色橡木原木地板",
+    "block.awesomeflooring.jungle_log_floor": "丛林原木地板",
+    "block.awesomeflooring.oak_log_floor": "橡木原木地板",
+    "block.awesomeflooring.spruce_log_floor": "云杉原木地板",
+
+    "block.awesomeflooring.iron_floor": "铁地板",
+    "block.awesomeflooring.gold_floor": "金地板",
+    "block.awesomeflooring.diamond_floor": "钻石地板",
+    "block.awesomeflooring.emerald_floor": "绿宝石地板",
+    "block.awesomeflooring.netherite_floor": "下界合金地板",
+
+    "block.awesomeflooring.enchantingtable_floor": "附魔台地板",
+
+    "block.awesomeflooring.bedrock_floor": "基岩地板",
+    "block.awesomeflooring.obsidian_floor": "黑曜石地板",
+    "block.awesomeflooring.stone_floor": "石地板",
+    "block.awesomeflooring.netherbricks_floor": "下界合金砖地板",
+
+    "block.awesomeflooring.furnace_floor": "熔炉地板",
+    "block.awesomeflooring.blastfurnace_floor": "高炉地板"
+}

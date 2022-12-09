@@ -1,0 +1,15 @@
+{
+	id: "2F896C2016E449D1"
+	order_index: 21
+	title: "复活图腾和好东西"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "heartbalance:refill_heart", count: 10 }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{
+			xp_levels: 5
+			type: "xp_levels"
+		}
+	]
+}

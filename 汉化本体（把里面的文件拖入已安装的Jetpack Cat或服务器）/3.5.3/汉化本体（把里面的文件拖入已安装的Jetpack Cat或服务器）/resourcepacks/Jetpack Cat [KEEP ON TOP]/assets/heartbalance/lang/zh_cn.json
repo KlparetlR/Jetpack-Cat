@@ -1,0 +1,8 @@
+{
+	"item.heartbalance.refill_heart":"头骨生命",
+	"item.heartbalance.half_heart":"小型生命拾取物",
+	"item.heartbalance.full_heart":"生命拾取物",
+	"item.heartbalance.refill_heart.tooltip":"使用时恢复 10 个头骨生命",
+	"item.heartbalance.half_heart.tooltip":"拾取时会治愈你",
+	"item.heartbalance.full_heart.tooltip":"拾取时会治愈你"
+}
