@@ -1,0 +1,18 @@
+{
+	id: "7ACFA616DDD4659B"
+	order_index: 9
+	title: "地板物品"
+	loot_size: 1
+	rewards: [
+		{ item: "awesomeflooring:gray_glass_floor", count: 24 }
+		{ item: "awesomeflooring:netherbricks_floor", count: 24 }
+		{ item: "awesomeflooring:netherite_floor", count: 24 }
+		{ item: "awesomeflooring:diamond_floor", count: 24 }
+		{ item: "awesomeflooring:jukebox_floor", count: 24 }
+		{ item: "quark:duskbound_lantern", count: 8 }
+		{ item: "heartbalance:refill_heart", count: 8 }
+		{ item: "minecraft:name_tag", count: 5 }
+		{ item: "awesomeflooring:black_glass_floor", count: 24 }
+		{ item: "awesomeflooring:enchantingtable_floor", count: 24 }
+	]
+}

@@ -1,0 +1,54 @@
+type = menu
+
+customization-meta {
+  identifier = forge.net.mca.client.gui.DestinyScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = 您可以在暂停菜单>玩家模型按钮中更改或重置所有玩家模型设置
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -237
+  width = 475
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = bf3d1c5a-bbfa-4c5b-992b-b7cea59b40551661407396304
+  y = -43
+  alignment = left
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  audio_source:ca7d5418-2672-4080-8cfc-ade1a49a54281661499484555 = config/MusicTriggers/songs/assets/musictriggers/sounds/music/nullspacedestiny.ogg;EXTERNAL_LOCAL;100;0
+  loop = true
+  channel = music
+  x = 49
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 45b4d460-8bc2-4c29-a3c2-b11f55d8498f1661499477316
+  y = 115
+  once_per_session = false
+  height = 50
+}
+
+customization {
+  identifier = %id=452532%
+  path = config/fancymenu/assets/disqualified.wav
+  action = setbuttonclicksound
+}
+
