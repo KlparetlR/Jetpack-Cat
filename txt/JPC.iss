@@ -2,9 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Minecraft modpack Jetpack Cat 汉化"
-#define MyAppVersion "1.4.3.5"
+#define MyAppVersion "1.5.0.0"
 #define MyAppPublisher "KlparetlR"
 #define MyAppURL "https://github.com/KlparetlR/Jetpack-Cat"
+#define ModPackVersion "3.6"
+#define MyCnVersion "1.5.0"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
@@ -17,21 +19,23 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}                                                                                                                                                        
 AppUpdatesURL={#MyAppURL}
-DefaultDirName=C:\Users\Administrator\AppData\Roaming\.minecraft\versions\Jetpack Cat 3.5.3    
+DefaultDirName={src} 
+UsePreviousAppDir=no
+DisableDirPage=yes
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 Uninstallable=no
-VersionInfoVersion={#MyAppVersion}
+VersionInfoVersion={#MyAppVersion}                                                
 VersionInfoCopyright={#MyAppPublisher}
 VersionInfoDescription=Jetpack Cat 汉化安装包
-LicenseFile=D:\.gz\工作\Minecraft\整合包汉化\[1.4.3.5] Jetpack Cat（喷气背包猫）汉化 3.5.3 by KlparetlR\LICENSE.txt
-InfoBeforeFile=D:\.gz\工作\Minecraft\整合包汉化\[1.4.3.5] Jetpack Cat（喷气背包猫）汉化 3.5.3 by KlparetlR\Inno setup before.txt
+LicenseFile=D:\.gz\工作\Minecraft\整合包汉化\[{#MyCnVersion}] Jetpack Cat（喷气背包猫）汉化 {#ModPackVersion} by KlparetlR\LICENSE.txt
+InfoBeforeFile=D:\.gz\工作\Minecraft\整合包汉化\[{#MyCnVersion}] Jetpack Cat（喷气背包猫）汉化 {#ModPackVersion} by KlparetlR\Inno setup before.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\Users\Administrator\Desktop\工作\Minecraft\整合包汉化\[1.4.3.5] Jetpack Cat（喷气背包猫）汉化 3.5.3 by KlparetlR
-OutputBaseFilename=Minecraft_Jetpack_Cat_喷气背包猫_3.5.3_汉化安装包_V{#MyAppVersion}
-SetupIconFile=D:\.gz\工作\Minecraft\整合包汉化\[1.4.3.5] Jetpack Cat（喷气背包猫）汉化 3.5.3 by KlparetlR\pack.ico
+OutputDir=C:\Users\Administrator\Desktop\工作\Minecraft\整合包汉化\[{#MyCnVersion}] Jetpack Cat（喷气背包猫）汉化 {#ModPackVersion} by KlparetlR
+OutputBaseFilename=Minecraft_Jetpack_Cat_喷气背包猫_{#ModPackVersion}_汉化安装包_V{#MyAppVersion}
+SetupIconFile=D:\.gz\工作\Minecraft\整合包汉化\[{#MyCnVersion}] Jetpack Cat（喷气背包猫）汉化 {#ModPackVersion} by KlparetlR\pack.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -50,8 +54,8 @@ Name: b; Description: "标题界面的图标汉化"; Types: xz ;
 Name: c; Description: "实机测试配置"; Types: xz ;
 
 [Files]
-Source: "C:\Users\Administrator\Desktop\工作\Minecraft\整合包汉化\[1.4.3.5] Jetpack Cat（喷气背包猫）汉化 3.5.3 by KlparetlR\汉化本体（把里面的文件拖入已安装的Jetpack Cat或服务器）\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: a;
-Source: "C:\Users\Administrator\Desktop\工作\Minecraft\整合包汉化\[1.4.3.5] Jetpack Cat（喷气背包猫）汉化 3.5.3 by KlparetlR\（可选）标题界面的图标汉化\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: b;
-Source: "C:\Users\Administrator\Desktop\工作\Minecraft\整合包汉化\[1.4.3.5] Jetpack Cat（喷气背包猫）汉化 3.5.3 by KlparetlR\（可选）实机测试配置\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: c;
+Source: "D:\.gz\工作\Minecraft\整合包汉化\[{#MyCnVersion}] Jetpack Cat（喷气背包猫）汉化 {#ModPackVersion} by KlparetlR\汉化本体（把里面的文件拖入已安装的Jetpack Cat或服务器）\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: a;
+Source: "D:\.gz\工作\Minecraft\整合包汉化\[{#MyCnVersion}] Jetpack Cat（喷气背包猫）汉化 {#ModPackVersion} by KlparetlR\（可选）标题界面的图标汉化\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: b;
+Source: "D:\.gz\工作\Minecraft\整合包汉化\[{#MyCnVersion}] Jetpack Cat（喷气背包猫）汉化 {#ModPackVersion} by KlparetlR\（可选）实机测试配置\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: c;
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
