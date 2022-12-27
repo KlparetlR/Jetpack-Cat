@@ -1,0 +1,12 @@
+{
+	id: "71AFA9A74930266F"
+	order_index: 20
+	title: "金属锭"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 10, weight: 10 }
+		{ item: "minecraft:gold_ingot", count: 5, weight: 3 }
+		{ item: "minecraft:netherite_ingot", count: 2 }
+		{ item: "endrem:end_crystal_ingot", count: 2 }
+	]
+}

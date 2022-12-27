@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "当地牢出现时",
+            "color": "gold",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "地下城出现在一个无畏的新世界",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "dungeons_arise:textures/wda_background.png"
+    },
+    "criteria": {
+        "WDA": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "WDA"
+        ]
+    ]
+}
