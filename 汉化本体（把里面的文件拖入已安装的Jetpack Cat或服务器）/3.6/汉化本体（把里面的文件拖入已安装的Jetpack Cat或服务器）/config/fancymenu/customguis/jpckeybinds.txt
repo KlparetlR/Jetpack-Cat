@@ -1,3 +1,0 @@
-identifier = jpckeybinds
-title = 热键绑定
-allowesc = true
