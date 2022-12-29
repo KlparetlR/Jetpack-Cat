@@ -1,0 +1,325 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 995937613343113297
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "我正在准备"
+	#The second line of text under the app name
+	state = "去杀死可爱的熊猫"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[init.buttons]]
+		label = "Play Now!"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "我正在计划"
+	#The seconds line of text under the app name
+	state = "杀死可爱的熊猫"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[main_menu.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "我在找人"
+	#The second line of text under the app name
+	state = "去帮助杀死可爱的熊猫"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[server_list.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+	#The first line of text under the app name
+	description = "我正在寻找一个领域"
+	#The second line of text under the app name
+	state = "参观领域"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[realms_list.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "我他正在参加一个游戏"
+	#The second line of text under the app name
+	state = "寻找可爱的奶牛来谋杀"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[join_game.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "我在爆杀怪物"
+	#The second line of text under the app name
+	state = "和拿着枪的可爱动物"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[single_player.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "我实际上有朋友"
+	#The second line of text under the app name
+	state = "这太奇怪了……"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[multi_player.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	#The first line of text under the app name
+	description = "在%realmname%中游玩"
+	#The second line of text under the app name
+	state = "在一个领域中游玩"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[realms.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "我正在爆杀小怪"
+	#The second line of text under the app name
+	state = "有很把多枪"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+
+	#The buttons to display on Discord
+	[[generic.buttons]]
+		label = "现在就玩！"
+		url = "https://www.curseforge.com/minecraft/modpacks/jetpack-cat"
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = true
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "我在地球2号上！"
+		state = "枪击怪物！"
+		largeImageKey = ["overworld"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "我在地狱！"
+		state = "弑魔！"
+		largeImageKey = ["nether"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "我在末地！"
+		state = "完结故事"
+		largeImageKey = ["end"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "mobius"
+		description = "我在8bit世界！"
+		state = "要去干了蛋头博士！"
+		largeImageKey = ["mobius"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "null_space_dimension"
+		description = "我在零空间！"
+		state = "而且很快就会死..."
+		largeImageKey = ["null_space_dimension"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "world_blender"
+		description = "我在地心！"
+		state = "骑马和杀死恐龙"
+		largeImageKey = ["world_blender"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "candy_world"
+		description = "我在软糖之地！"
+		state = "杀死小熊软糖！"
+		largeImageKey = ["candy_world"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "lostcity"
+		description = "我在恐怖之城！"
+		state = "寻找恐怖之城！"
+		largeImageKey = ["lostcity"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "twilightforest"
+		description = "我在暮色森林!"
+		state = "杀死地精！"
+		largeImageKey = ["twilightforest"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "skylight_forest"
+		description = "我在破碎森林"
+		state = "找到假钻石！"
+		largeImageKey = ["skylight_forest"]
+		largeImageText = "想象一下Pokemeon、Doom和Minecraft有了一个整合体..."
+		smallImageKey = ["%playerhead%"]
+		smallImageText = "%player%"
+		buttons = []
+
