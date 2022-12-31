@@ -1,38 +1,36 @@
-﻿&d&lVersion 3.8
+﻿&d&l3.8.1版本
 
-• Fixed the player movement speed being too fast
+• 修复了玩家移动速度过快的问题
 
-• Added a bunch of items from apex legends. Some of these items are on cooldowns, others get used up
-when you activate them. These are all found in chests throughout your world. Items that have cooldowns
-and can be reused are less likely to spawn in chests than items that are used up when you activate them:
+• 添加了一堆来自apex legends模组的物品。其中一些道具有冷却时间，另一些则在你激活它们时被消耗掉。
+这些都可以在你的世界的箱子里找到。拥有冷却时间且可以重复使用的道具 比 那些在你激活它们时就已经使用掉的道具 更不可能出现在你的箱子中：
 
-- Airstrike flare (throw down to call down bombs that explode after a set amount of time)
+- 雷声滚滚（扔下去召唤炸弹，炸弹在一段时间后爆炸）
 
-- Deployable gas trap
+- 可部署的毒气陷阱\毒气阱
 
-- Doc healing drone (deploy docs drone to give anyone around it absorption)
+- D.O.C.治疗无人机 （部署D.O.C.无人机给周围的人治疗）
 
-- Teleportation bracelet (throw it, where it lands is where you’re teleported to. Right click before it
-lands to teleport to that location in the air)
+- 传送手环 （扔出去，它落地的地方就是你被传送到的地方。在它落地之前右键单击可以传送到所在空中的位置）
 
-- Octanes stim (makes you run really fast for a few seconds
+- 兴奋剂 （让你在几秒钟内跑得很快）
 
-- Horizons gravity lift (lifts you into the air)
+- 地平线的重力电梯 （将你提升到空中）
 
-- Horizons ult (NEWT: Deploys wherever you throw it. It sucks in mobs)
+- 地平线的大招——黑洞 （部署在您抛出的任何地方。它将吸引生物）
 
-- Amped cover (deployable walls)
+- 强化掩体 （可部署的墙）
 
-- Electric fences (can be walked through, damages mobs)
+- 电网围栏 （可以穿过，但生物会受到伤害）
 
-- Bloodhound’s scanner
+- 寻血猎犬 扫描
 
-- Wally (fuze’s ultimate, brings down a ring of fire from the sky wherever you shoot it.)
+- “沃利”发射器 （暴雷的终极技能，无论你射到哪里，都会从天上掉下一圈火焰。）
 
-• Updated RPG parties. Your friend's health in the top left corner of the screen is now on a percentage.
-It will always show them as having 10 skull health when they have full health, even if they really have 30 skulls of health. When they have half their health left, it will show 5 hearts. It’s cleaner and gives you a less cluttered way of seeing your friends' health.
+• 更新RPG派对模组。你的朋友在屏幕左上角的生命值现在是百分比。当玩家拥有完整的生命值时，它总是会显示他们拥有10个头骨生命值，
+即使他们实际上拥有30个头骨生命值。当他们的生命值只剩一半时，它会显示5颗头骨生命。它更干净，让你以一种不那么杂乱的方式查看朋友的健康状况。
 
-• Adjusted some artifacts durability (lowered glove durability)
+• 调整了一些神器的耐久度 （降低了拳套耐久度）
 
 
 
@@ -98,13 +96,13 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 增加了关于储物箱的提示信息
 
-• 冰河熊怪物的寒冰之眼掉落几率从10%降低到5%。寒冰之眼可以在冰屋中找到，我把它添加到冰河熊怪物中(雪人外观的生物)，
-以防你找不到生成寒冰之眼的冰屋(它是随机的)。冰河熊现在只在恐怖之城的寒冷生物群落中生成。
+• 冰河熊怪物的寒冰之眼掉落几率从10%降低到5%。寒冰之眼可以在冰屋中找到，我把它添加到冰河熊怪物中（雪人外观的生物），
+以防你找不到生成寒冰之眼的冰屋（它是随机的）。冰河熊现在只在恐怖之城的寒冷生物群落中生成。
 
 • 调整弹药掉落率。轻型弹药现在掉落更少，而中型和重型弹药掉落更多。记住，在你杀死的生物后，用什么类型弹药所掉落的弹药会有更高的几率掉落相同的。
-如果你想要重型弹药，用使用重型弹药的枪杀死暴徒。(这只适用于非恐怖生物模组的怪物)
+如果你想要重型弹药，用使用重型弹药的枪杀死暴徒。（这只适用于非恐怖生物模组的怪物）
 
-• 增加了切换始终冲刺/不行走的模组，所以当你保持一个方向时，你总是跑，不需要按冲刺键(按=键)
+• 增加了切换始终冲刺/不行走的模组，所以当你保持一个方向时，你总是跑，不需要按冲刺键（按=键）
 
 
 
@@ -151,7 +149,7 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 降低掠夺者前哨站和矿井中眼睛的生成率。
 
-• 修复枪箱会给每个玩家在服务器上的枪(ha woops)
+• 修复枪箱会给每个玩家在服务器上的枪（ha woops）
 
 • 修复维度曲奇会将服务器上的每个人带到该曲奇维度，而不是只有吃了曲奇的玩家和该玩家10个区块内的任何实体
 
@@ -159,7 +157,7 @@ It will always show them as having 10 skull health when they have full health, e
 
 • boss在宝箱附近生成的几率增加15%
 
-• 移除了一些已被移除的模组的任务奖励(炮塔，因为它们会导致游戏延迟而移除)
+• 移除了一些已被移除的模组的任务奖励（炮塔，因为它们会导致游戏延迟而移除）
 
 • 从钓鱼战利品池中移除创造马达。
 
@@ -195,7 +193,7 @@ It will always show them as having 10 skull health when they have full health, e
 &d&l3.4.2版本
 
 • 维度曲奇现在将吃曲奇的玩家在10格方块半径内传送所有实体
-(可以带上你的朋友到不同的维度，而不需要每个玩家吃曲奇。所以吃东西的时候不要站在你的宠物旁边。)
+（可以带上你的朋友到不同的维度，而不需要每个玩家吃曲奇。所以吃东西的时候不要站在你的宠物旁边。）
 
 • 修复了霰弹枪伤害仅记录1颗子弹伤害的问题
 
@@ -207,7 +205,7 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 打或用枪射羊不再“剪”羊毛
 
-• 修复了不能在补充礼物屏幕上输入的问题(你可以在服务器上制作礼物并发送物品给其他玩家)
+• 修复了不能在补充礼物屏幕上输入的问题（你可以在服务器上制作礼物并发送物品给其他玩家）
 
 • 修复了骷髅怪物的头是隐形的
 
@@ -235,7 +233,7 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 环境声音添加:生物群落特定的声音，如微妙的鸟叫声，脚步声，水和气泡柱的声音和更多。
 
-• 增加了冲刺切换键绑定(键盘上的向下翻页按钮)，这样你就不必再按住或按下冲刺键了
+• 增加了冲刺切换键绑定（键盘上的向下翻页按钮），这样你就不必再按住或按下冲刺键了
 
 • 箭在水中飞得更远，所以当你躲在水中时，骷髅有更好的机会杀死你:D
 
@@ -251,7 +249,7 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 爬行者现在爆炸时点燃周围
 
-• 爬山虎现在在阳光下会着火(muahaha)
+• 爬山虎现在在阳光下会着火（muahaha）
 
 • 生物现在在走过篝火时会着火
 
@@ -265,9 +263,9 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 增加/hidearmor和/showarmor命令来隐藏和显示服务器上所有玩家的盔甲（任何使用这些命令的人）
 
-• 抓取窗台从鼠标中键改为mouse5(鼠标侧边向前键)
+• 抓取窗台从鼠标中键改为mouse5（鼠标侧边向前键）
 
-• 跳马从鼠标前进键改为鼠标后退键(侧边鼠标后退键)
+• 跳马从鼠标前进键改为鼠标后退键（侧边鼠标后退键）
 
 • 增加你可以从钓鱼获得的弹药数量，使其更有吸引力
 
@@ -288,24 +286,24 @@ It will always show them as having 10 skull health when they have full health, e
 
 &e&l移除模组：
 
-• 移除Da冰河熊e tilt模组(forge模组增加了这个行为)
+• 移除Da冰河熊e tilt模组（forge模组增加了这个行为）
 
-• 删除生物防晒模组(forge模组增加了这个行为)
+• 删除生物防晒模组（forge模组增加了这个行为）
 
-• 删除Configurable despawn timer模组(forge模组增加了这个行为)
+• 删除Configurable despawn timer模组（forge模组增加了这个行为）
 
-• 删除Trample Stopper模组(forge模组添加此行为)
+• 删除Trample Stopper模组（forge模组添加此行为）
 
-• 移除Environmental Creepers模组(forge模组增加了这个行为)
+• 移除Environmental Creepers模组（forge模组增加了这个行为）
 
-• 现在删除了Legendary tooltips(由于我没有完成配置，所以不小心加入了)
+• 现在删除了Legendary tooltips（由于我没有完成配置，所以不小心加入了）
 
 &e&l修理:
 
 • 当新玩家加入服务器时，每个人不再获得“新地球”头衔。
 
 • 当进入一个维度裂缝时，当你进入下一个维度时，你不再继续获得悬浮
-(这导致玩家一个接一个地进入多个维度，因为维度裂缝在每个维度中都接近相同的坐标)
+（这导致玩家一个接一个地进入多个维度，因为维度裂缝在每个维度中都接近相同的坐标）
 
 • 当进入零核空间时，你现在会收到一个x偏移量，以防止在上面世界使用维度裂缝的人在进入维度的那一刻碰到零核空间的维度裂缝
 
@@ -318,12 +316,12 @@ It will always show them as having 10 skull health when they have full health, e
 
 &d&l3.3版本
 
-• 修复了一个巨大的内存泄漏!游戏应该在较长时间的游戏过程中运行得更流畅，如果你没有大量的ram也不会崩溃。(感谢AMDBartek和Awaken冰河熊ic的诊断)
+• 修复了一个巨大的内存泄漏!游戏应该在较长时间的游戏过程中运行得更流畅，如果你没有大量的ram也不会崩溃。（感谢AMDBartek和Awaken冰河熊ic的诊断）
 
 • 新的维度曲奇!在你世界的各个箱子里找到它们。当你吃的时候，它会带你到那个特定的维度。除了末地维度，所有维度都有维度曲奇。
 
 • 新的死亡曲奇!它们传送你到你最后的死亡地点，可以在箱子里找到，把它们放在你的基地，当你死的时候，想要回到你的东西。
-与其花5经验币，不如吃这个曲奇。(它们在恐怖之城维度有更高的几率生成)
+与其花5经验币，不如吃这个曲奇。（它们在恐怖之城维度有更高的几率生成）
 
 • 在主菜单的进度章节中，修正了你的传送你的团队按钮。
 
@@ -374,7 +372,7 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 降低了生物的最大速度随时间的增长，所以他们在旧的世界和运行24/7的服务器上不是那么快
 
-• 在地狱街机模式下，亡灵的数量减少了(之前太高了)
+• 在地狱街机模式下，亡灵的数量减少了（之前太高了）
 
 • 删除了罪恶之子模组，从亚当的苹果中衍生的BOSS可以摧毁坟墓和在已声明的区块内的方块
 
@@ -392,14 +390,14 @@ It will always show them as having 10 skull health when they have full health, e
 
 • 添加了新的移动技巧!
   -  按住[ctrl]和跳跃,在附近的墙与墙之间跑。
-  -  在墙上跳，再跳一次(不按住[ctrl])反墙跳。如果你想要跳起多格方块，你可以接一个二段跳，
-     这样当你试着二段跳时就不会触发反墙跳。(你需要快速点击2次空格键来避免二段跳前的反墙跳)
+  -  在墙上跳，再跳一次（不按住[ctrl]）反墙跳。如果你想要跳起多格方块，你可以接一个二段跳，
+     这样当你试着二段跳时就不会触发反墙跳。（你需要快速点击2次空格键来避免二段跳前的反墙跳）
   -  跑步时握住c就可以滑行，或者按住c就可以爬行
   -  跑步时按蹲下[左shift]以跳跃
   -  当你跌落了一个较长的高度时，在你落地之前保持蹲下姿势[左shift]，以减少你的坠落造成的伤害
-  -  同时按[A] + [D](左右移动键)可以做一个前空翻，按住这些键进行后空翻
+  -  同时按[A] + [D]（左右移动键）可以做一个前空翻，按住这些键进行后空翻
   -  跳跃落地时，按住[shift]翻滚。
-  -  按住鼠标5(侧边鼠标按钮)，当跑到任何1块高的东西时，跳过它。
+  -  按住鼠标5（侧边鼠标按钮），当跑到任何1块高的东西时，跳过它。
   -  按住鼠标中间的按钮抓住一个架子，你可以来回爬过架子和按跳来跳起自己
 
 • 从战利品池中移除神射手附魔，因为你制作的任何背包都自带该附魔
