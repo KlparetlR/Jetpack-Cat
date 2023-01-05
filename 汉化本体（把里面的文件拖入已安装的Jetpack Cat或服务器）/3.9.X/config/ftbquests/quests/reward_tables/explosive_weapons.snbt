@@ -1,0 +1,55 @@
+{
+	id: "0390D7D7B844E748"
+	order_index: 4
+	title: "巨型枪械"
+	icon: {
+		id: "cgm:bazooka"
+		Count: 1b
+		tag: {
+			AmmoCount: 1
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "cgm:grenade_launcher"
+				Count: 1b
+				tag: {
+					AmmoCount: 1
+				}
+			}
+		}
+		{
+			item: {
+				id: "cgm:mini_gun"
+				Count: 1b
+				tag: {
+					AmmoCount: 100
+				}
+			}
+			weight: 25
+		}
+		{
+			item: {
+				id: "cgm:shotgun"
+				Count: 1b
+				tag: {
+					AmmoCount: 6
+					AttributeModifiers: [{
+						Slot: "mainhand"
+						AttributeName: "generic.movement_speed"
+						UUID: [I;
+							-1
+							-1
+							-1
+							-1
+						]
+						Amount: 0.01d
+					}]
+					Color: 65525
+				}
+			}
+		}
+	]
+}

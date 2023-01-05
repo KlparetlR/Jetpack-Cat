@@ -1,0 +1,43 @@
+[
+
+  {
+    "block": {
+      "block": "minecraft:obsidian"
+    },
+    "dimension": ["minecraft:the_nether", "minecraft:the_end", "twilightforest:twilightforest", "twilightforest:skylight_forest", "world_blender:world_blender", "candyworld:candy_world", "sonicraft:null_space_dimension", "sonicraft:mobius"],
+    "explosion": "5,false,false",
+    "playerhelditem": "minecraft:flint_and_steel",
+    "result": "deny",
+    "message": "哈哈，不能用的，去死吧！"
+  },
+
+  {
+    "block": {
+      "block": "minecraft:obsidian"
+    },
+    "minheight": 30,
+    "dimension": "minecraft:overworld",
+    "explosion": "5,false,false",
+    "playerhelditem": "minecraft:flint_and_steel",
+    "result": "deny",
+    "message": "不对!应该找另一条路去地狱!"
+  },
+
+  {
+    "block": {
+      "block": "cgm:workbench"
+    },
+    "explosion": "5,false,false",
+    "result": "deny",
+    "message": "不行的！真是不好意思 :)"
+  },
+
+  {
+
+    "minheight": 30,
+    "playerhelditem": "apex:boutique",
+    "result": "deny",
+    "message": "如果使用此物品将导致游戏崩溃"
+  }
+
+]

@@ -1,0 +1,67 @@
+[
+
+
+
+
+    {
+
+      "block": {
+        "block": "quark:midori_pillar"
+      },
+      "maxheight": 3,
+      "explosion": "20,false,false",
+      "potion": "minecraft:regeneration,160,2",
+      "result": "deny"
+    },
+
+    {
+
+      "block": {
+        "block": "quark:midori_pillar"
+      },
+      "minheight": 123,
+      "explosion": "5,false,false",
+      "potion": ["minecraft:regeneration,160,2"],
+      "result": "deny"
+    },
+
+    {
+      "playerhelditem": "minecraft:totem_of_undying/{CustomModelData:7,display:{Name:'{\"text\":\"启示图腾\"}'}}",
+      "dimension": "minecraft:the_nether",
+      "potion": "minecraft:levitation,120,1",
+      "result": "deny"
+    },
+
+		{
+			"playerhelditem": "minecraft:totem_of_undying/{CustomModelData:7,display:{Name:'{\"text\":\"启示图腾\"}'}}",
+			"dimension": "minecraft:the_end",
+			"potion": "minecraft:levitation,40,3",
+			"result": "deny"
+		},
+
+		{
+      "playerhelditem": "minecraft:totem_of_undying/{CustomModelData:7,display:{Name:'{\"text\":\"启示图腾\"}'}}",
+      "dimension": "minecraft:overworld",
+      "potion": "minecraft:jump_boost,100,1",
+      "result": "deny"
+    },
+
+
+
+    {
+      "timeout": 20,
+      "helditem": "minecraft:carrot_on_a_stick",
+      "explosion": "2,false,false",
+      "damage": "lightningBolt=0.0",
+      "message": "boom",
+      "message": "boom",
+      "result": "deny"
+    }
+
+
+
+
+
+
+
+]
