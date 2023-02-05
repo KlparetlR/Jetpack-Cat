@@ -1,0 +1,547 @@
+{
+	id: "08C86F339F57BED5"
+	group: ""
+	order_index: 7
+	filename: "garage_sale"
+	title: " 仓库出售"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "endermail:textures/items/packing_tape.png"
+		}
+	}
+	disable_toast: true
+	default_quest_shape: "unicorn"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "移动指南"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "parcool:textures/item/parcool_guide.png"
+				}
+			}
+			disable_toast: true
+			x: -1.0d
+			y: 1.25d
+			subtitle: "太棒了！"
+			description: [
+				"这本指南会教你在Jetpack_Cat的大多数移动技巧。"
+				""
+				"&d这本指南中提到的热键绑定不正确。要了解完整的指南，请查看Jetpack_Cat_Youtube频道上的移动指南视频。"
+			]
+			size: 3.0d
+			id: "138905135935AABA"
+			tasks: [{
+				id: "4BEF1D9AD573AB3D"
+				type: "checkmark"
+				title: "点我领取"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "parcool:textures/item/parcool_guide.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "78E75745CF2A2E1B"
+					type: "custom"
+					title: "这个\"奖励\"是可重复的"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/green_repeatable_32.png"
+						}
+					}
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+				{
+					id: "4DB749159B3F082D"
+					type: "item"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "parcool:textures/item/parcool_guide.png"
+						}
+					}
+					auto: "enabled"
+					item: "parcool:parcool_guide"
+				}
+			]
+		}
+		{
+			title: "《关系和你》指南"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mca:textures/item/book_romance.png"
+				}
+			}
+			disable_toast: true
+			x: 3.5d
+			y: -0.5d
+			description: ["这是《关系与你》指南。您可以根据需要多次获得这本书。"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "173814ECF88230CC"
+			tasks: [{
+				id: "55551BF6EE168A47"
+				type: "checkmark"
+				title: "领取"
+				disable_toast: true
+			}]
+			rewards: [
+				{
+					id: "36CDF0FF6F2C915B"
+					type: "item"
+					auto: "enabled"
+					item: "mca:book_romance"
+				}
+				{
+					id: "0DCE554B2A8BCCEE"
+					type: "custom"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/24_green_repeatable.png"
+						}
+					}
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "储存网络指导手册"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "patchouli:textures/items/book_blue.png"
+				}
+			}
+			disable_toast: true
+			x: 1.5d
+			y: 2.0d
+			description: ["这是存储网络系统的指南。您可以根据需要多次获得这本书。"]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "40E9B2E55031F13A"
+			tasks: [{
+				id: "504705E73FE48734"
+				type: "checkmark"
+				title: "领取"
+				disable_toast: true
+			}]
+			rewards: [
+				{
+					id: "2672E4674284EA7D"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
+					}
+				}
+				{
+					id: "271967D1E09F2E9E"
+					type: "custom"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/green_repeatable_32.png"
+						}
+					}
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "族谱"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mca:textures/item/family_tree.png"
+				}
+			}
+			disable_toast: true
+			x: 5.5d
+			y: -0.5d
+			description: ["这是你的家谱书。您可以根据需要多次获得这本书。"]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "357B9E5827B7AF7F"
+			tasks: [{
+				id: "0E868B7E3956093A"
+				type: "checkmark"
+				title: "领取"
+				disable_toast: true
+			}]
+			rewards: [
+				{
+					id: "1B18D9E9D4C0921E"
+					type: "item"
+					auto: "enabled"
+					item: "mca:family_tree"
+				}
+				{
+					id: "151D69C5B05023C3"
+					type: "custom"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/green_repeatable_32.png"
+						}
+					}
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -3.5d
+			y: -0.5d
+			description: [
+				"此物品使您可以访问黑市。您也可以按[ESC]键下方的[~]键来访问它。"
+				""
+				"&d使用热键时，不需要玩家物品栏中有这个物品"
+			]
+			size: 2.0d
+			id: "05965EC237E0D271"
+			tasks: [{
+				id: "77DD4DB56E797FAF"
+				type: "checkmark"
+				title: "领取黑市"
+			}]
+			rewards: [
+				{
+					id: "6020853202401B44"
+					type: "item"
+					auto: "enabled"
+					item: "ftbquests:book"
+				}
+				{
+					id: "34A3B3EB3C23DCCC"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "小心感染！"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mca:textures/item/book_infection.png"
+				}
+			}
+			disable_toast: true
+			x: 5.5d
+			y: -3.0d
+			size: 2.0d
+			id: "503987FE5F9D2A4B"
+			tasks: [{
+				id: "37FE0C0446E73E59"
+				type: "checkmark"
+				title: "领取该书"
+				icon: "mca:book_infection"
+			}]
+			rewards: [
+				{
+					id: "2633A1019271A95E"
+					type: "item"
+					tags: ["reset"]
+					auto: "enabled"
+					item: "mca:book_infection"
+				}
+				{
+					id: "27872F6946C131DA"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "管理你的家庭"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mca:textures/item/book_family.png"
+				}
+			}
+			disable_toast: true
+			x: 3.5d
+			y: -3.0d
+			size: 2.0d
+			id: "4CD19023296F00B2"
+			tasks: [{
+				id: "2B647EAED7C58ABD"
+				type: "checkmark"
+				title: "领取该书"
+			}]
+			rewards: [
+				{
+					id: "57A3B2394459FDB6"
+					type: "item"
+					title: "管理你的家庭"
+					tags: ["reset"]
+					auto: "enabled"
+					item: "mca:book_family"
+				}
+				{
+					id: "0A64D2469818B4BB"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "乡村建设"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mca:textures/item/book_blueprint.png"
+				}
+			}
+			disable_toast: true
+			x: 5.5d
+			y: 2.0d
+			size: 2.0d
+			id: "70F7EED36296BEF9"
+			tasks: [{
+				id: "30B982485DED6BF6"
+				type: "checkmark"
+				icon: "mca:book_blueprint"
+			}]
+			rewards: [
+				{
+					id: "7C958A3B84844E8B"
+					type: "item"
+					tags: ["reset"]
+					auto: "enabled"
+					item: "mca:book_blueprint"
+				}
+				{
+					id: "3A2AF5217CCE0E3B"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "死亡，以及如何复活"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mca:textures/item/book_death.png"
+				}
+			}
+			disable_toast: true
+			x: 3.5d
+			y: 2.0d
+			size: 2.0d
+			id: "682D91CC69C47B95"
+			tasks: [{
+				id: "0F8DBCFD53284819"
+				type: "checkmark"
+				title: "领取该书"
+			}]
+			rewards: [
+				{
+					id: "2DB289D889DE9BB2"
+					type: "item"
+					tags: ["reset"]
+					auto: "enabled"
+					item: "mca:book_death"
+				}
+				{
+					id: "7C1B651EE7D0DF3C"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/items/book.png"
+				}
+			}
+			x: 1.5d
+			y: -3.0d
+			size: 2.0d
+			id: "4BBE20511D2998C5"
+			tasks: [{
+				id: "5EE9844A296E83D0"
+				type: "checkmark"
+				title: "补充手册"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "supplementaries:supplementaries_guide"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E68ECD4C4B4CFC5"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "supplementaries:supplementaries_guide"
+						}
+					}
+				}
+				{
+					id: "5413FE441E0A67CE"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mca:textures/item/book_rose_gold.png"
+				}
+			}
+			x: 1.5d
+			y: -0.5d
+			size: 2.0d
+			id: "49237A0AB92811B1"
+			tasks: [{
+				id: "20215D3A4686D85C"
+				type: "checkmark"
+				title: "关于玫瑰金"
+				icon: "mca:book_rose_gold"
+			}]
+			rewards: [
+				{
+					id: "50A0B0FB6AF74CA7"
+					type: "item"
+					auto: "enabled"
+					item: "mca:book_rose_gold"
+				}
+				{
+					id: "5DB79DD04153BE2A"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			description: [
+				"它比普通的TNT大不了多少，但会呈现很酷的灯光秀，试试看吧！最好确保你站在20个方块内才能体验到酷炫的效果:D"
+				""
+				"所有酷孩子都在他们的基地使用它！"
+				""
+				"&d这是一次性礼物，您不能多次领取。"
+			]
+			size: 3.0d
+			id: "463A1B31429D7E99"
+			tasks: [{
+				id: "24E5783A055B9DD0"
+				type: "checkmark"
+				title: "别用这个"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "sonicraft:textures/blocks/blast_processing_side.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "086FE442A50A863B"
+					type: "item"
+					item: "sonicraft:blast_processing"
+					count: 2
+				}
+				{
+					id: "7CA245AAA73ED56B"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "extendedcrafting:textures/item/guide_book.png"
+				}
+			}
+			x: 7.5d
+			y: -0.5d
+			size: 2.0d
+			id: "3A9AE3B097B8A45D"
+			tasks: [{
+				id: "5A50B5CA94EED0AD"
+				type: "checkmark"
+				title: "合成拓展"
+			}]
+			rewards: [
+				{
+					id: "0342AA40FD55D1EC"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "extendedcrafting:guide"
+						}
+					}
+				}
+				{
+					id: "71E8271E1911A038"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+	]
+}

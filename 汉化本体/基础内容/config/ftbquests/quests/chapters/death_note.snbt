@@ -1,0 +1,2399 @@
+{
+	id: "0F8EE0766EDEA5D8"
+	group: ""
+	order_index: 5
+	filename: "death_note"
+	title: " 杀戮笔记"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "minecraft:textures/gui/presets/deathnote.png"
+		}
+	}
+	subtitle: ["个人特殊生物杀戮"]
+	default_quest_shape: "unicorn"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/vorach.png"
+				}
+			}
+			x: -4.25d
+			y: 0.5d
+			shape: "unicorn"
+			subtitle: "在沙漠和地狱深处发现。不要背对沃瑞斯:]"
+			description: [""]
+			id: "761CC1BCB2B308F1"
+			tasks: [{
+				id: "3610D569E529EE7D"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/vorach.png"
+					}
+				}
+				entity: "lycanitesmobs:vorach"
+				value: 15L
+			}]
+			rewards: [{
+				id: "3B644362C20C8DD2"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 2
+			}]
+		}
+		{
+			title: "击败母亲"
+			x: -1.5d
+			y: 4.5d
+			shape: "unicorn"
+			subtitle: "这是不可能的，现在就放弃吧。"
+			size: 3.0d
+			id: "01ED00F9116F8554"
+			tasks: [{
+				id: "0C3CA10C19221E99"
+				type: "kill"
+				title: "击败母亲"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "quark:textures/block/ender_watcher.png"
+					}
+				}
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "70EDC68D94D235CE"
+					type: "item"
+					item: "randomloot:titan_case"
+					count: 5
+				}
+				{
+					id: "10364002C71EEFE1"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "4495DB4A478CBA7E"
+					type: "item"
+					item: "mca:villager_editor"
+				}
+				{
+					id: "41F66620EE589311"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:end-portal-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "78FADD9D14AE5AFE"
+					type: "item"
+					item: "kubejs:gun_crate_exotic"
+					count: 2
+				}
+			]
+		}
+		{
+			tags: ["ding"]
+			x: -5.25d
+			y: 0.5d
+			shape: "unicorn"
+			subtitle: "在沙漠和...地狱中找到。"
+			id: "2350FAA40CE0CC9A"
+			tasks: [{
+				id: "0CC44C038A439A29"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/belphegor.png"
+					}
+				}
+				entity: "lycanitesmobs:belphegor"
+				value: 5L
+			}]
+			rewards: [{
+				id: "6236C42F5925DACB"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 3
+			}]
+		}
+		{
+			x: 0.75d
+			y: 6.75d
+			subtitle: "在岩浆中发现"
+			id: "3A02350374585B2F"
+			tasks: [{
+				id: "4871EC3E1D2E13D3"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/cinder.png"
+					}
+				}
+				entity: "lycanitesmobs:cinder"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "2D639997F5514088"
+					type: "item"
+					item: "heartcanisters:heart_canister"
+				}
+				{
+					id: "53840B3EA917CF06"
+					type: "item"
+					item: "kubejs:gun_crate_super_rare"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: 7.75d
+			subtitle: "发现于在山上飞"
+			id: "06D5AA1DCDEABB6E"
+			tasks: [{
+				id: "60A6F6BED9982580"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spectre.png"
+					}
+				}
+				entity: "lycanitesmobs:spectre"
+				value: 5L
+			}]
+			rewards: [{
+				id: "1C68A768A048B7F6"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 5
+			}]
+		}
+		{
+			x: -4.75d
+			y: 5.0d
+			subtitle: "在水中发现"
+			id: "42E954633BC05C8B"
+			tasks: [{
+				id: "57BB2550F89D8A21"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/skylus.png"
+					}
+				}
+				entity: "lycanitesmobs:skylus"
+				value: 5L
+			}]
+			rewards: [{
+				id: "29502BCF5E1925ED"
+				type: "item"
+				item: "xpcoins:silver_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -6.25d
+			y: 2.5d
+			subtitle: "在沙地发现的蝎子样子的生物"
+			id: "23812B1E8AA7F564"
+			tasks: [{
+				id: "50D5A48A7CAE1B78"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/sutiramu.png"
+					}
+				}
+				entity: "lycanitesmobs:sutiramu"
+				value: 5L
+			}]
+			rewards: [{
+				id: "4A3E5621D1E606B6"
+				type: "item"
+				item: "lycanitesmobs:explorers_risotto"
+				count: 5
+			}]
+		}
+		{
+			tags: ["ding"]
+			x: -6.25d
+			y: 0.5d
+			subtitle: "在主世界中找到。它们像天使一样发光，但不是天使。"
+			id: "300E65BB90BD4CDC"
+			tasks: [{
+				id: "6861AB4B0CA88FC3"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/sylph.png"
+					}
+				}
+				entity: "lycanitesmobs:sylph"
+				value: 5L
+			}]
+			rewards: [{
+				id: "5981F2C61CB2B47C"
+				type: "item"
+				item: "leashed:diamond_lead"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 1.5d
+			subtitle: "在森林和平原发现的树一样的生物"
+			description: ["这是迪斯科时间！迪斯科！迪斯科！"]
+			id: "0EFA085A9A3DBDCB"
+			tasks: [{
+				id: "10F5AD41633AB833"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/ent.png"
+					}
+				}
+				entity: "lycanitesmobs:ent"
+				value: 5L
+			}]
+			rewards: [{
+				id: "02F54AD87C7996F4"
+				type: "item"
+				item: "sonicraft:studiopolis_disco_floor"
+				count: 8
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 1.75d
+			y: 4.0d
+			subtitle: "在下界和末地发现"
+			id: "6B5D70EF0A97F979"
+			tasks: [{
+				id: "00F212FBD08251E5"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/trite.png"
+					}
+				}
+				entity: "lycanitesmobs:trite"
+				value: 5L
+			}]
+			rewards: [{
+				id: "1AA1B6101FE31747"
+				type: "item"
+				item: "create:oak_window"
+				count: 16
+			}]
+		}
+		{
+			x: -6.75d
+			y: 6.75d
+			subtitle: "在山和森林中发现，它们在阳光下行动很慢。"
+			id: "3E7A2C7081B61183"
+			tasks: [{
+				id: "17BE1A3106CF1A18"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/troll.png"
+					}
+				}
+				entity: "lycanitesmobs:troll"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "1D3976E217A85133"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 3
+				}
+				{
+					id: "0CE1C8A6913E80F4"
+					type: "item"
+					item: "xpcoins:fortune_cookie"
+					count: 2
+				}
+				{
+					id: "70B44A552D11591F"
+					type: "item"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "在天空和地下发现"
+			id: "232CABA452820AB6"
+			tasks: [{
+				id: "303BDA20A1614232"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/vespid.png"
+					}
+				}
+				entity: "lycanitesmobs:vespid"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "1EF937CC8444EF6A"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+				{
+					id: "68AB77E9FF00B1D2"
+					type: "item"
+					item: "waystones:warp_plate"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			subtitle: "在天空和地下发现"
+			id: "6A812A1B131E773A"
+			tasks: [{
+				id: "073FD0B0AC2AA2E9"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/vespidqueen.png"
+					}
+				}
+				entity: "lycanitesmobs:vespidqueen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "49A9FC86A6A59974"
+					type: "item"
+					item: "xpcoins:fortune_cookie"
+					count: 2
+				}
+				{
+					id: "4216D826D932E7F6"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: 7.75d
+			subtitle: "在岩浆附近发现"
+			id: "387C363310298BE3"
+			tasks: [{
+				id: "3DCD35344BB888E8"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/volcan.png"
+					}
+				}
+				entity: "lycanitesmobs:volcan"
+				value: 5L
+			}]
+			rewards: [{
+				id: "58458ACA2BA8E5A3"
+				type: "item"
+				item: "xpcoins:fortune_cookie"
+				count: 2
+			}]
+		}
+		{
+			x: -6.75d
+			y: 8.75d
+			subtitle: "在山地和雪地附近发现"
+			id: "6B3C1854A5D7762F"
+			tasks: [{
+				id: "50163C220B8B0ADE"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/wildkin.png"
+					}
+				}
+				entity: "lycanitesmobs:wildkin"
+				value: 5L
+			}]
+			rewards: [{
+				id: "323575799F5E476A"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "cgm:over_capacity"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.75d
+			subtitle: "一个友好的治疗实体漂浮在主世界中"
+			id: "7574EE309F7F3815"
+			tasks: [{
+				id: "0931292721E9871C"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/wisp.png"
+					}
+				}
+				entity: "lycanitesmobs:wisp"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3860AEA570EFC461"
+					type: "item"
+					item: "searchlight:searchlight"
+				}
+				{
+					id: "206C5F47C222B835"
+					type: "item"
+					item: "searchlight:wall_light_gray"
+					count: 2
+				}
+				{
+					id: "708C4962D12754CE"
+					type: "item"
+					item: "searchlight:wall_light_cyan"
+					count: 2
+				}
+				{
+					id: "5CBCD01658A53531"
+					type: "item"
+					item: "searchlight:wall_light_light_gray"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.25d
+			y: 0.5d
+			subtitle: "发现在大草原和平原上空飞行的一条龙"
+			id: "07B92D71759C71A5"
+			tasks: [{
+				id: "27D859D21BEF8E9A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/morock.png"
+					}
+				}
+				entity: "lycanitesmobs:morock"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "6CE5F98C84A71C69"
+					type: "item"
+					item: "xpcoins:fortune_cookie"
+					count: 2
+				}
+				{
+					id: "582EA540E6BBF306"
+					type: "item"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+				{
+					id: "5664B3246FA2B5C6"
+					type: "item"
+					item: "cgm:advanced_bullet"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 4.75d
+			y: 7.75d
+			subtitle: "发现于寒冷多雪的地区"
+			id: "51B302193128882B"
+			tasks: [{
+				id: "15C018D6639CFB63"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/maug.png"
+					}
+				}
+				entity: "lycanitesmobs:maug"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "79B97DD019DDE0FB"
+					type: "item"
+					item: "xpcoins:fortune_cookie"
+					count: 2
+				}
+				{
+					id: "1CCD2A6C552E924A"
+					type: "item"
+					item: "create:black_toolbox"
+				}
+			]
+		}
+		{
+			x: -7.75d
+			y: 7.75d
+			subtitle: "存在于森林、平原和山地"
+			description: [
+				"传送石盘允许你在它们之间来回传送。放置它们，然后通过右键单击从一个中取出调谐燧石并将其放置在另一个中。"
+				""
+				"您可以通过将调谐燧石放入传送石盘来连接更多传送石盘，这会再创建一个调谐燧石，您可以将其放入另一个传送石盘中。"
+			]
+			id: "323465D92A734ECA"
+			tasks: [{
+				id: "3AA0D38E70579F8C"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/naxiris_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:naxiris"
+				value: 5L
+			}]
+			rewards: [{
+				id: "0B984ADD84CD2F46"
+				type: "item"
+				item: "waystones:warp_plate"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.75d
+			subtitle: "当你杀死一个敌对的生物时，有时会产生收割者"
+			description: ["无线红石信号终端本质上是无线红石。将一个放在，有杠杆或按钮在旁边的方块上，另一个放在一个灯源方块（如红石灯）上，然后用一种材料右键终端上的频道栏位将它们连接起来。"]
+			id: "2216474FE6803A5E"
+			tasks: [{
+				id: "5DAC2243290F3423"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/reaper.png"
+					}
+				}
+				entity: "lycanitesmobs:reaper"
+				value: 15L
+			}]
+			rewards: [{
+				id: "22D1C9652343C1F1"
+				type: "item"
+				item: "create:redstone_link"
+				count: 4
+			}]
+		}
+		{
+			x: -5.75d
+			y: 4.0d
+			subtitle: "龙卷鲨潜伏在海洋深处"
+			id: "3760D2A7BCCFAA25"
+			tasks: [{
+				id: "393C87A2F7BE5A72"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/roa.png"
+					}
+				}
+				entity: "lycanitesmobs:roa"
+				value: 3L
+			}]
+			rewards: [{
+				id: "6BB195AC4F8EC015"
+				type: "item"
+				item: "xpcoins:fortune_cookie"
+				count: 2
+			}]
+		}
+		{
+			x: -6.75d
+			y: 4.0d
+			subtitle: "在水中生成"
+			id: "2AF16AC24CDFB4B7"
+			tasks: [{
+				id: "421CF22677858615"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/thresher.png"
+					}
+				}
+				entity: "lycanitesmobs:thresher"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "37B93C79F4656089"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 3
+				}
+				{
+					id: "68F9E114272A19FF"
+					type: "item"
+					item: {
+						id: "chalk:cyan_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: 5.0d
+			subtitle: "在水中找到它们"
+			id: "357F4F3D5E6AB2FC"
+			tasks: [{
+				id: "6F789AC1CC4BF904"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/lacedon.png"
+					}
+				}
+				entity: "lycanitesmobs:lacedon"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "55BEABFAC00E014F"
+					type: "item"
+					item: {
+						id: "chalk:light_blue_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29A815A7BF2F93FC"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.75d
+			y: 4.0d
+			subtitle: "住在地狱"
+			id: "6FCADD80FE34C214"
+			tasks: [{
+				id: "0FBD1879B6AB3513"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/malwrath.png"
+					}
+				}
+				entity: "lycanitesmobs:malwrath"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "450744E0AD97C55F"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 3
+				}
+				{
+					id: "43ABBCECDA7F9752"
+					type: "item"
+					item: "randomloot:golden_case"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -4.25d
+			y: 9.75d
+			shape: "unicorn"
+			subtitle: "在沼泽和阴森的地方发现"
+			id: "1B784517F4C97C13"
+			tasks: [{
+				id: "74D6F142E872EB7A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/ningen.png"
+					}
+				}
+				entity: "lycanitesmobs:ningen"
+				value: 5L
+			}]
+			rewards: [{
+				id: "1C126DF5CDB23233"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.75d
+			subtitle: "发现于漂浮在主世界"
+			id: "1C2135F3D1F74925"
+			tasks: [{
+				id: "48D321F4A1C5A816"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/nymph.png"
+					}
+				}
+				entity: "lycanitesmobs:nymph"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2C9A779B00A627BE"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 3
+			}]
+		}
+		{
+			x: 1.25d
+			y: 2.5d
+			subtitle: "发现于森林和平原"
+			id: "349A308134274017"
+			tasks: [{
+				id: "266CC521D59C42DE"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/pixen.png"
+					}
+				}
+				entity: "lycanitesmobs:pixen"
+				value: 3L
+			}]
+			rewards: [{
+				id: "41205FB2E33BB92E"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.75d
+			y: 4.5d
+			subtitle: "发现于它们飞在海洋上"
+			id: "24CFDDA567ED950D"
+			tasks: [{
+				id: "269E31394E430C40"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/quetzodracl.png"
+					}
+				}
+				entity: "lycanitesmobs:quetzodracl"
+				value: 3L
+			}]
+			rewards: [{
+				id: "176169F031D79ED6"
+				type: "item"
+				item: "xpcoins:silver_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -4.75d
+			y: 8.75d
+			shape: "unicorn"
+			subtitle: "会飞的沼泽生物"
+			id: "02A377E87573BB62"
+			tasks: [{
+				id: "28C985C1024B0D76"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/remobra.png"
+					}
+				}
+				entity: "lycanitesmobs:remobra"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "7EB22A1DACBB4F97"
+					type: "item"
+					item: "sonicraft:sonic_the_fighters_arcade_cabinet"
+				}
+				{
+					id: "7F9983CB5ADDE763"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.75d
+			y: 8.75d
+			subtitle: "发现在雪域滑动"
+			id: "1C56E76B7D429C79"
+			tasks: [{
+				id: "5978783933EAD2B1"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/serpix.png"
+					}
+				}
+				entity: "lycanitesmobs:serpix"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "40156C3B2B8A08C6"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+				{
+					id: "7769B8EC12EA0017"
+					type: "item"
+					item: "kubejs:gun_crate_exotic"
+				}
+			]
+		}
+		{
+			x: 2.75d
+			y: 5.0d
+			subtitle: "发现在下界周围漂浮"
+			id: "5801E2B73B266362"
+			tasks: [{
+				id: "6E01C4296C5C6996"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/grell.png"
+					}
+				}
+				entity: "lycanitesmobs:grell"
+				value: 8L
+			}]
+			rewards: [
+				{
+					id: "5760334FC8365ECF"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 2
+				}
+				{
+					id: "3D3A24985BB7115B"
+					type: "item"
+					item: {
+						id: "mca:staff_of_life"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: 6.75d
+			subtitle: "生成在地下深处和地狱！"
+			id: "0CE243DDAAB98FC7"
+			tasks: [{
+				id: "0C2F00FEB32027DB"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/gnekk.png"
+					}
+				}
+				entity: "lycanitesmobs:gnekk"
+				value: 3L
+			}]
+			rewards: [{
+				id: "1C0B7827CBADC9A6"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 5
+			}]
+		}
+		{
+			x: -4.75d
+			y: 7.75d
+			shape: "unicorn"
+			subtitle: "在沼泽中发现"
+			id: "5CD632356E81F11E"
+			tasks: [{
+				id: "0497C4DF8EB83003"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/ghoul.png"
+					}
+				}
+				entity: "lycanitesmobs:ghoul"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "4272F5D61E040D1E"
+					type: "item"
+					item: "supplementaries:goblet"
+					count: 4
+				}
+				{
+					id: "53805C9FC7BC15CF"
+					type: "item"
+					item: "awesomeflooring:blastfurnace_floor"
+					count: 12
+				}
+			]
+		}
+		{
+			x: -3.75d
+			y: 8.75d
+			shape: "unicorn"
+			subtitle: "哥肯是在丛林和沼泽中发现的蜥蜴"
+			id: "718FF983070CB977"
+			tasks: [{
+				id: "5D60720481F8878D"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/geken.png"
+					}
+				}
+				entity: "lycanitesmobs:geken"
+				value: 5L
+			}]
+			rewards: [{
+				id: "5B8309096838F04D"
+				type: "item"
+				item: "heartcanisters:heart_canister"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.75d
+			subtitle: "杀死敌对生物时会生成感知"
+			id: "72DCD3AE31EA3D05"
+			tasks: [{
+				id: "165639E1D3F6C544"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/geist.png"
+					}
+				}
+				entity: "lycanitesmobs:geist"
+				value: 25L
+			}]
+			rewards: [{
+				id: "473FBF4FE58688AC"
+				type: "item"
+				item: "sonicraft:workshop_garage_door_handle"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 0.5d
+			subtitle: "费雷德是在平原和稀树草原发现的大型猫科动物"
+			id: "4B05AE561524E437"
+			tasks: [{
+				id: "25DA517634EA2F2B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/feradon_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:feradon"
+				value: 5L
+			}]
+			rewards: [{
+				id: "2CA6E7F252C4F849"
+				type: "item"
+				item: "xpcoins:fortune_cookie"
+				count: 2
+			}]
+		}
+		{
+			x: -3.75d
+			y: 7.75d
+			shape: "unicorn"
+			subtitle: "食人魔是两个有头的野兽。在沼泽中发现。你先吻哪张脸？"
+			id: "12435512DADE0D60"
+			tasks: [{
+				id: "7C1E8650AE5587A2"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/ettin.png"
+					}
+				}
+				entity: "lycanitesmobs:ettin"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "3804A4E5432EC8D9"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 3
+				}
+				{
+					id: "29C38ACE064B91CE"
+					type: "item"
+					item: "xpcoins:fortune_cookie"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.75d
+			y: 6.75d
+			shape: "unicorn"
+			subtitle: "厄匹恩是只在满月时才发现的大型蝙蝠"
+			id: "791F9F6C32C77858"
+			tasks: [{
+				id: "2C028A4DB5C8A52B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/epion_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:epion"
+				value: 5L
+			}]
+			rewards: [{
+				id: "3BBE3976EF052307"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "elenaidodge2:lightweight"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.75d
+			y: 5.0d
+			subtitle: "就像在地下发现的捕食者的抱脸者。"
+			id: "77B6DD65C8DCC340"
+			tasks: [{
+				id: "52A0BC8CEDF9C549"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/darkling.png"
+					}
+				}
+				entity: "lycanitesmobs:darkling"
+				value: 5L
+			}]
+			rewards: [{
+				id: "26A69CBB31230D76"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 5
+			}]
+		}
+		{
+			x: -5.25d
+			y: 2.5d
+			subtitle: "还记得电影《异形魔怪》吗？发现在沙子里。"
+			id: "3C45AB421030F2DD"
+			tasks: [{
+				id: "6AF184F97B9E9CBF"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/crusk.png"
+					}
+				}
+				entity: "lycanitesmobs:crusk"
+				value: 5L
+			}]
+			rewards: [{
+				id: "0CBF81728C736071"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 5
+			}]
+		}
+		{
+			x: -5.75d
+			y: 1.5d
+			subtitle: "找到你能找到沃瑞斯的地方"
+			id: "38F12EC8F9B08322"
+			tasks: [{
+				id: "758F61324FCEDDF3"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/clink.png"
+					}
+				}
+				entity: "lycanitesmobs:clink"
+				value: 30L
+			}]
+			rewards: [
+				{
+					id: "1CBE7F9DBE2B43D8"
+					type: "item"
+					item: {
+						id: "cgm:grenade_launcher"
+						Count: 1b
+						tag: {
+							AmmoCount: 6
+						}
+					}
+				}
+				{
+					id: "5E682F47F57A43EA"
+					type: "item"
+					item: "cgm:grenade"
+					count: 22
+				}
+			]
+		}
+		{
+			x: 0.75d
+			y: 7.75d
+			subtitle: "如果你父亲在熔岩中产生并向你发射火球"
+			id: "1AA91AA6019A46DF"
+			tasks: [{
+				id: "34640EF2FB13CCE4"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/cherufe.png"
+					}
+				}
+				entity: "lycanitesmobs:cherufe"
+				value: 5L
+			}]
+			rewards: [{
+				id: "1935F193255B0638"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 3
+			}]
+		}
+		{
+			x: 1.25d
+			y: 8.75d
+			subtitle: "在大型熔岩池中发现的一条巨龙。"
+			id: "3E6545FE3FE629CF"
+			tasks: [{
+				id: "6FE8E84A7EC0D0A8"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/ignibus.png"
+					}
+				}
+				entity: "lycanitesmobs:ignibus"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7086872C26F906C6"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 5
+			}]
+		}
+		{
+			x: -4.75d
+			y: 4.0d
+			subtitle: "在海洋中发现的类似黄貂鱼的生物"
+			id: "71D4B70E6713DDAA"
+			tasks: [{
+				id: "516BDB6144093CDB"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/ioray.png"
+					}
+				}
+				entity: "lycanitesmobs:ioray"
+				value: 5L
+			}]
+			rewards: [{
+				id: "6EE64DA0376B214D"
+				type: "item"
+				item: "heartbalance:refill_heart"
+				count: 5
+			}]
+		}
+		{
+			x: -7.75d
+			y: 8.75d
+			subtitle: "发现在山上，它就像一只卑鄙的驯鹿。"
+			id: "32F96EA413FA6429"
+			tasks: [{
+				id: "3BC00A599EAD39A0"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/jabberwock.png"
+					}
+				}
+				entity: "lycanitesmobs:jabberwock"
+				value: 5L
+			}]
+			rewards: [{
+				id: "0B83CF955BA8B987"
+				type: "item"
+				item: "sonicraft:purple_chao_fruit"
+				count: 3
+			}]
+		}
+		{
+			x: -3.75d
+			y: 4.0d
+			subtitle: "一种由水制成的神话生物"
+			id: "10AE49CD2B0844C5"
+			tasks: [{
+				id: "477A9109D1261B20"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/jengu.png"
+					}
+				}
+				entity: "lycanitesmobs:jengu"
+				value: 10L
+			}]
+			rewards: [{
+				id: "6D68872978764652"
+				type: "item"
+				item: {
+					id: "chalk:blue_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -4.25d
+			y: 2.5d
+			subtitle: "在酸性水池附近发现的酸性飞行生物"
+			id: "2BE76BF2BA69754B"
+			tasks: [{
+				id: "55885767741023C5"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/xaphan.png"
+					}
+				}
+				entity: "lycanitesmobs:xaphan"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "186BE468B2B49FB1"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 3
+				}
+				{
+					id: "2120B9FC106C5F2D"
+					type: "item"
+					item: {
+						id: "chalk:green_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.75d
+			y: 5.0d
+			subtitle: "在下界发现了邪恶的飞头。去给一个吻;]"
+			description: ["有趣的事实是：当你杀死它们时，它们会爆炸。"]
+			id: "719258A0FFBCA51B"
+			tasks: [{
+				id: "2CA844CD3062C0A6"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/wraith.png"
+					}
+				}
+				entity: "lycanitesmobs:wraith"
+				value: 8L
+			}]
+			rewards: [{
+				id: "20A89B98153858F6"
+				type: "item"
+				item: "leashed:diamond_lead"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 8.75d
+			subtitle: "在雪地发现的飞行的冰系生物"
+			id: "77ABC5B4BC5D00D9"
+			tasks: [{
+				id: "2A328A9A3B029C6A"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/arix.png"
+					}
+				}
+				entity: "lycanitesmobs:arix"
+				value: 5L
+			}]
+			rewards: [{
+				id: "12343FE0AD2B04B3"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 3
+			}]
+		}
+		{
+			x: 3.25d
+			y: 2.5d
+			subtitle: "在平原和森林中发现友好的恐龙"
+			description: ["你是怪物！它是如此友好！这是帮助您杀死更多的奖励>：]"]
+			hide_text_until_complete: true
+			id: "7C43F5DDAC413948"
+			tasks: [{
+				id: "125FBD3A2575006F"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/arisaur.png"
+					}
+				}
+				entity: "lycanitesmobs:arisaur"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "0DBAE6DECD240B2C"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 3
+				}
+				{
+					id: "720C0113E991BE65"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "0B51E095E6EA193E"
+					type: "item"
+					item: "awesomeflooring:acacia_log_floor"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 2.75d
+			y: 4.0d
+			subtitle: "在末地和主世界森林中发现的绿色漂浮生物"
+			id: "41824B465952E74F"
+			tasks: [{
+				id: "3CE9A99538B57E8B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/argus.png"
+					}
+				}
+				entity: "lycanitesmobs:argus"
+				value: 3L
+			}]
+			rewards: [{
+				id: "4B6FE774EE68C146"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 3
+			}]
+		}
+		{
+			x: 1.25d
+			y: 9.75d
+			subtitle: "在岩浆附近发现的一种会喷火的邪恶蝙蝠"
+			id: "7E9B2103BDD580B9"
+			tasks: [{
+				id: "65907B6057D5F9ED"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/afrit.png"
+					}
+				}
+				entity: "lycanitesmobs:afrit"
+				value: 5L
+			}]
+			rewards: [{
+				id: "315DB59501D09D3E"
+				type: "item"
+				item: "sonicraft:miles_electric"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 5.0d
+			subtitle: "像鱼一样的食人鱼，它们很烦人。"
+			id: "3B034E0F1F336B88"
+			tasks: [{
+				id: "783C14C0DA0F94CF"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/abtu_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:abtu"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "736610511EAEEA71"
+					type: "item"
+					item: {
+						id: "better_diving:seamoth"
+						Count: 1b
+						tag: {
+							"better_diving:item_stack_handler": {
+								Size: 1
+								Items: [{
+									Slot: 0
+									id: "better_diving:power_cell"
+									Count: 1b
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "095A4B6ABD69C0BB"
+					type: "item"
+					item: {
+						id: "chalk:red_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.75d
+			y: 6.75d
+			shape: "unicorn"
+			subtitle: "在沼泽中发现的普通的恐龙生物"
+			id: "7428C79813F8DD07"
+			tasks: [{
+				id: "0D80936B7D546235"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/aspid_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:aspid"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "4F4DAABBA54123C6"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+				{
+					id: "698053658FA01894"
+					type: "item"
+					item: "xpcoins:silver_coin"
+				}
+			]
+		}
+		{
+			x: -5.75d
+			y: 5.0d
+			subtitle: "水中发现的电鳗"
+			id: "358D19DBD2008398"
+			tasks: [{
+				id: "5E2E64B1F344C07B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/abaia.png"
+					}
+				}
+				entity: "lycanitesmobs:abaia"
+				value: 5L
+			}]
+			rewards: [{
+				id: "7A5B0A3C2048DBDC"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 3
+			}]
+		}
+		{
+			x: 3.75d
+			y: 7.75d
+			subtitle: "在寒冷地区发现的能行走且有角的冰系生物"
+			id: "220E82718CB5E206"
+			tasks: [{
+				id: "4CEC00E13B9F1888"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/wendigo.png"
+					}
+				}
+				entity: "lycanitesmobs:wendigo"
+				value: 5L
+			}]
+			rewards: [{
+				id: "1C48ECF7A83CA2E2"
+				type: "item"
+				item: "heartcanisters:heart_canister"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 5.0d
+			subtitle: "地下发现的一种可怕的飞行生物"
+			id: "3AD051243F5EFB38"
+			tasks: [{
+				id: "2DF8643AC1C3CD95"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/grue.png"
+					}
+				}
+				entity: "lycanitesmobs:grue"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "24ADB5CDCA2C1204"
+					type: "item"
+					item: {
+						id: "chalk:gray_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "372179177821C007"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			x: 3.75d
+			y: 6.75d
+			subtitle: "会飞的有角冰系生物"
+			id: "00A194ADCB350A0B"
+			tasks: [{
+				id: "6906D742F1654D37"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/reiver.png"
+					}
+				}
+				entity: "lycanitesmobs:reiver"
+				value: 5L
+			}]
+			rewards: [{
+				id: "1991FC7C1AD1A52C"
+				type: "item"
+				item: "xpcoins:silver_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "在丛林中发现的一种类似白蚁的大型生物"
+			id: "49DA5ADC4C9CE0BB"
+			tasks: [{
+				id: "7C571BEDA74F0828"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/calpod.png"
+					}
+				}
+				entity: "lycanitesmobs:calpod"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "7FFF2A843C8A59E3"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 3
+				}
+				{
+					id: "2EC136C491083B73"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.25d
+			y: 1.5d
+			subtitle: "在热带草原和山脉中发现的橙色恐龙"
+			id: "4D4A4519C61FDDD2"
+			tasks: [{
+				id: "0D7DC77BEE4432DA"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/barghest.png"
+					}
+				}
+				entity: "lycanitesmobs:barghest"
+				value: 5L
+			}]
+			rewards: [{
+				id: "20E4969DB656905A"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			subtitle: "在丛林中发现的由甲虫制成的巨型蜈蚣"
+			id: "761A9A55CF93FB68"
+			tasks: [{
+				id: "43E5FF23740F57AC"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/concapede.png"
+					}
+				}
+				entity: "lycanitesmobs:concapede"
+				value: 3L
+			}]
+			rewards: [{
+				id: "78C265F53E058A90"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "cgm:reclaimed"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			subtitle: "当你杀死它时，它会从一个贝状百足虫上脱落下来的丛林甲虫。"
+			id: "25A42246AD1518D7"
+			tasks: [{
+				id: "2D9C11E1541A34E3"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/concapedesegment.png"
+					}
+				}
+				entity: "lycanitesmobs:concapedesegment"
+				value: 6L
+			}]
+			rewards: [{
+				id: "3382E87DFFC41958"
+				type: "item"
+				item: "heartcanisters:heart_canister"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 0.5d
+			subtitle: "阴暗在主世界和末地生成"
+			id: "2F8831933C28A9FB"
+			tasks: [{
+				id: "32E70719A65AF8BE"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/shade_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:shade"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "3FE706FA66E837AC"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "cgm:quick_hands"
+							}]
+						}
+					}
+				}
+				{
+					id: "5E2223DF60360080"
+					type: "item"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+				{
+					id: "1EDE921E2FCB9B90"
+					type: "item"
+					item: "xpcoins:silver_coin"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "在森林和丛林中发现的一种被水治愈的邪恶森林灌木丛"
+			id: "51F776CC71105772"
+			tasks: [{
+				id: "76470B328BECF1FB"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/shambler.png"
+					}
+				}
+				entity: "lycanitesmobs:shambler"
+				value: 5L
+			}]
+			rewards: [{
+				id: "2972A98DF28A5E58"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "cgm:over_capacity"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "在主世界发现的大型食肉且有毒的植物"
+			id: "042BD998DA3AC100"
+			tasks: [{
+				id: "1BF9D3256D516A6E"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/triffid_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:triffid"
+				value: 5L
+			}]
+			rewards: [{
+				id: "36F13F8CE2086FE1"
+				type: "item"
+				item: "heartcanisters:heart_canister"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 1.5d
+			subtitle: "在地下发现的一种能放射能量杀死你的放射性老鼠"
+			id: "4523337F45DBE585"
+			tasks: [{
+				id: "28FA06A814A5A572"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/wraamon_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:wraamon"
+				value: 5L
+			}]
+			rewards: [{
+				id: "3D11B6DC599D481B"
+				type: "item"
+				item: "supplementaries:jar"
+				count: 5
+			}]
+		}
+		{
+			x: -6.75d
+			y: 9.75d
+			subtitle: "守护天空的风元素，产生旋风。"
+			id: "4D131F8854AAA113"
+			tasks: [{
+				id: "4C576617543728F7"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zephyr.png"
+					}
+				}
+				entity: "lycanitesmobs:zephyr"
+				value: 8L
+			}]
+			rewards: [
+				{
+					id: "6333C9688C904686"
+					type: "item"
+					item: "candyworld:white_gummy"
+					count: 3
+				}
+				{
+					id: "5F0F8C520AED1E53"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 2.25d
+			y: 2.5d
+			subtitle: "一个会飞的植物人，干着保护植物生命之类的蠢事"
+			id: "4B5CFAEFAE2AA402"
+			tasks: [{
+				id: "43B075ADFB5BB66B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/spriggan.png"
+					}
+				}
+				entity: "lycanitesmobs:spriggan"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "0E94642235D23604"
+					type: "item"
+					item: "heartcanisters:heart_canister"
+				}
+				{
+					id: "55B1C7A667B7F317"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.75d
+			y: 4.5d
+			subtitle: "还记得忍者神龟队的朗格吗？在地狱中"
+			id: "5BE13770915A3F3F"
+			tasks: [{
+				id: "0B583EE55870E3E2"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/astaroth.png"
+					}
+				}
+				entity: "lycanitesmobs:astaroth"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "106A32C7381566B6"
+					type: "item"
+					item: "heartcanisters:heart_canister"
+				}
+				{
+					id: "49E218FAE2B4138F"
+					type: "item"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+				{
+					id: "641201A330661332"
+					type: "item"
+					item: "cgm:grenade"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.75d
+			y: 4.0d
+			subtitle: "在地下发现的爆炸性飞行生物"
+			id: "5BEC9978BC8AE7B7"
+			tasks: [{
+				id: "48CC10993E6D9279"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/tremor.png"
+					}
+				}
+				entity: "lycanitesmobs:tremor"
+				value: 5L
+			}]
+			rewards: [{
+				id: "57058DB58513308B"
+				type: "item"
+				item: "xpcoins:fortune_cookie"
+				count: 2
+			}]
+		}
+		{
+			x: -8.25d
+			y: 0.75d
+			description: [
+				"街机模式扭曲了你的杀戮任务进度。这个“X”放在这里，所以你不能向你的弟弟吹嘘你有多厉害。"
+				""
+				"为什么？因为我很刻薄，而且很有趣。哈哈哈"
+			]
+			dependencies: ["11B5B2165126E627"]
+			hide: true
+			size: 3.0d
+			id: "269D515039952480"
+			tasks: [{
+				id: "22D07B91EB28DC52"
+				type: "custom"
+				title: "街机模式在这个世界被激活"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/close.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			subtitle: "比你想象的要难上许多"
+			description: [
+				"{image:minecraft:textures/gui/presets/ftbquests_wither_structure.png width:100 height:33 align:1 fit:true}"
+				""
+				"凋灵可以通过使用凋零黑石和三个凋灵骷髅头颅生成。这些方块位于地狱维度，位于图中的地下墓穴结构中。"
+				""
+				"凋灵黑石只能用下界合金镐开采。"
+			]
+			size: 2.0d
+			id: "36022C2F0A6C8795"
+			tasks: [{
+				id: "7222006BA404FD70"
+				type: "kill"
+				title: "杀死凋灵"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/painting/wither.png"
+					}
+				}
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "24D150FE0160679F"
+					type: "item"
+					item: {
+						id: "everpotion:core"
+						Count: 1b
+						tag: {
+							Type: 0b
+							Effect: {
+								Ambient: 1b
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 360
+								Id: 8b
+								Amplifier: 1b
+							}
+						}
+					}
+				}
+				{
+					id: "63329CEA2E8E99C8"
+					type: "item"
+					item: {
+						id: "everpotion:core"
+						Count: 1b
+						tag: {
+							Type: 0b
+							Effect: {
+								Ambient: 1b
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 360
+								Id: 1b
+								Amplifier: 1b
+							}
+						}
+					}
+				}
+				{
+					id: "2766674570E83C6F"
+					type: "item"
+					item: "kubejs:gun_crate_exotic"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/brucha.png"
+				}
+			}
+			x: -5.25d
+			y: -0.5d
+			subtitle: "一种丑陋的豪猪样子的生物，只在恐怖之城维度中发现！"
+			id: "44AF25B49994BEE8"
+			tasks: [{
+				id: "12078D0C44B890B1"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/brucha.png"
+					}
+				}
+				entity: "lycanitesmobs:brucha"
+				value: 5L
+			}]
+			rewards: [{
+				id: "62E34170FA7C00EC"
+				type: "item"
+				item: "kubejs:gun_crate_super_rare"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/ventoraptor.png"
+				}
+			}
+			x: 2.25d
+			y: -0.5d
+			description: ["仅在恐怖之城维度中发现的飞翔猛禽鸟！"]
+			id: "1498DC0342CE835D"
+			tasks: [{
+				id: "3A515B05E7B4DEA5"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/ventoraptor.png"
+					}
+				}
+				entity: "lycanitesmobs:ventoraptor"
+				value: 10L
+			}]
+			rewards: [{
+				id: "152FE9038E7C1E8C"
+				type: "item"
+				item: "kubejs:gun_crate_super_rare"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 1.5d
+			subtitle: "一个可怕的南瓜状生物，想要你的灵魂，只在恐怖之城维度中找到！"
+			id: "009450456A0B2760"
+			tasks: [{
+				id: "7697F780DE2E6E41"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/carved_pumpkin.png"
+					}
+				}
+				entity: "lycanitesmobs:tpumpkyn"
+				value: 10L
+			}]
+			rewards: [{
+				id: "0558730A2635B845"
+				type: "item"
+				item: "kubejs:gun_crate_exotic"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "只有在恐怖之城维度才能找到的龟状生物！"
+			id: "4F472276748DCD8E"
+			tasks: [{
+				id: "2FA5F192E20D94D1"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/ika_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:ika"
+				value: 5L
+			}]
+		}
+		{
+			x: 3.75d
+			y: 9.75d
+			subtitle: "只在恐怖之城维度的寒冷地区发现的冰蜘蛛！"
+			id: "64F0630CE3FA6F06"
+			tasks: [{
+				id: "071B02CB28D8CE8B"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/frostweaver.png"
+					}
+				}
+				entity: "lycanitesmobs:frostweaver"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "6E271DB63AEB6B34"
+					type: "item"
+					item: "kubejs:gun_crate_super_rare"
+				}
+				{
+					id: "2177792A0342A851"
+					type: "item"
+					item: "kubejs:gun_crate_exotic"
+				}
+			]
+		}
+	]
+}
