@@ -1,4 +1,0 @@
-sendmessage:/ftbquests change_progress @p complete 77F193D17F64DA39
-sendmessage:/ftbquests change_progress @p complete 2A93CCFD77F34FE8
-sendmessage:/tellraw @p {"text":"\n喷气背包猫:\n干得好同志！你不仅识破了我的骗术，还让世界摆脱了一只丑陋的熊猫。为你的勇敢加冕和奖励！"}
-closegui
