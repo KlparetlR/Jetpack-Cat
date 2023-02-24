@@ -1,4 +1,4 @@
-﻿2023-01-29
+﻿2023-02-23
 
 声明：
 ⒈小部分来源于根号的物品汉化，并且有删改，已获得同意
@@ -22,8 +22,8 @@
       ★记得确认是否成功加载资源包和光影★
 
 ⑴.整合包本体（拉入启动器安装）：
-https://www.curseforge.com/minecraft/modpacks/jetpack-cat/download/4352961
-文件名：Jetpack+Cat+4.1.zip
+https://beta.curseforge.com/minecraft/modpacks/jetpack-cat/download/4403950
+文件名：Jetpack+Cat+4.2.zip
 
 ⑵.i18n（拉入已安装本体的mods文件夹）：
 https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/4355133
@@ -50,7 +50,7 @@ https://sapixcraft.com/downloads/java/index
 
 P.S.一些物品可能i18n和翻译包没有汉化，那就您要自己查翻译。觉得汉化不对的、不准的，来B站找我，我尽力。这真的很重要，你可以用两个方式提供你的意见，1.在B站专栏评论，格式统一下文2.GitHub的Pull requests或Issues，Pr的话你要是会用，可以直接在原文上修改，Issues可以上传图片来表达你的意见。格式：类型（物品汉化，任务汉化），哪个模组（JEI里会显示）或哪个章节的任务，物品名字或任务中的内容描述（复制）一下，Thanks♪(･ω･)ﾉ
 
-基础信息：[2.0.0.0](VP-JPC-V1.1）Jetpack Cat 汉化 4.1 by KlparetlR
+基础信息：[2.1.0.0](VP-JPC-V1.1）Jetpack Cat 汉化 4.2 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/Jetpack-Cat
 
