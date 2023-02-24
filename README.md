@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://github.com/KlparetlR/Jetpack-Cat/blob/master/LICENSE)
 [![Downloads](https://shields.io/github/downloads/KlparetlR/Jetpack-Cat/total?label=Downloads)](https://github.com/KlparetlR/Jetpack-Cat/releases)
 [![Release](https://shields.io/github/v/release/KlparetlR/Jetpack-Cat?display_name=tag&include_prereleases&label=Release)](https://github.com/KlparetlR/Jetpack-Cat/releases/latest)
-
+[![WIKI](https://shields.io/github/v/release/KlparetlR/Jetpack-Cat?display_name=tag&include_prereleases&label=WIKI)](https://github.com/Jetpack-Cat/Jetpack-Cat-Minecraft.wiki.git)
 ## 仓库说明
 
 这里是 Jetpack Cat 整合包的简体中文汉化仓库。如果你对此汉化有意见，可以提交建议（issues、Pr），感谢您对使用，祝您游玩愉快！
