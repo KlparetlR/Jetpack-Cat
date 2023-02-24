@@ -1,0 +1,18 @@
+[
+    {
+        "key": "适配于Jetpack Cat（1.16.5）整合包的模组部分硬编码汉化，版权及作者方：KlparetlR、3093FengMing、Arrowss，分发、抄袭必杀，硬编码汉化版号：VP-JPC-V1.1",
+        "value": "适配于Jetpack Cat（1.16.5）整合包的模组部分硬编码汉化，版权及作者方：KlparetlR、3093FengMing、Arrowss，分发、抄袭必杀，硬编码汉化版号：VP-JPC-V1.1"
+    },
+    {
+        "key": "§7On consume increases your maximum health by §a2.0 §7permanently",
+        "value": "§7使用后永久增加你的最大生命值§a2.0"
+    },
+    {
+        "key": "§aYour maximum health has been increased.",
+        "value": "§a你的最大生命值增加。"
+    },
+    {
+        "key": "§cYou cannot use more canisters.",
+        "value": "§c你不能在用更多的容器了。"
+    }
+]

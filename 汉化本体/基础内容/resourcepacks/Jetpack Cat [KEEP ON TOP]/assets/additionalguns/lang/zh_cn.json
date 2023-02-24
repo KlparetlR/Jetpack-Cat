@@ -1,0 +1,135 @@
+{
+  "item.additionalguns.ar1_lvl1": "§bNRG突击步枪",
+  "item.additionalguns.ar1_lvl2": "§9NRG突击步枪",
+  "item.additionalguns.ar1_lvl3": "§dNRG突击步枪",
+
+  "item.additionalguns.ar1_bfg": "§d生化枪",
+
+
+  "item.additionalguns.pistol_lvl2": "§9手枪",
+  "item.additionalguns.pistol_lvl3": "§d手枪",
+
+  "item.additionalguns.shotgun_lvl2": "§9霰弹枪",
+  "item.additionalguns.shotgun_lvl3": "§d霰弹枪",
+
+  "item.additionalguns.rifle_lvl2": "§9步枪",
+  "item.additionalguns.rifle_lvl3": "§d步枪",
+
+  "item.additionalguns.bazooka_lvl2": "§9火箭筒",
+  "item.additionalguns.bazooka_lvl3": "§d火箭筒",
+
+  "item.additionalguns.mini_gun_lvl2": "§9加特林",
+  "item.additionalguns.mini_gun_lvl3": "§d加特林",
+
+  "item.additionalguns.spitfire_lvl1": "§bM600 喷火轻机枪",
+  "item.additionalguns.spitfire_lvl2": "§9M600 喷火轻机枪",
+  "item.additionalguns.spitfire_lvl3": "§dM600 喷火轻机枪",
+
+  "item.additionalguns.machine_pistol_lvl2": "§9短剑冲锋枪",
+  "item.additionalguns.machine_pistol_lvl3": "§d短剑冲锋枪",
+
+  "item.additionalguns.r301_lvl1": "§bR-301 卡宾枪",
+  "item.additionalguns.r301_lvl2": "§9R-301 卡宾枪",
+  "item.additionalguns.r301_lvl3": "§dR-301 卡宾枪",
+
+  "item.additionalguns.r99_lvl1": "§bR-99 冲锋枪",
+  "item.additionalguns.r99_lvl2": "§9R-99 冲锋枪",
+  "item.additionalguns.r99_lvl3": "§dR-99 冲锋枪",
+
+  "item.additionalguns.heavy_rifle_lvl2": "§9AWP狙击步枪",
+  "item.additionalguns.heavy_rifle_lvl3": "§dAWP狙击步枪",
+
+  "item.additionalguns.kraber_lvl1": "§b克雷贝尔狙击枪",
+  "item.additionalguns.kraber_lvl2": "§9克雷贝尔狙击枪",
+  "item.additionalguns.kraber_lvl3": "§d克雷贝尔狙击枪",
+
+  "item.additionalguns.rifle3030_lvl1": "§b30-30 连发枪",
+  "item.additionalguns.rifle3030_lvl2": "§930-30 连发枪",
+  "item.additionalguns.rifle3030_lvl3": "§d30-30 连发枪",
+
+
+  "item.additionalguns.medium_bullet": "中型子弹",
+
+
+
+
+  "item.additionalguns.ace_of_spades": "黑桃A",
+  "item.additionalguns.ak105": "AK-105",
+  "item.additionalguns.aug": "AUG",
+  "item.additionalguns.banshee": "报丧女妖",
+  "item.additionalguns.fn2000": "FN2000",
+  "item.additionalguns.g11": "G11",
+  "item.additionalguns.mammoth": "巨象",
+  "item.additionalguns.mat_49": "MAT-49",
+  "item.additionalguns.ots_03": "Ots-03",
+  "item.additionalguns.pp_19": "野牛冲锋枪",
+  "item.additionalguns.ravens_claw": "掠夺之爪",
+  "item.additionalguns.schwarzlose": "施瓦茨劳斯",
+  "item.additionalguns.val": "巨浪",
+  "item.additionalguns.vector": "巨浪",
+  "item.additionalguns.vintorez": "螺纹剪裁机",
+  "item.additionalguns.m4a1s": "M4A1-S",
+  "item.additionalguns.m4a4": "M4A4",
+  "item.additionalguns.glock18": "格洛克-18",
+  "item.additionalguns.akm": "AKM",
+  "item.additionalguns.akm_custom": "自定义AKM",
+  "item.additionalguns.ssg08": "SSG-08",
+  "item.additionalguns.desert_eagle": "沙漠之鹰",
+  "item.additionalguns.mac10": "MAC-10",
+  "item.additionalguns.awm": "AWM",
+  "item.additionalguns.ak74": "AK-74",
+  "item.additionalguns.ak74m": "AK-74M",
+  "item.additionalguns.aks74u": "AKS-74U",
+  "item.additionalguns.m16a2": "M16A2",
+  "item.additionalguns.usp": "USP",
+  "item.additionalguns.m1014": "M1014",
+  "item.additionalguns.mp7a2": "MP7A2",
+  "item.additionalguns.ak12": "AK-12",
+  "item.additionalguns.ak15": "AK-15",
+  "item.additionalguns.ak104": "AK-104",
+  "item.additionalguns.p250": "P250",
+  "item.additionalguns.m1911": "M1911",
+  "item.additionalguns.magnum": "玛格南",
+
+  "item.additionalguns.holo_scope": "全息镜",
+  "item.additionalguns.zerkalo_scope": "泽卡洛瞄具",
+  "item.additionalguns.kobra": "反射式瞄准镜",
+  "item.additionalguns.ultra_long_scope": "超长瞄准镜",
+
+  "item.additionalguns.basic_stock": "基础枪托",
+  "item.additionalguns.vintorez_stock": "螺纹剪裁机枪托",
+
+  "item.additionalguns.muzzle_brake": "减震器",
+    "item.additionalguns.laser_sight": "镭射瞄准器",
+
+  "item.additionalguns.tactical_silencer": "战术消音器",
+  "item.additionalguns.sniper_muzzle_brake": "狙击减震器",
+  "item.additionalguns.tactical_muzzle_brake": "战术减震器",
+
+  "item.additionalguns.angled_grip": "斜角握柄",
+
+  "item.additionalguns.bullet_heavy": "重型子弹",
+  "item.additionalguns.bullet_long": "长子弹",
+
+  "item.additionalguns.bullet_short": "短子弹",
+  "item.additionalguns.bullet_small": "小型子弹",
+  "item.additionalguns.bullet_special": "特种子弹",
+
+  "item.additionalguns.casing_heavy": "重型子弹弹壳",
+  "item.additionalguns.casing_long": "长子弹弹壳",
+  "item.additionalguns.casing_medium": "中型子弹弹壳",
+  "item.additionalguns.casing_short": "短子弹弹壳",
+  "item.additionalguns.casing_small": "小型子弹弹壳",
+  "item.additionalguns.casing_special": "特种子弹弹壳",
+
+  "subtitle.additionalguns.regular_fire": "枪械开火",
+  "subtitle.additionalguns.suppressed_fire": "装有消音器的枪械的开火",
+  "subtitle.additionalguns.enchanted_fire": "被附魔的枪械开火",
+
+  "tooltip.additionalguns.hold_shift_key": "按住[%s]查看物品信息",
+  "tooltip.additionalguns.bullet_casing_info": "此物品可用于制作子弹，不能用于直接装填",
+
+  "config.additionalguns.client.enable_gun_enchantment_glint": "若选是，额外枪械的枪械上将会显示附魔光效",
+
+  "itemGroup.additionalguns": "额外枪械"
+}

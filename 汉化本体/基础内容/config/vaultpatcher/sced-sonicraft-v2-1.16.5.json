@@ -1,0 +1,150 @@
+[
+    {
+        "key": "适配于Jetpack Cat（1.16.5）整合包的模组部分硬编码汉化，版权及作者方：KlparetlR、3093FengMing、Arrowss，分发、抄袭必杀，硬编码汉化版号：VP-JPC-V1.1",
+        "value": "适配于Jetpack Cat（1.16.5）整合包的模组部分硬编码汉化，版权及作者方：KlparetlR、3093FengMing、Arrowss，分发、抄袭必杀，硬编码汉化版号：VP-JPC-V1.1"
+    },
+    {
+        "key": "§9Gives the user 10 rings when jumped on.",
+        "value": "§9跳起来后给予玩家10个金环。"
+    },
+    {
+        "key": "§9Gives the user a shield when jumped on.",
+        "value": "§9跳起来后给予玩家一个盾牌。"
+    },
+    {
+        "key": "(a Sonic shield, not a Minecraft shield.)",
+        "value": "(一个索尼克模组的盾牌,不是原版的盾牌。)"
+    },
+    {
+        "key": "§9Makes the user faster for 20 seconds when jumped on.",
+        "value": "§9跳起来后让玩家加速20秒。"
+    },
+    {
+        "key": "§9Makes the user invincible for 20 seconds when jumped on.",
+        "value": "§9跳起来后让玩家无敌20秒。"
+    },
+    {
+        "key": "§9Summons Sonic when jumped on.",
+        "value": "§9跳起来后召唤索尼克。"
+    },
+    {
+        "key": "§9Summons Tails when jumped on.",
+        "value": "§9跳起来后召唤塔尔斯。"
+    },
+    {
+        "key": "§9Summons Knuckles when jumped on.",
+        "value": "§9跳起来后召唤纳克鲁斯。"
+    },
+    {
+        "key": "§9Summons Amy Rose when jumped on.",
+        "value": "§9跳起来后召唤艾咪.罗斯。"
+    },
+    {
+        "key": "§9Summons Shadow when jumped on.",
+        "value": "§9跳起来后召唤夏特。"
+    },
+    {
+        "key": "§9Summons Rouge when jumped on.",
+        "value": "§9跳起来后召唤露姬。"
+    },
+    {
+        "key": "§9Summons Cream when jumped on.",
+        "value": "§9跳起来后召唤可利姆。"
+    },
+    {
+        "key": "§9This also works as a fence!",
+        "value": "§9这也可以作为栅栏！"
+    },
+    {
+        "key": "§9Bounce Power: §eMedium",
+        "value": "§9弹射功率: §e中等"
+    },
+    {
+        "key": "§9This also works as a wall!",
+        "value": "§9这也可以作为一堵墙！"
+    },
+    {
+        "key": "§9Basically just like its real counterpart,",
+        "value": "§9基本上就像它真正的对应物一样,"
+    },
+    {
+        "key": "§9except it's much weaker against explosions.",
+        "value": "§9除了它对爆炸的抵抗力要弱得多。"
+    },
+    {
+        "key": "§9Right-click your Goal Plate with this key to get a reward!",
+        "value": "§9使用此键右键单击您的目标铭牌即可获得奖励！"
+    },
+    {
+        "key": "§9Throw this to summon Tikal!",
+        "value": "§9扔这个来召唤蒂卡尔！"
+    },
+    {
+        "key": "§7Sonic The Hedgehog 3",
+        "value": "§7刺猬索尼克3"
+    },
+    {
+        "key": "§7Sonic The Hedgehog 2",
+        "value": "§7刺猬索尼克2"
+    },
+    {
+        "key": "§7Sonic The Hedgehog",
+        "value": "§7刺猬索尼克"
+    },
+    {
+        "key": "§9You can't eat this,",
+        "value": "§9你不能吃它。"
+    },
+    {
+        "key": "§9but you CAN place it.",
+        "value": "§9但你可以放置它。"
+    },
+    {
+        "key": "§9Tails loves these!",
+        "value": "§9塔尔斯喜欢这个！"
+    },
+    {
+        "key": "§9-1 Hunger",
+        "value": "§9-1 饥饿值"
+    },
+    {
+        "key": "§9+2 Saturation",
+        "value": "§9+2 饱和度"
+    },
+    {
+        "key": "§9Amy loves these!",
+        "value": "§9艾咪喜欢这个！"
+    },
+    {
+        "key": "§9-2 Hunger",
+        "value": "§9-2 饥饿值"
+    },
+    {
+        "key": "§9+0.8 Saturation",
+        "value": "§9+0.8 饱和度"
+    },
+    {
+        "key": "§9Knuckles loves these!",
+        "value": "§9纳克鲁斯喜欢这个！"
+    },
+    {
+        "key": "§9-5 Hunger",
+        "value": "§9-5 饥饿值"
+    },
+    {
+        "key": "§9+3 Saturation",
+        "value": "§9+3 饱和度"
+    },
+    {
+        "key": "§9Sonic loves these!",
+        "value": "§9索尼克喜欢这个！"
+    },
+    {
+        "key": "§9-6 Hunger",
+        "value": "§9-6 饥饿值"
+    },
+    {
+        "key": "§9+4.8 Saturation",
+        "value": "§9+4.8 饱和度"
+    }
+]

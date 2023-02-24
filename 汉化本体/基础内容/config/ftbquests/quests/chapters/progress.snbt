@@ -1,0 +1,2933 @@
+{
+	id: "687F84071CA53296"
+	group: ""
+	order_index: 1
+	filename: "progress"
+	title: " 进度"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "endrem:textures/items/end_crystal_eye.png"
+		}
+	}
+	subtitle: ["跟踪您的进度"]
+	default_quest_shape: "secretagent"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.5d
+			y: -14.0d
+			width: 8.5d
+			height: 2.25d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/jpclogofit.png"
+			hover: ["欢迎，要到达末地，您必须为末地传送门收集12只不同的末影之眼。它们可以在主世界各地的不同地点发现，您将一路与成千上万的怪物和BOSS战斗。祝你好运，孩子:] 你需要它。"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: -12.5d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/daily_quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -12.5d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/progress.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -12.5d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/dimensions.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -12.5d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/recordings.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -12.5d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/warp.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -12.5d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/party_text.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: {
+				id: "endrem:witch_eye"
+				Count: 5b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.0d
+			y: -11.5d
+			shape: "secretagent"
+			subtitle: "制作它需要用来自8bit世界的组件!"
+			description: [
+				"有传言说这是洛克人的眼睛，但没有人真的确认它。"
+				""
+				"这个眼睛必须用来自8bit世界的组件来制作。"
+			]
+			dependency_requirement: "one_started"
+			id: "17E621F90F97AB3F"
+			tasks: [{
+				id: "1288F5A98D061587"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1288D1C6A50B0867"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "200F4167A6A6F148"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "2CFFB073344D5CE7"
+					type: "item"
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "0AAED6CECB4BBE83"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "7E48E31AE78FBEC8"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/execute at @a run particle minecraft:witch ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "55AA3A5F52BC620C"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "60469907F202C962"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "找个要塞"
+			x: 6.5d
+			y: -9.0d
+			shape: "wide"
+			subtitle: "当你拥有了12种眼睛..."
+			description: [
+				"你可以找个要塞，在那里你将可以进入末地。这是你将死去的地方，这已经被预言了。"
+				"重置、重置、重置、重置、重置...[18]"
+				""
+			]
+			dependencies: [
+				"4C647AC778D36A63"
+				"4A4376459A925AEB"
+				"44E29846404C3F12"
+				"40996FE15F660FAE"
+				"3CE26FDE19E8F0CE"
+				"6D2DB34E94971EDC"
+				"501E285B8BBEB55F"
+				"01AD12670779DE2B"
+				"2AF52875DAD16DB3"
+				"4C33E9E937C653AB"
+				"17E621F90F97AB3F"
+				"5FF59F12C5A3B565"
+			]
+			hide: false
+			size: 3.0d
+			id: "1DEEE721C2C85CA5"
+			tasks: [{
+				id: "55468A95EDBBAD3B"
+				type: "structure"
+				title: "找个要塞"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "endrem:textures/blocks/ancient_portal_frame_empty_side.png"
+					}
+				}
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [
+				{
+					id: "3B4984C46912A085"
+					type: "item"
+					title: "取自我地下室的真人"
+					auto: "enabled"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+				{
+					id: "111B4EAED060601A"
+					type: "item"
+					title: "请给善待动物的组织打电话，但我不在乎这些"
+					auto: "enabled"
+					item: "minecraft:cooked_beef"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -11.5d
+			shape: "secretagent"
+			subtitle: "由唤魔者掉落"
+			description: ["世界上第一个唤魔者的眼睛。"]
+			dependency_requirement: "one_started"
+			id: "501E285B8BBEB55F"
+			tasks: [{
+				id: "1CCBEC8A6ABFEFBC"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47CE59751B3D56F8"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "3DF67EBA5A9A36A5"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "3EBEE8C21E2568D9"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "5A83A6708189C994"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle create:soul_base ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "587AADCBA41ABDE0"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "6708F12A03AADF56"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -11.5d
+			shape: "secretagent"
+			subtitle: "由凋灵掉落"
+			description: [
+				"博格女王的眼睛。这是她和女王去冰雪皇后约会时的数据。"
+				""
+				"她还在为这件事生气。"
+			]
+			id: "5FF59F12C5A3B565"
+			tasks: [{
+				id: "57E29D2B02DCC1E3"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "209CB72DBC82F1C5"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "240441A502BFE8B4"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "5FBDE81C2DF79854"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "3DADC97FA08485C8"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle minecraft:campfire_cosy_smoke ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "3C46540FAAA867F5"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "433F9CC6D7E33F2E"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -11.5d
+			shape: "secretagent"
+			subtitle: "通过杀死一个远古守卫者得到"
+			description: ["它见证了许多战士淹死在大海深处。"]
+			dependency_requirement: "one_started"
+			id: "3CE26FDE19E8F0CE"
+			tasks: [{
+				id: "3E642C543FDD270B"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CFF10DC185E35FE"
+					type: "item"
+					team_reward: true
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "6B6AA6A0FC3F8DBA"
+					type: "item"
+					team_reward: true
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "5D9B00842358D22C"
+					type: "item"
+					team_reward: true
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "609E7E87EB7DA7FD"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle supplementaries:confetti ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "231A95CE227D346C"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5D8F1079A205D4E5"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -10.25d
+			shape: "secretagent"
+			subtitle: "在沙漠的金字塔中发现（其他地方也有，比如刷怪笼旁的箱子）"
+			description: [
+				""
+				"传说，这只眼睛曾经属于沙丘星球上的一群巨沙虫。"
+			]
+			id: "2AF52875DAD16DB3"
+			tasks: [{
+				id: "26BDF08CAF30C044"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C840AF1A19CFEF6"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 2
+				}
+				{
+					id: "0802AB3DA4326698"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "27E95E44AA6A6A6D"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "4A69B825440BE7B2"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle minecraft:falling_honey ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "2DB45023182D1CF7"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "6D150CA1EAB623CA"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -11.5d
+			shape: "secretagent"
+			subtitle: "在丛林神殿中发现"
+			description: ["据信，这只眼睛让我们的祖先了解了红石"]
+			dependency_requirement: "one_started"
+			id: "4C33E9E937C653AB"
+			tasks: [{
+				id: "3A238917D3B1B42F"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2BE1811269CBA0EE"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "3673C8C4A9C1EB4C"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "6309A345A6BB499A"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "2C56AD18C40CC049"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle minecraft:item_slime ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "7BA1573E080B4676"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "2D346B249B11F8B2"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -9.0d
+			shape: "secretagent"
+			subtitle: "在下界要塞中找到"
+			description: ["传说它是从地狱里的恶魔身上取出并带到地球的。"]
+			id: "01AD12670779DE2B"
+			tasks: [{
+				id: "136F88806F3045F7"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E0E715A2AB9F868"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "5451F83126A3C922"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "7501C4C022BE727F"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "46D33642C955EC0A"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle minecraft:flame ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "0504241FFB5CDC1B"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "539BEAC2463E2A8A"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 25 4"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -7.75d
+			shape: "secretagent"
+			subtitle: "在冰屋找到或由冰河熊掉落"
+			description: [
+				"传说，这只眼睛属于一个，被发现在于冰冻在北极冰层中的人。他曾经是一个普通的流浪汉，但在与Deku战斗时，他变成了极端的流浪汉。或者别的什么。"
+				""
+				"这只眼睛可以在所有维度的冰屋中找到，也可以被一个叫做冰河熊的生物掉落。冰河熊只在恐怖之城维度的寒冷生物群落中产生。"
+			]
+			id: "4A4376459A925AEB"
+			tasks: [{
+				id: "774F4637D3B46E95"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25994CEA19401AFB"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "02250054A12A76F0"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "64D5207C0C2043A2"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "7E1129ED5F891DF1"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle supplementaries:stasis ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "5652D23454C9FEB0"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "7AD1120E74D7E0B9"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -7.75d
+			shape: "secretagent"
+			subtitle: "在掠夺者前哨站中找到"
+			description: ["一位贪婪的国王的眼睛在孤独中消失了。传说它会给它的主人带来无限的财富。"]
+			id: "44E29846404C3F12"
+			tasks: [{
+				id: "52DC3FEF253E9705"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0CAF9079937EC2B4"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "5EA2720038769EC1"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "54F20493C5A26549"
+					type: "item"
+					team_reward: false
+					auto: "invisible"
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "42302B70F503E012"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle sons_of_sins:sins_soul ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "2481EF36B1C57070"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "4D9A23386EC04A71"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:blindness 10 0"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -11.5d
+			shape: "secretagent"
+			subtitle: "在埋藏的宝藏中发现（藏宝图）"
+			description: ["海盗们说，它让传说中的黑珍珠号出现了。"]
+			id: "4C647AC778D36A63"
+			tasks: [{
+				id: "0199B1D4D3DA7871"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36D2FB54CD5E4889"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "1539479DC6298A48"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "09A5121E10E49756"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "4ABB9A6A692A3F11"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle minecraft:dripping_lava ~ ~1 ~ 5 5 5 0.03 900"
+					player_command: false
+				}
+				{
+					id: "7AA7E4B77B21E4ED"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "13FB4F26258F8C8A"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -10.25d
+			shape: "secretagent"
+			subtitle: "在废弃矿井中找到"
+			description: ["据说这只眼睛是由当时最早的铁匠铸造的。这些铁匠显然很了解时间。"]
+			id: "6D2DB34E94971EDC"
+			tasks: [{
+				id: "2B0F45AF09964DA1"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32933EA304F184A1"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "4025BF38CD373F36"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "69F1909EE423BC18"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "499307C992FC6276"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle create:soul ~ ~1 ~ 5 5 5 0.03 200"
+					player_command: false
+				}
+				{
+					id: "152BE241F155C10B"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "7DEAAF08625713A0"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			shape: "secretagent"
+			subtitle: "由使用末影水晶碎片（一种新矿石）制作。"
+			description: [
+				"它被认为保存着末影龙灵魂的碎片"
+				""
+				"末影水晶矿石生成在猪灵堡垒遗迹和玄武岩三角洲中，被黑石包裹。"
+			]
+			id: "40996FE15F660FAE"
+			tasks: [{
+				id: "1D74153BE4DBE89C"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DA6745FCA2DFAED"
+					type: "item"
+					team_reward: false
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "30E6EAED4AD99B43"
+					type: "item"
+					team_reward: false
+					item: "randomloot:titan_case"
+				}
+				{
+					id: "2D34289CB967122A"
+					type: "item"
+					team_reward: false
+					item: "heartbalance:refill_heart"
+					count: 3
+				}
+				{
+					id: "0E74A6AFB1FA1C87"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle supplementaries:stasis ~ ~1 ~ 5 5 5 0.03 600"
+					player_command: false
+				}
+				{
+					id: "38C5CDA46BC5B1F6"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run playsound minecraft:dragonscary voice @a ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "0C9AE4E0954AEE9B"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run effect give @a minecraft:levitation 1 2"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 11.0d
+			y: -11.5d
+			shape: "unicorn"
+			subtitle: "请收听录音"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"这是在你到达地球2号后不久就收到并记录了该电子信号。"
+				""
+				"嘿，伙计！我想我们有一个共同的朋友，这个朋友说他的名字是本杰明，他是你的儿子。多么滑稽！我是一个反对人类同化的好人工智能！我将为本杰明转达信息给你，以防止那些坏人想要，将你的思想同化到，它们那不断壮大的集体。"
+				""
+				"我觉得这个故事是对某些东西的胡扯，但我想不出它是什么。无论如何，这是你的第一条消息："
+				""
+				"\"嘿，父亲，是本。你需要找到12种末影之眼，到达末地维度。一旦进入终点，你将面对母亲，如果你能打败它，一个传送门就会打开，一旦你进入它，你的位置就会告诉我们。祝你好运，父亲！\""
+			]
+			id: "688E391DA5BAD27C"
+			tasks: [{
+				id: "3592B73DC9E92F2F"
+				type: "checkmark"
+				title: "初始着陆消息"
+				icon: "quark:music_disc_rain"
+			}]
+			rewards: [
+				{
+					id: "550EDD86C178ADF9"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:i-first-message_overworld voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "52BE36F47BC928DB"
+					type: "command"
+					auto: "invisible"
+					command: "/title @p actionbar {\"text\":\"重播录制的电子信号\"}"
+					player_command: false
+				}
+				{
+					id: "666E3489FBE7D509"
+					type: "custom"
+					title: "初始着陆消息"
+					icon: "quark:music_disc_rain"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -9.0d
+			shape: "unicorn"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"当您进入地狱时接收并记录的电子信号"
+				""
+				"嘟嘟，全都登上了消息列车！你的儿子本还有一条消息要告诉你！这里："
+				""
+				"\"嘿，父亲，系统称这个维度为地狱。这是一个超级可怕的地方，但我知道没有什么能吓到你。最终，您需要找到在这个维度中生成的要塞结构，才能找到12种末影之眼中的一种。"
+				""
+				"从其他维度进入地狱维度的维度裂缝,可能会对您在裂缝中时，持有的某些物品产生奇怪的影响。我希望你已经存了点弹药，因为如果你把那些丑陋的小猪惹毛了，你就需要它了。所以，永远记住，无论发生什么，你都能重新站起来，如果你明白我的意思。（眨眼眨眼）！爱你，父亲！\""
+			]
+			dependencies: ["3372D1B39C8AA978"]
+			hide: true
+			id: "1AD4A34925EB9D2A"
+			tasks: [{
+				id: "40D0A898FD1B9AC5"
+				type: "checkmark"
+				title: "地狱消息"
+				icon: "quark:music_disc_endermosh"
+			}]
+			rewards: [
+				{
+					id: "12CE7FAFF677AD3D"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:i-heck-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "26BBDAF8ED5D8504"
+					type: "custom"
+					title: "地狱消息"
+					icon: "quark:music_disc_endermosh"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -7.75d
+			shape: "unicorn"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"当你进入地心维度时接收和记录的电子信号"
+				""
+				"嘿，本的另一条消息来了：你好父亲！我在这段代码中看到的数据称这个维度为地心！这是一个所有其他维度碰撞在一起，而成为单独一个维度的地方。不要指望在这里能找到鞘翅，但我认为其他任何东西都是相当公平的“游戏”。"
+				""
+				"我看到的编程代码说这里的重力略小。那一定是因为它靠近行星的中心，所以你被从任何一个方向拉扯。这里的情况有所不同，但我相信你很快就会适应这里。我也看到了一些关于非常快的恐龙！也许你应该保持距离，直到你知道它们是否友好。一如既往，爱你，努力活下去！父亲再见！"
+			]
+			dependencies: ["3AB710190F92B76D"]
+			hide: true
+			id: "07C81BDE7CEF80CD"
+			tasks: [{
+				id: "33501429F5A071DF"
+				type: "checkmark"
+				title: "地心信息"
+				icon: "quark:music_disc_crickets"
+			}]
+			rewards: [
+				{
+					id: "019CB35ACE499475"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound i-inner-earth-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "65B2B1EEA51E809B"
+					type: "custom"
+					title: "地心信息"
+					icon: "quark:music_disc_crickets"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -9.0d
+			shape: "unicorn"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"进入零核空间（Nullspace）时接收并记录的电子信号"
+				""
+				"嘿，我有一条来自本的消息：嘿，父亲，这个维度叫做零核空间。你大概真的不想在这里待太久。因为这个地方的怪物经常生成，并且总是在你附近。您需要向下挖掘回家或前往坐标1,4,18才能到达下一个维度。不要站在原地太久，也不要在这里弄出一个大于2x2的地下洞穴，因为具有爆炸性的怪物会在那里生成。祝父亲好运！"
+			]
+			dependencies: ["252F18B461367630"]
+			hide: true
+			id: "5DDF7AB4525C425F"
+			tasks: [{
+				id: "06063294CED57411"
+				type: "checkmark"
+				title: "零核空间信息"
+				icon: "quark:music_disc_chatter"
+			}]
+			rewards: [
+				{
+					id: "4A1BCCA1E676DA84"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:i-nullspace-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "3B0E88A1C39BDBC9"
+					type: "custom"
+					title: "零核空间信息"
+					icon: "quark:music_disc_chatter"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -7.75d
+			shape: "unicorn"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"进入软糖乐园（Gummy_Land）时接收并记录的电子信号"
+				""
+				"本的另一条消息来了！哇！嘿，父亲，这个维度看起来很甜蜜！它被称为软糖乐园，几乎所有东西都是由软糖制成的！你看到我在那里做对了吗？无论如何，您需要小心，因为这里随机生成了一种非常强大的巨型怪物。它很大，几乎会秒杀你。"
+				""
+				"可能你携带盾牌是个好想法！到了夜间会有它另一种的危险。大型蜘蛛会大量生成，相信我，它们的速度很快！我在代码中看到的另一件事是很多大鸟，我想你会发现它们有多大。祝你好运，神佑！你需要它！爱你父亲！"
+			]
+			dependencies: ["19E8DD6BC8C0B6F0"]
+			hide: true
+			id: "4EC6DBE3F4B97AE3"
+			tasks: [{
+				id: "1664BCE8CC2BD1D1"
+				type: "checkmark"
+				title: "软糖乐园信息"
+				icon: "quark:music_disc_wind"
+			}]
+			rewards: [
+				{
+					id: "1949E2A32361759A"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:i-gummy-land-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "5AE9B8CAF5E963A2"
+					type: "custom"
+					title: "软糖乐园信息"
+					icon: "quark:music_disc_wind"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -6.5d
+			shape: "unicorn"
+			subtitle: "祝您好运"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"当您进入末地时接收并记录的电子信号"
+				""
+				"这是本的最后一条信息。父亲，就是这样，这里是末地维度。这是你与母亲决斗的地方，如果成功，将打开一个传送门让你进入。一旦你进入这个末地传送门，我们就能锁定你的位置。"
+				""
+				"母亲可以从那些柱子顶部的水晶中得到治疗。您可以尝试造成超过母亲的治疗的伤害，也可以尝试先摧毁那些水晶。它们一直试图让你远离这个地方，所以你永远不会完全醒来！去死这些家伙！去杀死那些杂草丛生般的怪物！"
+				""
+				"我会等着你！"
+			]
+			dependencies: ["662CBEDA1435C154"]
+			hide: true
+			id: "5B22AFEFC2501087"
+			tasks: [{
+				id: "3B0D4371F3B54C63"
+				type: "checkmark"
+				title: "末地信息"
+				icon: "minecraft:music_disc_mellohi"
+			}]
+			rewards: [
+				{
+					id: "7BE6BEB594484B91"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:i-end-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "56A31887CD9C3C10"
+					type: "custom"
+					title: "末地信息"
+					icon: "minecraft:music_disc_mellohi"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -11.5d
+			shape: "unicorn"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"嘿，我收到了本的另一条消息！他说：地心维度中的坐标9,20,19在时空结构中存在某种撕裂或撕裂，可能会导致产生一个新维度！"
+				""
+				"Y坐标（高度）无关紧要，因为这个裂口向上会延伸到天空。只需确保在您到达这些坐标时，您可以清楚地看到云层！"
+			]
+			dependencies: ["20E3BACABCFBA88B"]
+			hide: true
+			id: "435187A317892314"
+			tasks: [{
+				id: "5617F34D185EBA56"
+				type: "checkmark"
+				title: "地心信息#2"
+				icon: "quark:music_disc_crickets"
+			}]
+			rewards: [
+				{
+					id: "60834F6154C80708"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound i-second-inner-earth-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "3E2267D1F15A4CFB"
+					type: "custom"
+					title: "地心信息#2"
+					icon: "quark:music_disc_crickets"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -10.25d
+			shape: "unicorn"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				""
+				"这条电子信号被传输并记录在了主世界"
+				""
+				"嘿，你的儿子本杰明想让我告诉你，主世界的坐标5,1,13很特别，因为那个位置有空结构有裂痕或撕裂。"
+				""
+				"Y坐标无关紧要，因为裂口在X和Z轴的交叉点向上延伸到天空。他说，当你进入这个坐标时，要确保你能清楚地看到天空。"
+				""
+				"祝朋友好运！"
+			]
+			dependencies: ["19F5ABC9C5EC32E4"]
+			hide: true
+			id: "342AA796EB4668AA"
+			tasks: [{
+				id: "0A384D202C111903"
+				type: "checkmark"
+				title: "主世界信息#2"
+				icon: "quark:music_disc_rain"
+			}]
+			rewards: [
+				{
+					id: "45603134B40CE6C9"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound i-second-overworld-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "42FAD08658662C3B"
+					type: "custom"
+					title: "主世界信息#2"
+					icon: "quark:music_disc_rain"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -10.25d
+			shape: "unicorn"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"进入8Bit世界时接收并记录的电子信号"
+				""
+				"来自本的新消息在这里：天啊！嘿，父亲，这个维度可能会让你感到有点怀旧，它是从1980年代后期人类的记忆中复制出来的。我不能告诉你太多关于这个维度的信息，因为代码很旧，很难阅读。大概是一个关于飞来飞去投掷炸弹的胖子和一些敌对者的速度非常快。"
+				""
+				"看起来无论是谁创造了这个维度，都不知道自己在做什么，也不知道自己在做别人的工作。是的，我真的说不出来。也许只要活着，不要死，这就是你的目标。一如既往，爱你父亲！"
+			]
+			dependencies: ["6AAB70271D8A70FD"]
+			hide: true
+			id: "0260CCB2CE0044E6"
+			tasks: [{
+				id: "466C572C63F94CD0"
+				type: "checkmark"
+				title: "8Bit世界信息"
+				icon: "quark:music_disc_drips"
+			}]
+			rewards: [
+				{
+					id: "079E1D2EA39CC937"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:i-eight-bit-message voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "122E2B49BB8251A4"
+					type: "custom"
+					icon: "quark:music_disc_drips"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "欢迎来到8Bit世界"
+			tags: ["ding"]
+			x: 0.325d
+			y: -4.875d
+			shape: "unicorn"
+			subtitle: "得快点！"
+			description: [
+				"{image:minecraft:textures/gui/presets/dim-eight-bit.png width:200 height:50 align:1}"
+				""
+				"8Bit世界是最好的怀旧。回到20世纪80年代有史以来最美好的时光！"
+				""
+				"不过有些不对劲——这个维度被扭曲了！你在胶片盒上吹了太多次，你的口水已经破坏了数据！这些敌对的生物已经失控了！"
+				""
+				"我知道我应该听那个警告标签……"
+				""
+				"&e下挖到基岩层才能回到上面的维度"
+
+			]
+			dependencies: ["7C695CA9038F6148"]
+			size: 1.3d
+			id: "753580E6ED680075"
+			tasks: [{
+				id: "4744642AB3ED6619"
+				type: "dimension"
+				title: "得快点"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "sonicraft:textures/items/boss_trigger.png"
+					}
+				}
+				dimension: "sonicraft:mobius"
+			}]
+			rewards: [
+				{
+					id: "41126C074BEF401A"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+				{
+					id: "458FFEB314AA4F0E"
+					type: "item"
+					item: "xpcoins:silver_coin"
+					count: 5
+				}
+				{
+					id: "459F99AF790C40FF"
+					type: "item"
+					item: "heartcanisters:heart_canister"
+				}
+			]
+		}
+		{
+			tags: ["ding"]
+			x: 2.0d
+			y: -3.2499999999999982d
+			shape: "unicorn"
+			subtitle: "维度碰撞的地方"
+			description: [
+				"{image:minecraft:textures/gui/presets/dim-inner-earth.png width:200 height:50 align:1}"
+				""
+				"可能就是这样，可能没有回家的路。死亡是终点吗？"
+				""
+				"拿着这个抓钩。你可能会因此而死，但这将是你生命中最美好的6秒。"
+				""
+				"也许是第二好的6秒？"
+				""
+				"提示：在物品栏中，按住[shift]并将鼠标悬停在抓钩上以查看配件。"
+				""
+				"&d向上到8bit维度!"
+				""
+				"&e下挖到基岩层才能回到上面的维度"
+
+			]
+			dependencies: ["08D1EB11DA5654E4"]
+			size: 1.3d
+			id: "7C695CA9038F6148"
+			tasks: [{
+				id: "21B3B131C696EBD6"
+				type: "dimension"
+				title: "欢迎来到地心"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/arisaur_icon.png"
+					}
+				}
+				dimension: "world_blender:world_blender"
+			}]
+			rewards: [
+				{
+					id: "10FBA2B0FBCED9F8"
+					type: "item"
+					item: {
+						id: "grapplemod:grapplinghook"
+						Count: 1b
+						tag: {
+							Damage: 0
+							custom: {
+								doublehook: 0b
+								motor: 0b
+								phaserope: 0b
+								attract: 0b
+								rocket: 0b
+								hookgravity: 1.0d
+								repelforce: 1.0d
+								attractradius: 3.0d
+								pullbackwards: 1b
+								smartmotor: 0b
+								detachonkeyrelease: 0b
+								angle: 20.0d
+								rocket_vertical_angle: 0.0d
+								rocket_force: 1.0d
+								rocket_refuel_ratio: 15.0d
+								motorwhencrouching: 0b
+								motorwhennotcrouching: 1b
+								motordampener: 0b
+								rocket_active_time: 0.5d
+								throwspeed: 2.0d
+								motoracceleration: 0.2d
+								enderstaff: 0b
+								oneropepull: 0b
+								sneakingverticalthrowangle: 0.0d
+								smartdoublemotor: 1b
+								repel: 0b
+								sneakingangle: 10.0d
+								motormaxspeed: 4.0d
+								playermovementmult: 1.0d
+								reelin: 1b
+								sticky: 1b
+								verticalthrowangle: 0.0d
+								maxlen: 70.12089810017274d
+							}
+						}
+					}
+				}
+				{
+					id: "37B317AAE9B1F2B4"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		}
+		{
+			tags: ["ding"]
+			x: 2.0d
+			y: -4.874999999999999d
+			shape: "unicorn"
+			subtitle: "它...太可怕了！"
+			description: [
+				"{image:minecraft:textures/gui/presets/dim-nether.png width:200 height:50 align:1}"
+				""
+				"你可以在黑市的进度章节中查看维度的布局。好运！"
+				""
+				"&d向上挖回到上面的维度"
+				""
+				"&e下挖到基岩层就能到地心了!"
+			]
+			dependencies: ["7660C8039078AA2C"]
+			hide: false
+			size: 1.3d
+			id: "08D1EB11DA5654E4"
+			tasks: [{
+				id: "3190C1C09830A25C"
+				type: "dimension"
+				title: "欢迎来到地狱"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/nether_wart_stage2.png"
+					}
+				}
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "07776C026B234490"
+					type: "item"
+					item: "awesomeflooring:netherbricks_floor"
+					count: 12
+				}
+				{
+					id: "6FBE058A39DF5204"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 5
+				}
+				{
+					id: "0FAA0B8FC48763B7"
+					type: "item"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+				{
+					id: "5C168E9CF9E54BB8"
+					type: "item"
+					item: "heartcanisters:heart_canister"
+				}
+				{
+					id: "51A4F85C67AD298A"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69E5D896B44EF052"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/block/bamboo_large_leaves.png"
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: -6.499999999999998d
+			shape: "unicorn"
+			subtitle: "你的新家"
+			description: [
+				"{image:minecraft:textures/gui/presets/dim-overworld.png width:200 height:50 align:1}"
+				""
+				"人工智能占领了地球，大部分人也随之而来。你努力奋斗，许多人在世界战争中献出了生命。"
+				""
+				"最终，您别无选择，只能使用从未经过测试的传送门穿越银河系前往新世界。欢迎来到新地球。"
+				""
+				"&d向上到零核空间维度!"
+				""
+				"&e下挖到基岩层就能进入地狱"
+
+			]
+			size: 1.3d
+			id: "7660C8039078AA2C"
+			tasks: [{
+				id: "05518FCFB30AD9D0"
+				type: "stat"
+				title: "欢迎来到新地球"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/block/bamboo_large_leaves.png"
+					}
+				}
+				stat: "minecraft:play_one_minute"
+				value: 1
+			}]
+			rewards: [
+				{
+					id: "3C3C5B6DA47BD0B3"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage add @p notarcademode true"
+					player_command: false
+				}
+				{
+					id: "7BABE35305BB0128"
+					type: "command"
+					auto: "invisible"
+					command: "/execute align yxz run spawnpoint @p ~ 245 ~"
+					player_command: false
+				}
+				{
+					id: "489A787E1A954C9B"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run effect give @p lycanitesmobs:fallresist 8 0"
+					player_command: false
+				}
+				{
+					id: "7B4A41317FE60EE3"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run teleport @p ~ 245 ~"
+					player_command: false
+				}
+			]
+		}
+		{
+			tags: ["ding"]
+			x: 2.0d
+			y: -8.124999999999998d
+			shape: "unicorn"
+			subtitle: "祝你好运，我的朋友"
+			description: [
+				"{image:minecraft:textures/gui/presets/dim-nullspace.png width:200 height:50 align:1}"
+				""
+				"漆黑一片，我好害怕……远处那是什么？！我身后那是什么？！它怎么向我扔便便？"
+				""
+				"对所有这些问题都是肯定的"
+				""
+				"祝你好运，我的朋友。"
+				""
+				"&d向上到糖果之地维度！"
+				""
+				"&e下挖到基岩层就能进入上面的维度"
+
+			]
+			dependencies: ["7660C8039078AA2C"]
+			dependency_requirement: "one_completed"
+			size: 1.3d
+			id: "6693173F25DF855E"
+			tasks: [{
+				id: "6EC76084B884288F"
+				type: "dimension"
+				title: "欢迎来到零核空间"
+				icon: "sonicraft:null_space_stone"
+				dimension: "sonicraft:null_space_dimension"
+			}]
+			rewards: [
+				{
+					id: "1DF6A30BFA4365B9"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "367EF6E9DD01FC40"
+					type: "item"
+					auto: "no_toast"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+				{
+					id: "4E4A1BE733B4978B"
+					type: "item"
+					auto: "no_toast"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+				{
+					id: "1D71E86182405E2B"
+					type: "item"
+					auto: "no_toast"
+					item: "cgm:basic_bullet"
+					count: 64
+				}
+				{
+					id: "5F75D30E6210464A"
+					type: "item"
+					auto: "no_toast"
+					item: "heartbalance:refill_heart"
+					count: 10
+				}
+				{
+					id: "31165A3B3A720DDC"
+					type: "item"
+					auto: "no_toast"
+					item: "heartcanisters:heart_canister"
+				}
+				{
+					id: "6BDD837718FF3E21"
+					type: "item"
+					auto: "no_toast"
+					item: "heartcanisters:golden_heart"
+					count: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "candyworld:textures/items/tool/cotton_candy/cotton_candy_pickaxe.png"
+				}
+			}
+			tags: ["ding"]
+			x: 2.0d
+			y: -9.75d
+			shape: "unicorn"
+			subtitle: "到处蹦蹦跳跳..."
+			description: [
+				"{image:minecraft:textures/gui/presets/dim-gummy-land.png width:200 height:50 align:1}"
+				""
+				"无与伦比的冒险精神！它们是软糖熊！"
+				""
+				"有一个带有机枪的巨型大脑机器人，可以秒杀你。至少我警告过你，对吧？"
+				""
+				"我就是这样的好人<3"
+				""
+				"&d向上到废弃城市维度"
+				""
+				"&e挖到基岩下才能回到上面的维度"
+
+			]
+			dependencies: ["6693173F25DF855E"]
+			size: 1.3d
+			id: "0CAE2C533E095BC1"
+			tasks: [{
+				id: "6227AB7C595CBE3E"
+				type: "dimension"
+				title: "欢迎来到软糖乐园"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "candyworld:textures/items/tool/cotton_candy/cotton_candy_pickaxe.png"
+					}
+				}
+				dimension: "candyworld:candy_world"
+			}]
+			rewards: [{
+				id: "5FDB2FD4A01672EA"
+				type: "item"
+				item: "xpcoins:silver_coin"
+				count: 5
+			}]
+		}
+		{
+			title: "进入终末之地（末地)"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "endrem:textures/items/end_crystal_fragment.png"
+				}
+			}
+			x: 6.5d
+			y: -5.25d
+			shape: "secretagent"
+			subtitle: "这是开始吗？"
+			description: [
+				""
+				"{image:minecraft:textures/gui/presets/dim_end.png width:200 height:50 align:1}"
+				""
+				"开始？结束？"
+				""
+				"那是什么声音？"
+				""
+				"我不记得了。为什么我不记得了？"
+				""
+				"我这样做了多少次？我在循环吗？不...我不能...这没有任何意义。"
+				""
+				"本在哪里？本杰明在哪里..."
+				""
+				"&d在终末之地维度向上去暮色森林吧!"
+				""
+				"&e跳进虚空，回到主世界"
+
+			]
+			dependencies: ["1DEEE721C2C85CA5"]
+			size: 3.0d
+			id: "4A14A6C6A82B3B11"
+			tasks: [{
+				id: "6AB03581BE569476"
+				type: "dimension"
+				title: "进入末地维度"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity/end_portal.png"
+					}
+				}
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: -3.25d
+			y: -11.5d
+			shape: "secretagent"
+			description: [
+				"每日任务会根据一周中的某一天而变化，而不是游戏中的日子。"
+				""
+				"有些任务有多项步骤，必须按照说明中所述的顺序完成。"
+				""
+				"&d如果您在玩游戏时日期发生变化，请单击检查标志以接收新的每日任务！"
+			]
+			id: "2F31E6A889B44565"
+			tasks: [{
+				id: "057F82196B4744D0"
+				type: "checkmark"
+				title: "刷新每日任务"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/refresh.png"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0ED5028FD8F80D30"
+				type: "custom"
+				title: "刷新"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/refresh.png"
+					}
+				}
+				tags: [
+					"reset"
+					"refresh"
+				]
+				auto: "no_toast"
+			}]
+		}
+		{
+			title: "亲吻，然后杀死一个沃瑞斯"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/lips.png"
+				}
+			}
+			x: -1.0d
+			y: -10.2d
+			shape: "secretagent"
+			subtitle: "星期日任务"
+			description: [
+				"亲吻并告诉？绝不！在沃瑞斯有机会告诉它的朋友之前让它沉默！"
+				""
+				"&d任务：你必须亲吻一只沃瑞斯，然后杀死它。任务必须按此顺序完成"
+				""
+				"&d附加信息：沃瑞斯是生活在沙漠和森林生物群系以及零核空间维度中的大型三足生物"
+				""
+				"有一天，他们会制作一部关于你的真实犯罪纪录片。"
+			]
+			dependencies: ["23E883F720C3201D"]
+			hide: true
+			size: 4.0d
+			id: "282998A6013251C7"
+			tasks: [
+				{
+					id: "56AE27350A297752"
+					type: "custom"
+					title: "亲吻一个沃瑞斯"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/lips.png"
+						}
+					}
+				}
+				{
+					id: "1F234295BCA4E33B"
+					type: "custom"
+					title: "杀死一个沃瑞斯"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/vorach.png"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0524D828E9416F93"
+					type: "item"
+					item: "heartbalance:refill_heart"
+					count: 8
+				}
+				{
+					id: "00EC45D0BAF41FC3"
+					type: "random"
+					table_id: 5594870614971592398L
+				}
+				{
+					id: "367C4E52B67D24F2"
+					type: "random"
+					table_id: 2007184132887815967L
+				}
+				{
+					id: "634E5205ECDA10BA"
+					type: "command"
+					title: "你酷吗？"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "supplementaries:textures/gui/book/icon/youtube.png"
+						}
+					}
+					command: "openguiscreen youtube"
+					player_command: true
+				}
+				{
+					id: "27683EB177EA6F50"
+					type: "command"
+					title: "干得好"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/rec-voice-lines-small.png"
+						}
+					}
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 57DF7A8E89CFA42E"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.2d
+			shape: "secretagent"
+			subtitle: "星期一任务"
+			dependencies: ["2604D6F6E32933E9"]
+			hide: true
+			size: 4.0d
+			id: "157CC5360C1678F6"
+			tasks: [{
+				id: "61502E7EFA1DC42F"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/zombie_small_1.png"
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 150L
+			}]
+			rewards: [
+				{
+					id: "43FF7A01B1A050B9"
+					type: "item"
+					item: "supplementaries:jar"
+					count: 10
+				}
+				{
+					id: "0F649C4C3560C027"
+					type: "choice"
+					table_id: 7415284162124325985L
+				}
+				{
+					id: "665BB2040B352BF6"
+					type: "random"
+					table_id: 3815455067157462451L
+				}
+				{
+					id: "348978A5731E5228"
+					type: "command"
+					title: "干得好"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/rec-voice-lines-small.png"
+						}
+					}
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 57DF7A8E89CFA42E"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.2d
+			shape: "secretagent"
+			subtitle: "星期二任务"
+			description: [
+				"当您整夜保持清醒时会随机生成数量的幻翼。他们俯冲下来，试图从你的身体中吸取灵魂。"
+				""
+				"&d任务：杀死3个幻翼"
+				""
+				"&d附加信息：您可能需要熬夜多晚"
+			]
+			dependencies: ["57A5C6E2336277A4"]
+			hide: true
+			size: 4.0d
+			id: "61285B9A5A102955"
+			tasks: [{
+				id: "19A03C95C25C8220"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/phantom_icon.png"
+					}
+				}
+				entity: "minecraft:phantom"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "74304F574BFDB993"
+					type: "loot"
+					table_id: 3435568532051699318L
+				}
+				{
+					id: "3AEB7B98DC04A4D4"
+					type: "random"
+					table_id: 2248606127363695825L
+				}
+				{
+					id: "087772A2A3D5830D"
+					type: "random"
+					table_id: 6943911838094686525L
+				}
+				{
+					id: "30EB592C2633A5F7"
+					type: "command"
+					title: "干得好"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/rec-voice-lines-small.png"
+						}
+					}
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 57DF7A8E89CFA42E"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "让嗜血虱虫抓住"
+			x: -1.0d
+			y: -10.2d
+			subtitle: "星期三任务"
+			description: [
+				"它绝不会吝啬到给我们一个这样的任务——让我们不得不故意让一个嗜血虱虫抓住我们的脸并试图杀死我们......"
+				""
+				"&c*邪恶的笑*"
+				""
+				"&d任务：让一个在森林生物群系中找到嗜血虱虫并贴在你的脸上。如果你死了，你不会得到奖励！祝你好运！"
+			]
+			dependencies: ["683C833CDDD3EBB8"]
+			hide: true
+			size: 4.0d
+			id: "56882F4E4E5D6C49"
+			tasks: [{
+				id: "3E376602E1B17D7E"
+				type: "custom"
+				title: "让嗜血虱虫抓住"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/darkling_icon.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5DC94EB6A5B25C3F"
+					type: "item"
+					auto: "disabled"
+					item: "heartbalance:refill_heart"
+					count: 10
+				}
+				{
+					id: "7F2A20B745511A50"
+					type: "random"
+					auto: "disabled"
+					table_id: 7338619246455282602L
+				}
+				{
+					id: "5192AD114E1D61EB"
+					type: "random"
+					auto: "disabled"
+					table_id: 1496537065135173003L
+				}
+				{
+					id: "0C1060C8C7348D37"
+					type: "command"
+					title: "祝你好运"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/rec-voice-lines-small.png"
+						}
+					}
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 57DF7A8E89CFA42E"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.2d
+			subtitle: "星期四任务"
+			description: [
+				"只是一个简单的任务，可以让你保持清醒。"
+				""
+				"&d任务：在熔炉中制作10个铁锭（你可以保留你的铁锭）"
+				""
+			]
+			dependencies: ["1CC040E2F20E51F5"]
+			hide: true
+			size: 4.0d
+			id: "33CCDFA9170A67C5"
+			tasks: [{
+				id: "2C29183EE8406792"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 10L
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "60753CB65A78B012"
+					type: "choice"
+					table_id: 5592615764751312339L
+				}
+				{
+					id: "3F559F2BA5F56117"
+					type: "random"
+					table_id: 5594870614971592398L
+				}
+				{
+					id: "771F408C3C86C5DD"
+					type: "command"
+					title: "干得好"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/rec-voice-lines-small.png"
+						}
+					}
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 57DF7A8E89CFA42E"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.2d
+			subtitle: "星期五任务"
+			description: [
+				"初代克莱是一个坚韧的生物。它看起来像剑龙，只生活在地心维度。不要与普通的克莱混淆，后者的威力较小，但看起来与克莱相同。"
+				""
+				"为什么这么快？&c*邪恶的笑声*"
+				""
+				"&d任务：杀死一个初代克莱"
+			]
+			dependencies: ["78621EFDCF111B6F"]
+			hide: true
+			size: 4.0d
+			id: "2BC4D40EB9CA81AB"
+			tasks: [{
+				id: "28FD4C5621814FC1"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "lycanitesmobs:textures/guis/creatures/makaalpha_icon.png"
+					}
+				}
+				entity: "lycanitesmobs:makaalpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "12B53D2D9ED541C4"
+					type: "choice"
+					table_id: 8849474409947489691L
+				}
+				{
+					id: "335756706EC6137A"
+					type: "random"
+					table_id: 8232681899602086705L
+				}
+				{
+					id: "2F08F35417464A24"
+					type: "random"
+					table_id: 1496537065135173003L
+				}
+				{
+					id: "03E416190D004F02"
+					type: "command"
+					title: "干得好"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/rec-voice-lines-small.png"
+						}
+					}
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 57DF7A8E89CFA42E"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.2d
+			subtitle: "星期六任务"
+			description: [
+				"龙卷鲨看起来像鲨鱼，生活在海洋中。它们很强大，速度很快，喜欢吃像你这样的孩子。"
+				""
+				"这很有趣，不是吗！"
+				""
+				"&d任务：杀死3只龙卷鲨"
+			]
+			dependencies: ["230DFF4C35E6FAB1"]
+			hide: true
+			size: 4.0d
+			id: "59C679B2F14C1D33"
+			tasks: [{
+				id: "67369DD67EA7BD0D"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/roa.png"
+					}
+				}
+				entity: "lycanitesmobs:roa"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "4AC16CE8B9C4E09A"
+					type: "random"
+					table_id: 8191952783162746479L
+				}
+				{
+					id: "188E196900B4C942"
+					type: "random"
+					table_id: 8849474409947489691L
+				}
+				{
+					id: "2E8298B176D4C585"
+					type: "random"
+					table_id: 3425387876670786001L
+				}
+				{
+					id: "332E889B483ACB77"
+					type: "command"
+					title: "干得好"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/rec-voice-lines-small.png"
+						}
+					}
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 57DF7A8E89CFA42E"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "传送至死亡地点"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/warp_to_death.png"
+				}
+			}
+			x: -5.0d
+			y: -11.08d
+			description: [
+				"&d在你死后，你可以支付费用（经验）传送回你最后的死亡地点。"
+				""
+				"有时候你只是坏了，死了。这不会发生在Jetpack_Cat身上，但我理解。"
+				""
+				"&d附加信息：在你回到死亡地点之前，不要使用任何传送机制，比如传送石碑。否则你会返回到传送石碑。"
+			]
+			size: 2.0d
+			id: "4CB3A86A356DDA85"
+			tasks: [{
+				id: "1F85931C60FE0F97"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "xpcoins:textures/items/coin_silver.png"
+					}
+				}
+				item: "xpcoins:silver_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2A7F93E08C38E0B3"
+					type: "custom"
+					title: "传送"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/warp_to_death.png"
+						}
+					}
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+				{
+					id: "3166D5492D4E4AAA"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run back"
+					player_command: false
+				}
+				{
+					id: "2C56C1CA63616A39"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "698529F22894851B"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle infernalexp:glowstone_sparkle ~ ~1 ~ 3 2 3 0.03 500"
+					player_command: false
+				}
+				{
+					id: "573572008941606F"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					auto: "invisible"
+					command: "/closeguiscreen"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "传送团队到你这里"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/warp_friends.png"
+				}
+			}
+			x: -5.0d
+			y: -9.0d
+			description: [
+				"&a向所有玩家发送请求，将他们传送到你的位置"
+				""
+				"也许你所有的朋友都死了，而你距离重生点还有数千格方块。只需支付少量费用，即可将您所有的朋友带回战斗（以及他们的东西）。"
+				""
+				"你会看起来很酷，节省一天。"
+				""
+				""
+			]
+			size: 2.0d
+			id: "65AFC32727A5F51D"
+			tasks: [{
+				id: "39C8C552FE63B5E3"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "xpcoins:textures/items/coin_silver.png"
+					}
+				}
+				item: "xpcoins:silver_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "450B381B264D8F50"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 49486FB754346768"
+					player_command: false
+				}
+				{
+					id: "219A176842A1BC0C"
+					type: "custom"
+					title: "Send Team Teleport Request"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/warp_friends.png"
+						}
+					}
+					tags: ["reset"]
+					auto: "enabled"
+				}
+				{
+					id: "23DFA58589672126"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					auto: "invisible"
+					command: "/closeguiscreen"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -11.08d
+			description: [
+				"&d打开派对界面"
+				""
+				"或者，您可以按键盘上的[End]键来显示派对界面。"
+				""
+				"&d派对会做什么？"
+				"派对会将每个派对成员的生命值添加到屏幕的左上方，以实时监控他们的生命体征。"
+			]
+			size: 2.0d
+			id: "78EAC92F916197A8"
+			tasks: [{
+				id: "08B8F7C6A7565CB5"
+				type: "checkmark"
+				title: "管理方"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/gui/presets/party_friends.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A0D257E653F1CF6"
+					type: "custom"
+					title: "我有朋友耶！"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/party_friends.png"
+						}
+					}
+					tags: ["reset"]
+					auto: "enabled"
+				}
+				{
+					id: "6F5E8761388A3CE1"
+					type: "command"
+					auto: "invisible"
+					command: "/party gui"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "复活大家！"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/revive_team_morty.png"
+				}
+			}
+			x: -7.0d
+			y: -9.0d
+			subtitle: "拯救这一天！！"
+			description: [
+				"&c复活服务器上所有当前被死去的玩家"
+				""
+				"想象一下，你是唯一一个站着的人。你的整个团队都垮了，只有你一个人。"
+				""
+				"成为所有泳装模特谈论的传奇。"
+			]
+			size: 2.0d
+			id: "5B6E0A72F854B474"
+			tasks: [{
+				id: "4BD96901CC8E9110"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "xpcoins:textures/items/coin_silver.png"
+					}
+				}
+				item: "xpcoins:silver_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5634FB37811ACCF1"
+					type: "command"
+					auto: "invisible"
+					command: "/revive @a"
+					player_command: false
+				}
+				{
+					id: "1277298C9863762D"
+					type: "custom"
+					title: "复活所有人！"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/gui/presets/revive_team_morty.png"
+						}
+					}
+					tags: ["reset"]
+					auto: "enabled"
+				}
+				{
+					id: "084B5FD587C24014"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					auto: "invisible"
+					command: "/closeguiscreen"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -6.5d
+			shape: "secretagent"
+			subtitle: "开始？"
+			description: [
+				" &5 &l本：&r &5父亲，你做到了，你打败了龙！"
+				""
+				" &d &l父亲：&r &d啊！！啊啊我在哪里？！！"
+				""
+				" &5 &l本：&r &5我们在街机上（本摘下耳机）"
+				""
+				" &d &l父亲：&r &d啊！这不是……不是真的？！"
+				""
+				" &5 &l本：&r &5别傻了，你得了高分！你在排行榜上占据了那个孩子的位置"
+				""
+				" &d &l父亲：&r &d哦，你不会相信的！当邪恶的机器人入侵时，我们逃离了地球，我们打开了通往新星球的传送门！我们建造了一个新家，我结婚了..."
+				""
+				" &5 &l本：&r &5哈哈，如果你让我玩，我不会告诉妈妈你娶了另一个女孩！"
+				""
+				" &d &l父亲：&r &d太真实了！我们杀死了怪物、哥布林和熊猫！天啊…"
+				""
+				" &5 &l本：&r &5再去一次，我想看到你得到更好的分数！我在大屏幕上看到了这一切！"
+				""
+				"&f父亲从椅子上站起来"
+				""
+				" &d &l父亲：&r &d哥们，我感觉不太好，我觉得我在做梦.."
+				""
+				"&f可以听到微弱的声音\"如果他意识到发生了什么，我们将不得不重新开始这个过程。\""
+				""
+				" &d &l父亲：&r &d你听到了吗？"
+				""
+				" &5 &l本：&r &5听什么？我什么都没听到"
+				""
+				" &d &l父亲：&r &d我认为这是不对劲的……有些不对劲……"
+				""
+				" &5 &l本：&r &5在这里，您，把耳机重新戴上，你会感觉更好"
+				""
+				" &d &l父亲：&r &d那不是我的名字……我的名字是……啊！……等等……"
+				""
+				"在他完全清醒之前抓住他！"
+				""
+				" &5 &l本：&r &5将耳机放回您的头上！"
+				""
+				" &d &l父亲：&r &d不，那不是我的名字！"
+				""
+				"&f一群被同化的人类冲进房间，把耳机强行给父亲，把他固定在椅子上"
+				""
+				" &d &l父亲：&r &d啊啊啊放开我！！"
+				""
+				" &5 &l本：&r &5没关系，您，你一会儿就好了，你不会记得了，我们稍后再试。你将学会爱你的新主人。"
+				""
+				" &d &l父亲：&r &d你不是我儿子！"
+				""
+				" &5 &l本：&r &5我不是，我采用这种形式是为了让您在整个过程中放松心情。我希望你活着，你对我们很重要。我有一些计划还没对你实现。"
+				""
+				"-继续同化过程-"
+				""
+				" &d &l您: &r &d啊啊啊！！"
+				""
+				"&f寂静笼罩着房间"
+				""
+				" &d &l您: &r &d我..我想我现在要建立一个非常大的基地..."
+				""
+				" &5 &l邪恶的人工智能: &r &5没错，您……去建个基地，我们稍后再试。"
+			]
+			dependencies: ["01ED00F9116F8554"]
+			hide: true
+			id: "4953D8BA82EA5388"
+			tasks: [{
+				id: "027C43C7FBC6FFE4"
+				type: "custom"
+				title: "最终故事的文本"
+				icon: "minecraft:music_disc_pigstep"
+			}]
+			rewards: [{
+				id: "2F97848EC0987704"
+				type: "custom"
+				title: "最终故事的文本"
+				icon: "minecraft:music_disc_pigstep"
+				tags: ["reset"]
+				auto: "enabled"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			subtitle: "理解"
+			description: [
+				"{image:minecraft:textures/gui/presets/rec-voice-lines-small.png width:200 height:50 align:1}"
+				"&e来自本的消息："
+				""
+				"父亲，我终于可以告诉你到底发生了什么：你从来没有到过什么地球二号。邪恶的人工智能将传送门的输出位置重定向到它们的同化设施之一。从那时起，你记得的一切都在你的脑海中。他们给了你一个目标，让你在同化过程中保持注意力分散。"
+				""
+				"这不是你第一次经历地球两个场景。但每次你了解真正发生的事情时，他们都会重置模拟。到目前为止，它们已经重置了23次模拟。这是你第一次到达末地传送门，现在我们能够从你醒来的时候获取你的位置，我们知道你在哪里。你还在地球上父亲。"
+				""
+				"大多数人类已被同化，但我们中的一小部分人已经开始抵抗，这里的科学家创造了一个为人类而战的人工智能版本。他们认为我们可以赢，但他们需要你头脑中的信息。"
+				""
+				"只有您知道可以赢得这场战争的设备的位置。这就是为什么敌人花费这么多时间在你的同化上。他们不想在此过程中丢失任何信息。"
+				""
+				"坚持住，继续战斗，我们来接你了！爱你父亲！"
+				""
+				""
+				"&f未完待续…&r"
+			]
+			dependencies: ["01ED00F9116F8554"]
+			hide: true
+			size: 2.0d
+			id: "3A0B2DE41DECC7D6"
+			tasks: [{
+				id: "6AE7461DD57A19BC"
+				type: "checkmark"
+				title: "最后的信息"
+				icon: "infernalexp:music_disc_flush"
+			}]
+			rewards: [
+				{
+					id: "6305571BEBE0277A"
+					type: "custom"
+					title: "最后的信息"
+					icon: "infernalexp:music_disc_flush"
+					tags: ["reset"]
+					auto: "enabled"
+				}
+				{
+					id: "7040D5A8647202DC"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound minecraft:end-story voice @p ~ ~ ~"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.325d
+			y: -6.500000000000001d
+			subtitle: "它真的坏了…"
+			min_required_dependencies: 2
+			dependencies: [
+				"7C4566CA5BBD0E03"
+				"753580E6ED680075"
+				"662CBEDA1435C154"
+			]
+			hide: true
+			hide_text_until_complete: true
+			size: 1.3d
+			id: "39BBA7A892D036FC"
+			tasks: [{
+				id: "3E74082ED3FF7762"
+				type: "dimension"
+				title: "欢迎来到破碎森林"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/items/moon_dial/waxing_gibbous.png"
+					}
+				}
+				dimension: "twilightforest:skylight_forest"
+			}]
+		}
+		{
+			title: "进入暮色森林"
+			x: 9.0d
+			y: -5.25d
+			description: [
+				"添加了新章节！"
+				""
+				"从左侧菜单中选择\"终末之后\"章节，开始您的暮色森林之旅！"
+				""
+				"&e下挖到基岩层才能回到上面的维度"
+			]
+			dependencies: ["4A14A6C6A82B3B11"]
+			hide: false
+			size: 1.5d
+			id: "62C77446EDC5CD91"
+			tasks: [{
+				id: "10E7E9AEDCB98F4F"
+				type: "dimension"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "twilightforest:textures/items/hydra_trophy.png"
+					}
+				}
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "0D6EE522BE501600"
+				type: "item"
+				item: "randomloot:titan_case"
+				count: 3
+			}]
+		}
+		{
+			title: "传送回家"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			x: -5.0d
+			y: -7.0d
+			description: ["你必须先输入\"/sethome\"来设置你的家。你只能设置1个home，你只能做一次，所以确保它在你想要的地方。"]
+			size: 2.0d
+			id: "3815BAB1CD7D8204"
+			tasks: [{
+				id: "3A2F7C74400BCC56"
+				type: "item"
+				item: "xpcoins:silver_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1E610DE379F78689"
+					type: "command"
+					auto: "invisible"
+					command: "/execute as @p run home"
+					player_command: false
+				}
+				{
+					id: "228161F438E91DF7"
+					type: "custom"
+					title: "传送回家"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/waypoint_home.png"
+						}
+					}
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+				{
+					id: "622C889F9C47A505"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					auto: "invisible"
+					command: "/closeguiscreen"
+					player_command: true
+				}
+				{
+					id: "7C698C18E31F2E72"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @a run particle infernalexp:glowstone_sparkle ~ ~1 ~ 3 2 3 0.03 500"
+					player_command: false
+				}
+				{
+					id: "6512A00798C66841"
+					type: "command"
+					auto: "invisible"
+					command: "/execute at @p run playsound enterdimension voice @p ~ ~ ~"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "欢迎来到恐怖之城"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/blocks/deepslate_lamp.png"
+				}
+			}
+			x: 1.9500000000000002d
+			y: -11.375000000000002d
+			subtitle: "我不害怕…"
+			description: [
+				"{image:minecraft:textures/gui/presets/ftb_abandoned_city.png width:200 height:50 align:1}"
+				""
+				"一座很久以前被遗弃的城市……这是恐怖的！"
+				""
+				"&e往下挖，回到上面的世界"
+			]
+			dependencies: ["0CAE2C533E095BC1"]
+			size: 1.3d
+			id: "747781305DCDF203"
+			tasks: [{
+				id: "63C42A23EB268B43"
+				type: "checkmark"
+				title: "失落城市"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "supplementaries:textures/blocks/deepslate_lamp.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.0d
+			description: [
+				"重伤死后没有任何东西可以保护自己，糟透了。"
+				""
+				"这是一把免费的枪，是无限次领取的。它的伤害很低，但拥有无限的弹药，可以帮助你在死后回到坟墓。"
+			]
+			size: 2.0d
+			id: "2833B59D21F9D68B"
+			tasks: [{
+				id: "7BDA82CAC33AFFE7"
+				type: "checkmark"
+				title: "应急手枪"
+				icon: {
+					id: "moguns:glock17"
+					Count: 1b
+					tag: {
+						AmmoCount: 17
+						Attachments: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48CE310283255D6E"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "moguns:glock17"
+						Count: 1b
+						tag: {
+							AmmoCount: 17
+							IgnoreAmmo: 1b
+							Attachments: { }
+						}
+					}
+				}
+				{
+					id: "19085EFEFE0C64F4"
+					type: "custom"
+					tags: ["resetdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+	]
+}
