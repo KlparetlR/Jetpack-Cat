@@ -1,0 +1,132 @@
+{
+	id: "4F8867D78ADAB217"
+	order_index: 26
+	title: "2级枪箱"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "additionalguns:ar1_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 35
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:pistol_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 14
+					Color: 4956159
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:shotgun_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 8
+					Color: 4956159
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:rifle_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 10
+					Color: 4956159
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:bazooka_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 5
+					Color: 4956159
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:mini_gun_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 40
+					Color: 4956159
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:machine_pistol_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 60
+					Color: 4956159
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:heavy_rifle_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 6
+					Color: 4956159
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:kraber_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 12
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:rifle3030_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 14
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:r99_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 34
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:spitfire_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 50
+				}
+			}
+		}
+		{
+			item: {
+				id: "additionalguns:r301_lvl2"
+				Count: 1b
+				tag: {
+					AmmoCount: 33
+				}
+			}
+		}
+	]
+}

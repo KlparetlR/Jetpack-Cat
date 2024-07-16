@@ -1,0 +1,35 @@
+{
+	id: "3E5E93B131E24F56"
+	order_index: 5
+	title: "小型枪"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "cgm:pistol"
+				Count: 1b
+				tag: {
+					AmmoCount: 16
+				}
+			}
+		}
+		{
+			item: {
+				id: "cgm:machine_pistol"
+				Count: 1b
+				tag: {
+					AmmoCount: 40
+				}
+			}
+		}
+		{
+			item: {
+				id: "cgm:shotgun"
+				Count: 1b
+				tag: {
+					AmmoCount: 8
+				}
+			}
+		}
+	]
+}
