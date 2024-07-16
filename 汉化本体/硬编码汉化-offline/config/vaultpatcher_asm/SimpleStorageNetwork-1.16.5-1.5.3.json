@@ -1,0 +1,22 @@
+[
+    {
+        "authors": "KlparetlR",
+        "name": "SimpleStorageNetwork模组汉化",
+        "desc": "分发、抄袭必追责",
+        "mods": "SimpleStorageNetwork-1.16.5-1.5.3",
+        "dynamic": false
+    },
+    {
+        "t": {
+            "name": "com/lothrazar/storagenetwork/block/exchange/BlockExchange",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "key": "[WARNING: laggy on large networks] ",
+                "value": "[警告:大型网络有延迟] "
+            }
+        ]
+    }
+]

@@ -1,0 +1,2716 @@
+[
+    {
+        "authors": "KlparetlR、Qing_Lanovo",
+        "name": "Colds: XP Coins and Games模组汉化",
+        "desc": "VP1.3.5+可启用，VPGS开源",
+        "mods": "XPCoins (FORGE-1.16.4) v1.0.7",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.CardsHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Six of Clubs",
+                "value": "梅花 6"
+            },
+            {
+                "key": "King of Diamonds",
+                "value": "方块 K"
+            },
+            {
+                "key": "Jack of Spades",
+                "value": "黑桃 J"
+            },
+            {
+                "key": "Nine of Clubs",
+                "value": "梅花 9"
+            },
+            {
+                "key": "Four of Spades",
+                "value": "黑桃 4"
+            },
+            {
+                "key": "Ace of Diamonds",
+                "value": "方块 A"
+            },
+            {
+                "key": "Eight of Diamonds",
+                "value": "方块 8"
+            },
+            {
+                "key": "Five of Hearts",
+                "value": "红桃 5"
+            },
+            {
+                "key": "Three of Spades",
+                "value": "黑桃 3"
+            },
+            {
+                "key": "Queen of Clubs",
+                "value": "梅花 Q"
+            },
+            {
+                "key": "Three of Clubs",
+                "value": "梅花 3"
+            },
+            {
+                "key": "Seven of Diamonds",
+                "value": "方块 7"
+            },
+            {
+                "key": "King of Clubs",
+                "value": "梅花 K"
+            },
+            {
+                "key": "Queen of Spades",
+                "value": "黑桃 Q"
+            },
+            {
+                "key": "Ace of Hearts",
+                "value": "红心 A"
+            },
+            {
+                "key": "Four of Clubs",
+                "value": "梅花 4"
+            },
+            {
+                "key": "Six of Spades",
+                "value": "黑桃 6"
+            },
+            {
+                "key": "Four of Diamonds",
+                "value": "方块 4"
+            },
+            {
+                "key": "Two of Spades",
+                "value": "黑桃 2"
+            },
+            {
+                "key": "Ace of Spades",
+                "value": "黑桃 A"
+            },
+            {
+                "key": "Two of Clubs",
+                "value": "梅花 2"
+            },
+            {
+                "key": "Queen of Diamonds",
+                "value": "方块 Q"
+            },
+            {
+                "key": "Five of Spades",
+                "value": "黑桃 5"
+            },
+            {
+                "key": "Seven of Clubs",
+                "value": "梅花 7"
+            },
+            {
+                "key": "Six of Hearts",
+                "value": "红心 6"
+            },
+            {
+                "key": "Nine of Hearts",
+                "value": "红心 9"
+            },
+            {
+                "key": "Jack of Diamonds",
+                "value": "方块 J"
+            },
+            {
+                "key": "Ten of Spades",
+                "value": "黑桃 10"
+            },
+            {
+                "key": "King of Hearts",
+                "value": "红心 K"
+            },
+            {
+                "key": "Three of Diamonds",
+                "value": "方块 3"
+            },
+            {
+                "key": "Five of Clubs",
+                "value": "梅花 5"
+            },
+            {
+                "key": "Eight of Hearts",
+                "value": "红心 8"
+            },
+            {
+                "key": "Six of Diamonds",
+                "value": "方块 6"
+            },
+            {
+                "key": "Nine of Diamonds",
+                "value": "方块 9"
+            },
+            {
+                "key": "Queen of Hearts",
+                "value": "红心 Q"
+            },
+            {
+                "key": "Ten of Clubs",
+                "value": "梅花 10"
+            },
+            {
+                "key": "Ten of Diamonds",
+                "value": "方块 10"
+            },
+            {
+                "key": "Two of Diamonds",
+                "value": "方块 2"
+            },
+            {
+                "key": "Jack of Clubs",
+                "value": "梅花J"
+            },
+            {
+                "key": "Eight of Clubs",
+                "value": "梅花 8"
+            },
+            {
+                "key": "Jack of Hearts",
+                "value": "红心J"
+            },
+            {
+                "key": "Ten of Hearts",
+                "value": "红心 10"
+            },
+            {
+                "key": "Eight of Spades",
+                "value": "黑桃 8"
+            },
+            {
+                "key": "Five of Diamonds",
+                "value": "方块 5"
+            },
+            {
+                "key": "Nine of Spades",
+                "value": "黑桃 9"
+            },
+            {
+                "key": "Three of Hearts",
+                "value": "红心 3"
+            },
+            {
+                "key": "Ace of Clubs",
+                "value": "梅花 A"
+            },
+            {
+                "key": "Seven of Hearts",
+                "value": "红心 7"
+            },
+            {
+                "key": "King of Spades",
+                "value": "黑桃 K"
+            },
+            {
+                "key": "Two of Hearts",
+                "value": "红桃 2"
+            },
+            {
+                "key": "Seven of Spades",
+                "value": "黑桃 7"
+            },
+            {
+                "key": "Four of Hearts",
+                "value": "红心 4"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.TwentyOneHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Six of Clubs",
+                "value": "梅花 6"
+            },
+            {
+                "key": "King of Diamonds",
+                "value": "方块 K"
+            },
+            {
+                "key": "Jack of Spades",
+                "value": "黑桃 J"
+            },
+            {
+                "key": "Nine of Clubs",
+                "value": "梅花 9"
+            },
+            {
+                "key": "Four of Spades",
+                "value": "黑桃 4"
+            },
+            {
+                "key": "Ace of Diamonds",
+                "value": "方块 A"
+            },
+            {
+                "key": "Eight of Diamonds",
+                "value": "方块 8"
+            },
+            {
+                "key": "Five of Hearts",
+                "value": "红桃 5"
+            },
+            {
+                "key": "Three of Spades",
+                "value": "黑桃 3"
+            },
+            {
+                "key": "Queen of Clubs",
+                "value": "梅花 Q"
+            },
+            {
+                "key": "Three of Clubs",
+                "value": "梅花 3"
+            },
+            {
+                "key": "Seven of Diamonds",
+                "value": "方块 7"
+            },
+            {
+                "key": "King of Clubs",
+                "value": "梅花 K"
+            },
+            {
+                "key": "Queen of Spades",
+                "value": "黑桃 Q"
+            },
+            {
+                "key": "Ace of Hearts",
+                "value": "红心 A"
+            },
+            {
+                "key": "Four of Clubs",
+                "value": "梅花 4"
+            },
+            {
+                "key": "Six of Spades",
+                "value": "黑桃 6"
+            },
+            {
+                "key": "Four of Diamonds",
+                "value": "方块 4"
+            },
+            {
+                "key": "Two of Spades",
+                "value": "黑桃 2"
+            },
+            {
+                "key": "Ace of Spades",
+                "value": "黑桃 A"
+            },
+            {
+                "key": "Two of Clubs",
+                "value": "梅花 2"
+            },
+            {
+                "key": "Queen of Diamonds",
+                "value": "方块 Q"
+            },
+            {
+                "key": "Five of Spades",
+                "value": "黑桃 5"
+            },
+            {
+                "key": "Seven of Clubs",
+                "value": "梅花 7"
+            },
+            {
+                "key": "Six of Hearts",
+                "value": "红心 6"
+            },
+            {
+                "key": "Nine of Hearts",
+                "value": "红心 9"
+            },
+            {
+                "key": "Jack of Diamonds",
+                "value": "方块 J"
+            },
+            {
+                "key": "Ten of Spades",
+                "value": "黑桃 10"
+            },
+            {
+                "key": "King of Hearts",
+                "value": "红心 K"
+            },
+            {
+                "key": "Three of Diamonds",
+                "value": "方块 3"
+            },
+            {
+                "key": "Five of Clubs",
+                "value": "梅花 5"
+            },
+            {
+                "key": "Eight of Hearts",
+                "value": "红心 8"
+            },
+            {
+                "key": "Six of Diamonds",
+                "value": "方块 6"
+            },
+            {
+                "key": "Nine of Diamonds",
+                "value": "方块 9"
+            },
+            {
+                "key": "Queen of Hearts",
+                "value": "红心 Q"
+            },
+            {
+                "key": "Ten of Clubs",
+                "value": "梅花 10"
+            },
+            {
+                "key": "Ten of Diamonds",
+                "value": "方块 10"
+            },
+            {
+                "key": "Two of Diamonds",
+                "value": "方块 2"
+            },
+            {
+                "key": "Jack of Clubs",
+                "value": "梅花J"
+            },
+            {
+                "key": "Eight of Clubs",
+                "value": "梅花 8"
+            },
+            {
+                "key": "Jack of Hearts",
+                "value": "红心J"
+            },
+            {
+                "key": "Ten of Hearts",
+                "value": "红心 10"
+            },
+            {
+                "key": "Eight of Spades",
+                "value": "黑桃 8"
+            },
+            {
+                "key": "Five of Diamonds",
+                "value": "方块 5"
+            },
+            {
+                "key": "Nine of Spades",
+                "value": "黑桃 9"
+            },
+            {
+                "key": "Three of Hearts",
+                "value": "红心 3"
+            },
+            {
+                "key": "Ace of Clubs",
+                "value": "梅花 A"
+            },
+            {
+                "key": "Seven of Hearts",
+                "value": "红心 7"
+            },
+            {
+                "key": "King of Spades",
+                "value": "黑桃 K"
+            },
+            {
+                "key": "Two of Hearts",
+                "value": "红桃 2"
+            },
+            {
+                "key": "Seven of Spades",
+                "value": "黑桃 7"
+            },
+            {
+                "key": "Four of Hearts",
+                "value": "红心 4"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.CardDraw",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "The Dealer picked the ",
+                "value": "庄家选择了"
+            },
+            {
+                "key": "You picked the ",
+                "value": "你选择了"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "USE: Draw a card!",
+                "value": "使用：抽一张扑克牌！"
+            },
+            {
+                "key": "§bDraw a higher card than the dealer!",
+                "value": "§b抽一张比庄家高的扑克牌!"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "You're a WINNER!!!  You Doubled Your Bet!",
+                "value": "你是赢家！！ 你的赌注翻倍了！"
+            },
+            {
+                "key": "You Lost Your Bet!",
+                "value": "你输掉了你的赌注！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.CardsHighLow",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "The Dealer picked the ",
+                "value": "庄家选择了"
+            },
+            {
+                "key": "You picked the ",
+                "value": "你选择了"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "USE: Draw a Card!",
+                "value": "使用：抽一张扑克牌！"
+            },
+            {
+                "key": "CROUCH+USE: Toggle High or Low Prediction",
+                "value": "蹲下+使用：切换高或低的预测"
+            },
+            {
+                "key": "§bor Lower than the Dealers",
+                "value": "§b或者比庄家更低"
+            },
+            {
+                "key": "§bBet if your Card is Higher",
+                "value": "§b下赌注，如果你的牌面更高"
+            },
+            {
+                "key": "§7Aces High",
+                "value": "§7牌面较高"
+            },
+            {
+                "key": "§7Aces Low",
+                "value": "§7牌面较低"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
+            },
+            {
+                "key": "Your Prediction: LOW!",
+                "value": "您的预测：较低！"
+            },
+            {
+                "key": "Your Prediction: HIGH!",
+                "value": "您的预测：较高！"
+            },
+            {
+                "key": "Current Prediction: High!",
+                "value": "当前预测：较高！"
+            },
+            {
+                "key": "Current Prediction: Low!",
+                "value": "当前预测：较低！"
+            },
+            {
+                "key": "Crouch + USE: Change Prediction",
+                "value": "潜行+使用：变更预测"
+            },
+            {
+                "key": "You've WON!!!",
+                "value": "你赢了！！！"
+            },
+            {
+                "key": "You've Lost!",
+                "value": "你输了！"
+            },
+            {
+                "key": "DRAW GAME!  No Winners!",
+                "value": "平局！ 没有赢家！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.DiceHighLow",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "The Dealer Rolled ",
+                "value": "庄家摇了"
+            },
+            {
+                "key": "! For a total of ",
+                "value": "！共计"
+            },
+            {
+                "key": "You Rolled ",
+                "value": "你摇了"
+            },
+            {
+                "key": "You beat the Dealer (",
+                "value": "您赢掉了庄家 ("
+            },
+            {
+                "key": "You beat the Dealer ",
+                "value": "您赢掉了庄家"
+            },
+            {
+                "key": " by Rolling a High Prediction!",
+                "value": "的结果，因为摇到高预测！"
+            },
+            {
+                "key": " by Rolling a Low Prediction!",
+                "value": "的结果，因为摇到低预测！"
+            },
+            {
+                "key": "You lost to the Dealer ",
+                "value": "你输给了庄家"
+            },
+            {
+                "key": " to ",
+                "value": "比"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "CROUCH+USE: Toggle High or Low Prediction",
+                "value": "蹲下+使用：切换高或低的预测"
+            },
+            {
+                "key": "§bBet if your Roll is Higher",
+                "value": "§b下赌注，如果你的骰子总值更高"
+            },
+            {
+                "key": "§bor Lower than the Dealers",
+                "value": "§b或者比庄家更低"
+            },
+            {
+                "key": "§bWin with a MAX Spread",
+                "value": "§b若以最大点数差获胜"
+            },
+            {
+                "key": "§band get 5x your wager!",
+                "value": "§b可获得5倍的赌注！"
+            },
+            {
+                "key": "USE: Roll the Dice!",
+                "value": "使用：掷骰子！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
+            },
+            {
+                "key": "Your Prediction: LOW!",
+                "value": "您的预测：较低！"
+            },
+            {
+                "key": "Your Prediction: HIGH!",
+                "value": "您的预测：较高！"
+            },
+            {
+                "key": "DRAW GAME!  No Winners!",
+                "value": "平局！ 没有赢家！"
+            },
+            {
+                "key": "MAX SPREAD!!! You WON 20 times your Wager!",
+                "value": "最大点数差！！！ 你赢了20倍的赌注！"
+            },
+            {
+                "key": "MAX SPREAD You WON 20 times your Wager!",
+                "value": "最大点数差 你赢了20倍的赌注！"
+            },
+            {
+                "key": "You WON!",
+                "value": "你赢了！"
+            },
+            {
+                "key": "You Lost your Coin!",
+                "value": "你失去了你的经验币！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.DoubleOrNothing",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Heads! You Win! (",
+                "value": "正面！你赢了！("
+            },
+            {
+                "key": " Coins)",
+                "value": " 个经验币)"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "§bFlip a Coin! Land on Heads to Win!",
+                "value": "§b抛硬币!正面着地就能赢!"
+            },
+            {
+                "key": "USE: Flip the Coin",
+                "value": "使用：掷硬币"
+            },
+            {
+                "key": "CROUCH + USE: Collect your Winnings!",
+                "value": "潜行+使用：收集您的奖金！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "Tails! You Lose!",
+                "value": "反面！你输了！"
+            },
+            {
+                "key": "Use: Double or Nothing!",
+                "value": "使用：双倍或一无所有！"
+            },
+            {
+                "key": "Crouch + Use: Collect your Winnings!",
+                "value": "蹲下+使用：收集你的奖金!"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.LuckyDice",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "You rolled a ",
+                "value": "你掷了一个"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "USE: Roll the Dice!",
+                "value": "使用：掷骰子！"
+            },
+            {
+                "key": "§bRoll Snake Eyes or Boxcars",
+                "value": "§b掷蛇眼（双一点）或棚车（双六点）"
+            },
+            {
+                "key": "§band WIN 3 Times you Bet!",
+                "value": "§b并赢得3倍的赌注！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "You Lost Your Coin!",
+                "value": "你失去了你的经验币！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.TwentyOneOrNine",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": ") Dealer is showing a ",
+                "value": ") 专家展示了一张"
+            },
+            {
+                "key": ") You've drawn a ",
+                "value": ") 你抽了一张"
+            },
+            {
+                "key": " and a ",
+                "value": "以及一张"
+            },
+            {
+                "key": ") Dealer reveals a ",
+                "value": ") 庄家揭示了一张"
+            },
+            {
+                "key": ") Dealer has drawn a ",
+                "value": ") 庄家抽了一张"
+            },
+            {
+                "key": "Dealer Wins (",
+                "value": "庄家获胜 ("
+            },
+            {
+                "key": " to ",
+                "value": " 比 "
+            },
+            {
+                "key": "You WIN 2 Coins (",
+                "value": "你赢得了2个经验币 ("
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            },
+            {
+                "key": "§bTry to get closer to 21 than the dealer!",
+                "value": "§b尽量比庄家更接近21！"
+            },
+            {
+                "key": "§bDraw 21 and win TRIPLE your bet!",
+                "value": "§b抽到21，赢得三倍的赌注！"
+            },
+            {
+                "key": "§bIf anyone draws 9 Cards without Breaking, You'll Win 10X your bet!",
+                "value": "§b如果有人抽到9张牌而不中断，你将赢得10倍的赌注！"
+            },
+            {
+                "key": "USE: Draw Cards",
+                "value": "使用：抽一张牌"
+            },
+            {
+                "key": "§7Dealer must Stand at 16+",
+                "value": "§7发牌人必须停叫在16+"
+            },
+            {
+                "key": "Starting New Game!",
+                "value": "开始新游戏！"
+            },
+            {
+                "key": "(USE: HIT) (CROUCH+USE: STAND)",
+                "value": "（使用：叫牌）（蹲下+使用：停叫）"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "Dealer Busts!",
+                "value": "庄家输了！"
+            },
+            {
+                "key": "You Win 2 Coins!",
+                "value": "你赢得了2个经验币！"
+            },
+            {
+                "key": "DRAW! No Winner!",
+                "value": "平局！没有赢家！"
+            },
+            {
+                "key": "9 Card Win!  YOU'VE WON 10X YOUR BET!!! (11 Coins)",
+                "value": "9张牌，赢！ 你赢了10倍的赌注！！！（11枚经验币）"
+            },
+            {
+                "key": "BLACKJACK!!!  You WIN 3X your bet! (4 Coins)",
+                "value": "21点！！！ 你赢了3倍的赌注！（4枚经验币）"
+            },
+            {
+                "key": "You Bust!",
+                "value": "你输了！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.CoinGameHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "You Lost with a score of ",
+                "value": "您输掉的分数是"
+            },
+            {
+                "key": "You Won with a score of ",
+                "value": "您赢掉的分数是"
+            },
+            {
+                "key": "!  You Won 3X your Bet!",
+                "value": "！ 您赢了 3 倍的赌注！"
+            },
+            {
+                "key": " to the computer score of ",
+                "value": "，电脑比分为"
+            },
+            {
+                "key": "!  You Won 2X your Bet!",
+                "value": "！  您赢了 2 倍赌注！"
+            },
+            {
+                "key": "!  You lost your Coin!",
+                "value": "！  您失去了你的经验币！"
+            },
+            {
+                "key": "but you found a Fortune Cookie!",
+                "value": "但是你获得了幸运饼干！"
+            },
+            {
+                "key": "DRAW GAME!",
+                "value": "平局！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.FortuneHelperWeakDrops",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Probability of being seen directly proportional to stupidity of act.",
+                "value": "被看到的概率与行为的愚蠢程度成正比"
+            },
+            {
+                "key": "Go confidently in the direction of your dreams.",
+                "value": "自信地朝着你梦想的方向前进。"
+            },
+            {
+                "key": "Love is as necessary as food and shelter.",
+                "value": "爱就像食物和住所一样必不可少。"
+            },
+            {
+                "key": "May all your trades be great!",
+                "value": "愿你的交易都能顺利进行！"
+            },
+            {
+                "key": "Only difference between a rut and a grave is depth.",
+                "value": "一成不变的生活和死亡没有什么区别，只是深度不同而已。"
+            },
+            {
+                "key": "Practice safe eating. Always use condiments.",
+                "value": "注意饮食安全。经常使用调味品。"
+            },
+            {
+                "key": "Don't eat the paper. (Paper)",
+                "value": "不要吃纸. (纸)"
+            },
+            {
+                "key": "You can open doors with your charm and patience.",
+                "value": "你可以用你的魅力和耐心打开一扇扇大门。"
+            },
+            {
+                "key": "Most people never run far enough on their first wind to find out they've got a second.",
+                "value": "很多人在第一次遇到困难或疲惫时就放弃了，没有坚持下去发现自己还有更多的潜力和可能。"
+            },
+            {
+                "key": "There is no mistake so great as that of being always right.",
+                "value": "永远认为自己是对的是最大的错误。"
+            },
+            {
+                "key": "Money will come to you when you are doing the right thing.",
+                "value": "当你做正确的事情时，钱财就会自然而然地来到你身边。"
+            },
+            {
+                "key": "Very Rare Fortune Cookie: ",
+                "value": "非常稀有的幸运饼干："
+            },
+            {
+                "key": "At times, it is better to know when to exit than when to enter.",
+                "value": "有时候，知道什么时候退出比知道什么时候进入更重要。"
+            },
+            {
+                "key": "No matter what your past has been, you a have a spotless future.",
+                "value": "无论你的过去如何，你的未来都是一片光明的。"
+            },
+            {
+                "key": "Stop wishing. Start doing.",
+                "value": "停止幻想，准备行动。"
+            },
+            {
+                "key": "Your worst enemy has a crush on you!",
+                "value": "你最讨厌的人对你有迷恋或暗恋！"
+            },
+            {
+                "key": "A closed mouth gathers no feet.",
+                "value": "闭口无足。。"
+            },
+            {
+                "key": "Put your unhappiness aside. Life is beautiful, be happy.",
+                "value": "不要让你的不快影响你。生活是美好的，要快乐。"
+            },
+            {
+                "key": "Someone will invite you to a Karaoke party.",
+                "value": "有人会邀请你去唱卡拉OK。"
+            },
+            {
+                "key": "Person who give self-haircut after rice wine will be buzzed.",
+                "value": "喝了米酒后自己剪头发的人会感到头晕。"
+            },
+            {
+                "key": "Uncommon Fortune Cookie: ",
+                "value": "不寻常的幸运饼干："
+            },
+            {
+                "key": "The wise man is the one that makes you think that he is dumb.",
+                "value": "智者是那种让你以为他很愚蠢的人。"
+            },
+            {
+                "key": "Big journeys begin with a single step.",
+                "value": "千里之行，始于足下。"
+            },
+            {
+                "key": "Soon, a visitor shall delight you.",
+                "value": "不久，一位访客将使你高兴。"
+            },
+            {
+                "key": "Before you can be reborn you must die.",
+                "value": "要想重生，必须先死。"
+            },
+            {
+                "key": "Bad luck and misfortune will follow you.",
+                "value": "厄运和不幸将缠绕着你。"
+            },
+            {
+                "key": "He who laughs last is laughing at you.",
+                "value": "笑到最后的人是在嘲笑你。"
+            },
+            {
+                "key": "People who are late are often happier than those who have to wait for them.",
+                "value": "迟到的人通常比等他们的人更快乐。"
+            },
+            {
+                "key": "A ship in harbor is safe, but that's not why ships are built.",
+                "value": "船在港口是安全的，但那不是造船的目的。"
+            },
+            {
+                "key": "If at first you don't succeed, skydiving not for you.",
+                "value": "如果一开始就不成功，那么跳伞不适合你。"
+            },
+            {
+                "key": "Patience is a virtue, unless its against a brick wall.",
+                "value": "耐心是一种美德，除非它是对着一堵墙。"
+            },
+            {
+                "key": "Nothing is impossible to a willing heart.",
+                "value": "有志者事竟成。"
+            },
+            {
+                "key": "Circumstance does not make the man; it reveals him to himself.",
+                "value": "环境不造就人；它只能让人认清自己。"
+            },
+            {
+                "key": "Do not let what you do not have prevent you from using what you do have.",
+                "value": "不要因为你没有什么而阻止你利用你拥有什么。"
+            },
+            {
+                "key": "The greatest risk is not taking one.",
+                "value": "最大的风险就是不冒风险。"
+            },
+            {
+                "key": "Your fortune is as sweet as a cookie.",
+                "value": "你的运气像饼干一样甜。"
+            },
+            {
+                "key": "Don't pursue happiness... create it.",
+                "value": "不要追求幸福，要创造幸福。"
+            },
+            {
+                "key": "You have the deepest interest in all that is artistic.",
+                "value": "你对所有艺术的事物都有最深刻的兴趣。"
+            },
+            {
+                "key": "Tomorrow at breakfast, listen carefully: do what rice krispies tell you to.",
+                "value": "听从你的直觉或者心愿，不要受别人的影响。"
+            },
+            {
+                "key": "You will conquer obstacles to achieve success.",
+                "value": "你将克服困难，获得成功。"
+            },
+            {
+                "key": "One that would have the fruit must climb the tree.",
+                "value": "想要果实就得爬树。"
+            },
+            {
+                "key": "Some men dream of fortunes, others dream of cookies.",
+                "value": "有些人梦想财富，有些人梦想饼干。"
+            },
+            {
+                "key": "A conclusion is simply the place where you got tired of thinking.",
+                "value": "结论只是你厌倦思考的地方。"
+            },
+            {
+                "key": "Rarely do great beauty and great virtue dwell together as they do in you.",
+                "value": "很少有像你一样美貌和美德兼备的人。"
+            },
+            {
+                "key": "You will soon witness a miracle",
+                "value": "你很快就会见证一个奇迹。"
+            },
+            {
+                "key": "Stay true to those who would do the same for you.",
+                "value": "对那些对你真心的人保持真诚。"
+            },
+            {
+                "key": "A fanatic is one who can't change his mind and won't change the subject.",
+                "value": "一个狂热者是一个不能改变自己的想法，也不愿意换个话题的人。"
+            },
+            {
+                "key": "Extremely Rare Fortune Cookie: ",
+                "value": "极其稀有的幸运饼干："
+            },
+            {
+                "key": "Don't worry about money. The best things in life are free.",
+                "value": "不要为钱担心。生活中最好的东西都是免费的。"
+            },
+            {
+                "key": "The usefulness of a cup is in its emptiness.",
+                "value": "杯子的用处在于它的空虚。"
+            },
+            {
+                "key": "Old friends make best friends",
+                "value": "老朋友是最好的朋友。"
+            },
+            {
+                "key": "You will be hungry again in one hour.",
+                "value": "你一个小时后又会饿了。"
+            },
+            {
+                "key": "Ones always regrets what could have done. Remember for next time.",
+                "value": "人总是后悔没有做过的事情。记住下次吧。"
+            },
+            {
+                "key": "You are a hero to someone!",
+                "value": "你是某人的英雄！"
+            },
+            {
+                "key": "If you have kleptomania. Take something for it.",
+                "value": "如果你有盗窃癖。'拿'点东西治治吧。"
+            },
+            {
+                "key": "If you look back, you'll soon be going that way.",
+                "value": "如果你回头看，你很快就会走那条路。"
+            },
+            {
+                "key": "Some days you are pigeon, some days you are statue. Today, bring umbrella.",
+                "value": "有些日子你是鸽子，有些日子你是雕像。今天带把伞吧。"
+            },
+            {
+                "key": "Fortune not found? Abort, Retry, Ignore.",
+                "value": "运气找不到？中止、重试、忽略。"
+            },
+            {
+                "key": "Everyday is a new day, but tomorrow is never promised.",
+                "value": "每天都是新的一天，但明天永远不会保证。"
+            },
+            {
+                "key": "Of all our human resources, the most precious is the desire to improve.",
+                "value": "在我们所有的人力资源中，最珍贵的是进步的愿望。"
+            },
+            {
+                "key": "Love is free. Lust will cost you everything you have.",
+                "value": " 爱是免费的。欲望会让你付出你所拥有的一切。"
+            },
+            {
+                "key": "I have a dream....Time to go to bed.",
+                "value": "我有一个梦想……该睡觉了。"
+            },
+            {
+                "key": "You don't need strength to let go of something. What you really need is understanding.",
+                "value": "你不需要力量来放下某些东西。你真正需要的是理解。"
+            },
+            {
+                "key": "The gods have smiled upon you!",
+                "value": "诸神对你微笑了！"
+            },
+            {
+                "key": "Ninety-nine percent of all lawyers give the rest a bad name.",
+                "value": "百分之九十九的律师都给剩下的那一部分律师抹黑了。"
+            },
+            {
+                "key": "The secret to staying young is good health and lying about your age.",
+                "value": "保持年轻的秘诀是健康和说谎关于你的年龄。"
+            },
+            {
+                "key": "To determine whether someone is beautiful is not by looking at their appearance, but their heart.",
+                "value": "判断一个人是否美丽不是看他们的外表，而是看他们的心灵。"
+            },
+            {
+                "key": "The cooler you think you are the dumber you look",
+                "value": "你越觉得自己很酷，你看起来越傻。"
+            },
+            {
+                "key": "Land is always on the mind of a flying bird.",
+                "value": "飞鸟总想着陆地。"
+            },
+            {
+                "key": "The greatest danger could be your stupidity.",
+                "value": "最大的危险可能是你的愚蠢。"
+            },
+            {
+                "key": "Everyone agrees you are the best.",
+                "value": "每个人都认为你是最棒的。"
+            },
+            {
+                "key": "A golden egg of opportunity falls into your lap this month.",
+                "value": "这个月，一个机会的金蛋会落到你的怀里。"
+            },
+            {
+                "key": "Do not mistake temptation for opportunity.",
+                "value": "不要把诱惑当成机会。"
+            },
+            {
+                "key": "You will travel to many exotic places in your lifetime.",
+                "value": "你一生中会去很多异国他乡的地方。"
+            },
+            {
+                "key": "The older you get, the better you were.",
+                "value": "你越老，你就越好。"
+            },
+            {
+                "key": "Hardly anyone knows how much is gained by ignoring the future.",
+                "value": "几乎没有人知道忽视未来能够得到多少。"
+            },
+            {
+                "key": "Be direct,usually one can accomplish more that way.",
+                "value": "直截了当吧，通常这样可以做得更多。"
+            },
+            {
+                "key": "The problem with resisting temptation is that it may never come again.",
+                "value": "抵制诱惑的问题在于它可能再也不会出现了。"
+            },
+            {
+                "key": "Your road to glory will be rocky but fulfilling.",
+                "value": "你通往荣耀的道路将会崎岖但充实。"
+            },
+            {
+                "key": "He who throws dirt is losing ground. (DIRT)",
+                "value": "抛泥者自失地(DIRT)"
+            },
+            {
+                "key": "Tension is who you think you should be. Relaxation is who you are.",
+                "value": "紧张是你认为你应该是什么样的人。放松是你真正是什么样的人。"
+            },
+            {
+                "key": "Stop eating now. Food poisoning no fun.",
+                "value": "现在就停止吃东西。食物中毒不好玩。"
+            },
+            {
+                "key": "You will live long enough to open many fortune cookies.",
+                "value": " 你会活得足够长，能够打开很多幸运饼干。"
+            },
+            {
+                "key": "Everything will now come your way.",
+                "value": "现在一切都会向着你的方向发展。"
+            },
+            {
+                "key": "The important thing is to never stop questioning.",
+                "value": "重要的是永远不要停止质疑。"
+            },
+            {
+                "key": "You will make many changes before settling down happily.",
+                "value": "你会做出很多改变，才能幸福地安定下来。"
+            },
+            {
+                "key": "When in doubt, let your instincts guide you.",
+                "value": "当你有疑惑时，让你的本能指引你。"
+            },
+            {
+                "key": "Time may fly by, but memories do not.",
+                "value": "时间可能飞逝，但回忆不会。"
+            },
+            {
+                "key": "Success lies in the hands of those who wants it.",
+                "value": "成功掌握在那些想要它的人手中。"
+            },
+            {
+                "key": "There are big changes ahead of you.  They will be good ones!",
+                "value": "你前方有很大的变化。它们会是好的！"
+            },
+            {
+                "key": "The days that make us happy make us wise.",
+                "value": " 让我们快乐的日子也让我们聪明。"
+            },
+            {
+                "key": "You love peace.",
+                "value": "你爱和平。"
+            },
+            {
+                "key": "The early bird gets the worm, but the second mouse gets the cheese.",
+                "value": "早起的鸟儿有虫吃，但第二只老鼠才能得到奶酪。"
+            },
+            {
+                "key": "The simplest answer is to act.",
+                "value": "最简单的答案就是行动。"
+            },
+            {
+                "key": "Your smile brings happiness to everyone you meet.",
+                "value": " 你的微笑给你遇到的每个人带来幸福。"
+            },
+            {
+                "key": "Life is too short to waste time hating anyone.",
+                "value": "生命太短暂了，不要浪费时间去恨任何人。"
+            },
+            {
+                "key": "Gold is in your future.",
+                "value": "金子在你的未来。"
+            },
+            {
+                "key": "It takes less time to do a thing right than it does to explain why you did it wrong.",
+                "value": "做对一件事所花费的时间比解释为什么做错了要少。"
+            },
+            {
+                "key": "If a turtle doesn't have a shell, is it naked or homeless?",
+                "value": "如果一只乌龟没有壳了，它是裸体的还是无家可归的？"
+            },
+            {
+                "key": "Wise person needs either good manners or fast reflexes.",
+                "value": " 聪明的人需要有礼貌或者快速的反应。"
+            },
+            {
+                "key": "You will be called to fill a position of high honor and responsibility.",
+                "value": "你将被召唤去担任一个高尚和重要的职位"
+            },
+            {
+                "key": "Change is inevitable, except for vending machines.",
+                "value": "变化是不可避免的，除了自动售货机。"
+            },
+            {
+                "key": "A cheerful message is on its way to you.",
+                "value": "一个快乐的消息正在向你赶来。"
+            },
+            {
+                "key": "We cannot change the direction of the wind, but we can adjust our sails.",
+                "value": "我们不能改变风的方向，但我们可以调整我们的帆。"
+            },
+            {
+                "key": "Tell them what you really think. Otherwise, nothing will change.",
+                "value": "告诉他们你真正想说的话。否则，什么都不会改变。"
+            },
+            {
+                "key": "Adjust finances, make budgets, to improve you standing.",
+                "value": "调整财务，制定预算，以改善你的状况。"
+            },
+            {
+                "key": "A kiss is not a kiss without the heart.",
+                "value": " 没有心意的吻不算吻。"
+            },
+            {
+                "key": "An admirer is concealing their affection for you.",
+                "value": "一个仰慕者正在对你隐藏他们的感情。"
+            },
+            {
+                "key": "You may be disappointed if you fail, but you are doomed if you don't try.",
+                "value": " 如果你失败了，你可能会失望，但如果你不尝试，你就注定失败。"
+            },
+            {
+                "key": "Fear is interest paid on a debt you may not owe.",
+                "value": "恐惧是你可能不欠的债务所付出的利息。"
+            },
+            {
+                "key": "One tequila, two tequila, three tequila, floor.",
+                "value": "一杯龙舌兰酒，两杯龙舌兰酒，三杯龙舌兰酒，倒在地板上。"
+            },
+            {
+                "key": "We don't know the future, but here's a cookie.",
+                "value": "我们不知道未来，但这里有一块饼干。"
+            },
+            {
+                "key": "You create enthusiasm around you.",
+                "value": "你在你周围创造热情。"
+            },
+            {
+                "key": "He who dies with most toys, still dies.",
+                "value": "拥有最多玩具的人死了，还是死了。"
+            },
+            {
+                "key": "Instead of worrying and agonizing, move ahead constructively.",
+                "value": "与其担心和痛苦，不如积极地向前进。"
+            },
+            {
+                "key": "No distance is too far, if two hearts are tied together.",
+                "value": "如果两颗心紧紧相连，没有距离太远。"
+            },
+            {
+                "key": "Everyone seems normal until you get to know them.",
+                "value": " 每个人看起来都很正常，直到你了解他们。"
+            },
+            {
+                "key": "Courage is not the absence of fear; it is the conquest of it.",
+                "value": "勇气不是没有恐惧；而是克服恐惧。"
+            },
+            {
+                "key": "Rare Fortune Cookie: ",
+                "value": "稀有的幸运饼干："
+            },
+            {
+                "key": "The world may be your oyster, but it doesn't mean you'll get its pearl.",
+                "value": "世界可能是你的牡蛎，但这并不意味着你会得到它的珍珠。"
+            },
+            {
+                "key": "Person who eat fortune cookie get lousy dessert.",
+                "value": "吃幸运饼干的人得到糟糕的甜点。"
+            },
+            {
+                "key": "The pleasure of what you enjoy is lost by wanting more.",
+                "value": "你享受的快乐会因为贪求更多而失去。"
+            },
+            {
+                "key": "Difficulty at the beginning usually means ease at the end.",
+                "value": "开始时的困难通常意味着最后的轻松。"
+            },
+            {
+                "key": "A stranger is a friend you have not spoken to yet.",
+                "value": "陌生人是你还没有说话的朋友。"
+            },
+            {
+                "key": "Age is high price to pay for maturity.",
+                "value": "成熟是用年龄换来的高昂代价。"
+            },
+            {
+                "key": "Person who rests on laurels gets thorn in backside.",
+                "value": "安于现状的人会被荆棘刺痛屁股。"
+            },
+            {
+                "key": "You are broad minded and socially active.",
+                "value": "你思想开阔，社交活跃。."
+            },
+            {
+                "key": "Smart husband buys wife fine china. Then she not trust him to wash it.",
+                "value": "聪明的丈夫给妻子买精美的瓷器。然后她就不相信他能洗干净它。"
+            },
+            {
+                "key": "Your many hidden talents will become obvious to those around you.",
+                "value": "你的许多隐藏的才能将会显露给你周围的人。"
+            },
+            {
+                "key": "Inside every old person is young person wondering what the hell happened.",
+                "value": "每个老人的内心都有一个年轻人在想发生了什么。"
+            },
+            {
+                "key": "The fortune you seek is in another cookie.",
+                "value": "你寻求的运气在另一块饼干里。"
+            },
+            {
+                "key": "Legendary Fortune Cookie: ",
+                "value": "传说级幸运饼干："
+            },
+            {
+                "key": "You are the controller of your destiny.",
+                "value": "你是你命运的掌控者。"
+            },
+            {
+                "key": "Your golden opportunity is coming shortly.",
+                "value": "你的黄金机会即将到来。"
+            },
+            {
+                "key": "For success today look first to yourself.",
+                "value": "今天要想成功，先看看自己。"
+            },
+            {
+                "key": "It's about time I got out of that cookie.",
+                "value": "我早该从那块饼干里出来了。"
+            },
+            {
+                "key": "You will soon have an out of money experience.",
+                "value": "你很快就会有一次没钱的经历。"
+            },
+            {
+                "key": "Minor aches today are likely to pay off handsomely tomorrow.",
+                "value": "今天的小小疼痛可能明天就会得到丰厚的回报。"
+            },
+            {
+                "key": "Atheism no fun. No holidays.",
+                "value": "无神论没意思。没有假期。"
+            },
+            {
+                "key": "You are given the chance to take part in an exciting adventure.",
+                "value": "你有机会参与一场令人兴奋的冒险。"
+            },
+            {
+                "key": "Procrastination is art of keeping up with yesterday.",
+                "value": "拖延是一种跟昨天保持一致的艺术。"
+            },
+            {
+                "key": "Do the thing you fear, and the death of fear is certain.",
+                "value": "去做你害怕的事情，恐惧就会消失。"
+            },
+            {
+                "key": "Your emotional nature is strong and sensitive",
+                "value": "你的情感本质是强烈和敏感的。"
+            },
+            {
+                "key": "An alien of some sort will be appearing to you shortly.",
+                "value": "一个某种类型的外星人很快就会出现在你面前。"
+            },
+            {
+                "key": "A foolish man listens to his heart. A wise man listens to cookies.",
+                "value": "愚蠢的人听从自己的心。聪明的人听从饼干。"
+            },
+            {
+                "key": "When marriage outlawed, only outlaws have in-laws.",
+                "value": "当婚姻被禁止(outlawed)时，只有罪犯(outlaws)才有姻亲(in-laws)。"
+            },
+            {
+                "key": "Do not be overly judgemental of your loved one's intentions or actions.",
+                "value": "不要过分地评判你所爱之人的意图或行为。"
+            },
+            {
+                "key": "He who seeks will find.",
+                "value": "寻找的人会找到。"
+            },
+            {
+                "key": "Okay to look at past and future. Just don't stare.",
+                "value": "看看过去和未来没关系。只要不要盯着看。"
+            },
+            {
+                "key": "A merry heart does good like a medicine.",
+                "value": "快乐的心如同良药。"
+            },
+            {
+                "key": "The real kindness comes from within you.",
+                "value": "真正的善良来自于你内心。"
+            },
+            {
+                "key": "A fool and his money are soon partying.",
+                "value": "傻瓜和他的钱很快就会分道扬镳。"
+            },
+            {
+                "key": "I am worth a fortune!",
+                "value": "我值一大笔钱！"
+            },
+            {
+                "key": "Easiest way to find lost object is buy replacement.",
+                "value": "找到丢失的东西最简单的方法就是买一个替代品。"
+            },
+            {
+                "key": "Politicians are like diapers: change often, and for same reason.",
+                "value": "政治家就像尿布：经常换，而且原因相同。"
+            },
+            {
+                "key": "At this very moment you can change the rest of your life.",
+                "value": "在这一刻你可以改变你余生的命运。"
+            },
+            {
+                "key": "A dream you have will come true",
+                "value": "你有一个梦想会成真。"
+            },
+            {
+                "key": "Present your best ideas today to an eager and welcoming audience.",
+                "value": "今天向一个渴望并欢迎你的听众展示你最好的想法。"
+            },
+            {
+                "key": "Common Fortune Cookie: ",
+                "value": "常见的幸运饼干："
+            },
+            {
+                "key": "Flattery will go far tonight.",
+                "value": "今晚奉承会有很大的作用。"
+            },
+            {
+                "key": "Help! I am being held prisoner in a fortune cookie factory.",
+                "value": "救命！我被困在了一个幸运饼干工厂里。"
+            },
+            {
+                "key": "Be calm when confronting an emergency crisis.",
+                "value": "面对紧急危机时要保持冷静。"
+            },
+            {
+                "key": "The best is yet to come.",
+                "value": "最好的还在后头。"
+            },
+            {
+                "key": "You will think for yourself when you stop letting others think for you",
+                "value": "当你不再让别人替你思考时，你就会为自己思考。"
+            },
+            {
+                "key": "Patience is your alley at the moment. Don't worry!",
+                "value": "现在耐心是你的好帮手。别担心！"
+            },
+            {
+                "key": "The cake is a lie!",
+                "value": "蛋糕是个谎言！"
+            },
+            {
+                "key": "It may be those who do most, dream most",
+                "value": "可能那些做得最多的人，也是梦想最多的人。"
+            },
+            {
+                "key": "Your reality check is about to bounce.",
+                "value": "你的现实检验即将失败。"
+            },
+            {
+                "key": "Nothing is so much to be feared as fear.",
+                "value": "没有什么比恐惧更可怕。"
+            },
+            {
+                "key": "Now these three remain, faith, hope, and love. The greatest of these is love.",
+                "value": "现在这三样东西仍然存在，信仰、希望和爱。其中最伟大的就是爱。"
+            },
+            {
+                "key": "Compassion is a way of being.",
+                "value": "同情是一种生活方式。"
+            },
+            {
+                "key": "You are cleverly disguised as responsible adult.",
+                "value": "你是一个巧妙地伪装成负责任的成年人。"
+            },
+            {
+                "key": "Do what is right, not what you should.",
+                "value": "做正确的事，而不是做你应该做的事。"
+            },
+            {
+                "key": "What breaks in a moment may take years to mend.",
+                "value": "一时之间破碎的东西，可能需要花费多年才能修复。"
+            },
+            {
+                "key": "Drive like hell, you will get there.",
+                "value": "开车像地狱一样，你就会到达那里。"
+            },
+            {
+                "key": "What some call stubbornness, others call persistence.",
+                "value": "有些人称之为固执，有些人称之为坚持。"
+            },
+            {
+                "key": "You will be sharing great news with all people you love",
+                "value": "你将会和你所爱的所有人分享好消息。"
+            },
+            {
+                "key": "If you want the rainbow, then you have to tolerate the rain.",
+                "value": "如果你想要彩虹，那么你就必须忍受雨水。"
+            },
+            {
+                "key": "Hard work pays off in the future. Laziness pays off now.",
+                "value": "努力工作会在未来有回报。懒惰现在就有回报。"
+            },
+            {
+                "key": "Integrity is doing the right thing, even if nobody is watching.",
+                "value": "正直就是做正确的事，即使没有人在看"
+            },
+            {
+                "key": "If you have something good in your life, don't let it go!",
+                "value": "如果你生活中有好的东西，不要放手！"
+            },
+            {
+                "key": "Today you shed your last tear. Tomorrow fortune knocks at your door.",
+                "value": "今天你流下了最后一滴眼泪。明天幸运会敲响你的门。"
+            },
+            {
+                "key": "You will die alone and poorly dressed.",
+                "value": "你会孤独地死去，而且穿着很糟糕"
+            },
+            {
+                "key": "Laughter is the shortest distance between two people.",
+                "value": "笑声是两个人之间最短的距离"
+            },
+            {
+                "key": "Good health will be yours for a long time.",
+                "value": "你会拥有长久的健康"
+            },
+            {
+                "key": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+                "value": "勇气不仅仅是一种美德，而是在考验时所有美德的形式"
+            },
+            {
+                "key": "There is no spoon!",
+                "value": "没有勺子!"
+            },
+            {
+                "key": "You are worth loving, you are also worth the effort it takes to love you",
+                "value": "你值得被爱，你也值得付出努力去爱你"
+            },
+            {
+                "key": "Never upset the driver of the car you're in. They're the master of your destiny until you get home.",
+                "value": "永远不要惹恼你所乘坐车辆的司机。他们在你回家之前都是你命运的主宰。"
+            },
+            {
+                "key": "Fat person not afraid of heights... afraid of widths.",
+                "value": "胖子不怕高，只怕宽"
+            },
+            {
+                "key": "Live like you are on the bottom, even if you are on the top.",
+                "value": "即使你在顶端，也要像在底层一样生活"
+            },
+            {
+                "key": "Before trying to please others think of what makes you happy.",
+                "value": "在试图取悦别人之前，想想什么让你快乐"
+            },
+            {
+                "key": "All things are difficult before they are easy.",
+                "value": "凡事都是先难后易"
+            },
+            {
+                "key": "Experience is what you have left when everything else is gone.",
+                "value": "当其他一切都失去了，你还剩下的就是经验"
+            },
+            {
+                "key": "To avoid criticism, do nothing, say nothing, be nothing.",
+                "value": "要避免批评，就什么都不做，什么都不说，什么都不成为"
+            },
+            {
+                "key": "It is better to have a hen tomorrow than an egg today.",
+                "value": "明天有只母鸡比今天有个鸡蛋好"
+            },
+            {
+                "key": "He who throws mud loses ground.",
+                "value": "抛泥者必失地"
+            },
+            {
+                "key": "When chosen for jury duty, tell judge... fortune cookie say guilty!",
+                "value": "当被选为陪审团时，告诉法官……幸运饼干说有罪！"
+            },
+            {
+                "key": "You will take a pleasant journey to a place far away.",
+                "value": "你将会去一个遥远的地方进行一次愉快的旅行"
+            },
+            {
+                "key": "There is a prospect of a thrilling time ahead for you.",
+                "value": "你的前方有一段令人激动的时光"
+            },
+            {
+                "key": "You think it's a secret, but they know.",
+                "value": "你以为这是个秘密，但他们知道"
+            },
+            {
+                "key": "He who laughs at himself never runs out of things to laugh at.",
+                "value": "能够自嘲的人永远不缺笑料"
+            },
+            {
+                "key": "Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow.",
+                "value": "问问自己，你今天所做的事情是否让你更接近明天想要到达的地方"
+            },
+            {
+                "key": "If you want the rainbow, you have to tolerate the rain.",
+                "value": "如果你想要彩虹，就必须忍受雨水"
+            },
+            {
+                "key": "Sing and rejoice, fortune is smiling on you.",
+                "value": "唱歌并欢呼吧，幸运正在向你微笑"
+            },
+            {
+                "key": "Life does not get better by chance. It gets better by change.",
+                "value": "生活不会因为偶然而变好。它会因为改变而变好"
+            },
+            {
+                "key": "A single conversation with a wise man is better than ten years of study.",
+                "value": "与智者一席之谈胜过十年苦读"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.gameutilities.FortuneHelper",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "Probability of being seen directly proportional to stupidity of act.",
+                "value": "被看见的概率与行为的愚蠢程度成正比"
+            },
+            {
+                "key": "Go confidently in the direction of your dreams.",
+                "value": "自信地朝着你梦想的方向前进"
+            },
+            {
+                "key": "Love is as necessary as food and shelter.",
+                "value": "爱就像食物和住所一样必不可少"
+            },
+            {
+                "key": "May all your trades be great!",
+                "value": "愿你的交易都能顺利进行！"
+            },
+            {
+                "key": "Only difference between a rut and a grave is depth.",
+                "value": "一成不变的生活和死亡没有什么区别，只是深度不同而已。"
+            },
+            {
+                "key": "Practice safe eating. Always use condiments.",
+                "value": "注意'饮食'安全。经常使用调味品/避孕套(condiments)。"
+            },
+            {
+                "key": "Don't eat the paper. (Paper)",
+                "value": "不要吃纸. (纸)"
+            },
+            {
+                "key": "You can open doors with your charm and patience.",
+                "value": "你可以用你的魅力和耐心打开一扇扇大门。"
+            },
+            {
+                "key": "Most people never run far enough on their first wind to find out they've got a second.",
+                "value": "很多人在第一次遇到困难或疲惫时就放弃了，没有坚持下去发现自己还有更多的潜力和可能。"
+            },
+            {
+                "key": "There is no mistake so great as that of being always right.",
+                "value": "永远认为自己是对的是最大的错误。"
+            },
+            {
+                "key": "Money will come to you when you are doing the right thing.",
+                "value": "当你做正确的事情时，钱财就会自然而然地来到你身边。"
+            },
+            {
+                "key": "Very Rare Fortune Cookie: ",
+                "value": "非常稀有的幸运饼干："
+            },
+            {
+                "key": "At times, it is better to know when to exit than when to enter.",
+                "value": "有时候，知道什么时候退出比知道什么时候进入更重要"
+            },
+            {
+                "key": "No matter what your past has been, you a have a spotless future.",
+                "value": "无论你的过去如何，你的未来都是一片光明的"
+            },
+            {
+                "key": "Stop wishing. Start doing.",
+                "value": "停止幻想，准备行动。"
+            },
+            {
+                "key": "Your worst enemy has a crush on you!",
+                "value": "你最讨厌的人对你有迷恋或暗恋！"
+            },
+            {
+                "key": "A closed mouth gathers no feet.",
+                "value": "闭口无足。。"
+            },
+            {
+                "key": "Put your unhappiness aside. Life is beautiful, be happy.",
+                "value": "不要让你的不快影响你。生活是美好的，要快乐。"
+            },
+            {
+                "key": "Someone will invite you to a Karaoke party.",
+                "value": "有人会邀请你去唱卡拉OK。"
+            },
+            {
+                "key": "Person who give self-haircut after rice wine will be buzzed.",
+                "value": "喝了米酒后自己剪头发的人会感到头晕。"
+            },
+            {
+                "key": "Uncommon Fortune Cookie: ",
+                "value": "不寻常的幸运饼干："
+            },
+            {
+                "key": "The wise man is the one that makes you think that he is dumb.",
+                "value": "智者是那种让你以为他很愚蠢的人。"
+            },
+            {
+                "key": "Big journeys begin with a single step.",
+                "value": "千里之行，始于足下。"
+            },
+            {
+                "key": "Soon, a visitor shall delight you.",
+                "value": "不久，一位访客将使你高兴。"
+            },
+            {
+                "key": "Before you can be reborn you must die.",
+                "value": "要想重生，必须先死。"
+            },
+            {
+                "key": "Bad luck and misfortune will follow you.",
+                "value": "厄运和不幸将缠绕着你。"
+            },
+            {
+                "key": "He who laughs last is laughing at you.",
+                "value": "笑到最后的人是在嘲笑你。"
+            },
+            {
+                "key": "People who are late are often happier than those who have to wait for them.",
+                "value": "迟到的人通常比等他们的人更快乐。"
+            },
+            {
+                "key": "A ship in harbor is safe, but that's not why ships are built.",
+                "value": "船在港口是安全的，但那不是造船的目的。"
+            },
+            {
+                "key": "If at first you don't succeed, skydiving not for you.",
+                "value": "如果一开始就不成功，那么跳伞不适合你。"
+            },
+            {
+                "key": "Patience is a virtue, unless its against a brick wall.",
+                "value": "耐心是一种美德，除非它是对着一堵墙。"
+            },
+            {
+                "key": "Nothing is impossible to a willing heart.",
+                "value": "有志者事竟成。"
+            },
+            {
+                "key": "Circumstance does not make the man; it reveals him to himself.",
+                "value": "环境不造就人；它只能让人认清自己。"
+            },
+            {
+                "key": "Do not let what you do not have prevent you from using what you do have.",
+                "value": "不要因为你没有什么而阻止你利用你拥有什么。"
+            },
+            {
+                "key": "The greatest risk is not taking one.",
+                "value": "最大的风险就是不冒风险。"
+            },
+            {
+                "key": "Your fortune is as sweet as a cookie.",
+                "value": "你的运气像饼干一样甜。"
+            },
+            {
+                "key": "Don't pursue happiness... create it.",
+                "value": "不要追求幸福，要创造幸福。"
+            },
+            {
+                "key": "You have the deepest interest in all that is artistic.",
+                "value": "你对所有艺术的事物都有最深刻的兴趣。"
+            },
+            {
+                "key": "Tomorrow at breakfast, listen carefully: do what rice krispies tell you to.",
+                "value": "听从你的直觉或者心愿，不要受别人的影响。"
+            },
+            {
+                "key": "You will conquer obstacles to achieve success.",
+                "value": "你将克服困难，获得成功。"
+            },
+            {
+                "key": "One that would have the fruit must climb the tree.",
+                "value": "想要果实就得爬树。"
+            },
+            {
+                "key": "Some men dream of fortunes, others dream of cookies.",
+                "value": "有些人梦想财富，有些人梦想饼干。"
+            },
+            {
+                "key": "A conclusion is simply the place where you got tired of thinking.",
+                "value": "结论只是你厌倦思考的地方。"
+            },
+            {
+                "key": "Rarely do great beauty and great virtue dwell together as they do in you.",
+                "value": "很少有像你一样美貌和美德兼备的人。"
+            },
+            {
+                "key": "You will soon witness a miracle",
+                "value": "你很快就会见证一个奇迹。"
+            },
+            {
+                "key": "Stay true to those who would do the same for you.",
+                "value": "对那些对你真心的人保持真诚。"
+            },
+            {
+                "key": "A fanatic is one who can't change his mind and won't change the subject.",
+                "value": "一个狂热者是一个不能改变自己的想法，也不愿意换个话题的人。"
+            },
+            {
+                "key": "Extremely Rare Fortune Cookie: ",
+                "value": "极其稀有的幸运饼干："
+            },
+            {
+                "key": "Don't worry about money. The best things in life are free.",
+                "value": "不要为钱担心。生活中最好的东西都是免费的。"
+            },
+            {
+                "key": "The usefulness of a cup is in its emptiness.",
+                "value": "杯子的用处在于它的空虚。"
+            },
+            {
+                "key": "Old friends make best friends",
+                "value": "老朋友是最好的朋友。"
+            },
+            {
+                "key": "You will be hungry again in one hour.",
+                "value": "你一个小时后又会饿了。"
+            },
+            {
+                "key": "Ones always regrets what could have done. Remember for next time.",
+                "value": "人总是后悔没有做过的事情。记住下次吧。"
+            },
+            {
+                "key": "You are a hero to someone!",
+                "value": "你是某人的英雄！"
+            },
+            {
+                "key": "If you have kleptomania. Take something for it.",
+                "value": "如果你有盗窃癖。'拿'点东西治治吧。"
+            },
+            {
+                "key": "If you look back, you'll soon be going that way.",
+                "value": "如果你回头看，你很快就会走那条路。"
+            },
+            {
+                "key": "Some days you are pigeon, some days you are statue. Today, bring umbrella.",
+                "value": "有些日子你是鸽子，有些日子你是雕像。今天带把伞吧。"
+            },
+            {
+                "key": "Fortune not found? Abort, Retry, Ignore.",
+                "value": "运气找不到？中止、重试、忽略。"
+            },
+            {
+                "key": "Everyday is a new day, but tomorrow is never promised.",
+                "value": "每天都是新的一天，但明天永远不会保证。"
+            },
+            {
+                "key": "Of all our human resources, the most precious is the desire to improve.",
+                "value": "在我们所有的人力资源中，最珍贵的是进步的愿望。"
+            },
+            {
+                "key": "Love is free. Lust will cost you everything you have.",
+                "value": " 爱是免费的。欲望会让你付出你所拥有的一切。"
+            },
+            {
+                "key": "I have a dream....Time to go to bed.",
+                "value": "我有一个梦想……该睡觉了。"
+            },
+            {
+                "key": "You don't need strength to let go of something. What you really need is understanding.",
+                "value": "你不需要力量来放下某些东西。你真正需要的是理解。"
+            },
+            {
+                "key": "The gods have smiled upon you!",
+                "value": "诸神对你微笑了！"
+            },
+            {
+                "key": "Ninety-nine percent of all lawyers give the rest a bad name.",
+                "value": "百分之九十九的律师都给剩下的那一部分律师抹黑了。"
+            },
+            {
+                "key": "The secret to staying young is good health and lying about your age.",
+                "value": "保持年轻的秘诀是健康和说谎关于你的年龄。"
+            },
+            {
+                "key": "To determine whether someone is beautiful is not by looking at their appearance, but their heart.",
+                "value": "判断一个人是否美丽不是看他们的外表，而是看他们的心灵。"
+            },
+            {
+                "key": "The cooler you think you are the dumber you look",
+                "value": "你越觉得自己很酷，你看起来越傻。"
+            },
+            {
+                "key": "Land is always on the mind of a flying bird.",
+                "value": "飞鸟总想着陆地。"
+            },
+            {
+                "key": "The greatest danger could be your stupidity.",
+                "value": "最大的危险可能是你的愚蠢。"
+            },
+            {
+                "key": "Everyone agrees you are the best.",
+                "value": "每个人都认为你是最棒的。"
+            },
+            {
+                "key": "A golden egg of opportunity falls into your lap this month.",
+                "value": "这个月，一个机会的金蛋会落到你的怀里。"
+            },
+            {
+                "key": "Do not mistake temptation for opportunity.",
+                "value": "不要把诱惑当成机会。"
+            },
+            {
+                "key": "You will travel to many exotic places in your lifetime.",
+                "value": "你一生中会去很多异国他乡的地方。"
+            },
+            {
+                "key": "The older you get, the better you were.",
+                "value": "你越老，你就越好。"
+            },
+            {
+                "key": "Hardly anyone knows how much is gained by ignoring the future.",
+                "value": "几乎没有人知道忽视未来能够得到多少。"
+            },
+            {
+                "key": "Be direct,usually one can accomplish more that way.",
+                "value": "直截了当吧，通常这样可以做得更多。"
+            },
+            {
+                "key": "The problem with resisting temptation is that it may never come again.",
+                "value": "抵制诱惑的问题在于它可能再也不会出现了。"
+            },
+            {
+                "key": "Your road to glory will be rocky but fulfilling.",
+                "value": "你通往荣耀的道路将会崎岖但充实。"
+            },
+            {
+                "key": "He who throws dirt is losing ground. (DIRT)",
+                "value": "抛泥者自失地(DIRT)"
+            },
+            {
+                "key": "Tension is who you think you should be. Relaxation is who you are.",
+                "value": "紧张是你认为你应该是什么样的人。放松是你真正是什么样的人。"
+            },
+            {
+                "key": "Stop eating now. Food poisoning no fun.",
+                "value": "现在就停止吃东西。食物中毒不好玩。"
+            },
+            {
+                "key": "You will live long enough to open many fortune cookies.",
+                "value": " 你会活得足够长，能够打开很多幸运饼干。"
+            },
+            {
+                "key": "Everything will now come your way.",
+                "value": "现在一切都会向着你的方向发展。"
+            },
+            {
+                "key": "The important thing is to never stop questioning.",
+                "value": "重要的是永远不要停止质疑。"
+            },
+            {
+                "key": "You will make many changes before settling down happily.",
+                "value": "你会做出很多改变，才能幸福地安定下来。"
+            },
+            {
+                "key": "When in doubt, let your instincts guide you.",
+                "value": "当你有疑惑时，让你的本能指引你。"
+            },
+            {
+                "key": "Time may fly by, but memories do not.",
+                "value": "时间可能飞逝，但回忆不会。"
+            },
+            {
+                "key": "Success lies in the hands of those who wants it.",
+                "value": "成功掌握在那些想要它的人手中。"
+            },
+            {
+                "key": "There are big changes ahead of you.  They will be good ones!",
+                "value": "你前方有很大的变化。它们会是好的！"
+            },
+            {
+                "key": "The days that make us happy make us wise.",
+                "value": " 让我们快乐的日子也让我们聪明。"
+            },
+            {
+                "key": "You love peace.",
+                "value": "你爱和平。"
+            },
+            {
+                "key": "The early bird gets the worm, but the second mouse gets the cheese.",
+                "value": "早起的鸟儿有虫吃，但第二只老鼠才能得到奶酪。"
+            },
+            {
+                "key": "The simplest answer is to act.",
+                "value": "最简单的答案就是行动。"
+            },
+            {
+                "key": "Your smile brings happiness to everyone you meet.",
+                "value": " 你的微笑给你遇到的每个人带来幸福。"
+            },
+            {
+                "key": "Life is too short to waste time hating anyone.",
+                "value": "生命太短暂了，不要浪费时间去恨任何人。"
+            },
+            {
+                "key": "Gold is in your future.",
+                "value": "金子在你的未来。"
+            },
+            {
+                "key": "It takes less time to do a thing right than it does to explain why you did it wrong.",
+                "value": "做对一件事所花费的时间比解释为什么做错了要少。"
+            },
+            {
+                "key": "If a turtle doesn't have a shell, is it naked or homeless?",
+                "value": "如果一只乌龟没有壳了，它是裸体的还是无家可归的？"
+            },
+            {
+                "key": "Wise person needs either good manners or fast reflexes.",
+                "value": " 聪明的人需要有礼貌或者快速的反应。"
+            },
+            {
+                "key": "You will be called to fill a position of high honor and responsibility.",
+                "value": "你将被召唤去担任一个高尚和重要的职位"
+            },
+            {
+                "key": "Change is inevitable, except for vending machines.",
+                "value": "变化是不可避免的，除了自动售货机。"
+            },
+            {
+                "key": "A cheerful message is on its way to you.",
+                "value": "一个快乐的消息正在向你赶来。"
+            },
+            {
+                "key": "We cannot change the direction of the wind, but we can adjust our sails.",
+                "value": "我们不能改变风的方向，但我们可以调整我们的帆。"
+            },
+            {
+                "key": "Tell them what you really think. Otherwise, nothing will change.",
+                "value": "告诉他们你真正想说的话。否则，什么都不会改变。"
+            },
+            {
+                "key": "Adjust finances, make budgets, to improve you standing.",
+                "value": "调整财务，制定预算，以改善你的状况。"
+            },
+            {
+                "key": "A kiss is not a kiss without the heart.",
+                "value": " 没有心意的吻不算吻。"
+            },
+            {
+                "key": "An admirer is concealing their affection for you.",
+                "value": "一个仰慕者正在对你隐藏他们的感情。"
+            },
+            {
+                "key": "You may be disappointed if you fail, but you are doomed if you don't try.",
+                "value": " 如果你失败了，你可能会失望，但如果你不尝试，你就注定失败。"
+            },
+            {
+                "key": "Fear is interest paid on a debt you may not owe.",
+                "value": "恐惧是你可能不欠的债务所付出的利息。"
+            },
+            {
+                "key": "One tequila, two tequila, three tequila, floor.",
+                "value": "一杯龙舌兰酒，两杯龙舌兰酒，三杯龙舌兰酒，倒在地板上。"
+            },
+            {
+                "key": "We don't know the future, but here's a cookie.",
+                "value": "我们不知道未来，但这里有一块饼干。"
+            },
+            {
+                "key": "You create enthusiasm around you.",
+                "value": "你在你周围创造热情。"
+            },
+            {
+                "key": "He who dies with most toys, still dies.",
+                "value": "拥有最多玩具的人死了，还是死了。"
+            },
+            {
+                "key": "Instead of worrying and agonizing, move ahead constructively.",
+                "value": "与其担心和痛苦，不如积极地向前进。"
+            },
+            {
+                "key": "No distance is too far, if two hearts are tied together.",
+                "value": "如果两颗心紧紧相连，没有距离太远。"
+            },
+            {
+                "key": "Everyone seems normal until you get to know them.",
+                "value": " 每个人看起来都很正常，直到你了解他们。"
+            },
+            {
+                "key": "Courage is not the absence of fear; it is the conquest of it.",
+                "value": "勇气不是没有恐惧；而是克服恐惧。"
+            },
+            {
+                "key": "Rare Fortune Cookie: ",
+                "value": "稀有的幸运饼干："
+            },
+            {
+                "key": "The world may be your oyster, but it doesn't mean you'll get its pearl.",
+                "value": "世界可能是你的牡蛎，但这并不意味着你会得到它的珍珠。"
+            },
+            {
+                "key": "Person who eat fortune cookie get lousy dessert.",
+                "value": "吃幸运饼干的人得到糟糕的甜点。"
+            },
+            {
+                "key": "The pleasure of what you enjoy is lost by wanting more.",
+                "value": "你享受的快乐会因为贪求更多而失去。"
+            },
+            {
+                "key": "Difficulty at the beginning usually means ease at the end.",
+                "value": "开始时的困难通常意味着最后的轻松。"
+            },
+            {
+                "key": "A stranger is a friend you have not spoken to yet.",
+                "value": "陌生人是你还没有说话的朋友。"
+            },
+            {
+                "key": "Age is high price to pay for maturity.",
+                "value": "成熟是用年龄换来的高昂代价。"
+            },
+            {
+                "key": "Person who rests on laurels gets thorn in backside.",
+                "value": "安于现状的人会被荆棘刺痛屁股。"
+            },
+            {
+                "key": "You are broad minded and socially active.",
+                "value": "你思想开阔，社交活跃。."
+            },
+            {
+                "key": "Smart husband buys wife fine china. Then she not trust him to wash it.",
+                "value": "聪明的丈夫给妻子买精美的瓷器。然后她就不相信他能洗干净它。"
+            },
+            {
+                "key": "Your many hidden talents will become obvious to those around you.",
+                "value": "你的许多隐藏的才能将会显露给你周围的人。"
+            },
+            {
+                "key": "Inside every old person is young person wondering what the hell happened.",
+                "value": "每个老人的内心都有一个年轻人在想发生了什么。"
+            },
+            {
+                "key": "The fortune you seek is in another cookie.",
+                "value": "你寻求的运气在另一块饼干里。"
+            },
+            {
+                "key": "Legendary Fortune Cookie: ",
+                "value": "传说级幸运饼干："
+            },
+            {
+                "key": "You are the controller of your destiny.",
+                "value": "你是你命运的掌控者。"
+            },
+            {
+                "key": "Your golden opportunity is coming shortly.",
+                "value": "你的黄金机会即将到来。"
+            },
+            {
+                "key": "For success today look first to yourself.",
+                "value": "今天要想成功，先看看自己。"
+            },
+            {
+                "key": "It's about time I got out of that cookie.",
+                "value": "我早该从那块饼干里出来了。"
+            },
+            {
+                "key": "You will soon have an out of money experience.",
+                "value": "你很快就会有一次没钱的经历。"
+            },
+            {
+                "key": "Minor aches today are likely to pay off handsomely tomorrow.",
+                "value": "今天的小小疼痛可能明天就会得到丰厚的回报。"
+            },
+            {
+                "key": "Atheism no fun. No holidays.",
+                "value": "无神论没意思。没有假期。"
+            },
+            {
+                "key": "You are given the chance to take part in an exciting adventure.",
+                "value": "你有机会参与一场令人兴奋的冒险。"
+            },
+            {
+                "key": "Procrastination is art of keeping up with yesterday.",
+                "value": "拖延是一种跟昨天保持一致的艺术。"
+            },
+            {
+                "key": "Do the thing you fear, and the death of fear is certain.",
+                "value": "去做你害怕的事情，恐惧就会消失。"
+            },
+            {
+                "key": "Your emotional nature is strong and sensitive",
+                "value": "你的情感本质是强烈和敏感的。"
+            },
+            {
+                "key": "An alien of some sort will be appearing to you shortly.",
+                "value": "一个某种类型的外星人很快就会出现在你面前。"
+            },
+            {
+                "key": "A foolish man listens to his heart. A wise man listens to cookies.",
+                "value": "愚蠢的人听从自己的心。聪明的人听从饼干。"
+            },
+            {
+                "key": "When marriage outlawed, only outlaws have in-laws.",
+                "value": "当婚姻被禁止(outlawed)时，只有罪犯(outlaws)才有姻亲(in-laws)。"
+            },
+            {
+                "key": "Do not be overly judgemental of your loved one's intentions or actions.",
+                "value": "不要过分地评判你所爱之人的意图或行为。"
+            },
+            {
+                "key": "He who seeks will find.",
+                "value": "寻找的人会找到。"
+            },
+            {
+                "key": "Okay to look at past and future. Just don't stare.",
+                "value": "看看过去和未来没关系。只要不要盯着看。"
+            },
+            {
+                "key": "A merry heart does good like a medicine.",
+                "value": "快乐的心如同良药。"
+            },
+            {
+                "key": "The real kindness comes from within you.",
+                "value": "真正的善良来自于你内心。"
+            },
+            {
+                "key": "A fool and his money are soon partying.",
+                "value": "傻瓜和他的钱很快就会分道扬镳。"
+            },
+            {
+                "key": "I am worth a fortune!",
+                "value": "我值一大笔钱！"
+            },
+            {
+                "key": "Easiest way to find lost object is buy replacement.",
+                "value": "找到丢失的东西最简单的方法就是买一个替代品。"
+            },
+            {
+                "key": "Politicians are like diapers: change often, and for same reason.",
+                "value": "政治家就像尿布：经常换，而且原因相同。"
+            },
+            {
+                "key": "At this very moment you can change the rest of your life.",
+                "value": "在这一刻你可以改变你余生的命运。"
+            },
+            {
+                "key": "A dream you have will come true",
+                "value": "你有一个梦想会成真。"
+            },
+            {
+                "key": "Present your best ideas today to an eager and welcoming audience.",
+                "value": "今天向一个渴望并欢迎你的听众展示你最好的想法。"
+            },
+            {
+                "key": "Common Fortune Cookie: ",
+                "value": "常见的幸运饼干："
+            },
+            {
+                "key": "Flattery will go far tonight.",
+                "value": "今晚奉承会有很大的作用。"
+            },
+            {
+                "key": "Help! I am being held prisoner in a fortune cookie factory.",
+                "value": "救命！我被困在了一个幸运饼干工厂里。"
+            },
+            {
+                "key": "Be calm when confronting an emergency crisis.",
+                "value": "面对紧急危机时要保持冷静。"
+            },
+            {
+                "key": "The best is yet to come.",
+                "value": "最好的还在后头。"
+            },
+            {
+                "key": "You will think for yourself when you stop letting others think for you",
+                "value": "当你不再让别人替你思考时，你就会为自己思考。"
+            },
+            {
+                "key": "Patience is your alley at the moment. Don't worry!",
+                "value": "现在耐心是你的好帮手。别担心！"
+            },
+            {
+                "key": "The cake is a lie!",
+                "value": "蛋糕是个谎言！"
+            },
+            {
+                "key": "It may be those who do most, dream most",
+                "value": "可能那些做得最多的人，也是梦想最多的人。"
+            },
+            {
+                "key": "Your reality check is about to bounce.",
+                "value": "你的现实检验即将失败。"
+            },
+            {
+                "key": "Nothing is so much to be feared as fear.",
+                "value": "没有什么比恐惧更可怕。"
+            },
+            {
+                "key": "Now these three remain, faith, hope, and love. The greatest of these is love.",
+                "value": "现在这三样东西仍然存在，信仰、希望和爱。其中最伟大的就是爱。"
+            },
+            {
+                "key": "Compassion is a way of being.",
+                "value": "同情是一种生活方式。"
+            },
+            {
+                "key": "You are cleverly disguised as responsible adult.",
+                "value": "你是一个巧妙地伪装成负责任的成年人。"
+            },
+            {
+                "key": "Do what is right, not what you should.",
+                "value": "做正确的事，而不是做你应该做的事。"
+            },
+            {
+                "key": "What breaks in a moment may take years to mend.",
+                "value": "一时之间破碎的东西，可能需要花费多年才能修复。"
+            },
+            {
+                "key": "Drive like hell, you will get there.",
+                "value": "开车像地狱一样，你就会到达那里。"
+            },
+            {
+                "key": "What some call stubbornness, others call persistence.",
+                "value": "有些人称之为固执，有些人称之为坚持。"
+            },
+            {
+                "key": "You will be sharing great news with all people you love",
+                "value": "你将会和你所爱的所有人分享好消息。"
+            },
+            {
+                "key": "If you want the rainbow, then you have to tolerate the rain.",
+                "value": "如果你想要彩虹，那么你就必须忍受雨水。"
+            },
+            {
+                "key": "Hard work pays off in the future. Laziness pays off now.",
+                "value": "努力工作会在未来有回报。懒惰现在就有回报。"
+            },
+            {
+                "key": "Integrity is doing the right thing, even if nobody is watching.",
+                "value": "正直就是做正确的事，即使没有人在看"
+            },
+            {
+                "key": "If you have something good in your life, don't let it go!",
+                "value": "如果你生活中有好的东西，不要放手！"
+            },
+            {
+                "key": "Today you shed your last tear. Tomorrow fortune knocks at your door.",
+                "value": "今天你流下了最后一滴眼泪。明天幸运会敲响你的门。"
+            },
+            {
+                "key": "You will die alone and poorly dressed.",
+                "value": "你会孤独地死去，而且穿着很糟糕"
+            },
+            {
+                "key": "Laughter is the shortest distance between two people.",
+                "value": "笑声是两个人之间最短的距离"
+            },
+            {
+                "key": "Good health will be yours for a long time.",
+                "value": "你会拥有长久的健康"
+            },
+            {
+                "key": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+                "value": "勇气不仅仅是一种美德，而是在考验时所有美德的形式"
+            },
+            {
+                "key": "There is no spoon!",
+                "value": "没有勺子!"
+            },
+            {
+                "key": "You are worth loving, you are also worth the effort it takes to love you",
+                "value": "你值得被爱，你也值得付出努力去爱你"
+            },
+            {
+                "key": "Never upset the driver of the car you're in. They're the master of your destiny until you get home.",
+                "value": "永远不要惹恼你所乘坐车辆的司机。他们在你回家之前都是你命运的主宰。"
+            },
+            {
+                "key": "Fat person not afraid of heights... afraid of widths.",
+                "value": "胖子不怕高，只怕宽"
+            },
+            {
+                "key": "Live like you are on the bottom, even if you are on the top.",
+                "value": "即使你在顶端，也要像在底层一样生活"
+            },
+            {
+                "key": "Before trying to please others think of what makes you happy.",
+                "value": "在试图取悦别人之前，想想什么让你快乐"
+            },
+            {
+                "key": "All things are difficult before they are easy.",
+                "value": "凡事都是先难后易"
+            },
+            {
+                "key": "Experience is what you have left when everything else is gone.",
+                "value": "当其他一切都失去了，你还剩下的就是经验"
+            },
+            {
+                "key": "To avoid criticism, do nothing, say nothing, be nothing.",
+                "value": "要避免批评，就什么都不做，什么都不说，什么都不成为"
+            },
+            {
+                "key": "It is better to have a hen tomorrow than an egg today.",
+                "value": "明天有只母鸡比今天有个鸡蛋好"
+            },
+            {
+                "key": "He who throws mud loses ground.",
+                "value": "抛泥者必失地"
+            },
+            {
+                "key": "When chosen for jury duty, tell judge... fortune cookie say guilty!",
+                "value": "当被选为陪审团时，告诉法官……幸运饼干说有罪！"
+            },
+            {
+                "key": "You will take a pleasant journey to a place far away.",
+                "value": "你将会去一个遥远的地方进行一次愉快的旅行"
+            },
+            {
+                "key": "There is a prospect of a thrilling time ahead for you.",
+                "value": "你的前方有一段令人激动的时光"
+            },
+            {
+                "key": "You think it's a secret, but they know.",
+                "value": "你以为这是个秘密，但他们知道"
+            },
+            {
+                "key": "He who laughs at himself never runs out of things to laugh at.",
+                "value": "能够自嘲的人永远不缺笑料"
+            },
+            {
+                "key": "Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow.",
+                "value": "问问自己，你今天所做的事情是否让你更接近明天想要到达的地方"
+            },
+            {
+                "key": "If you want the rainbow, you have to tolerate the rain.",
+                "value": "如果你想要彩虹，就必须忍受雨水"
+            },
+            {
+                "key": "Sing and rejoice, fortune is smiling on you.",
+                "value": "唱歌并欢呼吧，幸运正在向你微笑"
+            },
+            {
+                "key": "Life does not get better by chance. It gets better by change.",
+                "value": "生活不会因为偶然而变好。它会因为改变而变好"
+            },
+            {
+                "key": "A single conversation with a wise man is better than ten years of study.",
+                "value": "与智者一席之谈胜过十年苦读"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.CoinItem",
+            "method": "func_77624_a"
+        },
+        "pairs": [
+            {
+                "key": "§2USE: Grants ",
+                "value": "§2使用：获得"
+            },
+            {
+                "key": " Experience Points",
+                "value": "点经验值"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.OneHundred",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "§bBeat the Computers Score to WIN!",
+                "value": "§b击败电脑得分以获胜！"
+            },
+            {
+                "key": "§bScore 100 Points and win 3X your bet!",
+                "value": "§b获得100分并赢得3倍的赌注！"
+            },
+            {
+                "key": "USE: Draw a number!",
+                "value": "使用：抽一个数！"
+            },
+            {
+                "key": "§2Requires XP Coins to Play (OffHand)",
+                "value": "§2需要经验币才能玩(放副手)"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.games.gameBLANK",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2BLANK",
+                "value": "§2空"
+            },
+            {
+                "key": "You need to wager an XP Coin in your Off Hand to play!",
+                "value": "你需要在你的副手中下注一个经验币才能玩！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.UncuredCoinPress",
+            "method": "func_77624_a",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2Apply Heat",
+                "value": "§2需加热"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.CoinPressItem",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2USE: Convert Experience",
+                "value": "§2使用：转换经验"
+            },
+            {
+                "key": "§2Points into an XP Coin!",
+                "value": "§2经验值变成经验币！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com.coldspell.xpcoins.items.FortuneCookie",
+            "method": "",
+            "local": ""
+        },
+        "pairs": [
+            {
+                "key": "§2USE: Eat the cookie,",
+                "value": "§2使用：吃了饼干，"
+            },
+            {
+                "key": "§2learn your fortune",
+                "value": "§2就会知道你的命运"
+            }
+        ]
+    }
+]

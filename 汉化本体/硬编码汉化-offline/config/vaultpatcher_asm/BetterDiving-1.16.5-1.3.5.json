@@ -1,0 +1,74 @@
+[
+    {
+        "authors": "KlparetlR",
+        "name": "BetterDiving模组汉化",
+        "desc": "分发、抄袭必追责",
+        "mods": "BetterDiving-1.16.5-1.3.5",
+        "dynamic": false
+    },
+    {
+        "t": {
+            "name": "meldexun/better_diving/client/gui/screen/ScreenSeamoth"
+        },
+        "p": [
+            {
+                "k": "No power cell",
+                "v": "无电池"
+            },
+            {
+                "k": "Energy: ",
+                "v": "能源："
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "meldexun/better_diving/item/ItemSeamoth"
+            },
+            {
+                "name": "meldexun/better_diving/item/ItemEnergyStorage"
+            },
+            {
+                "name": "meldexun/better_diving/item/ItemPowerCell"
+            }
+        ],
+        "p": [
+            {
+                "k": "Energy %d%% (%d/%d)",
+                "v": "能源 %d%% (%d/%d)"
+            },
+            {
+                "k": "Energy %d%%",
+                "v": "能源 %d%%"
+            },
+            {
+                "k": "No power cell",
+                "v": "无电池"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "meldexun/better_diving/client/event/ClientEventHandler"
+        },
+        "p": [
+            {
+                "k": "s of Oxygen",
+                "v": "秒的可供氧气"
+            },
+            {
+                "k": "% Swim Speed",
+                "v": "% 游泳速度"
+            },
+            {
+                "k": "% Mining Speed",
+                "v": "% 挖掘速度"
+            },
+            {
+                "k": "Max Diving Depth %dm",
+                "v": "最大潜水深度 %d米"
+            }
+        ]
+    }
+]

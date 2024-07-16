@@ -1,0 +1,31 @@
+[
+    {
+        "authors": "KlparetlR",
+        "name": "HealthCanisters模组汉化",
+        "desc": "分发、抄袭必追责",
+        "mods": "HealthCanisters 1.2.2"
+    },
+    {
+        "t": {
+            "name": "com/baranhan123/heartcanisters/items/HeartItem"
+        },
+        "p": [
+            {
+                "k": "§7On consume increases your maximum health by §a",
+                "v": "§7使用后永久增加你的最大生命值§a"
+            },
+            {
+                "k": " §7permanently",
+                "v": ""
+            },
+            {
+                "k": "§aYour maximum health has been increased.",
+                "v": "§a你的最大生命值增加。"
+            },
+            {
+                "key": "§cYou cannot use more canisters.",
+                "value": "§c你不能在用更多的容器了。"
+            }
+        ]
+    }
+]
