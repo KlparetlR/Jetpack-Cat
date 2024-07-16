@@ -1,0 +1,62 @@
+[title]
+	triggers = [ "structure-illager_pirate_ship" ]
+	titles = [ "啊！！" ]
+	subtitles = [ "消灭海盗！" ]
+	title_color = "gray"
+	subtitle_color = "red"
+	centered = true
+	horizontal_alignment = "center"
+	vertical_alignment = "center"
+	x = -1
+	y = "200"
+	scale_x = "0.4"
+	scale_y = "0.4"
+	subtitle_scale = "0.75"
+	play_once = false
+	vague = false
+
+[[image]]
+	triggers = [ "height-below_ten" ]
+	name = "warning_dimensional.png"
+	time = 100
+	scale_x = 3
+	scale_y = 3
+	fade_in = 60
+	fade_out = 60
+	opacity = 1.0
+	horizontal_alignment = "center"
+	vertical_alignment = "center"
+	x = 0
+	y = "-5"
+	play_once = false
+	vague = false
+
+[[image]]
+	triggers = [ "time-night" ]
+	name = "warning_nightfall.png"
+	time = 180
+	scale_x = "3"
+	scale_y = "3"
+	fade_in = 60
+	fade_out = 60
+	opacity = 1.0
+	horizontal_alignment = "center"
+	vertical_alignment = "center"
+	y = "-5"
+	play_once = false
+	vague = false
+
+[[image]]
+	triggers = [ "mob-boss_music" ]
+	name = "warning_boss.png"
+	time = 100
+	scale_x = 3
+	scale_y = 3
+	fade_in = 60
+	fade_out = 60
+	opacity = 1.0
+	horizontal_alignment = "center"
+	vertical_alignment = "center"
+	y = "-5"
+	play_once = false
+	vague = false
