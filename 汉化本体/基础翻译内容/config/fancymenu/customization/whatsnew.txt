@@ -1,0 +1,165 @@
+type = menu
+
+customization-meta {
+  identifier = whatsnew
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  grabber_texture_normal = config/fancymenu/assets/rick_head.png
+  enable_scrolling = true
+  shadow = true
+  scale = 0.75
+  grabber_color_normal = ff00ff
+  source = config/fancymenu/texts/updatelog.txt
+  grabber_texture_hover = config/fancymenu/assets/rick_head.png
+  text_border = 0
+  case_mode = normal
+  grabber_color_hover = ff00ff
+  source_mode = local
+  line_spacing = 5
+  x = 21
+  width = 470
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4cf6e175-2acd-4ab3-90fc-8f61e1d917e91660988497630
+  y = 48
+  alignment = left
+  height = 300
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = 有什么新消息！
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 18
+  width = 263
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 15a5cedf-5b58-45c5-9a35-ab7b43d148221660989160889
+  y = 22
+  alignment = left
+  base_color = ff00ff
+  height = 22
+}
+
+customization {
+  hoversound = config/fancymenu/assets/hover_loudwav.wav
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = 观看视频！
+  clicksound = config/fancymenu/assets/coin.wav
+  loopbackgroundanimations = true
+  x = -117
+  width = 100
+  actionid = 25332152-e2fe-468a-97a3-94abb012ac9c1661633479529
+  action = addbutton
+  y = -43
+  value = https://youtu.be/STiADj89Zdg
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/scroll_arrow1.png
+  orientation = top-left
+  x = 429
+  width = 78
+  action = addtexture
+  actionid = e7c71385-e07a-46b3-b377-5c934b93ef7a1661664344331
+  y = 14
+  height = 36
+}
+
+customization {
+  orientation = top-left
+  audio_source:e87aa7c1-2c81-4d72-95ff-545466d6f74d1661971904966 = config/fancymenu/assets/call-peta.ogg;EXTERNAL_LOCAL;80;0
+  loop = false
+  channel = voice
+  x = 0
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 8ac01fc8-527a-4f84-8683-f7463f04f1d31661971779289
+  y = 11
+  once_per_session = true
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/assets/v3_update.png
+  orientation = bottom-right
+  x = -117
+  width = 100
+  action = addtexture
+  actionid = 3b044c71-e1fa-417b-92b8-390f3f56aa621662060964978
+  y = -103
+  height = 56
+}
+
+customization {
+  path = config/fancymenu/assets/arcade_mode.png
+  orientation = bottom-right
+  x = -117
+  width = 100
+  action = addtexture
+  actionid = a13630cf-9309-4fe6-a8a2-29ebe110dfa31673228702005
+  y = -193
+  height = 56
+}
+
+customization {
+  orientation = bottom-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -117
+  width = 100
+  actionid = 3e3f6ff4-ae88-45c7-bca2-30fd82057b721673228744320
+  action = addbutton
+  y = -134
+  label = 街机模式！
+  value = https://youtu.be/jG1gGyuLIZY
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/youtube.png
+  orientation = bottom-right
+  x = -116
+  width = 16
+  action = addtexture
+  actionid = 6e941dcf-15de-4aa3-b692-854fc964977a1673228798057
+  y = -153
+  height = 16
+}
+
+customization {
+  path = config/fancymenu/assets/youtube.png
+  orientation = bottom-right
+  x = -116
+  width = 16
+  action = addtexture
+  actionid = 27903f04-e245-4225-9255-4aa34b2e8af11673228827406
+  y = -63
+  height = 16
+}
+
