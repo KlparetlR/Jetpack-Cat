@@ -21,7 +21,7 @@
 			id: "23E883F720C3201D"
 			tasks: [{
 				id: "282D1995FCBB933C"
-				type: "checkmark"
+				type: "custom"
 				title: "日子 - 星期天（亲吻沃瑞斯）"
 			}]
 			rewards: [
@@ -82,7 +82,7 @@
 			id: "2604D6F6E32933E9"
 			tasks: [{
 				id: "765DA3B731F36735"
-				type: "checkmark"
+				type: "custom"
 				title: "日子 - 星期一（杀死僵尸）"
 			}]
 			rewards: [
@@ -178,7 +178,7 @@
 			id: "57A5C6E2336277A4"
 			tasks: [{
 				id: "5DD1F87D09AEBD35"
-				type: "checkmark"
+				type: "custom"
 				title: "日子 - 星期二（杀死幻翼）"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -239,7 +239,7 @@
 			id: "683C833CDDD3EBB8"
 			tasks: [{
 				id: "356299FA1777B826"
-				type: "checkmark"
+				type: "custom"
 				title: "日子 - 星期三（让嗜血虱虫抓住）"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -300,7 +300,7 @@
 			id: "1CC040E2F20E51F5"
 			tasks: [{
 				id: "79128E664DC69967"
-				type: "checkmark"
+				type: "custom"
 				title: "日子 - 星期四（铁锭）"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -403,7 +403,7 @@
 			id: "78621EFDCF111B6F"
 			tasks: [{
 				id: "5640F6671D36C9DB"
-				type: "checkmark"
+				type: "custom"
 				title: "日子 - 星期五（杀死初代克莱）"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -464,7 +464,7 @@
 			id: "230DFF4C35E6FAB1"
 			tasks: [{
 				id: "38F26013FE892986"
-				type: "checkmark"
+				type: "custom"
 				title: "日子 - 星期六（杀死龙卷鲨）"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -632,7 +632,7 @@
 			id: "0DFBB3E434DEB49C"
 			tasks: [{
 				id: "61569A00B094234A"
-				type: "checkmark"
+				type: "custom"
 				title: "给予不死图腾和生命"
 				icon: "minecraft:totem_of_undying"
 			}]
@@ -702,7 +702,7 @@
 			id: "57DF7A8E89CFA42E"
 			tasks: [{
 				id: "0FFE92B50969FFFE"
-				type: "checkmark"
+				type: "custom"
 				title: "每日任务完成语音"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -734,7 +734,7 @@
 			id: "2A93CCFD77F34FE8"
 			tasks: [{
 				id: "7CF237E95651BA71"
-				type: "checkmark"
+				type: "custom"
 				title: "进化图腾"
 				icon: {
 					id: "minecraft:totem_of_undying"

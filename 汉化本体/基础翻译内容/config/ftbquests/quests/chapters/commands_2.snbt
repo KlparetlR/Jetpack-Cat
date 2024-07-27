@@ -557,7 +557,7 @@
 			id: "47C2BF0D19946D61"
 			tasks: [{
 				id: "7F105F677490F5A1"
-				type: "checkmark"
+				type: "custom"
 				title: "设置速度"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -959,7 +959,7 @@
 			id: "0A15DED386723DAA"
 			tasks: [{
 				id: "5A2541F5EBA14E11"
-				type: "checkmark"
+				type: "custom"
 				title: "关于队伍成员死亡"
 			}]
 			rewards: [
@@ -1156,7 +1156,7 @@
 			id: "1954B3D926FE77F0"
 			tasks: [{
 				id: "5B7D9E8189B945DD"
-				type: "checkmark"
+				type: "custom"
 				title: "预禁用AM"
 			}]
 			rewards: [{
@@ -1235,7 +1235,7 @@
 			id: "5F56A1021382623A"
 			tasks: [{
 				id: "41F068EAEB40ED5E"
-				type: "checkmark"
+				type: "custom"
 				title: "自定义类型"
 			}]
 			rewards: [
@@ -1313,7 +1313,7 @@
 			id: "0EF39FA093BA0478"
 			tasks: [{
 				id: "5D0520845BA4E293"
-				type: "checkmark"
+				type: "custom"
 				title: "经典类型"
 			}]
 			rewards: [
@@ -1378,7 +1378,7 @@
 			id: "057990D4A649750B"
 			tasks: [{
 				id: "772A2655E8AEEE04"
-				type: "checkmark"
+				type: "custom"
 				title: "突击类型"
 			}]
 			rewards: [
@@ -1448,7 +1448,7 @@
 			id: "02D263686DE87B3C"
 			tasks: [{
 				id: "28960F0196EC4B05"
-				type: "checkmark"
+				type: "custom"
 				title: "重型类型"
 			}]
 			rewards: [
@@ -1506,7 +1506,7 @@
 			id: "3C55ADDCC387C164"
 			tasks: [{
 				id: "13A186B70294CEE1"
-				type: "checkmark"
+				type: "custom"
 				title: "狙击类型"
 				icon: {
 					id: "cgm:heavy_rifle"
@@ -1571,7 +1571,7 @@
 			id: "49270756F733EACA"
 			tasks: [{
 				id: "247924E22B6F437E"
-				type: "checkmark"
+				type: "custom"
 				title: "关闭街机模式检查"
 				icon: {
 					id: "ftbquests:custom_icon"
@@ -2104,7 +2104,7 @@
 			id: "49486FB754346768"
 			tasks: [{
 				id: "07A5D26213A96BCF"
-				type: "checkmark"
+				type: "custom"
 				title: "将你的队伍传送到你这里"
 			}]
 			rewards: [
@@ -2129,7 +2129,7 @@
 			id: "58A8854BD9E3AABC"
 			tasks: [{
 				id: "501C80F73E08F32D"
-				type: "checkmark"
+				type: "custom"
 				title: "枪械"
 			}]
 			rewards: [
@@ -2265,7 +2265,7 @@
 			id: "1C7E0728DBE96D45"
 			tasks: [{
 				id: "2F2FE1E3D2F9543D"
-				type: "checkmark"
+				type: "custom"
 				title: "2级枪械"
 			}]
 			rewards: [
@@ -2377,7 +2377,7 @@
 			id: "1A2FA3C5152131C7"
 			tasks: [{
 				id: "656AE10BE65F952E"
-				type: "checkmark"
+				type: "custom"
 				title: "3级枪械"
 			}]
 			rewards: [
@@ -2501,7 +2501,7 @@
 			id: "736DFC761A1E0B22"
 			tasks: [{
 				id: "02E94E2E7543A82E"
-				type: "checkmark"
+				type: "custom"
 				title: "3级枪箱"
 			}]
 			rewards: [
@@ -2529,7 +2529,7 @@
 			id: "15F58CF7DEBCCD92"
 			tasks: [{
 				id: "052CC646A5FFD0D4"
-				type: "checkmark"
+				type: "custom"
 				title: "2级枪箱"
 			}]
 			rewards: [
@@ -2557,7 +2557,7 @@
 			id: "1C87D9E0931E21CE"
 			tasks: [{
 				id: "6C8359ECB2D2EFAF"
-				type: "checkmark"
+				type: "custom"
 				title: "1级枪箱"
 			}]
 			rewards: [
@@ -2586,7 +2586,7 @@
 			id: "0B8BE182025B6319"
 			tasks: [{
 				id: "4E091ED139D2E636"
-				type: "checkmark"
+				type: "custom"
 				title: "枪械配件箱"
 			}]
 			rewards: [
@@ -2642,7 +2642,7 @@
 				{
 					id: "7A216B084B2B9C22"
 					type: "command"
-					command: "/tellraw @p {\"text\":\"友善的人工智能:\\n现在可以开采锇矿石了！Mekanism模组现在可正常使用。\\n\\n打败母亲已经是触碰了最大难度。祝您好运! :D\"}"
+					command: "/tellraw @a {\"text\":\"友善的人工智能:\\n现在可以开采锇矿石了！Mekanism模组现在可正常使用。\\n\\n打败母亲已经是触碰了最大难度。祝您好运! :D\"}"
 					player_command: false
 				}
 				{

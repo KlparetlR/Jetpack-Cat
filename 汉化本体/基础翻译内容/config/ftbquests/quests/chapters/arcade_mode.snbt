@@ -341,9 +341,9 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: -3.5d
 			y: -6.5d
-			shape: "unicorn"
+			shape: "secretagent"
 			dependencies: ["24FB6367AE5CB205"]
 			hide: true
 			size: 2.0d
@@ -385,7 +385,7 @@
 					id: "49C3BB85EE9AA907"
 					type: "command"
 					auto: "invisible"
-					command: "/gamestage remove @a arcademode false"
+					command: "/gamestage remove @a arcademode true"
 					player_command: false
 				}
 				{
@@ -690,7 +690,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -5.5d
 			y: -6.5d
 			shape: "secretagent"
 			description: ["这将开始生成怪物，并将您的游戏模式设置为生存。"]
@@ -764,6 +764,51 @@
 					auto: "invisible"
 					command: "/closeguiscreen"
 					player_command: true
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/cancel.png"
+				}
+			}
+			x: 1.5d
+			y: -6.5d
+			shape: "secretagent"
+			dependencies: ["24FB6367AE5CB205"]
+			hide: true
+			size: 2.0d
+			id: "15AB647D59567C23"
+			tasks: [{
+				id: "0AAC3FC047EFB0E9"
+				type: "checkmark"
+				title: "禁用街机模式"
+			}]
+			rewards: [
+				{
+					id: "3D05D897DD860C0D"
+					type: "command"
+					title: "隐藏章节界面"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a reset 24FB6367AE5CB205"
+					player_command: false
+				}
+				{
+					id: "717193D17E8E11F0"
+					type: "custom"
+					title: "禁用街机模式"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/cancel.png"
+						}
+					}
+					tags: ["reset"]
+					auto: "enabled"
 				}
 			]
 		}

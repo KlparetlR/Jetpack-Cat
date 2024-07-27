@@ -1,0 +1,15 @@
+autoSwitchLanguage = false
+checkModPackTranslationUpdate = true
+autoDownloadVMTranslationPack = false
+autoInstallVMTranslationPack = false
+displayTips = true
+playerNameCheck = true
+switchLanguage = "zh_cn"
+modPackTranslationUpdateCheckUrl = "https://vmct-cn.top/modpacks/jetpack/update.txt"
+modPackTranslationUrl = "https://vmct-cn.top/modpacks/jetpack/"
+tipsUrl = "https://vmct-cn.top/tips.txt"
+modPackTranslationVersion = "2.4.0"
+tipsMinutes = 25
+translationPackName = "VM汉化组模组汉化包1.16"
+translationPackUrl = "https://cdn.modrinth.com/data/IDWIdXwS/versions/V5YtW17O/"
+nameUrl = "https://vmct-cn.top/name.json"
