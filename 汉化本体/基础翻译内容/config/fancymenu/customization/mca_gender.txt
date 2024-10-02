@@ -18,7 +18,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = 您可以在暂停菜单>玩家模型按钮中更改或重置所有玩家模型设置
+  source = 您可以在 暂停菜单 > 玩家模型 中更改或重置所有玩家模型设置。
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -34,7 +34,7 @@ customization {
 
 customization {
   orientation = top-left
-  audio_source:ca7d5418-2672-4080-8cfc-ade1a49a54281661499484555 = config/MusicTriggers/songs/assets/musictriggers/sounds/music/nullspacedestiny.ogg;EXTERNAL_LOCAL;100;0
+  audio_source:ca7d5418-2672-4080-8cfc-ade1a49a54281661499484555 = config/MusicTriggers/songs/nullspacedestiny.ogg;EXTERNAL_LOCAL;100;0
   loop = true
   channel = music
   x = 49
@@ -44,11 +44,5 @@ customization {
   y = 115
   once_per_session = false
   height = 50
-}
-
-customization {
-  identifier = %id=452532%
-  path = config/fancymenu/assets/disqualified.wav
-  action = setbuttonclicksound
 }
 

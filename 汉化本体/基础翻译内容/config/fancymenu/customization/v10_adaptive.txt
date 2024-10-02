@@ -358,7 +358,7 @@ customization {
   width = 66
   actionid = b23134c0-0e38-4784-b68d-494806c7e15f1657334196271
   action = addbutton
-  y = -57
+  y = -49
   value = 
   height = 94
 }
@@ -437,7 +437,7 @@ customization {
   width = 78
   actionid = 05bb17dd-7f1d-43fd-8ea8-9956dd10caf01650664757673
   action = addbutton
-  y = -145
+  y = -132
   backgroundnormal = config\fancymenu\assets\transparent.png
   value = https://www.patreon.com/jetpackcat
   height = 78
@@ -450,7 +450,7 @@ customization {
   width = 70
   action = addtexture
   actionid = 65c0178b-327c-43db-941d-e8e4e83401f61657272420330
-  y = -141
+  y = -128
   height = 70
 }
 
@@ -525,6 +525,18 @@ customization {
 }
 
 customization {
+  orientation = top-right
+  shape = rectangle
+  color = #111111
+  x = -222
+  width = 223
+  action = addshape
+  actionid = 2ab0accf-5a18-4e18-9d70-5d00d8ad026e1726209929774
+  y = 12
+  height = 28
+}
+
+customization {
   orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = openlink
@@ -585,7 +597,7 @@ customization {
   width = 70
   action = addtexture
   actionid = 4837055f-dac3-40d5-a6d2-dd2a9ce4eec11657258902277
-  y = -59
+  y = -51
   height = 100
 }
 
@@ -749,17 +761,6 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/assets/golemfriend1.png
-  orientation = mid-centered
-  x = 168
-  width = 33
-  action = addtexture
-  actionid = 93e8d995-67dc-4609-b67d-f922cb56ace11657275541906
-  y = -154
-  height = 33
-}
-
-customization {
   path = config/fancymenu/assets/jar_creeper2.png
   orientation = mid-centered
   x = -62
@@ -776,24 +777,19 @@ customization {
   orientation = bottom-left
   vr:value:language = zh_cn
   restartbackgroundanimations = true
-  delayappearanceseconds = 2.0
   buttonaction = openlink
   backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
   label = 
   clicksound = config/fancymenu/assets/coin.wav
   loopbackgroundanimations = true
-  fadein = true
-  fadeinspeed = 4.0
   x = 0
   width = 135
   actionid = 6f72d9cf-6462-470b-bd2b-7f2324f9b2651657341693014
   action = addbutton
   y = -80
-  delayappearance = true
   vr:showif:language = false
   backgroundnormal = config\fancymenu\assets\bg_button_darkbg.png
   value = https://youtu.be/PoOexTEn5xY?si=xNli54fkXxZn71Mc
-  delayappearanceeverytime = false
   height = 80
 }
 
@@ -964,7 +960,7 @@ customization {
   width = 55
   actionid = 0119f747-21a5-4e61-acd8-52eee45cf6b21657767101888
   action = addbutton
-  y = -134
+  y = -121
   backgroundnormal = config\fancymenu\assets\transparent.png
   value = https://www.patreon.com/jetpackcat
   height = 56
@@ -1251,19 +1247,6 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
-  name = wither
-  x = 100
-  width = 53
-  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
-  actionid = 424a8296-f9df-46ff-bd3e-69c5d52d84de1657864934470
-  action = addslideshow
-  y = -152
-  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
-  height = 64
-}
-
-customization {
   path = config/fancymenu/assets/jar_lid_off.png
   orientation = mid-centered
   x = 134
@@ -1447,6 +1430,21 @@ customization {
 }
 
 customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -215
+  width = 100
+  actionid = d0a2d50f-ee62-4e72-a4a9-d43efd1bee851726210519188
+  action = addbutton
+  y = 15
+  label = 美国服务器： %serverplayercount:jc.us.playcdu.co%
+  value = jc.us.playcdu.co
+  height = 20
+}
+
+customization {
   orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = openlink
@@ -1469,22 +1467,17 @@ customization {
   orientation = bottom-left
   vr:value:language = zh_cn
   restartbackgroundanimations = true
-  delayappearanceseconds = 2.0
   buttonaction = openlink
   label = YOUTUBE
   clicksound = config/fancymenu/assets/coin.wav
   loopbackgroundanimations = true
-  fadein = true
-  fadeinspeed = 4.0
   x = 135
   width = 66
   actionid = 8e2e6d06-1df0-46ec-b2df-4bb527c3ace91661959708338
   action = addbutton
   y = -16
-  delayappearance = true
   vr:showif:language = false
   value = https://www.youtube.com/channel/UCpbZjb0o2Nx9MTrIOjeuL_w
-  delayappearanceeverytime = false
   height = 18
 }
 
@@ -1501,12 +1494,12 @@ customization {
 
 customization {
   orientation = bottom-left
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 0.5
   path = config/fancymenu/assets/jetpack_cat_trailer.jpg
   fadein = true
-  fadeinspeed = 4.0
-  x = 3
-  width = 128
+  fadeinspeed = 5.0
+  x = 2
+  width = 129
   action = addtexture
   actionid = c0762206-6867-4593-88b1-e16ef63fee6c1720850706022
   y = -75
@@ -1519,14 +1512,14 @@ customization {
   orientation = bottom-left
   restartbackgroundanimations = true
   backgroundanimationhovered = anim_reflection_200x100
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 0.5
   buttonaction = openlink
   label = 
   loopbackgroundanimations = true
   fadein = true
-  fadeinspeed = 4.0
-  x = 3
-  width = 128
+  fadeinspeed = 5.0
+  x = 2
+  width = 129
   actionid = b8f59b42-5651-452c-a5bf-9e40c7f46eb81720850376027
   action = addbutton
   y = -75
@@ -1535,5 +1528,60 @@ customization {
   value = 
   delayappearanceeverytime = false
   height = 71
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -108
+  width = 100
+  actionid = 733fabd8-2489-47cc-bea9-1615ba5270ad1726210665509
+  action = addbutton
+  y = 15
+  label = 澳大利服务器： %serverplayercount:jc.au.playcdu.co%
+  value = jc.au.playcdu.co
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/golemfriend1.png
+  orientation = mid-centered
+  x = 168
+  width = 33
+  action = addtexture
+  actionid = 93e8d995-67dc-4609-b67d-f922cb56ace11657275541906
+  y = -154
+  height = 33
+}
+
+customization {
+  orientation = mid-centered
+  name = wither
+  x = 100
+  width = 53
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_week_day = true
+  actionid = 424a8296-f9df-46ff-bd3e-69c5d52d84de1657864934470
+  action = addslideshow
+  y = -152
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_week_day = 6
+  height = 64
+}
+
+customization {
+  orientation = bottom-left
+  delayappearanceseconds = 2.0
+  path = config/fancymenu/assets/speech_watch_cinematic.png
+  fadein = true
+  fadeinspeed = 2.0
+  x = 12
+  width = 112
+  action = addtexture
+  actionid = d0f62cdb-cec4-4dd7-a272-de58009137d71726211591692
+  y = -94
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 20
 }
 

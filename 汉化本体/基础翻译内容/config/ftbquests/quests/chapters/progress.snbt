@@ -2921,7 +2921,50 @@
 				{
 					id: "19085EFEFE0C64F4"
 					type: "custom"
-					tags: ["resetdelay"]
+					tags: ["resetshortdelay"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "紧急情况！"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "create:textures/item/electron_tube.png"
+				}
+			}
+			x: -3.25d
+			y: -10.25d
+			subtitle: "将玩家强制切回生存模式"
+			description: ["如果你进入游戏或服务器后，在初始剧情画面后卡在了旁观模式，请按此。"]
+			id: "76D141025C4AE70C"
+			tasks: [{
+				id: "37204972660B6E06"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "32B103CEC8549563"
+					type: "command"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftblibrary:textures/icons/player.png"
+						}
+					}
+					team_reward: false
+					auto: "no_toast"
+					command: "/execute as @p run gamemode survival"
+					player_command: false
+				}
+				{
+					id: "125801CD2DD0E731"
+					type: "custom"
+					tags: ["resetshortdelay"]
+					team_reward: false
 					auto: "invisible"
 				}
 			]

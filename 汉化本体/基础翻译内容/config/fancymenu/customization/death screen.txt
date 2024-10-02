@@ -237,3 +237,27 @@ customization {
   height = 13
 }
 
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  delayappearanceseconds = 2.0
+  scale = 0.5
+  source = 当你复活后，你将在一分钟内免疫任何伤害，但你也无法造成伤害。
+  text_border = 0
+  case_mode = normal
+  fadein = true
+  source_mode = direct
+  line_spacing = 1
+  fadeinspeed = 2.0
+  x = -138
+  width = 282
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = db7be9a1-026b-49bd-9064-affaae394f481726806532454
+  y = 98
+  delayappearance = true
+  alignment = centered
+  delayappearanceeverytime = true
+  height = 40
+}
+

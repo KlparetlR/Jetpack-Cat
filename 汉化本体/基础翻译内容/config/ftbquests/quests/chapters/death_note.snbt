@@ -102,15 +102,6 @@
 					item: "kubejs:gun_crate_exotic"
 					count: 2
 				}
-				{
-					id: "6C59D438E5145014"
-					type: "command"
-					title: "检查母亲是否死亡，如果死了就给所有玩家添加机制。"
-					team_reward: false
-					auto: "invisible"
-					command: "/execute in minecraft:the_end if entity @a[x=0] unless entity @e[type=ender_dragon] run gamestage add @a mekanism true"
-					player_command: false
-				}
 			]
 		}
 		{

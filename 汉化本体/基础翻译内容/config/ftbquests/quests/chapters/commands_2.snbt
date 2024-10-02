@@ -2611,13 +2611,12 @@
 		{
 			x: -5.75d
 			y: 10.0d
-			description: ["这将激活一个名为Mekanism的游戏阶段。它将允许玩家使用MEKANISM模组物品破坏锇矿石。这可以让玩家在击败母亲之后才能此模组启用。"]
-			dependencies: ["25BEE18FA0431191"]
+			description: ["这将激活一个名为Mekanism的游戏阶段。它将允许玩家使用Mekanism模组物品破坏锇矿石。这可以让玩家在击败母亲之后才能此模组启用。"]
 			id: "6F9F865C7FC10832"
 			tasks: [{
 				id: "2D943CDCF2AF88DB"
 				type: "dimension"
-				dimension: "minecraft:overworld"
+				dimension: "minecraft:the_end"
 			}]
 			rewards: [
 				{
@@ -2634,15 +2633,9 @@
 					stage: "mekanism"
 				}
 				{
-					id: "4D6CC2F7D2D2D084"
-					type: "command"
-					command: "/improvedmobs difficulty set 30"
-					player_command: false
-				}
-				{
 					id: "7A216B084B2B9C22"
 					type: "command"
-					command: "/tellraw @a {\"text\":\"友善的人工智能:\\n现在可以开采锇矿石了！Mekanism模组现在可正常使用。\\n\\n打败母亲已经是触碰了最大难度。祝您好运! :D\"}"
+					command: "/tellraw @a {\"text\":\"友善的人工智能:\\n现在可以开采锇矿石了！Mekanism模组物品现在可正常制作。末地之上是暮色森林，那里的Boss无法被子弹伤害！祝您好运! :D\"}"
 					player_command: false
 				}
 				{
@@ -2652,37 +2645,6 @@
 					player_command: false
 				}
 			]
-		}
-		{
-			x: -7.0d
-			y: 10.0d
-			id: "25BEE18FA0431191"
-			tasks: [{
-				id: "359CF4342664A642"
-				type: "kill"
-				icon: "minecraft:dragon_head"
-				entity: "minecraft:ender_dragon"
-				value: 1L
-			}]
-		}
-		{
-			x: 3.5d
-			y: 3.0d
-			id: "366537C816F99FF2"
-			tasks: [{
-				id: "7A402F221A22DFA3"
-				type: "gamestage"
-				title: "当游戏阶段“Mekanism”获得时，告诉他们"
-				stage: "mekanism"
-			}]
-			rewards: [{
-				id: "58050016AC48FAB1"
-				type: "command"
-				title: "Tell people mekanism is activated"
-				auto: "invisible"
-				command: "/execute as @p run tellraw @a \"母亲被打败了您现在可以挖掘锇矿石了！\""
-				player_command: false
-			}]
 		}
 	]
 }

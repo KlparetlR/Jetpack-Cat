@@ -324,24 +324,19 @@ customization {
   orientation = bottom-left
   vr:value:language = zh_cn
   restartbackgroundanimations = true
-  delayappearanceseconds = 1.0
   buttonaction = openlink
   backgroundhovered = config\fancymenu\assets\bg_button_darkbg.png
   label = 
   clicksound = config/fancymenu/assets/coin.wav
   loopbackgroundanimations = true
-  fadein = true
-  fadeinspeed = 4.0
   x = 0
   width = 135
   actionid = 6f72d9cf-6462-470b-bd2b-7f2324f9b2651657341693014
   action = addbutton
   y = -80
-  delayappearance = true
   vr:showif:language = false
   backgroundnormal = config\fancymenu\assets\bg_button_darkbg.png
   value = https://youtu.be/PoOexTEn5xY?si=NPHVUvcAqIGiHrRF
-  delayappearanceeverytime = false
   height = 80
 }
 
@@ -1179,6 +1174,18 @@ customization {
 }
 
 customization {
+  orientation = top-right
+  shape = rectangle
+  color = #111111
+  x = -222
+  width = 222
+  action = addshape
+  actionid = 842f54b5-5da0-4292-8b82-b8bbf3f70ee91726209523686
+  y = 13
+  height = 28
+}
+
+customization {
   path = config/fancymenu/assets/jar_skeleton5.png
   orientation = mid-centered
   x = 9
@@ -1270,17 +1277,17 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = bottom-left
   vr:value:language = zh_cn
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 0.5
   path = config/fancymenu/assets/jetpack_cat_trailer.jpg
   fadein = true
-  fadeinspeed = 4.0
+  fadeinspeed = 5.0
   x = 3
   width = 126
   action = addtexture
   actionid = b241fa29-4fb1-4f1f-a9e3-632a98d7daa01720849339501
-  y = 381
+  y = -74
   delayappearance = true
   vr:showif:language = false
   delayappearanceeverytime = false
@@ -1462,22 +1469,17 @@ customization {
   orientation = bottom-left
   vr:value:language = zh_cn
   restartbackgroundanimations = true
-  delayappearanceseconds = 2.0
   buttonaction = openlink
   label = YOUTUBE
   clicksound = config/fancymenu/assets/coin.wav
   loopbackgroundanimations = true
-  fadein = true
-  fadeinspeed = 4.0
   x = 135
   width = 66
   actionid = 8e2e6d06-1df0-46ec-b2df-4bb527c3ace91661959708338
   action = addbutton
   y = -16
-  delayappearance = true
   vr:showif:language = false
   value = https://www.youtube.com/channel/UCpbZjb0o2Nx9MTrIOjeuL_w
-  delayappearanceeverytime = false
   height = 18
 }
 
@@ -1488,7 +1490,7 @@ customization {
   width = 89
   action = addtexture
   actionid = 116d25d2-b1b3-4d51-8e29-0a1d04b4364a1676865678396
-  y = 35
+  y = 33
   height = 19
 }
 
@@ -1498,23 +1500,69 @@ customization {
   vr:value:language = zh_cn
   restartbackgroundanimations = true
   backgroundanimationhovered = anim_reflection_200x100
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 0.5
   buttonaction = openlink
   label = 
   clicksound = config/fancymenu/assets/coin.wav
   loopbackgroundanimations = true
   fadein = true
-  fadeinspeed = 4.0
+  fadeinspeed = 5.0
   x = 3
   width = 126
   actionid = 03d9b6fd-c524-4ba0-9a0c-fa161e008acd1657782109671
   action = addbutton
-  y = -75
+  y = -74
   delayappearance = true
   vr:showif:language = false
   backgroundnormal = config/fancymenu/assets/jetpack_cat_trailer.jpg
   value = https://youtu.be/PoOexTEn5xY?si=NPHVUvcAqIGiHrRF
   delayappearanceeverytime = false
-  height = 71
+  height = 72
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -109
+  width = 100
+  actionid = e8109a11-91e3-470d-a059-6e8b5e151ee11726210112789
+  action = addbutton
+  y = 16
+  label = 澳大利服务器： %serverplayercount:jc.au.playcdu.co%
+  value = jc.au.playcdu.co
+  height = 20
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -215
+  width = 100
+  actionid = d3f2ca41-a1c3-41bc-8f0f-f2f033ee51a31726210158444
+  action = addbutton
+  y = 16
+  label = 美国服务器： %serverplayercount:jc.us.playcdu.co%
+  value = jc.us.playcdu.co
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  delayappearanceseconds = 2.0
+  path = config/fancymenu/assets/speech_watch_cinematic.png
+  fadein = true
+  fadeinspeed = 2.0
+  x = 14
+  width = 107
+  action = addtexture
+  actionid = 8ebc6dc7-4c20-40c1-bcbc-8901176f774c1726211286512
+  y = -96
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 19
 }
 

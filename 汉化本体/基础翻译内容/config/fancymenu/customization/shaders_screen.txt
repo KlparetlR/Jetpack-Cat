@@ -1,0 +1,65 @@
+type = menu
+
+customization-meta {
+  identifier = net.coderbot.iris.gui.screen.ShaderPackScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  shape = rectangle
+  color = #111111
+  x = -198
+  width = 398
+  action = addshape
+  actionid = 9f174ff6-259a-4b16-8aa1-6cba86afd2071726811873396
+  y = -146
+  height = 43
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = &l请让光影包设置中"RP SUPPORT"保证为"BASIC"%n%&l因为在1.16.5版本中，Oculus存在一个会导致游戏崩溃的错误！
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -194
+  width = 388
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = caea15a0-44f3-4b21-8671-f20f6d15179b1726811650206
+  y = -132
+  alignment = centered
+  height = 26
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = &c&l警告
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -34
+  width = 68
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ba33826c-8ddd-4e1e-841c-2ea49ec139921726811936033
+  y = -149
+  alignment = left
+  height = 19
+}
+

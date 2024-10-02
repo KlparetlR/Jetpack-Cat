@@ -1,0 +1,190 @@
+[
+
+#//end crystal eye
+
+
+  {
+    "helditem": "endrem:end_crystal_eye",
+    "potion": ["warpedpots:warping,200,1", "minecraft:levitation,20,20"],
+    "timeout": 60
+  },
+
+
+
+#//nether eye
+
+  {
+    "helditem": "endrem:nether_eye",
+    "potion": ["warpedpots:warping,200,1", "minecraft:levitation,20,20"],
+    "timeout": 20
+  },
+  {
+    "helditem": "endrem:nether_eye",
+    "potion": "minecraft:fire_resistance,200,5",
+    "timeout": 20,
+    "dimension": "minecraft:the_nether"
+  },
+
+
+  {
+    "helditem": "endrem:nether_eye",
+    "message": "我感觉好极了，斯塔克先生:D",
+    "potion": "minecraft:bad_omen,100,15",
+    "structure": "minecraft:village",
+    "timeout": 200
+  },
+
+
+#//guardian eye
+
+  {
+    "bothhandsitem": "endrem:guardian_eye",
+    "potion": ["minecraft:dolphins_grace,200,24", "minecraft:conduit_power,200,2", "minecraft:speed,100,4"],
+    "timeout": 300
+  },
+
+
+#//old eye
+
+
+  {
+    "bothhandsitem": "endrem:old_eye",
+    "potion": ["sons_of_sins:greed,20,0", "minecraft:regeneration,100,4", "minecraft:haste,100,3"],
+    "timeout": 80
+  },
+
+  {
+    "offhanditem": "endrem:old_eye",
+    "potion": ["minecraft:regeneration,100,1"],
+    "timeout": 60
+  },
+
+
+//cold eye
+
+  {
+    "helditem": "endrem:cold_eye",
+    "potion": "lycanitesmobs:fear,200,0",
+    "timeout": 30
+  },
+
+
+
+//corrupted eye
+
+  {
+    "helditem": "endrem:corrupted_eye",
+    "potion": ["minecraft:blindness,100,0"],
+    "timeout": 20
+  },
+
+
+
+
+//lost eye
+
+  {
+    "helditem": "endrem:lost_eye",
+    "potion": ["lycanitesmobs:fear,200,0"],
+    "timeout": 60
+  },
+
+
+
+//magical eye
+
+{
+  "helditem": "endrem:magical_eye",
+  "potion": ["lycanitesmobs:bleed,100,2"],
+  "timeout": 20,
+  "dimension": "overworld"
+},
+
+{
+  "helditem": "endrem:magical_eye",
+  "potion": ["lycanitesmobs:bleed,100,0"],
+  "timeout": 20,
+  "dimension": "the_nether"
+},
+
+
+//wither eye
+
+{
+  "helditem": "endrem:wither_eye",
+  "potion": ["minecraft:wither,100,1", "elenaidodge2:feathers,200,4"],
+  "timeout": 20,
+  "dimension": "overworld"
+},
+
+
+
+//rogue eye
+
+{
+  "helditem": "endrem:rogue_eye",
+  "potion": ["lycanitesmobs:instability,100,0", "elenaidodge2:weight,100,0", "potions:dispens,100,0"],
+  "timeout": 200
+},
+
+
+
+//black eye
+
+
+{
+  "helditem": "endrem:black_eye",
+  "potion": ["lycanitesmobs:weight,100,0", "sons_of_sins:sloth,100,0", "lycanitesmobs:cleansed,300,0"],
+  "timeout": 20
+},
+
+
+//witch eye
+
+{
+  "helditem": "endrem:witch_eye",
+  "potion": ["minecraft:poison,100,0"],
+  "timeout": 20
+},
+
+
+{
+  "offhanditem": "endrem:witch_eye",
+  "potion": ["lycanitesmobs:cleansed,100,0", "lycanitesmobs:immunization,100,0"],
+  "timeout": 20
+},
+
+
+
+{
+  "bothhandsitem": "cgm:bazooka",
+  "potion": ["sons_of_sins:sloth,80,0", "minecraft:wither,100,2"],
+  "message": "拿着火箭筒会让你有凋零效果。:)",
+  "timeout": 20,
+  "dimension": "the_end"
+},
+
+
+{
+  "minheight": 230,
+  "potion": "lycanitesmobs:fallresist,200,1",
+  "timeout": 20
+},
+
+{
+  "maxheight": -1,
+  "minheight": -40,
+  "potion": "lycanitesmobs:fallresist,200,1",
+  "timeout": 20
+},
+
+
+{
+  "helditem": "minecraft:stick",
+  "potion": ["lycanitesmobs:instability,100,0", "elenaidodge2:weight,100,0", "potions:dispens,100,0"],
+  "timeout": 100,
+  "dimension": "the_end"
+}
+
+
+]

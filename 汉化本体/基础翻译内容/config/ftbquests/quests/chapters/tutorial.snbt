@@ -1003,5 +1003,55 @@
 				count: 2
 			}]
 		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/gui/presets/revive_downed_players.png"
+				}
+			}
+			x: -16.0d
+			y: 6.0d
+			description: ["听着，如果你的朋友在射击游戏上并不擅长，这没关系。当你的朋友倒下时，他会进入卧倒状态。在你手里没有武器的情况下，按住右键就能把他救起来。"]
+			size: 2.0d
+			id: "50467A0A4C115ABD"
+			tasks: [{
+				id: "3BD452540ED85D10"
+				type: "checkmark"
+				title: "玩家复活"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
+			x: -14.0d
+			y: 6.0d
+			description: [
+				"使用“虫洞(Wormhole)”模组，你现在可以创建一个传送门，把你传送到你指定的位置。"
+				""
+				"建造传送门框架时，还需使用能量单元、目标单元和传送门稳定器。在传送门框架外部连接一个煤炭发电机。使用目标单元或高级目标单元在该维度上设置一个目标地点，或者设置多个可选位置供你选择。你的传送门框架可以是任何你想要的大小。"
+				""
+				"跨维度传送不被允许。"
+			]
+			size: 2.0d
+			id: "3AD2BD2833747F1E"
+			tasks: [{
+				id: "493974E89216D63B"
+				type: "checkmark"
+				title: "传送门（wormholes模组）"
+			}]
+			rewards: [{
+				id: "7AD8F799DFCEBB0B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 20
+			}]
+		}
 	]
 }
