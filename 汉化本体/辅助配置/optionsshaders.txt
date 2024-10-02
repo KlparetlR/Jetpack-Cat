@@ -1,5 +1,5 @@
-#Sun Jul 14 21:34:36 CST 2024
-shaderPack=OFF
+#Fri Sep 29 22:07:30 PDT 2023
+shaderPack=ComplementaryReimagined_r1.3.2.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

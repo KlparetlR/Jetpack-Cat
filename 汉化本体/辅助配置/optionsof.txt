@@ -4,8 +4,8 @@ ofMipmapType:0
 ofOcclusionFancy:false
 ofSmoothFps:false
 ofSmoothWorld:true
-ofAoLevel:0.0
-ofClouds:1
+ofAoLevel:0.5023474097251892
+ofClouds:2
 ofCloudsHeight:0.23004694283008575
 ofTrees:1
 ofDroppedItems:1
@@ -63,7 +63,7 @@ ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
 ofShowGlErrors:false
-ofFastMath:true
+ofFastMath:false
 ofFastRender:true
 ofTranslucentBlocks:1
 ofChatBackground:0

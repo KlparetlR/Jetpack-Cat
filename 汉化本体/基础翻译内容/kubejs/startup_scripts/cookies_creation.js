@@ -151,6 +151,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("但是它...太可怕了！")
           ctx.server.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in lostcities:lostcity positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
     			})
@@ -172,6 +173,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("软糖熊曾经统治着这片土地......")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in candyworld:candy_world positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
     			})
@@ -193,8 +195,10 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("我觉得我不喜欢这个地方...")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in sonicraft:null_space_dimension positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
+				
     			})
       	})
 	}).displayName('零核空间曲奇').tooltip("吃了这块曲奇会把你传送到零核空间！").glow(true)
@@ -214,6 +218,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("回到新地球！")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in minecraft:overworld positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
     			})
@@ -236,6 +241,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("我感觉不太好，斯塔克先生")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+	    	  ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in minecraft:the_nether positioned as ' + ctx.player.name + ' run tp @s ~ 129 ~')
     			})
@@ -257,6 +263,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("恐龙和怪物！来吧！")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in world_blender:world_blender positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
     			})
@@ -278,6 +285,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("蓝爸爸是你吗？")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in sonicraft:mobius positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
     			})
@@ -299,6 +307,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("我不应该在这里...")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in twilightforest:skylight_forest positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
     			})
@@ -320,6 +329,7 @@ onEvent('item.registry', event => {
     		.eaten(ctx => {
       		ctx.player.tell("我不应该在这里...")
           ctx.server.runCommand('/execute as ' + ctx.player.name + ' run ftbquests change_progress ' + ctx.player.name + ' complete 2D63E01B226FEB8F');
+		      ctx.server.runCommand('/execute at ' + ctx.player.name + ' run effect give @e[distance=..10] lycanitesmobs:fallresist 10 0 true')
           ctx.server.scheduleInTicks(23, ctx.server, function (callback) {
     	        callback.data.runCommand('/execute at ' + ctx.player.name + ' as @e[distance=..10] in twilightforest:twilightforest positioned as ' + ctx.player.name + ' run tp @s ~ 245 ~')
     			})

@@ -3,7 +3,7 @@ onEvent('item.right_click', (event) => {
     // event.cancel()
     // event.item.count--;
     event.server.runCommandSilent(`/execute as ${event.player} run effect give ${event.player} minecraft:wither 5 3 false`)
-    event.player.tell('你为什么要尝尝热金属？');
+    event.player.tell('你为什么想尝尝熔融的金属？');
   }
 });
 
